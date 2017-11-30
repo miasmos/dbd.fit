@@ -1,0 +1,22 @@
+@mixin hcenter() {
+	position: absolute;
+	left: 50%;
+	transform: translate3d(0,0,0) translateX(-50%);
+}
+
+@mixin vcenter() {
+	position: absolute;
+	top: 50%;
+	transform: translate3d(0,0,0) translateY(-50%);
+}
+
+@mixin center() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(0,0,0) translate(-50%, -50%);
+}
+
+@mixin fade($value) {
+	transition: opacity $value;
+}

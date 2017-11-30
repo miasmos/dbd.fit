@@ -1,0 +1,214 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-shadow:0 0 1px transparent;
+	user-select: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote {
+	&:before, &:after {
+	content: '';
+	content: none;
+	}
+}
+
+q {
+	&:before, &:after {
+		content: '';
+		content: none;
+	}
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-size: 2.8em;
+	line-height: 2.3em;
+}
+h2 {
+	font-size: 1.8em;
+	line-height: 1.3em;
+}
+h3 {
+	font-size: 1.3em;
+	line-height: 0.8em;
+}
+h4 {
+	font-size: 1em;
+	line-height: 0.3em;
+}
+h5 {
+	font-size: 0.8em;
+	line-height: 0.3em;
+}
+h6 {
+	font-size: 0.7em;
+	line-height: 0.3em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+input,
+label,
+select,
+button,
+textarea
+{
+	margin:0;
+	border:0;
+	padding:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	background:white;
+	line-height:1;
+	
+	/* Browsers have different default form fonts */
+	font-size:13px;
+	font-family:Arial;
+}
+
+/* Remove the stupid outer glow in Webkit */
+input:focus, button:focus
+{
+	outline:0;
+}
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+
+/* All of our custom controls should be what we expect them to be */
+input,
+textarea
+{
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+/* These elements are usually rendered a certain way by the browser */
+button,
+input[type=reset],
+input[type=button],
+input[type=submit],
+input[type=checkbox],
+input[type=radio],
+select
+{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/* Button Controls
+-----------------------------------------------*/
+
+input[type=checkbox],
+input[type=radio]
+{
+	width:13px;
+	height:13px;
+}
+
+/* Search Input
+-----------------------------------------------*/
+
+/* Make webkit render the search input like a normal text field */
+input[type=search]
+{
+	-webkit-appearance:textfield;
+	box-sizing:content-box;
+}
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+::-webkit-search-decoration
+{
+	display:none;
+}
+
+/* Buttons
+-----------------------------------------------*/
+
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"]
+{
+	/* Fix IE7 display bug */
+	cursor: pointer;
+	overflow:visible;
+	width:auto;
+	font-weight: 100;
+	letter-spacing: 1px;
+	border-radius: 5px;
+}
+
+/* IE8 and FF freak out if this rule is within another selector */
+::-webkit-file-upload-button
+{	
+	padding:0;
+	border:0;
+	background:none;
+}
+
+/* Textarea
+-----------------------------------------------*/
+
+textarea 
+{
+	/* Move the label to the top */
+	vertical-align:top;
+	
+	/* Turn off scroll bars in IE unless needed */
+	overflow:auto;
+}
+
+/* Selects
+-----------------------------------------------*/
+
+select[multiple] 
+{
+	/* Move the label to the top */
+	vertical-align:top;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
