@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { App } from './js/components'
+import { HashRouter } from 'react-router-dom'
+import App from './js/components/App'
 
 require('./index.scss')
 
 ReactDOM.render(
-	<App></App>,
-	document.getElementById('app')
+	<HashRouter>
+		<App />
+	</HashRouter>,
+	document.getElementById('root')
 )

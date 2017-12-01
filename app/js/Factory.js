@@ -15,7 +15,6 @@ export default class Factory {
 	toArray() {
 		if (typeof this.array === 'undefined') {
 			const keys = Object.keys(this.data)
-			console.log(keys)
 			this.array = keys.map(value => this.data[value])
 		}
 

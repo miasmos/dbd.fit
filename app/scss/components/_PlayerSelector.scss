@@ -1,7 +1,5 @@
 .player-selector {
 	@include center();
-    visibility: hidden;
-	opacity: 0;
 	
 	.player {
 		float: left;

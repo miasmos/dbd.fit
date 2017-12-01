@@ -1,57 +1,29 @@
 import React from 'react'
-import Intro from './Intro'
+import { Route, Switch, withRouter } from 'react-router-dom'
+import { CSSTransition, TransitionGroup } from 'react-transition-group'
 import TypeSelector from './TypeSelector'
-import PlayerSelector from './PlayerSelector'
-import { Enum } from '../data'
+import KillerSelector from './KillerSelector'
+import SurvivorSelector from './SurvivorSelector'
+import Intro from './Intro'
 
-export default class App extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            entered: false,
-            typeSelected: false,
-            type: undefined,
-            playerData: undefined
-        }
-        this.bound = {
-            onEnter: this.onEnter.bind(this),
-            onKillerSelected: this.onKillerSelected.bind(this),
-            onSurvivorSelected: this.onSurvivorSelected.bind(this)
-        }
-    }
-
-    render() {
-        return (
-            <div className="app" onClick={this.bound.onEnter}>
-                <Intro entered={this.state.entered} />
-                <TypeSelector entered={this.state.entered} typeSelected={this.state.typeSelected} onKillerSelected={this.bound.onKillerSelected} onSurvivorSelected={this.bound.onSurvivorSelected} />
-                <PlayerSelector typeSelected={this.state.typeSelected} type={this.state.type} />
-            </div>
-        )
-    }
-
-    onEnter() {
-        this.setState({
-            entered: true
-        })
-        this.bound.onEnter = undefined
-    }
-
-    onKillerSelected() {
-        this.setState({
-            typeSelected: true,
-            type: Enum.Types.KILLER
-        })
-        this.bound.onKillerSelected = undefined
-        this.bound.onSurvivorSelected = undefined
-    }
-
-    onSurvivorSelected() {
-        this.setState({
-            typeSelected: true,
-            type: Enum.Types.SURVIVOR
-        })
-        this.bound.onKillerSelected = undefined
-        this.bound.onSurvivorSelected = undefined
-    }
+const App = ({ location }) => {
+    const key = location.pathname.split('/')[1] || '/'
+    const timeout = { enter: 2000, exit: 1000 }
+    
+    return (
+        <div className="app">
+            <TransitionGroup>
+                <CSSTransition key={key} classNames="fade" timeout={timeout} appear>
+                    <Switch location={location}>
+                        <Route path="/" exact component={Intro} />
+                        <Route path="/type" component={TypeSelector} />
+                        <Route path="/killer" component={KillerSelector} />
+                        <Route path="/survivor" component={SurvivorSelector} />
+                    </Switch>
+                </CSSTransition>
+            </TransitionGroup>
+        </div>
+    )
 }
+
+export default withRouter(App)

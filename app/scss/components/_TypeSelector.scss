@@ -2,8 +2,6 @@
 
 .type-selector {
     @include center();
-    visibility: hidden;
-    opacity: 0;
 
     .selection:first-child {
         margin-bottom: 10px;
