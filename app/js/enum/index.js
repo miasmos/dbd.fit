@@ -1,7 +1,0 @@
-export Addons from './Addons'
-export Amounts from './Amounts'
-export Killers from './Killers'
-export Perks from './Perks'
-export Powers from './Powers'
-export Rarities from './Rarities'
-export Survivors from './Survivors'

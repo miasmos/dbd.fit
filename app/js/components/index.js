@@ -1,1 +1,1 @@
-export Body from './Body'
+export App from './App.jsx'

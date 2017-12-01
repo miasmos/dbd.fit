@@ -20,3 +20,24 @@
 @mixin fade($value) {
 	transition: opacity $value;
 }
+
+@mixin light() {
+	font-weight: 300;
+}
+
+@mixin regular() {
+	font-weight: 400;
+}
+
+@mixin bold() {
+	font-weight: 700;
+}
+
+@mixin black() {
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+@mixin regular-bold() {
+	font-weight: 600;
+}

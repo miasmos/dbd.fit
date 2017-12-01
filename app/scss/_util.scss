@@ -13,3 +13,7 @@
 .hide-block {
 	display: none;
 }
+
+.font-regular-bold {
+	@include regular-bold();
+}

@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as Components from './js/components'
-import { UserAgent, Loader } from './js/services'
+import { App } from './js/components'
 
 require('./index.scss')
 
-const DbD = () => (
-	<div></div>
-)
-
 ReactDOM.render(
-	<DbD></DbD>,
+	<App></App>,
 	document.getElementById('app')
 )
