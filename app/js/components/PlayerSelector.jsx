@@ -1,6 +1,7 @@
 import React from 'react'
 import { KillerFactory, SurvivorFactory } from '../PlayerFactory'
 import KillerTooltip from './KillerTooltip'
+import SurvivorTooltip from './SurvivorTooltip'
 import { Types } from '../data/Enum'
 
 const PlayerSelector = ({typeSelected, type}) => {
@@ -15,7 +16,7 @@ const PlayerSelector = ({typeSelected, type}) => {
 			</div>
 			<img className="profile" src={value.image} />
 			<img className="background" src="../images/Profile_Background.png" />
-			<KillerTooltip killer={value} />
+			{ type === Types.KILLER ? <KillerTooltip killer={value} /> : <SurvivorTooltip survivor={value} /> }
 		</div>
 	))
 

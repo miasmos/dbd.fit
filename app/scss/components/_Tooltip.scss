@@ -19,6 +19,7 @@
 
         h2 {
             @include vcenter();
+            margin-top: 1px;
             padding: 0 17px;
         }
     }

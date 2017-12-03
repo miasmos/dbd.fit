@@ -1,11 +1,19 @@
-import { Perks } from './data'
+import { KillerPerks, SurvivorPerks } from './data/Perks'
 import Factory from './Factory'
 
-class PerkFactoryClass extends Factory {
+class KillerPerkFactoryClass extends Factory {
 	constructor() {
-		super(Perks)
+		super(KillerPerks)
 	}
 }
 
-const PerkFactory = new PerkFactoryClass()
-export default PerkFactory
+export const KillerPerkFactory = new KillerPerkFactoryClass()
+
+class SurvivorPerkFactoryClass extends Factory {
+	constructor() {
+		super(SurvivorPerks)
+	}
+}
+
+export const SurvivorPerkFactory = new SurvivorPerkFactoryClass()
+

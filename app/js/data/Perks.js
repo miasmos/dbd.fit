@@ -1,4 +1,4 @@
-const Perks = {
+export const KillerPerks = {
 	STRIDOR: {
 		index: 'STRIDOR',
 		name: 'Stridor',
@@ -361,4 +361,390 @@ const Perks = {
 	}
 }
 
-export default Perks
+export const SurvivorPerks = {
+	BOND: {
+		index: 'BOND',
+		name: 'Bond',
+		description: 'Unlocks potential in one\'s aura reading ability. Allies\' Auras are revealed to you when they are within a %s metres.',
+		flavor: 'We have to work as a team, I need you to survive so that I can survive!',
+		image: 'images/',
+		tiers: [
+			[12],
+			[24],
+			[36]
+		]
+	},
+	PROVE_THYSELF: {
+		index: 'PROVE_THYSELF',
+		name: 'Prove Thyself',
+		description: 'Receive an incremental speed bonus to repair, healing and sabotage actions when other Survivors are within an 8 metre range.\n1 nearby survivor grants %s% increased speed.\n2 nearby survivor grants %s% increased speed.3 nearby survivor grants %s% increased speed.',
+		flavor: 'I\'ll show you what I can do!',
+		image: 'images/',
+		tiers: [
+			[1, 2, 3],
+			[2, 4, 6],
+			[3, 6, 9]
+		]
+	},
+	LEADER: {
+		index: 'LEADER',
+		name: 'Leader',
+		description: 'You\'re able to organize a team to cooperate more efficiently. Increases the other Survivors\' Repair, Healing and Sabotage speed by %s% when they are within an 8 metre range from you.',
+		flavor: 'I\'ll show you what I can do!',
+		image: 'images/',
+		tiers: [
+			[3],
+			[6],
+			[9]
+		]
+	},
+	QUICK_AND_QUIET: {
+		index: 'QUICK_AND_QUIET',
+		name: 'Quick & Quiet',
+		description: 'You do not make as much noise as others when quickly vaulting over obstacles or hiding in Lockers. The vault and hide actions\' noise detection range is reduced by %s%. This effect can only be triggered every %s seconds.',
+		image: 'images/',
+		tiers: [
+			[100, 30],
+			[100, 25],
+			[100, 20]
+		]
+	},
+	SPRINT_BURST: {
+		index: 'SPRINT_BURST',
+		name: 'Sprint Burst',
+		description: 'When starting to run, break into a sprint at 150% your normal running speed for a maximum of 3 seconds.\nCauses Exhaustion for %s seconds.',
+		image: 'images/',
+		tiers: [
+			[60],
+			[50],
+			[40]
+		]
+	},
+	ADRENALINE: {
+		index: 'ADRENALINE',
+		name: 'Adrenaline',
+		description: 'You are fuelled by unexpected energy when on the verge of escape. Instantly heal one Health State and sprint at 150% your normal running speed for 5 seconds when the Exit Gates are powered.\nAdrenaline is on hold if you are disabled at the moment it should take effect and will activate when freed.\nAdrenaline will wake you up if you are asleep when it triggers.\nAdrenaline ignores Exhaustion.\nCauses Exhaustion IconStatusEffects exhausted.png for %s seconds.',
+		image: 'images/',
+		tiers: [
+			[60],
+			[50],
+			[40]
+		]
+	},
+	EMPATHY: {
+		index: 'EMPATHY',
+		name: 'Empathy',
+		description: 'Unlocks potential in one\'s Aura reading ability. Dying or injured allies\' Auras are revealed to you when within %s metres. Empathy does not reveal Auras of allies when they are in the Killer\'s direct contact.',
+		image: 'images/',
+		tiers: [
+			[32],
+			[64],
+			['∞']
+		]
+	},
+	BOTANY_KNOWLEDGE: {
+		index: 'BOTANY_KNOWLEDGE',
+		name: 'Botany Knowledge',
+		description: 'You transform plants found around The Campfire into tinctures that slow down bleeding. Healing speed is increased by %s% and the efficiency of Med-Kits IconItems firstAidKit.png is increased by %s%.',
+		flavor: '"Basic Botany knowledge could save your life someday." — Claudette Morel',
+		image: 'images/',
+		tiers: [
+			[10, 10],
+			[15, 15],
+			[20, 20]
+		]
+	},
+	SELF_CARE: {
+		index: 'SELF_CARE',
+		name: 'Self Care',
+		description: 'Unlocks the ability to heal yourself without a Med-Kit at 50% the normal healing speed. Increases the efficiency of Med-Kit self-heal by %s%.',
+		image: 'images/',
+		tiers: [
+			[10],
+			[15],
+			[20]
+		]
+	},
+	IRON_WILL: {
+		index: 'IRON_WILL',
+		name: 'Iron Will',
+		description: 'You\'re able to concentrate and enter a meditative-like state to numb some pain. Grunts of pain caused by injuries are reduced by %s% while staying %s.',
+		image: 'images/',
+		tiers: [
+			[50, 'while staying still'],
+			[100, 'while staying still'],
+			[100, 'at any time']
+		]
+	},
+	CALM_SPIRIT: {
+		index: 'CALM_SPIRIT',
+		name: 'Calm Spirit',
+		description: 'Animals seem to trust you as they often stay calm in your presence. Reduces chances of alerting Crows by %s%.',
+		image: 'images/',
+		tiers: [
+			[80],
+			[90],
+			[100]
+		]
+	},
+	SABOTEUR: {
+		index: 'SABOTEUR',
+		name: 'Saboteur',
+		description: 'Unlocks the ability to sabotage without a Toolbox at %s% the normal sabotage speed. Skill Checks triggered in this situation have success zones reduced by %s%. Increases efficiency of Toolbox sabotage by %s%.',
+		image: 'images/',
+		tiers: [
+			[30, 20, 50],
+			[40, 10, 75],
+			[50, 0, 100]
+		]
+	},
+	BALANCED_LANDING: {
+		index: 'BALANCED_LANDING',
+		name: 'Balanced Landing',
+		description: 'When Balanced Landing is active, stagger effects from long falls are reduced by %s%.\nTier III only: Upon landing, start sprinting at 150% your normal running speed for a maximum of 3 seconds if not exhausted.\nCauses Exhaustion for 40 seconds.',
+		flavor: '"I\'ve jumped from higher places." — Nea Karlsson',
+		image: 'images/',
+		tiers: [
+			[50],
+			[75],
+			[75]
+		]
+	},
+	URBAN_EVASION: {
+		index: 'URBAN_EVASION',
+		name: 'Urban Evasion',
+		description: 'Your movement speed while crouching is increased by %s%.',
+		flavor: '"The paint is still fresh but I\'m long gone." — Nea Karlsson',
+		image: 'images/',
+		tiers: [
+			[90],
+			[95],
+			[100]
+		]
+	},
+	STREETWISE: {
+		index: 'STREETWISE',
+		name: 'Streetwise',
+		description: 'Long nights out taught you to do a lot with what you\'ve got. Reduce consumption rate of charge by %s% for you and allies within an 8 metre range.',
+		flavor: '"You\'re doing it wrong! Let me show you how it\'s done." — Nea Karlsson',
+		image: 'images/',
+		tiers: [
+			[10],
+			[12],
+			[15]
+		]
+	},
+	LEFT_BEHIND: {
+		index: 'LEFT_BEHIND',
+		name: 'Left Behind',
+		description: 'You\'ll get the job done... No matter the cost. If you are the last person remaining in the trial, for each Generator that needs to be repaired, gain a %s% bonus to Repair speed.',
+		flavor: '"I\'m not horseshittin\' around. I\'m doing this alone!" — Bill Overbeck',
+		image: 'images/',
+		tiers: [
+			[19],
+			[22],
+			[25]
+		]
+	},
+	BORROWED_TIME: {
+		index: 'BORROWED_TIME',
+		name: 'Borrowed Time',
+		description: 'You are fuelled with an unexpected energy when saving an ally from a hook within the Killer\'s Terror Radius. Once per match, for 15 seconds after unhooking a Survivor within the Killer\'s Terror Radius, any damage taken that would put you or the unhooked Survivor into the dying state will instead trigger a %s seconds bleed-out timer. Taking any damage during or reaching the end of the bleed-out timer will put you into the Dying State.',
+		flavor: '"Probably stings like hell, but it ain\'t gonna kill ya. Up and at \'em soldier. Time to move!" — Bill Overbeck',
+		image: 'images/',
+		tiers: [
+			[15],
+			[20],
+			[25]
+		]
+	},
+	UNBREAKABLE: {
+		index: 'UNBREAKABLE',
+		name: 'Unbreakable',
+		description: 'Past battles have taught you a thing or two about survival. Grants the ability to fully recover from the dying state once per trial. Increases dying recovery by %s%.',
+		flavor: '"Goddammit, I am seriously FUBAR!" — Bill Overbeck',
+		image: 'images/',
+		tiers: [
+			[15],
+			[20],
+			[25]
+		]
+	},
+	WERE_GONNA_LIVE_FOREVER: {
+		index: 'WERE_GONNA_LIVE_FOREVER',
+		name: 'We\'re Gonna Live Forever',
+		description: 'Your few friends deserve the best protection. Each time you rescue or take a hit to protect a Survivor, gain 25% stackable bonus to all Bloodpoint gains up to a maximum of %s%.\nThe Bonus Bloodpoints are only awarded post-trial.',
+		flavor: '"Come on then, let\'s \'ave it! I don\'t give a shit pal." — David King',
+		image: 'images/',
+		tiers: [
+			[50],
+			[75],
+			[100]
+		]
+	},
+	DEAD_HARD: {
+		index: 'DEAD_HARD',
+		name: 'Dead Hard',
+		description: 'You can take a beating. When injured, tap into your adrenaline bank and dash forward quickly to avoid damage. Press the activate ability button while running to dash forward. During the dash, you avoid damage.\nCauses Exhaustion for %s seconds.',
+		flavor: '"We were walkin\' through t\'ginnel one night when a beer bottle flew past me, then another, and another. I thought to myself "Gonna \'ave some fun \'ere lads, let\'s get stuck in!\' ". It were a right dust up, I swear down!" — David King',
+		image: 'images/',
+		tiers: [
+			[60],
+			[50],
+			[40]
+		]
+	},
+	NO_MITHER: {
+		index: 'NO_MITHER',
+		name: 'No Mither',
+		description: 'Go on kid, it\'s just a scratch. You start the trial injured and won\'t let anyone heal you beyond this state. Your thick blood coagulates practically instantly. You cannot be healed to healthy. You don\'t leave pools of blood. Grunts of pain caused by injuries are reduced by %s% at any time. Grants the ability to fully recover from the dying state.',
+		flavor: '"I lost it. Just lamped him one.. They went and banned me didn\'t they.. Went t\'pub afterwards, had a few pints and moved on to the next chapter. I couldn\'t be mithered with it all anyway, you know what I mean? Can\'t be arsed." — David King',
+		image: 'images/',
+		tiers: [
+			[0],
+			[25],
+			[50]
+		]
+	},
+	SOLE_SURVIVOR: {
+		index: 'SOLE_SURVIVOR',
+		name: 'Sole Survivor',
+		description: 'Each Survivor killed or sacrificed disrupts the Killer\'s Aura IconHelp auras.png reading ability.\n1 killed or sacrificed: Reduces the Killer\'s Aura reading range by %s%\n2 killed or sacrificed: Reduces the Killer\'s Aura reading range by %s%\n3 killed or sacrificed: Reduces the Killer\'s Aura reading range by %s%',
+		flavor: '"It was the boogeyman." — Laurie Strode',
+		image: 'images/',
+		tiers: [
+			[40, 40, 40],
+			[45, 60, 75],
+			[40, 75, 100]
+		]
+	},
+	OBJECT_OF_OBSESSION: {
+		index: 'OBJECT_OF_OBSESSION',
+		name: 'Object of Obsession',
+		description: 'If you are the Killer\'s Obsession and look in the Killer\'s direction, your link will reveal your to each other. This effect applies only if you are outside the Killer\'s Terror Radius, to a maximum range of %s metres. Otherwise, it applies to a maximum range of %s metres.',
+		flavor: '"He was watching me!" — Laurie Strode',
+		image: 'images/',
+		tiers: [
+			[56, 44],
+			[64, 56],
+			[72, 64]
+		]
+	},
+	DECISIVE_STRIKE: {
+		index: 'DECISIVE_STRIKE',
+		name: 'Decisive Strike',
+		description: 'Once per match, when the Killer\'s Obsession, succeed a Skill Check to automatically escape the Killer\'s grasp and stun them for 3/3.5/4 seconds. When not the Killer\'s Obsession, when the wiggle meter is at %s% succeed in a Skill Check to escape the grasp.',
+		flavor: '"There\'s nothing to be scared of." — Laurie Strode',
+		image: 'images/',
+		tiers: [
+			[3, 45],
+			[3.5, 40],
+			[4, 35]
+		]
+	},
+	OPEN_HANDED: {
+		index: 'OPEN_HANDED',
+		name: 'Open Handed',
+		description: 'Strengthens the potential of you and your team\'s Aura reading abilities. Increases Aura reading ranges by %s metres.',
+		flavor: '"Paying attention is what kept me alive through the years. That, and my good looks of course." — Ace Visconti',
+		image: 'images/',
+		tiers: [
+			[4],
+			[6],
+			[8]
+		]
+	},
+	UP_THE_ANTE: {
+		index: 'UP_THE_ANTE',
+		name: 'Up The Ante',
+		description: 'For each other Survivor still alive, grant a %s% bonus to Luck to all remaining Survivors.',
+		flavor: '"What can I say? I\'m just a very lucky guy... I\'m sure some of it will rub off on you." — Ace Visconti',
+		image: 'images/',
+		tiers: [
+			[1],
+			[2],
+			[3]
+		]
+	},
+	ACE_IN_THE_HOLE: {
+		index: 'ACE_IN_THE_HOLE',
+		name: 'Ace in The Hole',
+		description: 'Lady Luck always seems to be throwing something good your way. When retrieving an Item from a Chest, there is a 50% chance that an Add-on of %s rarity or lower will be attached to it.',
+		flavor: '"Everything that glitters isn\'t gold. But gold isn\'t worth a damn in this place, so this should come in handy." — Ace Visconti',
+		image: 'images/',
+		tiers: [
+			['Uncommon'],
+			['Rare'],
+			['Very Rare']
+		]
+	},
+	TECHNICIAN: {
+		index: 'TECHNICIAN',
+		name: 'Technician',
+		description: 'The noises caused by your repairs and their hearing distance are reduced by %s metres. On a failed repair Skill Checks, there is a %s% chance the Generator explosion will be prevented.',
+		flavor: '"I\'m gonna stealth this one." — Feng Min',
+		image: 'images/',
+		tiers: [
+			[0, 30],
+			[4, 40],
+			[8, 50]
+		]
+	},
+	LITHE: {
+		index: 'LITHE',
+		name: 'Lithe',
+		description: 'After performing a vault, break into a sprint at 150% of your normal running speed for a maximum of 3 seconds. Activates in chases only.\nCauses Exhaustion for %s seconds.',
+		flavor: '"U mad?" — Feng Min',
+		image: 'images/',
+		tiers: [
+			[60],
+			[50],
+			[40]
+		]
+	},
+	ALERT: {
+		index: 'ALERT',
+		name: 'Alert',
+		description: 'Your acute senses are on high alert. When the Killer performs the break action within %s metres of range, the Killer\'s Aura is revealed to you for 6 seconds. This effect can only be triggered once every %s seconds.',
+		flavor: '"I have true sight." — Feng Min',
+		image: 'images/',
+		tiers: [
+			[12, 60],
+			[24, 45],
+			[36, 30]
+		]
+	},
+	WAKE_UP: {
+		index: 'WAKE_UP',
+		name: 'Wake Up!',
+		description: 'Unlocks potential in one\'s Aura reading ability. Once all Generators are powered, Exit Gates are revealed to you when within %s metres of range. While opening the Exit Gates, reveal your Aura to other Survivors within %s metres of range.\nWhile Wake Up! is active, you open the Exit Gates %s% faster.',
+		image: 'images/',
+		tiers: [
+			[24, 24, 5],
+			[48, 48, 10],
+			['∞', '∞', 15]
+		]
+	},
+	PHARMACY: {
+		index: 'PHARMACY',
+		name: 'Pharmacy',
+		description: 'You have a knack for finding medicine. Searches through Chests are %s% faster.\nTier III only: The noises caused by searches along with their hearing distances are reduced by 8 metres.\nPharmacy guarantees an Emergency Med-Kit on your first completed Chest search.',
+		image: 'images/',
+		tiers: [
+			[40],
+			[60],
+			[80]
+		]
+	},
+	VIGIL: {
+		index: 'VIGIL',
+		name: 'Vigil',
+		description: 'You look over your friends even in dire situations. You and your allies within an 8 metre range recover from Exhausted, Hemorrhage, Mangled, Hindered and Blindness Status Effects %s% faster.',
+		image: 'images/',
+		tiers: [
+			[10],
+			[15],
+			[20]
+		]
+	}
+}

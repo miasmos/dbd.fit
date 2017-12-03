@@ -1,11 +1,11 @@
 import React from 'react'
 import BoldSpan from './BoldSpan'
 import PowerFactory from '../PowerFactory'
-import PerkFactory from '../PerkFactory'
+import { KillerPerkFactory } from '../PerkFactory'
 import TextInterpolator from '../TextInterpolator.jsx'
 
 const Perk = ({ perkKey, comma = false }) => {
-	const perk = PerkFactory.get(perkKey)
+	const perk = KillerPerkFactory.get(perkKey)
 	return <BoldSpan text={perk.name} comma={comma} />
 }
 
