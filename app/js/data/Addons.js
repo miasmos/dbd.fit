@@ -1,4 +1,4 @@
-const Addons = {
+const KillerAddons = {
 	TRAPPER: {
 		TRAPPER_GLOVES: {
 			index: 'TRAPPER_GLOVES',
@@ -1401,5 +1401,446 @@ const Addons = {
 			description: 'A black cardboard box filled with photographs.\nObsession starts the Trial in the Dream World.\nYou become obsessed with one Survivor.\nOnly one Obsession per Trial.',
 			image: 'images/Addon_BadMansLastBreath.png'
 		}
+	}
+}
+
+const SurvivorAddons = {
+	WIDE_LENS: {
+		index: 'WIDE_LENS',
+		name: 'Wide Lens',
+		type: 'FLASHLIGHT',
+		rarity: 'COMMON',
+		description: 'A thing wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range fo effectiveness.\nModerately widens the Flashlight beam.\nSlightly decreases the range of the Flashlight beam.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	POWER_BULB: {
+		index: 'POWER_BULB',
+		name: 'Power Bulb',
+		type: 'FLASHLIGHT',
+		rarity: 'COMMON',
+		description: 'A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\nSlightly increases Flashlight beam effects against the Killer.',
+		flavor: '"Even the most powerful light cannot pierce through the Black Fog\'s darkness."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	LEATHER_GRIP: {
+		index: 'LEATHER_GRIP',
+		name: 'Leather Grip',
+		type: 'FLASHLIGHT',
+		rarity: 'COMMON',
+		description: 'A leather strip wrapped around the Flashlight for more grip.\nSlightly increases the Flashlight\'s accuracy.',
+		flavor: '"Too many have fallen due to sweaty hands."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BATTERY: {
+		index: 'BATTERY',
+		name: 'Battery',
+		type: 'FLASHLIGHT',
+		rarity: 'COMMON',
+		description: 'A standard battery of unknown brand.\nAdds 2 seconds of use to a standard Flashlight.',
+		flavor: '"Another nearly empty battery."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	TIR_OPTIC: {
+		index: 'TIR_OPTIC',
+		name: 'Tir Optic',
+		type: 'FLASHLIGHT',
+		rarity: 'UNCOMMON',
+		description: 'A lens and reflector combo which can magnify a Flashlight\'s beam.\nModerately increases Flashlight beam effects against the Killer.',
+		flavor: '"Let the light burn them out of their dark shroud."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	RUBBER_GRIP: {
+		index: 'RUBBER_GRIP',
+		name: 'Rubber Grip',
+		type: 'FLASHLIGHT',
+		rarity: 'UNCOMMON',
+		description: 'A rubber grip specifically fitting Flashlights for more grip.\nModerately increases the Flashlight\'s accuracy.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	LOW_AMP_FILAMENT: {
+		index: 'LOW_AMP_FILAMENT',
+		name: 'Low Amp Filament',
+		type: 'FLASHLIGHT',
+		rarity: 'UNCOMMON',
+		description: 'A filament bulb designed to extend a Flashlight battery\'s life.\nModerately decreases Flashlight battery consumption.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	HEAVY_DUTY_BATTERY: {
+		index: 'HEAVY_DUTY_BATTERY',
+		name: 'Heavy Duty Battery',
+		type: 'FLASHLIGHT',
+		rarity: 'UNCOMMON',
+		description: 'A battery marked as "industrial strength".\nAdds 4 seconds of use to a standard Flashlight.',
+		flavor: '"A battery advertised as lasting 8 hours lasts only a couple of seconds in the Black Fog."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	FOCUS_LENS: {
+		index: 'FOCUS_LENS',
+		name: 'Focus Lens',
+		type: 'FLASHLIGHT',
+		rarity: 'UNCOMMON',
+		description: 'A thick glass lens that focuses the Flashlight beam to increase its intensity.\nSlightly increases the range of the Flashlight beam.\nSlightly tightens the radius of the Flashlight beam.\nSlightly increases the power of the Flashlight beam.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	LONG_LIFE_BATTERY: {
+		index: 'LONG_LIFE_BATTERY',
+		name: 'Long Life Battery',
+		type: 'FLASHLIGHT',
+		rarity: 'RARE',
+		description: 'A recent model of battery that lasts longer.\nAdds 6 seconds of use to a standard Flashlight.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	INTENSE_HALOGEN: {
+		index: 'INTENSE_HALOGEN',
+		name: 'Intense Halogen',
+		type: 'FLASHLIGHT',
+		rarity: 'RARE',
+		description: 'A chemical bulb that generates an intensely clear light.\nConsiderably increases the Flashlight beam effects against the Killer.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	HIGH_END_SAPPHIRE_LENS: {
+		index: 'HIGH_END_SAPPHIRE_LENS',
+		name: 'High-End Sapphire Lens',
+		type: 'FLASHLIGHT',
+		rarity: 'VERY_RARE',
+		description: 'A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.\nModerately widens the Flashlight beam.\nSlightly increases the Flashlight beam.\nModerately increases the power of the Flashlight beam.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	ODD_BULB: {
+		index: 'ODD_BULB',
+		name: 'Odd Bulb',
+		type: 'FLASHLIGHT',
+		rarity: 'ULTRA_RARE',
+		description: 'A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\nTremendously increases the Flashlight beam effects against the Killer.\nModerately increases the Flashlight battery consumption.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	PRAYER_ROPE: {
+		index: 'PRAYER_ROPE',
+		name: 'Prayer Rope',
+		type: 'KEY',
+		rarity: 'COMMON',
+		description: 'Tightly knitted rope used in praying rituals. Can be attached to the Key.\nAdds 10 seconds of use to the Key.',
+		flavor: '"Pray all you want, your words are getting lost somewhere up there, in the Fog."',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SCRATCHED_PEARL: {
+		index: 'SCRATCHED_PEARL',
+		name: 'Scratched Pearl',
+		type: 'KEY',
+		rarity: 'UNCOMMON',
+		description: 'A porous and scratched white pearl. A minuscule jump ring allows the pearl to be attached to the Key.\nModerately increases the range of the Key\'s Aura reading ability.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	PRAYER_BEADS: {
+		index: 'PRAYER_BEADS',
+		name: 'Prayer Beads',
+		type: 'KEY',
+		rarity: 'UNCOMMON',
+		description: 'A chain of matte beads of various sizes used in praying ritual. Can be attached to the Key.\nAdds 15 seconds of use to the Key.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	ERODED_TOKEN: {
+		index: 'ERODED_TOKEN',
+		name: 'Eroded Token',
+		type: 'KEY',
+		rarity: 'UNCOMMON',
+		description: 'A heavily worn out token made of brass. If an inscription or drawing was once engraved in it, it has today completely disappeared. Can be attached to the Key using its jump ring to channel the Key\'s Aura reading ability.\nReveals Survivors\' Auras when within a 24 meter range.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	GOLD_TOKEN: {
+		index: 'GOLD_TOKEN',
+		name: 'Gold Token',
+		type: 'KEY',
+		rarity: 'RARE',
+		description: 'A gold token with a dull appearance. Both faces are smooth and void of any inscriptions. Can be attached to the Key using its jump ring to channel the Key\'s Aura reading ability.\nReveals Survivors\' Auras when within a 48 meter range.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	WEAVED_RING: {
+		index: 'WEAVED_RING',
+		name: 'Weaved Ring',
+		type: 'KEY',
+		rarity: 'VERY_RARE',
+		description: 'A mundane key ring in appearance with an unusual bluish dark sheen. The ring binds the Key to the user, preventing its loss even in the darkest of times.\nDo not lose the Key on death, lose this Add-on instead.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	MILKY_GLASS: {
+		index: 'MILKY_GLASS',
+		name: 'Milky Glass',
+		type: 'KEY',
+		rarity: 'VERY_RARE',
+		description: 'This opaque piece of glass emits a dull vibrating noise. When the Skeleton or Dull Key is used to unlock a Black Lock, the glass token protects the Key from breaking, channelling the Black Fog\'s energy into the glass.\nDo not lose the Key when unlocking a Black Lock, lose this Add-on instead.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BLOOD_AMBER: {
+		index: 'BLOOD_AMBER',
+		name: 'Blood Amber',
+		type: 'KEY',
+		rarity: 'VERY_RARE',
+		description: 'A blood-red amber striped with black veins. The amber is warm to the touch. Can be attached to the Key using its jump ring to channel the Key\'s Aura reading ability.\nReveals the Killer\'s Aura when a 32 meter range at the great expense of the Key\'s energy.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	MAP_ADDENDUM: {
+		index: 'MAP_ADDENDUM',
+		name: 'Map Addendum',
+		type: 'MAP',
+		rarity: 'COMMON',
+		description: 'A fragmented piece of a thick fibrous material. A partial and faded map is drawn on it which by itself is useless.\nAdds a 5 second charge to any Map.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	YELLOW_WIRE: {
+		index: 'YELLOW_WIRE',
+		name: 'Yellow Wire',
+		type: 'MAP',
+		rarity: 'UNCOMMON',
+		description: 'A small electrical wire. Both ends are heavily damaged like it has been forcefully torn out of its intended location. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track Exit Gates.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	UNUSUAL_STAMP: {
+		index: 'UNUSUAL_STAMP',
+		name: 'Unusual Stamp',
+		type: 'MAP',
+		rarity: 'UNCOMMON',
+		description: 'A wooden stamp with a crosshatched rubber pad used to mark documents. It is unclear as to how or by whom this stamp was originally used. Can be used with a map.\nModerately increases the range of the map tracking ability.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	RETARDANT_JELLY: {
+		index: 'RETARDANT_JELLY',
+		name: 'Retardant Jelly',
+		type: 'MAP',
+		rarity: 'UNCOMMON',
+		description: 'A slimy, translucent substance with a ghastly lavender shade. This jelly from unknown origin is highly resistant to heat.\nModerately slows down the burning rate of the map.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	RED_TWINE: {
+		index: 'RED_TWINE',
+		name: 'Red Twine',
+		type: 'MAP',
+		rarity: 'UNCOMMON',
+		description: 'A bristly and rough piece of twine of a deep red colour. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track the Killer\'s belongings.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	GLASS_BEAD: {
+		index: 'GLASS_BEAD',
+		name: 'Glass Bead',
+		type: 'MAP',
+		rarity: 'UNCOMMON',
+		description: 'A strange bead circled with gold that can be used to magnify the map and mark a specific position. The bead emits an energy which can be felt and seen by Survivors.\nUnlocks the Marker Ability on secondary action.\nCreating a marker that can be seen by all the Survivors.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	ODD_STAMP: {
+		index: 'ODD_STAMP',
+		name: 'Odd Stamp',
+		type: 'MAP',
+		rarity: 'RARE',
+		description: 'A stamp carved out of sturdy blonde wood. The text found at the base is incomprehensible: "kw\'zvre\'od". Can be used with a map.\nConsiderably increases the range of the map tracking ability.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BLACK_SILK_CORD: {
+		index: 'BLACK_SILK_CORD',
+		name: 'Black Silk Cord',
+		type: 'MAP',
+		rarity: 'RARE',
+		description: 'A smooth black cord with a soft appearance. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track the Black Lock.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	CRYSTAL_BEAD: {
+		index: 'CRYSTAL_BEAD',
+		name: 'Crystal Bead',
+		type: 'MAP',
+		rarity: 'VERY_RARE',
+		description: 'An intricate set of lenses wrapped up in an astonishingly complex apparatus. The gears controlling the lenses\' focus move by themselves as to focus on something invisible to humans.\nEvery Survivor sees the Aura generated by the map when the owner activates it.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	RUBBER_GLOVES: {
+		index: 'RUBBER_GLOVES',
+		name: 'Rubber Gloves',
+		type: 'AID_KIT',
+		rarity: 'COMMON',
+		description: 'Disposable medical gloves to avoid cross-contamination.\nSlightly decreases the healing Skill Check difficulty.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BUTTERFLY_TAPE: {
+		index: 'BUTTERFLY_TAPE',
+		name: 'Butterfly Tape',
+		type: 'AID_KIT',
+		rarity: 'COMMON',
+		description: 'Medical quality tape used to close small wounds.\nSlightly increases healing speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BANDAGES: {
+		index: 'BANDAGES',
+		name: 'Bandages',
+		type: 'AID_KIT',
+		rarity: 'COMMON',
+		description: 'A pack of bandages usually found in First Aid Kits.\nAdds 6 charges to the Med-Kit.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SPONGE: {
+		index: 'SPONGE',
+		name: 'Sponge',
+		type: 'AID_KIT',
+		rarity: 'UNCOMMON',
+		description: 'A mundane sponge used to soak up extra blood, providing easier access to wounds.\nModerately decreases the healing Skill Check difficulty.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SELF_ADHERENT_WRAP: {
+		index: 'SELF_ADHERENT_WRAP',
+		name: 'Self Adherent Wrap',
+		type: 'AID_KIT',
+		rarity: 'UNCOMMON',
+		description: 'A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\nAdds 6 charges to the Med-kit.\nSlightly increases the healing speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	NEEDLE_AND_THREAD: {
+		index: 'NEEDLE_AND_THREAD',
+		name: 'Needle & Thread',
+		type: 'AID_KIT',
+		rarity: 'UNCOMMON',
+		description: 'Not exactly a medical device, however it can be used to quickly and painfully close up a wound.\nSlightly increases the chance to trigger a Skill Check.\nConsiderably reduces the Skill Check success zones.\nModerately increases the healing speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	MEDICAL_SCISSORS: {
+		index: 'MEDICAL_SCISSORS',
+		name: 'Medical Scissors',
+		type: 'AID_KIT',
+		rarity: 'UNCOMMON',
+		description: 'Scissors designed to easily cut through textiles.\nModerately increases healing speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	GAUZE_ROLL: {
+		index: 'GAUZE_ROLL',
+		name: 'Gauze Roll',
+		type: 'AID_KIT',
+		rarity: 'UNCOMMON',
+		description: 'A sterile gauze used for a variety of wounds. Part of a total wound care system.\nAdds 8 charges to the Med-Kit.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SURGICAL_SUTURE: {
+		index: 'SURGICAL_SUTURE',
+		name: 'Surgical Suture',
+		type: 'AID_KIT',
+		rarity: 'RARE',
+		description: 'A medical device used to close and hold body tissue. Even though it\'s very effective, the surgical suture is challenging to use.\nModerately increases the chance to trigger a Skill Check.\nModerately reduces the Skill Check success zones.\nModerately increases the healing speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	GEL_DRESSINGS: {
+		index: 'GEL_DRESSINGS',
+		name: 'Gel Dressings',
+		type: 'AID_KIT',
+		rarity: 'RARE',
+		description: 'A pack of gel forming pads used to patch up heavily exudating wounds.\nAdds 10 charges to the Med-Kit.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	ABDOMINAL_DRESSING: {
+		index: 'ABDOMINAL_DRESSING',
+		name: 'Abdominal Dressing',
+		type: 'AID_KIT',
+		rarity: 'RARE',
+		description: 'A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\nConsiderably increases healing speed.\nReduces charges by 25%.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	STYPTIC_AGENT: {
+		index: 'STYPTIC_AGENT',
+		name: 'Styptic Agent',
+		type: 'AID_KIT',
+		rarity: 'VERY_RARE',
+		description: 'A white powder with coagulant properties. Apply the agent to a wound to stop it from hemorrhaging.\nReduces charges by 25%.\nInstantly heal one Health State on secondary action.\nDepletes the Med-Kit on use.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	ANTI_HEMORRHAGIC_SYRINGE: {
+		index: 'ANTI_HEMORRHAGIC_SYRINGE',
+		name: 'Anti-Hemorrhagic Syringe',
+		type: 'AID_KIT',
+		rarity: 'ULTRA_RARE',
+		description: 'An anti-hemorrhagic substance that stops the bleeding in a matter of seconds.\nReduces charges by 50%\nInstantly and completely heal on secondary action.\nDepletes the Med-Kit on use.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SPRING_CLAMP: {
+		index: 'SPRING_CLAMP',
+		name: 'Spring Clamp',
+		type: 'TOOLBOX',
+		rarity: 'COMMON',
+		description: 'Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nSlightly increases repair Skill Check success zones.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SCRAPS: {
+		index: 'SCRAPS',
+		name: 'Scraps',
+		type: 'TOOLBOX',
+		rarity: 'COMMON',
+		description: 'Springs, screws and gears. Mostly unusable junk.\nAdds 15 charges to the Toolbox.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	CLEAN_RAG: {
+		index: 'CLEAN_RAG',
+		name: 'Clean Rag',
+		type: 'TOOLBOX',
+		rarity: 'COMMON',
+		description: 'A mundane rag. Suspiciously clean.\nSlightly increases the Toolbox\'s repair speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	WIRE_SPOOL: {
+		index: 'WIRE_SPOOL',
+		name: 'Wire Spool',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'A portable but heavy spool of copper wire.\nAdds 30 charges to the Toolbox.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	SOCKET_SWIVELS: {
+		index: 'SOCKET_SWIVELS',
+		name: 'Socket Swivels',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nModerately increases the Toolbox repair speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	PROTECTIVE_GLOVES: {
+		index: 'PROTECTIVE_GLOVES',
+		name: 'Protective Gloves',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'Thick gloves, which reduce menial dexterity but protect hands from injury.\nSlightly increase the chances to trigger a sabotage Skill Check.\nSlightly increase sabotage Skill Check success zones.\nConsiderably reduces the sabotage Skill Check failed penalty.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	INSTRUCTIONS: {
+		index: 'INSTRUCTIONS',
+		name: 'Instructions',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'Someone quickly painted what seems to be repair instructions on this piece of bark.\nModerately increases the Toolbox\'s repair efficiency.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	GRIP_WRENCH: {
+		index: 'GRIP_WRENCH',
+		name: 'Grip Wrench',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'An adjustable wrench with a tough grip. Essential in any Toolbox.\nModerately increases repair Skill Check success zones.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	CUTTING_WIRE: {
+		index: 'CUTTING_WIRE',
+		name: 'Cutting Wire',
+		type: 'TOOLBOX',
+		rarity: 'UNCOMMON',
+		description: 'A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nSlightly increases the Toolbox\'s sabotage speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	HACKSAW: {
+		index: 'HACKSAW',
+		name: 'Hacksaw',
+		type: 'TOOLBOX',
+		rarity: 'RARE',
+		description: 'A small hand saw mounted with a metal cutting blade.\nModerately increases the Toolbox\'s sabotage speed.',
+		image: 'images/Addon_BadMansLastBreath.png'
+	},
+	BRAND_NEW_PART: {
+		index: 'BRAND_NEW_PART',
+		name: 'Brand New Part',
+		type: 'TOOLBOX',
+		rarity: 'ULTRA_RARE',
+		description: 'This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory.\nToolbox Repair action is replaced with Install Brand New Part.\nInstall Brand New Part will trigger a Skill Check every 2 seconds until the Generator is repaired or the interaction ends.\nGood Skill Checks grant 5% total Generator progression.\nGreat Skill Checks grant 10% total Generator progression.\nCompleting the repair, interrupting the action or failing a Skill Check will consume the Toolbox and all its Add-ons.',
+		image: 'images/Addon_BadMansLastBreath.png'
 	}
 }

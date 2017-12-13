@@ -178,11 +178,3 @@ const Items = {
 		image: 'images/.png'
 	},
 }
-
-const ItemTypes = {
-	FLASHLIGHT: 0,
-	KEY: 1,
-	MAP: 2,
-	AID_KIT: 3,
-	TOOLBOX: 4
-}
