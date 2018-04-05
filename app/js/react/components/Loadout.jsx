@@ -1,0 +1,49 @@
+// import React from 'react';
+// import { KillerFactory, SurvivorFactory } from '../PlayerFactory';
+// import KillerTooltip from './KillerTooltip';
+// import SurvivorTooltip from './SurvivorTooltip';
+// import { Types } from '../data/Enum';
+
+// const Loadout = ({ typeSelected, type }) => {
+//     const data =
+//         type === Types.KILLER
+//             ? KillerFactory.toArray()
+//             : SurvivorFactory.toArray();
+
+//     const players = data.map((value, index) => (
+//         <div className="player tooltip-activator" key={index}>
+//             <div className="outline">
+//                 <img
+//                     className="top"
+//                     src="images/profile-outline-horizontal.png"
+//                 />
+//                 <img
+//                     className="bottom"
+//                     src="images/profile-outline-horizontal.png"
+//                 />
+//                 <img
+//                     className="left"
+//                     src="images/profile-outline-vertical.png"
+//                 />
+//                 <img
+//                     className="right"
+//                     src="images/profile-outline-vertical.png"
+//                 />
+//             </div>
+//             <img
+//                 className="profile"
+//                 src={`images/portrait/${value.image}.png`}
+//             />
+//             <img className="background" src="images/Profile_Background.png" />
+//             {type === Types.KILLER ? (
+//                 <KillerTooltip killer={value} />
+//             ) : (
+//                 <SurvivorTooltip survivor={value} />
+//             )}
+//         </div>
+//     ));
+
+//     return <div className="player-selector">{players}</div>;
+// };
+
+// export default PlayerSelector;

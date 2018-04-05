@@ -1,81 +1,94 @@
-const Survivors = {
-	DWIGHT_FAIRFIELD: {
-		index: 'DWIGHT_FAIRFIELD',
-		name: 'Dwight Fairfield',
-		power: 'A nervous leader',
-		perks: ['BOND', 'PROVE_THYSELF', 'LEADER'],
-		image: 'images/56px-IconChar_dwight.png'
-	},
-	MEG_THOMAS: {
-		index: 'MEG_THOMAS',
-		name: 'Meg Thomas',
-		power: 'An energetic athlete',
-		perks: ['QUICK_AND_QUIET', 'SPRINT_BURST', 'ADRENALINE'],
-		image: 'images/56px-IconChar_meg.png'
-	},
-	CLAUDETTE_MOREL: {
-		index: 'CLAUDETTE_MOREL',
-		name: 'Claudette Morel',
-		power: 'A studious botanist',
-		perks: ['EMPATHY', 'BOTANY_KNOWLEDGE', 'SELF_CARE'],
-		image: 'images/56px-IconChar_claudette.png'
-	},
-	JAKE_PARK: {
-		index: 'JAKE_PARK',
-		name: 'Jake Park',
-		power: 'A solitary survivalist',
-		perks: ['IRON_WILL', 'CALM_SPIRIT', 'SABOTEUR'],
-		image: 'images/56px-IconChar_jake.png'
-	},
-	NEA_KARLSSON: {
-		index: 'NEA_KARLSSON',
-		name: 'Nea Karlsson',
-		power: 'An urban artist',
-		perks: ['BALANCED_LANDING', 'URBAN_EVASION', 'STREETWISE'],
-		image: 'images/56px-IconChar_nea2.png'
-	},
-	WILLIAM_OVERBECK: {
-		index: 'WILLIAM_OVERBECK',
-		name: 'William "Bill" Overbeck',
-		power: 'An old soldier',
-		perks: ['LEFT_BEHIND', 'BORROWED_TIME', 'UNBREAKABLE'],
-		image: 'images/56px-BO_charSelect_portrait2.png'
-	},
-	DAVID_KING: {
-		index: 'DAVID_KING',
-		name: 'David King',
-		power: 'A rugged scrapper',
-		perks: ['WERE_GONNA_LIVE_FOREVER', 'DEAD_HARD', 'NO_MITHER'],
-		image: 'images/56px-DK_charSelect_portrait2.png'
-	},
-	LAURIE_STRODE: {
-		index: 'LAURIE_STRODE',
-		name: 'Laurie Strode',
-		power: 'A determined survivor',
-		perks: ['SOLE_SURVIVOR', 'OBJECT_OF_OBSESSION', 'DECISIVE_STRIKE'],
-		image: 'images/56px-Laurie_Strode.png'
-	},
-	ACE_VISCONTI: {
-		index: 'ACE_VISCONTI',
-		name: 'Ace Visconti',
-		power: 'A lucky gambler',
-		perks: ['OPEN_HANDED', 'UP_THE_ANTE', 'ACE_IN_THE_HOLE'],
-		image: 'images/56px-AV_charSelect_portrait2.png'
-	},
-	FENG_MIN: {
-		index: 'FENG_MIN',
-		name: 'Feng Min',
-		power: 'A focused competitor',
-		perks: ['TECHNICIAN', 'LITHE', 'ALERT'],
-		image: 'images/56px-FM_charSelect_portrait.png'
-	},
-	QUENTIN_SMITH: {
-		index: 'QUENTIN_SMITH',
-		name: 'Quentin Smith',
-		power: 'A resolute dreamwalker',
-		perks: ['WAKE_UP', 'PHARMACY', 'VIGIL'],
-		image: 'images/56px-QS_charSelect_portrait.png'
-	}
-}
-
-export default Survivors
+export const Survivors = {
+    DWIGHT_FAIRFIELD: {
+        index: 'DWIGHT_FAIRFIELD',
+        name: 'Dwight Fairfield',
+        description:
+            'A nervous leader, able to locate his allies and increase their effectiveness.',
+        perks: ['BOND', 'PROVE_THYSELF', 'LEADER'],
+        image: 'DF'
+    },
+    MEG_THOMAS: {
+        index: 'MEG_THOMAS',
+        name: 'Meg Thomas',
+        description: 'An energetic athlete, able to outrun most killers.',
+        perks: ['QUICK_AND_QUIET', 'SPRINT_BURST', 'ADRENALINE'],
+        image: 'MT'
+    },
+    CLAUDETTE_MOREL: {
+        index: 'CLAUDETTE_MOREL',
+        name: 'Claudette Morel',
+        description:
+            "A studious botanist, able to boost her team's survivability as well as her own.",
+        perks: ['EMPATHY', 'BOTANY_KNOWLEDGE', 'SELF_CARE'],
+        image: 'CM'
+    },
+    JAKE_PARK: {
+        index: 'JAKE_PARK',
+        name: 'Jake Park',
+        description:
+            'A solitary survivalist, able to hold his own in most situations.',
+        perks: ['IRON_WILL', 'CALM_SPIRIT', 'SABOTEUR'],
+        image: 'JP'
+    },
+    NEA_KARLSSON: {
+        index: 'NEA_KARLSSON',
+        name: 'Nea Karlsson',
+        description: 'An urban artist, able to easily escape and hide.',
+        perks: ['BALANCED_LANDING', 'URBAN_EVASION', 'STREETWISE'],
+        image: 'NK'
+    },
+    WILLIAM_OVERBECK: {
+        index: 'WILLIAM_OVERBECK',
+        name: 'William "Bill" Overbeck',
+        description:
+            'An old soldier, accustomed to dealing with critical situations.',
+        perks: ['LEFT_BEHIND', 'BORROWED_TIME', 'UNBREAKABLE'],
+        image: 'BO'
+    },
+    DAVID_KING: {
+        index: 'DAVID_KING',
+        name: 'David King',
+        description: 'A rugged scrapper, rewarding high-risk play.',
+        perks: ['WERE_GONNA_LIVE_FOREVER', 'DEAD_HARD', 'NO_MITHER'],
+        image: 'DK'
+    },
+    LAURIE_STRODE: {
+        index: 'LAURIE_STRODE',
+        name: 'Laurie Strode',
+        description:
+            'A determined Survivor, prepared to weather any challenge.',
+        perks: ['SOLE_SURVIVOR', 'OBJECT_OF_OBSESSION', 'DECISIVE_STRIKE'],
+        image: 'LS'
+    },
+    ACE_VISCONTI: {
+        index: 'ACE_VISCONTI',
+        name: 'Ace Visconti',
+        description: 'A lucky gambler, improving the odds of the entire team.',
+        perks: ['OPEN_HANDED', 'UP_THE_ANTE', 'ACE_IN_THE_HOLE'],
+        image: 'AV'
+    },
+    FENG_MIN: {
+        index: 'FENG_MIN',
+        name: 'Feng Min',
+        description:
+            'A focused competitor, able to focus on objectives and quickly switch focus.',
+        perks: ['TECHNICIAN', 'LITHE', 'ALERT'],
+        image: 'FM'
+    },
+    QUENTIN_SMITH: {
+        index: 'QUENTIN_SMITH',
+        name: 'Quentin Smith',
+        description:
+            'A resolute dreamwalker, increasing the survivability and recovery of his team.',
+        perks: ['WAKE_UP', 'PHARMACY', 'VIGIL'],
+        image: 'QS'
+    },
+    DAVID_TAPP: {
+        index: 'DAVID_TAPP',
+        name: 'David Tapp',
+        description:
+            'An obsessed detective, able to locate and complete objectives faster.',
+        perks: ['TENACITY', 'DETECTIVES_HUNCH', 'STAKE_OUT'],
+        image: 'FS'
+    }
+};

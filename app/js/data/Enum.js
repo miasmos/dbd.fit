@@ -1,26 +1,27 @@
 export const Amounts = {
-	SLIGHTLY: 0,
-	MODERATELY: 1,
-	CONSIDERABLY: 2,
-	TREMENDOUSLY: 3
-}
+    SLIGHTLY: 0,
+    MODERATELY: 1,
+    CONSIDERABLY: 2,
+    TREMENDOUSLY: 3
+};
 
 export const Types = {
-	SURVIVOR: 0,
-	KILLER: 1
-}
+    SURVIVOR: 0,
+    KILLER: 1
+};
 
 export const Rarities = {
-	COMMON: 0,
-	UNCOMMON: 1,
-	RARE: 2,
-	VERY_RARE: 3
-}
+    COMMON: 'Common',
+    UNCOMMON: 'Uncommon',
+    RARE: 'Rare',
+    VERY_RARE: 'Very rare',
+    ULTRA_RARE: 'Ultra rare'
+};
 
 const ItemTypes = {
-	FLASHLIGHT: 0,
-	KEY: 1,
-	MAP: 2,
-	AID_KIT: 3,
-	TOOLBOX: 4
-}
+    FLASHLIGHT: 0,
+    KEY: 1,
+    MAP: 2,
+    AID_KIT: 3,
+    TOOLBOX: 4
+};

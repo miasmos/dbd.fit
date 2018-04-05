@@ -1,0 +1,1 @@
+export { BoldSpan } from './BoldSpan';
