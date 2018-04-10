@@ -1,7 +1,7 @@
 import { KillerAddons, SurvivorAddons } from '../data';
-import { Addon } from '../models';
+import { Addon } from '../models/Addon';
 import { ModelFactory } from './base';
-import { KillerFactory, SurvivorFactory } from './';
+import { KillerFactory } from './PlayerFactory';
 
 class AddonFactoryClass extends ModelFactory {
     constructor(addons) {

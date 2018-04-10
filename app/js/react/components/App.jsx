@@ -1,9 +1,11 @@
 import React from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { Store } from '../Store';
 import { TypeSelector } from './TypeSelector';
-import { KillerSelector, SurvivorSelector } from './PlayerSelector';
+import PlayerSelector from './PlayerSelector';
 import { Intro } from './Intro';
+import LoadoutSelector from './LoadoutSelector';
 
 const AppComponent = ({ location }) => {
     const key = location.pathname.split('/')[1] || '/';
@@ -19,10 +21,27 @@ const AppComponent = ({ location }) => {
                     appear
                 >
                     <Switch location={location}>
-                        <Route path="/" exact component={Intro} />
-                        <Route path="/type" component={TypeSelector} />
-                        <Route path="/killer" component={KillerSelector} />
-                        <Route path="/survivor" component={SurvivorSelector} />
+                        <Route
+                            path="/"
+                            exact
+                            component={() => <Intro store={Store} />}
+                        />
+                        <Route
+                            path="/type"
+                            component={() => <TypeSelector store={Store} />}
+                        />
+                        <Route
+                            path="/survivors"
+                            component={() => <PlayerSelector store={Store} />}
+                        />
+                        <Route
+                            path="/killers"
+                            component={() => <PlayerSelector store={Store} />}
+                        />
+                        <Route
+                            path="/loadout"
+                            component={() => <LoadoutSelector store={Store} />}
+                        />
                     </Switch>
                 </CSSTransition>
             </TransitionGroup>

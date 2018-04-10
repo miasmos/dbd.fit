@@ -1,24 +1,31 @@
 import { Factory } from './Factory';
 
 export class ModelFactory extends Factory {
-    constructor(model, data) {
+    constructor(model, data = {}) {
         super(data);
         this.model = model;
         this.instances = [];
     }
 
-    get(key) {
+    get(key, ignoreCache = false) {
         const data = super.get(key);
 
         if (!!data) {
-            if (!(key in this.instances)) {
-                const instance = new this.model(data);
-                this.instances[key] = instance;
+            let instance;
+            if (!(key in this.instances) || ignoreCache) {
+                instance = new this.model(data);
+
+                if (!ignoreCache) {
+                    this.instances[key] = instance;
+                }
                 instance.initialize();
+            } else {
+                instance = this.instances[key];
             }
-            return this.instances[key];
+
+            return instance;
         } else {
-            return data;
+            return new this.model();
         }
     }
 

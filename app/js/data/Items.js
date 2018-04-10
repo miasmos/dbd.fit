@@ -80,7 +80,7 @@ export const Items = {
             "An old piece of parchment made out of a skin-like material. Is rolled and sealed with an uncoloured leather string. Holding and channelling the map unlocks great potential in one's Aura reading ability which slowly burns the map. Generators' Auras which you have already encountered are revealed to you for as long as the map has charges left.\nStarts with 1 Generator tracked.\nUnlocks ability to track generators within 8 meters.",
         type: 'MAP',
         rarity: 'RARE',
-        image: 'images/.png'
+        image: 'map'
     },
     RAINBOW_MAP: {
         index: 'RAINBOW_MAP',
@@ -91,7 +91,7 @@ export const Items = {
             '"It disheartens me. All this unspeakable knowledge and gruelling effort and yet nothing tangible, nothing usable to get out of this nightmare." — Vigo\'s Journal',
         type: 'MAP',
         rarity: 'ULTRA_RARE',
-        image: 'map'
+        image: 'rainbowMap'
     },
     CAMPING_AID_KIT: {
         index: 'CAMPING_AID_KIT',

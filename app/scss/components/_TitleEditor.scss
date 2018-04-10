@@ -1,0 +1,74 @@
+.title-editor {
+    position: relative;
+    width: 100%;
+    margin-bottom: 17px;
+    height: 40px;
+
+    .title-editor-inner {
+        position: relative;
+        display: inline-block;
+    }
+
+    input {
+        display: none;
+        position: absolute;
+        top: 0;
+        background: transparent;
+        height: 33px;
+        font-weight: 700;
+        font-size: 26.4px;
+        line-height: 34px;
+        text-transform: uppercase;
+        height: inherit;
+        z-index: 1;
+        width: 100%;
+        min-width: 5px;
+    }
+
+    h2 {
+        cursor: text;
+        height: inherit;
+        z-index: 2;
+        min-height: 34px;
+        min-width: 1px;
+    }
+
+    &.editing {
+        h2 {
+            opacity: 0;
+            z-index: 1;
+        }
+
+        input {
+            display: block;
+            z-index: 2;
+        }
+
+        .edit {
+            display: none;
+        }
+        .confirm {
+            display: block;
+        }
+    }
+
+    &:hover {
+        .edit {
+            opacity: 1;
+        }
+    }
+
+    .edit,
+    .confirm {
+        position: absolute;
+        right: -25px;
+        top: 9px;
+        width: 15px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    .confirm {
+        display: none;
+        opacity: 1;
+    }
+}

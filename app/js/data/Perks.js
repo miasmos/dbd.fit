@@ -1,4 +1,125 @@
 export const KillerPerks = {
+    BITTER_MURMUR: {
+        index: 'BITTER_MURMUR',
+        name: 'Bitter Murmur',
+        owner: 'ALL',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        description:
+            "Unlocks potential in one's Aura reading ability. Survivors' Auras are revealed to you for a duration of %s seconds when the Exit Gates are powered.",
+        image: 'bitterMurmur',
+        tiers: [[5], [7], [9]]
+    },
+    DEERSTALKER: {
+        index: 'DEERSTALKER',
+        name: 'Deerstalker',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        description:
+            "Unlocks potential in one's Aura reading ability. Reveals dying Survivors' Auras when standing within %s metres.",
+        image: 'deerstalker',
+        tiers: [[12], [24], [36]]
+    },
+    DISTRESSING: {
+        index: 'DISTRESSING',
+        name: 'Distressing',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        description:
+            'Your horrifying emanation strikes at a supernaturally long distance. Your Terror Radius is increased by %s%. Gain %s% more Bloodpoints for actions in the Deviousness category.',
+        flavor: '"Bask in their fear."',
+        image: 'distressing',
+        tiers: [[22, 50], [24, 75], [26, 100]]
+    },
+    INSIDIOUS: {
+        index: 'INSIDIOUS',
+        name: 'Insidious',
+        owner: 'ALL',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        description:
+            'Unlocks the stealth ability. By standing still for %s seconds, you reduce your Terror Radius to 0 metres and thus become stealthy until you move or act again.',
+        image: 'insidious',
+        tiers: [[4], [3], [2]]
+    },
+    HEX_NO_ONE_ESCAPES_DEATH: {
+        index: 'HEX_NO_ONE_ESCAPES_DEATH',
+        name: 'Hex: No One Escapes Death',
+        owner: 'ALL',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        description:
+            'A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping. Once the Exit Gates are powered, if there is a Dull Totem remaining on the map, this Hex is applied to it. While this Hex is active, %scooldowns on successful and missed attacks are decreased by %s% and your movement speed is increased by %s%.',
+        flavor:
+            '"And the beast became faster and more powerful as if the Entity\'s shadowy whips were lashing at its back."',
+        image: 'noOneEscapesDeath',
+        tiers: [
+            ['', 4, 3],
+            ['', 8, 4],
+            ['Successful attacks trigger Dying State automatically, ', 8, 4]
+        ]
+    },
+    HEX_THRILL_OF_THE_HUNT: {
+        index: 'HEX_THRILL_OF_THE_HUNT',
+        name: 'Hex: Thrill of the Hunt',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        description:
+            "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your totems. For each Dull Totem and Hex Totem remaining on the Map gain a Token.\nGain %s% more Bloodpoints for actions in the Hunter category for each Token.\nSurvivors' cleansing speed is reduced by %s% for each Token.\nGain a notification when someone starts working on a Hex Totem.",
+        image: 'thrillOfTheHunt',
+        tiers: [[6, 4], [8, 5], [10, 6]]
+    },
+    MONSTROUS_SHRINE: {
+        index: 'MONSTROUS_SHRINE',
+        name: 'Monstrous Shrine',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        description:
+            "Your fervent care of the hooks found in the Basement has aroused the Entity's interest. The Basement Hooks are granted the following bonuses:\n%s% faster Entity progression.\n%s% increased difficulty on escape attempts.\n%s% increased penalty to escape fails.",
+        image: 'monstrousShrine',
+        tiers: [[3, 5, 3], [6, 10, 6], [9, 15, 9]]
+    },
+    SLOPPY_BUTCHER: {
+        index: 'SLOPPY_BUTCHER',
+        name: 'Sloppy Butcher',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        description:
+            "You know where to hit to make them bleed. Wounds inflicted by successful attacks %s increase the Survivor's Bleeding frequency.\nBleeding returns to normal once the Survivor is healed.",
+        image: 'sloppyButcher',
+        tiers: [['slightly'], ['moderately'], ['considerably']]
+    },
+    SPIES_FROM_THE_SHADOWS: {
+        index: 'SPIES_FROM_THE_SHADOWS',
+        name: 'Spies From The Shadows',
+        owner: 'ALL',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        description:
+            'The Crows found in the world can communicate directly with you. %s% of the time, cawing Crows give you a visual clue when you are within %s metres.',
+        flavor:
+            '"In the shadows they torment, scarring our minds with each scream."',
+        image: 'spiesFromTheShadows',
+        tiers: [[50, 16], [50, 24], [75, 36]]
+    },
+    UNRELENTING: {
+        index: 'UNRELENTING',
+        name: 'Unrelenting',
+        owner: 'ALL',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        description:
+            'You recuperate faster from any attack made with your main weapon. The cooldown of missed attacks is reduced by %s%.',
+        image: 'unrelenting',
+        tiers: [[20], [25], [30]]
+    },
+    WHISPERS: {
+        index: 'WHISPERS',
+        name: 'Whispers',
+        owner: 'ALL',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        description:
+            "You have a rudimentary understanding of the Entity's voice. Sporadically hear the Entity's Whisper when standing within a %s metre range of a Survivor.",
+        flavor:
+            '"It\'s unclear as to the motivations of the fog, but it is undeniable that it often takes the beast\'s side." — Unknown, Notebook',
+        image: 'whispers',
+        tiers: [[48], [40], [32]]
+    },
     STRIDOR: {
         index: 'STRIDOR',
         name: 'Stridor',
@@ -240,7 +361,7 @@ export const KillerPerks = {
         description:
             'Meticulous in your approach, terrifying in your application. While in a chase, your Terror Radius is increased by %s metres. Otherwise your Terror Radius is decreased by %s metres and your field of view is %s increased. Field of view gains do not stack.',
         flavor: "It's time for your treatment!",
-        images: 'monitorAndAbuse',
+        image: 'monitorAndAbuse',
         tiers: [
             [6, 6, 'slightly'],
             [7, 7, 'moderately'],
@@ -400,6 +521,167 @@ export const KillerPerks = {
 };
 
 export const SurvivorPerks = {
+    DARK_SENSE: {
+        index: 'DARK_SENSE',
+        name: 'Dark Sense',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            "Unlocks potential in one's Aura reading ability. When the Exit Gates unlock, the Killer's Aura is revealed to you for %s seconds.",
+        flavor:
+            '"Take it from an old-timer: Slow down, don\'t rush and try not to worry so much! The best way to beat him is to know how he thinks." — Murf, The Lost Tapes',
+        image: 'darkSense',
+        tiers: [[3], [4], [7]]
+    },
+    DEJA_VU: {
+        index: 'DEJA_VU',
+        name: 'Déjà Vu',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            "Unlocks potential in one's Aura reading ability. %s Generator(s)' Auras are revealed to you for %s seconds seconds when starting a trial.\nIf you are holding a Map that can track them, Generators revealed by Déjà Vu are added to the Map.",
+        image: 'dejaVu',
+        tiers: [[1, 4], [1, 8], [2, 8]]
+    },
+    HOPE: {
+        index: 'HOPE',
+        name: 'Hope',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'The growing odds of a successful escape fill you with hope and give you wings. Your movement speed is increased by %s% as soon as the Exit Gates IconHelp exitGates.png are powered.\nThis Perk is only active for 120 seconds after the Exit Gates have been powered.',
+        image: 'hope',
+        tiers: [[5], [6], [7]]
+    },
+    KINDRED: {
+        index: 'KINDRED',
+        name: 'Kindred',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            "Unlocks potential in one's Aura reading ability. While you're on the Hook, %s Aura(s) are revealed to all other Survivors.",
+        flavor:
+            '"Be kind to one another. We\'re all in this together." — Sujan, The Lost Tapes',
+        image: 'kindred',
+        tiers: [
+            ["1 random Survivor's"],
+            ["All survivors'"],
+            [
+                "All Survivors' and the Killer's (in an 8m radius around the Hook)"
+            ]
+        ]
+    },
+    LIGHTWEIGHT: {
+        index: 'LIGHTWEIGHT',
+        name: 'Lightweight',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        owner: 'ALL',
+        description:
+            'Your running is light and soft, making your tracks harder to follow. Footstep marks stay visible %s seconds less than normal.',
+        flavor:
+            "\"Take it slow, he knows where you've been... just like I've always said: 'live slow and die old'\" — Dylan, The Lost Tapes",
+        image: 'lightweight',
+        tiers: [[1], [2], [3]]
+    },
+    NO_ONE_LEFT_BEHIND: {
+        index: 'NO_ONE_LEFT_BEHIND',
+        name: 'No One Left Behind',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'It is inconceivable to leave someone behind. Once the Exit Gates are powered, gain %s% more Bloodpoints for actions in the Altruism category and perform them %s% quicker.',
+        flavor:
+            '"... yeah, no shit. But I believe we can outsmart and overthrow him if we work together. Don\'t be predictable and selfish!" — Clyde, The Lost Tapes',
+        image: 'noOneLeftBehind',
+        tiers: [[50, 4], [75, 8], [100, 12]]
+    },
+    PLUNDERERS_INSTINCT: {
+        index: 'PLUNDERERS_INSTINCT',
+        name: "Plunderer's Instinct",
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        owner: 'ALL',
+        description:
+            "Unlocks potential in one's Aura reading ability. Chests' Auras are revealed to you when standing within %s metres. Grants a %s better chance at finding an Item of higher rarity from Chests.",
+        flavor:
+            '"The pioneers used to loot these babies for hours." — Aizeyu, The Lost Tapes',
+        image: 'plunderersInstinct',
+        tiers: [[16, 'slightly'], [24, 'moderately'], [32, 'considerably']]
+    },
+    PREMONITION: {
+        index: 'PREMONITION',
+        name: 'Premonition',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            "You have the undeniable capability to sense danger. Get an auditory warning when looking in the direction of the Killer in a 45 degree cone within a range of %s metres. Premonition has a cooldown of %s seconds seconds each time it activates. Premonition trumps any of the Killer's stealth abilities.",
+        flavor: '"I have a bad feeling about this!"',
+        image: 'premonition',
+        tiers: [[12, 60], [24, 45], [36, 30]]
+    },
+    RESILIENCE: {
+        index: 'RESILIENCE',
+        name: 'Resilience',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'You are motivated in dire situations. Grants %s% additional speed when interacting with Props while you are Injured.',
+        flavor: '"Focus, even in these desperate times."',
+        image: 'resilience',
+        tiers: [[3], [6], [9]]
+    },
+    SLIPPERY_MEAT: {
+        index: 'SLIPPERY_MEAT',
+        name: 'Slippery Meat',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        owner: 'ALL',
+        description:
+            'You have developed an efficient way to get out of Bear Traps and Hooks. Grants up to %s extra escape attempts on the hook. The odds of freeing yourself from Bear Traps are increased by %s%.',
+        image: 'slipperyMeat',
+        tiers: [[1, 15], [2, 20], [3, 25]]
+    },
+    SMALL_GAME: {
+        index: 'SMALL_GAME',
+        name: 'Small Game',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        owner: 'ALL',
+        description:
+            'You have the undeniable capability to sense danger. Get an auditory warning when looking in the direction of Killer Traps and Totems in a 45 degree cone within a range of %s metres. Small Game has a cooldown of %s seconds each time it activates.',
+        flavor: '"Nope." — Andy, The Lost Tapes',
+        image: 'smallGame',
+        tiers: [[8, 15], [10, 12], [12, 10]]
+    },
+    SPINE_CHILL: {
+        index: 'SPINE_CHILL',
+        name: 'Spine Chill',
+        rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'An unnatural tingle warns you of impending doom. Get notified when the Killer is looking directly in your direction and standing within %s metres of range. When Spine Chill is active, Skill Check trigger odds are increased by 10% with success zones reduced by 10% and your Repair, Heal and Sabotage speeds are increased by %s%.',
+        flavor:
+            '"There is a voice that doesn\'t use words. Listen.." — Sassy, The Lost Tapes',
+        image: 'spineChill',
+        tiers: [[12, 2], [24, 4], [36, 6]]
+    },
+    THIS_IS_NOT_HAPPENING: {
+        index: 'THIS_IS_NOT_HAPPENING',
+        name: 'This Is Not Happening',
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'You perform at your best when you are under extreme stress. Great Skill Check success zones when repairing, healing and sabotaging get %s% bigger when you are injured.',
+        image: 'thisIsNotHappening',
+        tiers: [[10], [20], [30]]
+    },
+    WELL_MAKE_IT: {
+        index: 'WELL_MAKE_IT',
+        name: "We'll Make It",
+        rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
+        owner: 'ALL',
+        description:
+            'Helping others heightens your morale. For each Survivor you rescue from a Hook, gain an additional %s% speed increase to healing up others to a maximum of 100% for %s seconds.',
+        image: 'wellMakeIt',
+        tiers: [[25, 30], [50, 60], [100, 90]]
+    },
     BOND: {
         index: 'BOND',
         name: 'Bond',

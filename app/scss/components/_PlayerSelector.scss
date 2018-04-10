@@ -1,6 +1,14 @@
 .player-selector {
+    display: inline-block;
     @include center();
     width: 590px;
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .players {
+    }
 
     .player {
         float: left;

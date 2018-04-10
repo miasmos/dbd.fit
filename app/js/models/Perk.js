@@ -1,5 +1,9 @@
-import { Rarities, Types } from '../data';
-import { KillerFactory, SurvivorFactory } from '../factories';
+import { Rarities, Types, ModifierTypes } from '../data';
+import {
+    KillerPerkFactory,
+    KillerFactory,
+    SurvivorFactory
+} from '../factories';
 import { Model } from './Model';
 
 export class Perk extends Model {
@@ -12,7 +16,7 @@ export class Perk extends Model {
         flavor,
         image,
         tiers
-    }) {
+    } = {}) {
         super({
             index,
             name,
@@ -26,23 +30,27 @@ export class Perk extends Model {
         this.index = index;
         this.name = name;
         this.flavor = flavor;
-        this.image = `images/perks/${image}.png`;
+        this.image = image;
         this.tier;
+        this.description;
         this.rarity;
         this.owner;
         this.type;
+        this.modifierType = ModifierTypes.PERK;
     }
 
     initialize() {
-        this._setOwner(this.data.owner);
-        this._setRarity(this.data.rarity);
-        this._setDescription(this.data.description);
-        this.tier(3);
-        super.initialize();
+        if (!this.empty) {
+            this._setOwner(this.data.owner);
+            this._setRarity(this.data.rarity);
+            this._setDescription(this.data.description);
+            this.setTier(3);
+            super.initialize();
+        }
     }
 
-    tier(tier) {
-        if (tier < 0 && tier > 3) {
+    setTier(tier) {
+        if (this.empty || this.frozen || tier < 0 || tier > 3) {
             return;
         }
         this.tier = tier;
@@ -53,6 +61,9 @@ export class Perk extends Model {
     }
 
     _setDescription(description) {
+        if (this.frozen) {
+            return;
+        }
         this.descriptions = [];
         const dSplit = this.data.description.split('%s');
 
@@ -73,18 +84,29 @@ export class Perk extends Model {
     }
 
     _setOwner(owner) {
-        const isKiller = KillerFactory.exists(owner);
+        if (this.frozen) {
+            return;
+        }
+        const killerExists = KillerFactory.exists(owner),
+            isKillerPerk = KillerPerkFactory.exists(this.index);
 
-        if (isKiller) {
-            this.type = Types.KILLER;
+        if (killerExists) {
             this.owner = KillerFactory.get(owner);
         } else {
-            this.type = Types.SURVIVOR;
             this.owner = SurvivorFactory.get(owner);
+        }
+
+        if (isKillerPerk) {
+            this.type = Types.KILLER;
+        } else {
+            this.type = Types.SURVIVOR;
         }
     }
 
     _setRarity(rarity) {
+        if (this.frozen) {
+            return;
+        }
         this.rarities = rarity.map(value => Rarities[value]);
     }
 }

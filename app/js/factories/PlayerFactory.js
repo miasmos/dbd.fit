@@ -1,5 +1,5 @@
 import { Survivors, Killers } from '../data';
-import { Player } from '../models';
+import { Player } from '../models/Player';
 import { ModelFactory } from './base';
 
 class PlayerFactoryClass extends ModelFactory {

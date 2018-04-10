@@ -1,5 +1,5 @@
 import { KillerOfferings, SurvivorOfferings, SharedOfferings } from '../data';
-import { Offering } from '../models';
+import { Offering } from '../models/Offering';
 import { ModelFactory } from './base';
 
 class OfferingFactoryClass extends ModelFactory {

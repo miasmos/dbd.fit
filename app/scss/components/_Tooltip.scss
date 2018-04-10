@@ -7,12 +7,12 @@
     pointer-events: none;
     z-index: 100;
 
-    .banner {
+    .tooltip-banner {
         position: relative;
-        background-image: url(../images/tooltip-banner.jpg);
         background-color: black;
         background-repeat: no-repeat;
         background-size: 300px;
+        background-image: url(../images/template_banner_common.png);
         background-position: -40px 0px;
         height: 50px;
         @include black();
@@ -24,17 +24,33 @@
         }
     }
 
-    .body {
+    .tooltip-banner.uncommon {
+        background-image: url(../images/template_banner_uncommon.png);
+    }
+
+    .tooltip-banner.rare {
+        background-image: url(../images/template_banner_rare.png);
+    }
+
+    .tooltip-banner.veryrare {
+        background-image: url(../images/template_banner_veryrare.png);
+    }
+
+    .tooltip-banner.ultrarare {
+        background-image: url(../images/template_banner_ultrarare.png);
+    }
+
+    .tooltip-body {
         position: relative;
 
-        .text {
+        .tooltip-text {
             position: relative;
             white-space: nowrap;
             padding: 3px 12px;
             z-index: 2;
         }
 
-        .background {
+        .tooltip-background {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -51,12 +67,12 @@
         left: 88%;
         transform: none;
 
-        .body {
+        .tooltip-body {
             .background {
                 opacity: 0.95;
             }
 
-            .text {
+            .tooltip-text {
                 padding: 15px 19px;
                 white-space: normal;
                 text-transform: none;
@@ -68,14 +84,84 @@
             padding-left: 15px;
         }
 
-        .abilities {
+        .tooltip-abilities {
             margin-top: 10px;
         }
     }
 }
 
+.perk-tooltip,
+.addon-tooltip,
+.item-tooltip,
+.offering-tooltip,
+.power-tooltip {
+    .tooltip-banner {
+        height: auto;
+        padding: 14px;
+        background-position: -120px 0px;
+        background-size: auto;
+
+        &.tier2 {
+            .ticks .tick1 {
+                opacity: 0;
+            }
+        }
+        &.tier1 {
+            .ticks .tick1,
+            .ticks .tick3 {
+                opacity: 0;
+            }
+        }
+    }
+
+    .tooltip-body {
+        padding: 19px 18px;
+    }
+
+    .ticks {
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+
+        .tick {
+            width: 6px !important;
+        }
+    }
+
+    .tooltip-title {
+        margin-top: 4px;
+    }
+
+    .tooltip-subtitle {
+        font-weight: 100;
+        margin-top: 3px;
+        margin-bottom: 0 !important;
+    }
+
+    .tooltip-text {
+        padding: 0 !important;
+    }
+
+    .tooltip-flavor {
+        position: relative;
+        z-index: 2;
+        white-space: normal;
+        text-transform: none;
+        padding-top: 7px;
+        color: #cdc5a5;
+        font-size: 0.9em;
+        font-style: italic;
+    }
+}
+
 .tooltip-activator {
     &:hover .tooltip {
+        opacity: 1;
+    }
+}
+
+.show-tooltip {
+    .tooltip,
+    .tooltip-detailed {
         opacity: 1;
     }
 }

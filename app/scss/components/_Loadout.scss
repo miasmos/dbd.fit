@@ -1,0 +1,684 @@
+.loadout {
+    @include center();
+    width: 560px;
+
+    .loadout-background {
+        position: absolute;
+        z-index: 1;
+        top: -70px;
+        left: -190px;
+        width: 810px;
+    }
+
+    .container-top,
+    .container-middle,
+    .container-bottom {
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        z-index: 2;
+    }
+
+    .container-top {
+        z-index: 10;
+
+        .addon {
+            width: 55px;
+        }
+    }
+
+    .container-middle {
+        position: relative;
+        z-index: 5;
+        padding-top: 12px;
+        padding-bottom: 10px;
+
+        .loadout-divider {
+            width: 100%;
+            margin-top: 17px;
+        }
+    }
+
+    .container-bottom {
+        z-index: 2;
+        padding-top: 8px;
+    }
+
+    .container-left {
+        float: left;
+        width: 323px;
+    }
+
+    .container-right {
+        float: left;
+        padding: 0 4px;
+        width: 234px;
+
+        .offering {
+            margin: 0 auto;
+        }
+    }
+
+    .container {
+        .subtitle {
+            color: #90a5af;
+            margin-bottom: 22px;
+        }
+
+        .foreground {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+
+        .background {
+            width: 100%;
+        }
+    }
+
+    .item-container {
+        float: left;
+        position: relative;
+        margin-left: 13px;
+        z-index: 10;
+
+        .plus {
+            position: absolute;
+            right: -27px;
+            width: 18px;
+            top: 42px;
+        }
+
+        .item-inner {
+            margin-left: 24px;
+        }
+    }
+
+    .perk-container {
+        .perk {
+            float: left;
+            margin: 0 16px;
+        }
+
+        .perk-inner {
+            display: inline-block;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            width: 490px;
+        }
+
+        .subtitle {
+            height: 8px;
+            margin-top: 14px;
+            margin-bottom: 11px;
+        }
+    }
+
+    .addon-container {
+        z-index: 5;
+        margin-left: 34px;
+        float: left;
+
+        .addon {
+            float: left;
+            &:first-child {
+                margin-right: 9px;
+            }
+        }
+    }
+
+    .offering-container {
+        z-index: 1;
+        padding: 0 20px;
+    }
+
+    .perk-container {
+    }
+
+    .arrow {
+        position: absolute;
+        left: 0;
+        top: 123px;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .arrow-left {
+        transform: scaleX(-1);
+        left: -39px;
+    }
+
+    .arrow-right {
+        left: auto;
+        right: -46px;
+    }
+
+    .inventory-container {
+        height: 276px;
+
+        .inventory {
+            position: relative;
+        }
+
+        .subtitle {
+            color: #fff;
+            span {
+                font-weight: 100;
+                color: #90a5af;
+            }
+        }
+
+        .pages {
+            position: relative;
+            display: inline-block;
+            width: 490px;
+            height: inherit;
+            float: left;
+        }
+
+        .page {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 540px;
+            opacity: 0;
+            transition: 0.2s opacity, 0.3s transform;
+            transform: translateX(5%);
+            z-index: 1;
+        }
+
+        .page.page1 {
+            position: relative;
+        }
+
+        .page.active {
+            opacity: 1;
+            transform: translateX(0);
+            z-index: 2;
+        }
+
+        .page > *:nth-child(5n) {
+            margin-right: 0px;
+        }
+
+        .page > * {
+            float: left;
+            position: relative;
+            margin: 0 5px;
+        }
+
+        .inventory-inner {
+            z-index: 1;
+            position: relative;
+            height: 240px;
+            display: inline-block;
+        }
+    }
+
+    .inventory-container .inventory.perks {
+        .page > *:nth-child(5n + 1) {
+            margin-left: 0;
+        }
+
+        .page {
+            > *:nth-child(6) {
+                margin-left: 49px !important;
+            }
+
+            > *:nth-child(6),
+            > *:nth-child(7),
+            > *:nth-child(8),
+            > *:nth-child(9),
+            > *:nth-child(10),
+            > *:nth-child(11),
+            > *:nth-child(12),
+            > *:nth-child(13),
+            > *:nth-child(14),
+            > *:nth-child(15) {
+                margin-top: -20px;
+            }
+        }
+    }
+
+    .inventory-container .inventory.add-ons {
+        .page {
+            width: 410px;
+        }
+
+        .page > * {
+            margin: 6px;
+        }
+
+        .inventory-inner {
+            margin: 0 77px;
+        }
+    }
+
+    .inventory-container .inventory.items {
+        .page {
+            width: 400px;
+        }
+
+        .inventory-inner {
+            margin: 0 83px;
+        }
+    }
+
+    .inventory-container .inventory.offerings {
+        .page {
+            width: 400px;
+        }
+
+        .inventory-inner {
+            margin: 0 82px;
+        }
+    }
+
+    .page-indicator {
+        position: absolute;
+        bottom: -25px;
+        width: 100%;
+        display: inline-block;
+        height: 17px;
+        text-transform: uppercase;
+        left: 0;
+
+        .page-indicator-inner {
+            left: 50%;
+            color: #90a5af;
+            transform: translateX(-50%);
+            position: absolute;
+            height: inherit;
+        }
+
+        .page-indicator-background {
+            position: absolute;
+            top: -3px;
+            height: 22px;
+        }
+
+        .page-text {
+            color: #fff;
+        }
+
+        .denom {
+            color: #90a5af;
+        }
+    }
+
+    .perk {
+        position: relative;
+        width: 90px;
+
+        &.selected .select {
+            opacity: 1;
+        }
+
+        .select {
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+
+        &:hover .hover {
+            img {
+                opacity: 1;
+            }
+
+            .top {
+                transform: translateX(-50%) scale(1);
+            }
+
+            .bottom {
+                transform: translateX(-50%) scale(1);
+            }
+
+            .left {
+                transform: rotate(90deg) translateY(-50%) scale(1);
+            }
+
+            .right {
+                transform: rotate(90deg) translateY(-50%) scale(1);
+            }
+        }
+
+        .hover {
+            position: absolute;
+            transform: rotate(45deg);
+            top: 12%;
+            left: 13%;
+            width: 70%;
+            height: 70%;
+
+            img {
+                opacity: 0;
+                position: absolute;
+                transition: transform 0.1s ease-in;
+            }
+
+            .top {
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%) scale(0.2);
+            }
+
+            .bottom {
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%) scale(0.2);
+            }
+
+            .left {
+                left: -50%;
+                top: 50%;
+                transform: rotate(90deg) translateY(-50%) scale(0.2);
+            }
+
+            .right {
+                top: 50%;
+                right: -50%;
+                transform: rotate(90deg) translateY(-50%) scale(0.2);
+            }
+        }
+
+        .hitbox {
+            position: absolute;
+            z-index: 3;
+            width: 69%;
+            height: 69%;
+            transform: rotate(45deg) translate(-50%, -50%);
+            left: 16%;
+            top: 61%;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .hitbox-inner {
+            position: absolute;
+            transform: rotate(-45deg);
+            width: 140%;
+            height: 140%;
+            left: -12px;
+            top: -12px;
+
+            .tier {
+                height: 100%;
+                width: 33.3333333333%;
+                float: left;
+            }
+        }
+
+        .ticks {
+            position: absolute;
+            right: 28px;
+            top: 2px;
+
+            .tick {
+                width: 5px;
+                box-shadow: -4px 7px 47px -6px rgba(0, 0, 0, 0.53);
+            }
+
+            .tick1 {
+                position: relative;
+            }
+
+            .tick2 {
+                position: absolute;
+                top: 5px;
+                left: 6px;
+            }
+
+            .tick3 {
+                position: absolute;
+                top: 10px;
+                left: 12px;
+            }
+
+            &.show2 {
+                .tick1 {
+                    opacity: 0;
+                }
+            }
+
+            &.show1 {
+                .tick1,
+                .tick3 {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    .item,
+    .power {
+        position: relative;
+        width: 70px;
+        cursor: pointer;
+    }
+    .power {
+        .foreground,
+        .background {
+            opacity: 0.4;
+        }
+        cursor: auto;
+    }
+    .addon {
+        width: 66px;
+    }
+
+    .addon,
+    .item {
+        position: relative;
+        cursor: pointer;
+
+        &.selected .select {
+            opacity: 1;
+        }
+
+        .select {
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            left: 0;
+        }
+
+        &:hover .hover {
+            img {
+                opacity: 1;
+            }
+
+            .top {
+                transform: translateX(-50%) scale(1);
+            }
+
+            .bottom {
+                transform: translateX(-50%) scale(1);
+            }
+
+            .left {
+                transform: translateY(-50%) scale(1) rotate(90deg);
+            }
+
+            .right {
+                transform: translateY(-50%) scale(1) rotate(90deg);
+            }
+        }
+
+        .hover {
+            position: absolute;
+            top: 0px;
+            left: 1px;
+            width: 95%;
+            height: 96%;
+
+            img {
+                opacity: 0;
+                position: absolute;
+                transition: transform 0.1s ease-in;
+            }
+
+            .top {
+                top: 0;
+                left: 50%;
+                transform: scale(0.2) translateX(-239%);
+            }
+
+            .bottom {
+                bottom: 0;
+                left: 50%;
+                transform: scale(0.2) translateX(-239%);
+            }
+
+            .left {
+                left: -50%;
+                top: 50%;
+                transform: scale(0.2) translateY(-50%) rotate(90deg);
+            }
+
+            .right {
+                top: 50%;
+                right: -50%;
+                transform: scale(0.2) translateY(-50%) rotate(90deg);
+            }
+        }
+
+        .hitbox {
+            position: absolute;
+            z-index: 3;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
+
+    .offering {
+        position: relative;
+        width: 70px;
+        cursor: pointer;
+
+        &.selected .select {
+            opacity: 1;
+        }
+
+        .select {
+            position: absolute;
+            opacity: 0;
+            width: 64px;
+            left: 3px;
+            top: -1px;
+        }
+
+        &:hover .hover {
+            > div {
+                opacity: 1;
+            }
+
+            .top-left {
+                transform: scale(1) rotate(32deg);
+                right: -9%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: -1%;
+            }
+
+            .right {
+                transform: scale(1) rotate(90deg) translateX(50%);
+                right: -37%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 24%;
+            }
+
+            .left {
+                transform: scale(1) rotate(90deg) translateX(50%);
+                left: -1%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 24%;
+            }
+
+            .bottom-right {
+                transform: scale(1) rotate(32deg);
+                left: 11%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 69%;
+            }
+        }
+
+        .hover {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            > div {
+                opacity: 0;
+                position: absolute;
+            }
+
+            .top-left {
+                transform: scale(0.2) rotate(32deg);
+                right: -2%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 9%;
+                transition: transform 0.1s ease-in;
+            }
+
+            .right {
+                transform: scale(0.2) rotate(90deg) translateX(50%);
+                right: -22%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 43%;
+                transition: transform 0.1s ease-in, left 0.1s ease-in,
+                    right 0.1s ease-in;
+            }
+
+            .left {
+                transform: rotate(90deg) translateX(50%) scale(0.2);
+                left: -15%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 25%;
+                transition: transform 0.1s ease-in, left 0.1s ease-in,
+                    right 0.1s ease-in;
+            }
+
+            .bottom-right {
+                transform: scale(0.2) rotate(32deg);
+                left: 4%;
+                position: absolute;
+                width: 50%;
+                height: 0%;
+                top: 80%;
+                transition: transform 0.1s ease-in;
+            }
+        }
+
+        .hitbox {
+            position: absolute;
+            z-index: 3;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            cursor: pointer;
+        }
+    }
+}

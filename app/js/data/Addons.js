@@ -1419,8 +1419,8 @@ export const KillerAddons = {
         flavor: '"The iridescent glass cuts through flesh and soul."',
         image: 'iridescentHead'
     },
-    VEGETABLE_OIL: {
-        index: 'VEGETABLE_OIL',
+    VEGETABLE_OIL_C: {
+        index: 'VEGETABLE_OIL_C',
         name: 'Vegetable Oil',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
@@ -1428,8 +1428,8 @@ export const KillerAddons = {
             "A rancid oil used as a poor quality lubricant.\nSlightly decrease the Chainsaw's cooldown.",
         image: 'vegetableOil'
     },
-    SPARK_PLUG: {
-        index: 'SPARK_PLUG',
+    SPARK_PLUG_C: {
+        index: 'SPARK_PLUG_C',
         name: 'Spark Plug',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
@@ -1437,8 +1437,8 @@ export const KillerAddons = {
             "A clean spark plug fitted for a Chainsaw.\nSlightly decreases the Chainsaw's charge time.",
         image: 'sparkPlug'
     },
-    CHAINSAW_FILE: {
-        index: 'CHAINSAW_FILE',
+    CHAINSAW_FILE_C: {
+        index: 'CHAINSAW_FILE_C',
         name: 'Chainsaw File',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
@@ -1446,8 +1446,8 @@ export const KillerAddons = {
             'A file whose purpose is to hone Chainsaw chains.\nSlightly reduces the noise made by the Chainsaw.',
         image: 'chainsawFile'
     },
-    SPEED_LIMITER: {
-        index: 'SPEED_LIMITER',
+    SPEED_LIMITER_C: {
+        index: 'SPEED_LIMITER_C',
         name: 'Speed Limiter',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1455,8 +1455,8 @@ export const KillerAddons = {
             'A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\nChainsaw does not automatically trigger dying state.\nGet 50% more Bloodpoints for Chainsaw score events in the Deviousness category.',
         image: 'speedLimiter'
     },
-    SHOP_LUBRICANT: {
-        index: 'SHOP_LUBRICANT',
+    SHOP_LUBRICANT_C: {
+        index: 'SHOP_LUBRICANT_C',
         name: 'Shop Lubricant',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1464,8 +1464,8 @@ export const KillerAddons = {
             "An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.\nModerately decreases the Chainsaw's cooldown.",
         image: 'shopLubricant'
     },
-    PRIMER_BULB: {
-        index: 'PRIMER_BULB',
+    PRIMER_BULB_C: {
+        index: 'PRIMER_BULB_C',
         name: 'Primer Bulb',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1473,8 +1473,8 @@ export const KillerAddons = {
             "Pumps more gas in the ignition system to ensure a quick and powerful start.\nModerately decreases the Chainsaw's charge time.",
         image: 'primerBulb'
     },
-    LONG_GUIDE_BAR: {
-        index: 'LONG_GUIDE_BAR',
+    LONG_GUIDE_BAR_C: {
+        index: 'LONG_GUIDE_BAR_C',
         name: 'Long Guide Bar',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1491,8 +1491,8 @@ export const KillerAddons = {
             "Scratches cover the Chainsaw's body, caused by a searing blade. Memories of reprimands fill its holder with the fear of failure.\nSlightly increases the Chainsaw movement speed.\nSlightly increases the Chainsaw's charge time.",
         image: 'knifeScratches'
     },
-    HOMEMADE_MUFFLER: {
-        index: 'HOMEMADE_MUFFLER',
+    HOMEMADE_MUFFLER_C: {
+        index: 'HOMEMADE_MUFFLER_C',
         name: 'Homemade Muffler',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1500,8 +1500,8 @@ export const KillerAddons = {
             'A makeshift exhaust system made of black gas pipes.\nModerately reduces the noise made by the Chainsaw.',
         image: 'homemadeMuffler'
     },
-    GRISLY_CHAINS: {
-        index: 'GRISLY_CHAINS',
+    GRISLY_CHAINS_C: {
+        index: 'GRISLY_CHAINS_C',
         name: 'Grisly Chains',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1509,8 +1509,8 @@ export const KillerAddons = {
             'A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.\nModerately decreases the repair speed of survivors injured by the Chainsaw.',
         image: 'chainsGrisly'
     },
-    DEPTH_GUAGE_RAKE: {
-        index: 'DEPTH_GUAGE_RAKE',
+    DEPTH_GUAGE_RAKE_C: {
+        index: 'DEPTH_GUAGE_RAKE_C',
         name: 'Depth Gauge Rake',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
@@ -1546,8 +1546,8 @@ export const KillerAddons = {
             "Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog. Memories of violent reprimands fill its holder with the fear of failure.\nModerately increases the Chainsaw movement speed.\nSlightly increases the Chainsaw's charge time.",
         image: 'theBeastsMark'
     },
-    RUSTED_CHAINS: {
-        index: 'RUSTED_CHAINS',
+    RUSTED_CHAINS_C: {
+        index: 'RUSTED_CHAINS_C',
         name: 'Rusted Chains',
         owner: 'CANNIBAL',
         rarity: 'RARE',
@@ -1555,8 +1555,8 @@ export const KillerAddons = {
             'This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nConsiderably increases the healing time of survivors injured by the Chainsaw.',
         image: 'chainsRusted'
     },
-    LIGHT_CHASSIS: {
-        index: 'LIGHT_CHASSIS',
+    LIGHT_CHASSIS_C: {
+        index: 'LIGHT_CHASSIS_C',
         name: 'Light Chassis',
         owner: 'CANNIBAL',
         rarity: 'RARE',
@@ -1564,8 +1564,8 @@ export const KillerAddons = {
             'A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.\nSlightly reduces the reach of the Chainsaw attack.\nConsiderably reduces the time penalty when bumping into objects.',
         image: 'lightChassis'
     },
-    CARBURETOR_TUNING_GUIDE: {
-        index: 'CARBURETOR_TUNING_GUIDE',
+    CARBURETOR_TUNING_GUIDE_C: {
+        index: 'CARBURETOR_TUNING_GUIDE_C',
         name: 'Carburetor Tuning Guide',
         owner: 'CANNIBAL',
         rarity: 'RARE',
@@ -1573,8 +1573,8 @@ export const KillerAddons = {
             "A crudely drawn guide to properly adjust and tune a Chainsaw carburetor.\nModerately decreases the Chainsaw's charge time.\nSlightly decreases the Chainsaw's cooldown.\nSlightly reduces the time penalty when bumping into objects.\nSlightly reduces the noise made by the Chainsaw.",
         image: 'carburetorTuningGuide'
     },
-    BEGRIMED_CHAINS: {
-        index: 'BEGRIMED_CHAINS',
+    BEGRIMED_CHAINS_C: {
+        index: 'BEGRIMED_CHAINS_C',
         name: 'Begrimed Chains',
         owner: 'CANNIBAL',
         rarity: 'VERY_RARE',

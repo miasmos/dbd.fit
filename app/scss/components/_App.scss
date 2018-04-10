@@ -3,4 +3,9 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 120%;
+
+    > div {
+        width: inherit;
+        height: inherit;
+    }
 }

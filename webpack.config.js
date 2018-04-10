@@ -23,6 +23,7 @@ module.exports = {
         extensions: ['.js', '.jsx']
     },
     module: {
+        strictExportPresence: true,
         loaders: [
             {
                 test: /\.js|.jsx$/,
@@ -30,7 +31,11 @@ module.exports = {
                 include: [path.resolve(__dirname, 'app')],
                 loader: 'babel-loader',
                 query: {
-                    presets: ['react', 'es2015', 'stage-0']
+                    presets: ['react', 'es2015', 'stage-0'],
+                    plugins: [
+                        require('babel-plugin-transform-decorators-legacy')
+                            .default
+                    ]
                 }
             },
             {

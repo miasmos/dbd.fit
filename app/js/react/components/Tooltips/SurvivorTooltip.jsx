@@ -1,35 +1,26 @@
 import React from 'react';
 import { BoldSpan } from '../HTMLPartials';
-import { SurvivorPerkFactory, PowerFactory } from '../../../factories';
 import { TextInterpolator } from '../../TextInterpolator';
 
-const Perk = ({ perkKey, comma = false }) => {
-    const perk = SurvivorPerkFactory.get(perkKey);
-    return <BoldSpan text={perk.name} comma={comma} />;
-};
-
 export const SurvivorTooltip = ({ survivor }) => {
-    const perks = survivor.perks.map((value, index) => (
-        <Perk
-            key={index}
-            comma={index !== survivor.perks.length - 1}
-            perkKey={value}
-        />
-    ));
+    const perks = survivor.perks.map((perk, index) => {
+        const isLastPerk = index === survivor.perks.length - 1;
+        return <BoldSpan key={index} comma={!isLastPerk} text={perk.name} />;
+    });
 
     return (
         <div className="tooltip tooltip-detailed">
-            <div className="banner">
+            <div className="tooltip-banner">
                 <h2>{survivor.name}</h2>
             </div>
-            <div className="body">
-                <div className="text">
-                    {survivor.power}
+            <div className="tooltip-body">
+                <div className="tooltip-text">
+                    {survivor.description}
                     <ul>
                         <li>Teachable Perks: {perks}</li>
                     </ul>
                 </div>
-                <div className="background" />
+                <div className="tooltip-background" />
             </div>
         </div>
     );

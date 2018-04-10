@@ -14,7 +14,7 @@ export const Powers = {
         owner: 'TRAPPER',
         description:
             'A large foothold trap made of steel. Traps are found laying around the area to be picked up and set anywhere.',
-        abilities: ['%bImmobilizes and injures%b trapped victim.'],
+        abilities: ['%bImmobilizes and injures%b trapped victims.'],
         image: 'trap'
     },
     WAILING_BELL: {
@@ -53,7 +53,7 @@ export const Powers = {
             'Charge throw for maximum throwing speed.',
             'Refill Hatchets at %bLockers%b.'
         ],
-        image: 'huntingHatches'
+        image: 'huntingHatchets'
     },
     EVIL_WITHIN: {
         index: 'EVIL_WITHIN',

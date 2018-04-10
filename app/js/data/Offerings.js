@@ -348,7 +348,7 @@ export const SharedOfferings = {
         name: 'White Ward',
         rarity: 'VERY_RARE',
         description:
-            'Burning this offering grants you protection against the loss of your Item IconHelp items.png and Add-ons in the event you die.',
+            'Burning this offering grants you protection against the loss of your Item and Add-ons in the event you die.',
         flavor: '"Keep me from evil, defend me, and pass away."',
         image: 'wardWhite'
     }
@@ -492,7 +492,7 @@ export const SurvivorOfferings = {
         rarity: 'UNCOMMON',
         description: 'Grants %b100%%b bonus Bloodpoints in all Categories.',
         flavor: '"This picture of a cake sure is real."',
-        image: ''
+        image: 'escapeCake'
     },
     CHALK_POUCH: {
         index: 'CHALK_POUCH',
@@ -501,7 +501,7 @@ export const SurvivorOfferings = {
         description: 'Slightly increases Luck.',
         flavor:
             '"A small cotton pouch filled with white chalky powder of unknown origin. Some believe it brings good fortune."',
-        image: 'escapeCake'
+        image: 'chalkPouch'
     },
     CREAM_CHALK_POUCH: {
         index: 'CREAM_CHALK_POUCH',
@@ -510,7 +510,7 @@ export const SurvivorOfferings = {
         description: 'Moderately increases Luck.',
         flavor:
             '"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin. Releases a faint herbal aroma. Some believe it brings good fortune."',
-        image: ''
+        image: 'creamChalkPouch'
     },
     IVORY_CHALK_POUCH: {
         index: 'IVORY_CHALK_POUCH',
@@ -519,7 +519,7 @@ export const SurvivorOfferings = {
         description: 'Considerably increases Luck.',
         flavor:
             '"A small leather pouch displaying a straight white line hand-sewn on one of its sides. The bag is filled with an ivory chalky powder that shines under the moonlight. Some believe it brings good fortune."',
-        image: 'creamChalkPouch'
+        image: 'ivoryChalkPouch'
     },
     SALT_POUCH: {
         index: 'SALT_POUCH',
@@ -553,7 +553,7 @@ export const SurvivorOfferings = {
         rarity: 'VERY_RARE',
         description: 'Calls on the Entity to create 2 more Chests.',
         flavor: '"A clean and polished piece of gold."',
-        image: ''
+        image: 'shinyCoin'
     },
     PETRIFIED_OAK: {
         index: 'PETRIFIED_OAK',
@@ -561,7 +561,7 @@ export const SurvivorOfferings = {
         rarity: 'VERY_RARE',
         description: 'Calms The Entity and prevents 1 Hook from appearing.',
         flavor: '"A deteriorating piece of petrified wood."',
-        image: 'shinyCoin'
+        image: 'petrifiedOak'
     },
     SHROUD_OF_UNION: {
         index: 'SHROUD_OF_UNION',
@@ -628,7 +628,7 @@ export const KillerOfferings = {
             'Grants 50% bonus Bloodpoints in the Deviousness Category.',
         flavor:
             '"Devoutly crafted out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
-        image: ''
+        image: 'devoutRavenWreath'
     },
     ARDENT_RAVEN_WREATH: {
         index: 'ARDENT_RAVEN_WREATH',
@@ -638,7 +638,7 @@ export const KillerOfferings = {
             'Grants 75% bonus Bloodpoints in the Deviousness Category.',
         flavor:
             '"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
-        image: 'devoutRavenWreath'
+        image: 'ardentRavenWreath'
     },
     SPOTTED_OWL_WREATH: {
         index: 'SPOTTED_OWL_WREATH',

@@ -1,27 +1,33 @@
-import { Rarities, Types } from '../data';
+import { Rarities, Types, ModifierTypes, ItemTypes } from '../data';
 import { Model } from './Model';
 import { KillerFactory, SurvivorFactory } from '../factories';
 
 export class Addon extends Model {
-    constructor({ index, name, rarity, description, image, owner }) {
+    constructor({ index, name, rarity, description, image, owner, type } = {}) {
         super({
             index,
             name,
             rarity,
             description,
             image,
-            owner
+            owner,
+            type
         });
         this.index = index;
         this.name = name;
         this.description = description;
-        this.image = `images/addons/${image}.png`;
+        this.image = image;
         this.rarity = Rarities[rarity];
+        this.owner;
+        this.type = !!type ? ItemTypes[type] : ItemTypes.EMPTY;
+        this.modifierType = ModifierTypes.ADDON;
     }
 
     initialize() {
-        this._setOwner(this.data.owner);
-        super.initialize();
+        if (!this.empty) {
+            this._setOwner(this.data.owner);
+            super.initialize();
+        }
     }
 
     _setOwner(owner) {

@@ -1,20 +1,24 @@
-import { Rarities, Types } from '../data';
+import { Rarities, Types, ModifierTypes } from '../data';
 import { KillerFactory, SurvivorFactory } from '../factories';
 import { Model } from './Model';
 
 export class Power extends Model {
-    constructor({ index, name, owner, description, abilities, image }) {
+    constructor({ index, name, owner, description, abilities, image } = {}) {
         super({ index, name, owner, description, abilities, image });
         this.index = index;
         this.name = name;
-        this.image = `images/powers/${image}.png`;
+        this.image = image;
         this.description = description;
         this.abilities = abilities;
+        this.modifierType = ModifierTypes.POWER;
+        this.owner;
     }
 
     initialize() {
-        this._setOwner(this.data.owner);
-        super.initialize();
+        if (!this.empty) {
+            this._setOwner(this.data.owner);
+            super.initialize();
+        }
     }
 
     _setOwner(owner) {

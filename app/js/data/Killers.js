@@ -61,7 +61,6 @@ export const Killers = {
             'A haunting Killer, intent on monitoring Survivors from a distance to feed his power, %bEvil Within%b. The more he stalks, the stronger and faster he becomes.'
         ],
         perks: ['SAVE_THE_BEST_FOR_LAST', 'PLAY_WITH_YOUR_FOOD', 'DYING_LIGHT'],
-        effects: [],
         image: 'SH'
     },
     HAG: {

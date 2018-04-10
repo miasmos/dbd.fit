@@ -1,19 +1,23 @@
 .show {
-	opacity: 1 !important;
-	z-index: 2;
-	display: block !important;
-	pointer-events: auto !important;
+    opacity: 1 !important;
+    z-index: 2;
+    display: block !important;
+    pointer-events: auto !important;
 }
 
 .hide {
-	opacity: 0;
-	pointer-events: none;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .hide-block {
-	display: none;
+    display: none;
 }
 
 .font-regular-bold {
-	@include regular-bold();
+    @include regular-bold();
+}
+
+.notransition {
+    transition: none !important;
 }

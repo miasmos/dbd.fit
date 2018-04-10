@@ -1,31 +1,36 @@
 import React from 'react';
 import { Tooltip } from './Tooltips';
+import { Types } from '../../data';
+import { i18n } from '../../i18n';
 import { Link } from 'react-router-dom';
 
-export const TypeSelector = ({
-    entered,
-    typeSelected,
-    onKillerSelected,
-    onSurvivorSelected
-}) => (
-    <div className="type-selector">
-        <Link to="/survivor">
-            <div
-                className="selection tooltip-activator"
-                onClick={onSurvivorSelected}
-            >
-                <img src="../images/IconHelpLoading_survivor.png" />
-                <Tooltip body="Play as survivor" />
+export class TypeSelector extends React.Component {
+    render() {
+        return (
+            <div className="type-selector">
+                <Link
+                    to="/survivors"
+                    onClick={this.setType.bind(this, Types.SURVIVOR)}
+                >
+                    <div className="selection tooltip-activator">
+                        <img src="images/help/survivor.png" />
+                        <Tooltip body={i18n.text.playAsSurvivor} />
+                    </div>
+                </Link>
+                <Link
+                    to="/killers"
+                    onClick={this.setType.bind(this, Types.KILLER)}
+                >
+                    <div className="selection tooltip-activator">
+                        <img src="images/help/killer.png" />
+                        <Tooltip body={i18n.text.playAsKiller} />
+                    </div>
+                </Link>
             </div>
-        </Link>
-        <Link to="/killer">
-            <div
-                className="selection tooltip-activator"
-                onClick={onKillerSelected}
-            >
-                <img src="../images/IconHelpLoading_killer.png" />
-                <Tooltip body="Play as killer" />
-            </div>
-        </Link>
-    </div>
-);
+        );
+    }
+
+    setType(type) {
+        this.props.store.setType(type);
+    }
+}

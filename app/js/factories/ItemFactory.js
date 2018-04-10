@@ -1,10 +1,10 @@
 import { Items } from '../data';
-import { Item } from '../models';
+import { Item } from '../models/Item';
 import { ModelFactory } from './base';
 
 class ItemFactoryClass extends ModelFactory {
     constructor(items) {
-        super(Item, items);
+        super(Item, Items);
     }
 }
 

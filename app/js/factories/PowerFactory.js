@@ -1,6 +1,6 @@
 import { Powers } from '../data';
 import { ModelFactory } from './base';
-import { Power } from '../models';
+import { Power } from '../models/Power';
 
 class PowerFactoryClass extends ModelFactory {
     constructor() {

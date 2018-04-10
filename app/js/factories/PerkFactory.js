@@ -1,5 +1,5 @@
 import { KillerPerks, SurvivorPerks } from '../data';
-import { Perk } from '../models';
+import { Perk } from '../models/Perk';
 import { ModelFactory } from './base';
 
 class PerkFactoryClass extends ModelFactory {

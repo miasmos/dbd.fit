@@ -1,27 +1,40 @@
 export const Amounts = {
-    SLIGHTLY: 0,
-    MODERATELY: 1,
-    CONSIDERABLY: 2,
-    TREMENDOUSLY: 3
+    SLIGHTLY: 1,
+    MODERATELY: 2,
+    CONSIDERABLY: 3,
+    TREMENDOUSLY: 4
 };
 
 export const Types = {
-    SURVIVOR: 0,
-    KILLER: 1
+    SURVIVOR: 1,
+    KILLER: 2
 };
 
 export const Rarities = {
-    COMMON: 'Common',
-    UNCOMMON: 'Uncommon',
-    RARE: 'Rare',
-    VERY_RARE: 'Very rare',
-    ULTRA_RARE: 'Ultra rare'
+    COMMON: 1,
+    UNCOMMON: 2,
+    RARE: 3,
+    VERY_RARE: 4,
+    ULTRA_RARE: 5
 };
 
-const ItemTypes = {
-    FLASHLIGHT: 0,
-    KEY: 1,
-    MAP: 2,
-    AID_KIT: 3,
-    TOOLBOX: 4
+export const ItemTypes = {
+    EMPTY: 0,
+    FLASHLIGHT: 1,
+    KEY: 2,
+    MAP: 3,
+    AID_KIT: 4,
+    TOOLBOX: 5
+};
+
+export const ModifierTypes = {
+    POWER: 1,
+    ITEM: 2,
+    ADDON: 3,
+    OFFERING: 4,
+    PERK: 5
+};
+
+export const Languages = {
+    EN: 'EN'
 };
