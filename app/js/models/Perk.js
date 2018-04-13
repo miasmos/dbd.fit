@@ -15,7 +15,8 @@ export class Perk extends Model {
         description,
         flavor,
         image,
-        tiers
+        tiers,
+        id
     } = {}) {
         super({
             index,
@@ -25,8 +26,10 @@ export class Perk extends Model {
             description,
             flavor,
             image,
-            tiers
+            tiers,
+            id
         });
+        this.id = id;
         this.index = index;
         this.name = name;
         this.flavor = flavor;
@@ -50,7 +53,13 @@ export class Perk extends Model {
     }
 
     setTier(tier) {
-        if (this.empty || this.frozen || tier < 0 || tier > 3) {
+        if (
+            this.empty ||
+            this.frozen ||
+            typeof tier !== 'number' ||
+            tier < 0 ||
+            tier > 3
+        ) {
             return;
         }
         this.tier = tier;

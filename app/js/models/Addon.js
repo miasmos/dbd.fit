@@ -3,7 +3,16 @@ import { Model } from './Model';
 import { KillerFactory, SurvivorFactory } from '../factories';
 
 export class Addon extends Model {
-    constructor({ index, name, rarity, description, image, owner, type } = {}) {
+    constructor({
+        index,
+        name,
+        rarity,
+        description,
+        image,
+        owner,
+        type,
+        id
+    } = {}) {
         super({
             index,
             name,
@@ -11,8 +20,10 @@ export class Addon extends Model {
             description,
             image,
             owner,
-            type
+            type,
+            id
         });
+        this.id = id;
         this.index = index;
         this.name = name;
         this.description = description;

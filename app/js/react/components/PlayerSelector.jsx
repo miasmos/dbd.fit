@@ -26,7 +26,7 @@ class PlayerSelector extends React.Component {
 
         const players = data.map((player, index) => (
             <Link
-                to="/loadout"
+                to="/build/loadout"
                 className="player tooltip-activator"
                 key={index}
                 onClick={setPlayer.bind(this, player)}

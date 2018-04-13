@@ -23,3 +23,11 @@ class KillerFactoryClass extends PlayerFactoryClass {
 }
 
 export const KillerFactory = new KillerFactoryClass();
+
+class AllPlayerFactoryClass extends PlayerFactoryClass {
+    constructor() {
+        super(Object.assign({}, Killers, Survivors));
+    }
+}
+
+export const AllPlayerFactory = new AllPlayerFactoryClass();

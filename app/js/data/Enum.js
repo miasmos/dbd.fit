@@ -19,12 +19,12 @@ export const Rarities = {
 };
 
 export const ItemTypes = {
-    EMPTY: 0,
-    FLASHLIGHT: 1,
-    KEY: 2,
-    MAP: 3,
-    AID_KIT: 4,
-    TOOLBOX: 5
+    EMPTY: 'EMPTY',
+    FLASHLIGHT: 'FLASHLIGHT',
+    KEY: 'KEY',
+    MAP: 'MAP',
+    AID_KIT: 'AID_KIT',
+    TOOLBOX: 'TOOLBOX'
 };
 
 export const ModifierTypes = {

@@ -5,9 +5,10 @@ import { Store } from '../Store';
 import { TypeSelector } from './TypeSelector';
 import PlayerSelector from './PlayerSelector';
 import { Intro } from './Intro';
+import { Initializer } from './Initializer';
 import LoadoutSelector from './LoadoutSelector';
 
-const AppComponent = ({ location }) => {
+const AppComponent = ({ location, history }) => {
     const key = location.pathname.split('/')[1] || '/';
     const timeout = { enter: 2000, exit: 1000 };
 
@@ -27,21 +28,32 @@ const AppComponent = ({ location }) => {
                             component={() => <Intro store={Store} />}
                         />
                         <Route
-                            path="/type"
+                            path="/build/type"
                             component={() => <TypeSelector store={Store} />}
                         />
                         <Route
-                            path="/survivors"
+                            path="/build/survivors"
                             component={() => <PlayerSelector store={Store} />}
                         />
                         <Route
-                            path="/killers"
+                            path="/build/killers"
                             component={() => <PlayerSelector store={Store} />}
                         />
                         <Route
-                            path="/loadout"
+                            path="/build/loadout"
                             component={() => <LoadoutSelector store={Store} />}
                         />
+                        <Route
+                            path="/:hash"
+                            component={({ match }) => (
+                                <Initializer
+                                    store={Store}
+                                    match={match}
+                                    history={history}
+                                />
+                            )}
+                        />
+                        <Route component={() => <Intro store={Store} />} />
                     </Switch>
                 </CSSTransition>
             </TransitionGroup>

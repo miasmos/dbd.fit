@@ -1,5 +1,6 @@
 export const Powers = {
     SPENCERS_LAST_BREATH: {
+        id: 1,
         index: 'SPENCERS_LAST_BREATH',
         name: "Spencer's Last Breath",
         owner: 'NURSE',
@@ -9,6 +10,7 @@ export const Powers = {
         image: 'breath'
     },
     BEAR_TRAP: {
+        id: 2,
         index: 'BEAR_TRAP',
         name: 'Bear Trap',
         owner: 'TRAPPER',
@@ -18,6 +20,7 @@ export const Powers = {
         image: 'trap'
     },
     WAILING_BELL: {
+        id: 3,
         index: 'WAILING_BELL',
         name: 'Wailing Bell',
         owner: 'WRAITH',
@@ -31,6 +34,7 @@ export const Powers = {
         image: 'bell'
     },
     CHAINSAW: {
+        id: 4,
         index: 'CHAINSAW',
         name: 'Chainsaw',
         owner: 'HILLBILLY',
@@ -43,6 +47,7 @@ export const Powers = {
         image: 'chainsaw'
     },
     HUNTING_HATCHETS: {
+        id: 5,
         index: 'HUNTING_HATCHETS',
         name: 'Hunting Hatchets',
         owner: 'HUNTRESS',
@@ -56,6 +61,7 @@ export const Powers = {
         image: 'huntingHatchets'
     },
     EVIL_WITHIN: {
+        id: 6,
         index: 'EVIL_WITHIN',
         name: 'Evil Within',
         owner: 'SHAPE',
@@ -71,6 +77,7 @@ export const Powers = {
         image: 'stalker1'
     },
     BLACKENED_CATALYST: {
+        id: 7,
         index: 'BLACKENED_CATALYST',
         name: 'Blackened Catalyst',
         owner: 'HAG',
@@ -83,6 +90,7 @@ export const Powers = {
         image: 'blackenedCatalyst'
     },
     BUBBAS_CHAINSAW: {
+        id: 8,
         index: 'BUBBAS_CHAINSAW',
         name: "Bubba's Chainsaw",
         owner: 'CANNIBAL',
@@ -97,6 +105,7 @@ export const Powers = {
         image: 'bubbasChainsaw'
     },
     CARTERS_SPARK: {
+        id: 9,
         index: 'CARTERS_SPARK',
         name: "Carter's Spark",
         owner: 'DOCTOR',
@@ -114,6 +123,7 @@ export const Powers = {
         image: 'cartersSpark'
     },
     DREAM_DEMON: {
+        id: 10,
         index: 'DREAM_DEMON',
         name: 'Dream Demon',
         owner: 'NIGHTMARE',
@@ -134,6 +144,7 @@ export const Powers = {
         image: 'dreamMaster'
     },
     JIGSAWS_BAPTISM: {
+        id: 11,
         index: 'JIGSAWS_BAPTISM',
         name: "Jigsaw's Baptism",
         owner: 'PIG',

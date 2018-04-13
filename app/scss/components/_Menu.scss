@@ -1,0 +1,26 @@
+.menu {
+    @include vcenter();
+    left: -110px;
+    z-index: 200;
+}
+
+.icon {
+    cursor: pointer;
+
+    .icon-foreground {
+        margin-top: -2px;
+        @include center();
+    }
+
+    .icon-background {
+        width: 70px;
+    }
+}
+
+.icon.disabled {
+    opacity: 0.2;
+}
+
+.icon-save .icon-foreground {
+    width: 28px;
+}

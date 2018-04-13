@@ -40,3 +40,11 @@ class SurvivorAddonFactoryClass extends AddonFactoryClass {
 }
 
 export const SurvivorAddonFactory = new SurvivorAddonFactoryClass();
+
+class AllAddonFactoryClass extends AddonFactoryClass {
+    constructor() {
+        super(Object.assign({}, SurvivorAddons, KillerAddons));
+    }
+}
+
+export const AllAddonFactory = new AllAddonFactoryClass();

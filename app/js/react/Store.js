@@ -20,10 +20,14 @@ export const Store = observable({
     context: ModifierTypes.PERK,
     title: 'Loadout',
     target: 0,
+    valid: false,
     page: 0
 });
 
 Store.setPlayer = player => {
+    if (typeof player === 'string' || typeof player === 'undefined') {
+        player = Factories.AllPlayerFactory.get(player);
+    }
     if (player.type === Types.KILLER) {
         Store.setPower(player.power);
     }
@@ -42,41 +46,53 @@ Store.setPerk = (index, _perk) => {
     }
 
     let perk;
-
-    switch (_perk.type) {
-        case Types.KILLER:
-            perk = Factories.KillerPerkFactory.get(_perk.index, true);
-            break;
-        case Types.SURVIVOR:
-            perk = Factories.SurvivorPerkFactory.get(_perk.index, true);
-            break;
-        default:
-            Store.log(`Tried to set an invalid perk: ${perk}`);
+    if (typeof _perk === 'string') {
+        perk = Factories.AllPerkFactory.get(_perk);
+    } else {
+        perk = Factories.AllPerkFactory.get(_perk.index);
+        perk.setTier(_perk.tier);
+        _perk.setTier(3);
     }
 
-    perk.setTier(_perk.tier);
     perk.freeze();
-    _perk.setTier(3);
     Store.perks[index] = perk;
+    Store.setValidity(true);
     Store.log('setPerk', index, toJS(Store.perks[index]));
 };
 
 Store.setOffering = offering => {
+    if (typeof offering === 'string' || typeof offering === 'undefined') {
+        offering = Factories.AllOfferingFactory.get(offering);
+    }
     Store.offering = offering;
+    Store.setValidity(true);
     Store.log('setOffering', Store.offering);
 };
 
 Store.setPower = power => {
+    if (typeof power === 'string') {
+        power =
+            Store.type === Types.KILLER
+                ? Factories.PowerFactory.get(power)
+                : Factories.ItemFactory.get(power);
+    }
     Store.power = power;
+    if (Store.type === Types.SURVIVOR) {
+        Store.setValidity(true);
+    }
     Store.log('setPower', Store.power);
 };
 
 Store.setAddon = (index, addon) => {
+    if (typeof addon === 'string' || typeof addon === 'undefined') {
+        addon = Factories.AllAddonFactory.get(addon);
+    }
     if (index > 1 || index < 0 || Store.hasAddon(addon)) {
         return;
     }
     Store.addons[index] = addon;
-    Store.log('setAddon', index, Store.addons[addon]);
+    Store.setValidity(true);
+    Store.log('setAddon', index, Store.addons[index]);
 };
 
 Store.setPage = page => {
@@ -183,6 +199,11 @@ Store.hasAddon = addon => {
             return !!value && value.index === addon.index;
         }).length > 0
     );
+};
+
+Store.setValidity = validity => {
+    Store.valid = validity;
+    Store.log('setValidity', Store.valid);
 };
 
 Store.log = (...params) => {

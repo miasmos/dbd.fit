@@ -7,6 +7,7 @@ import { Addon, Item, Offering, Perk, Inventory, Power } from './Loadout';
 import { TitleEditor } from './TitleEditor';
 import { i18n } from '../../i18n';
 import { EnumToString } from '../EnumToString';
+import { Menu } from './Menu/Menu';
 
 @observer
 class LoadoutSelector extends React.Component {
@@ -87,6 +88,7 @@ class LoadoutSelector extends React.Component {
 
         return (
             <div className="loadout">
+                <Menu store={this.props.store} />
                 <div className="container-top">
                     <TitleEditor store={this.props.store} />
                     <div className="container-left">

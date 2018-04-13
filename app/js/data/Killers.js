@@ -1,5 +1,6 @@
 export const Killers = {
     TRAPPER: {
+        id: 1,
         index: 'TRAPPER',
         name: 'The Trapper',
         power: 'BEAR_TRAP',
@@ -10,6 +11,7 @@ export const Killers = {
         image: 'TR'
     },
     WRAITH: {
+        id: 2,
         index: 'WRAITH',
         name: 'The Wraith',
         power: 'WAILING_BELL',
@@ -20,6 +22,7 @@ export const Killers = {
         image: 'WR'
     },
     HILLBILLY: {
+        id: 3,
         index: 'HILLBILLY',
         name: 'The Hillbilly',
         power: 'CHAINSAW',
@@ -30,6 +33,7 @@ export const Killers = {
         image: 'HB'
     },
     NURSE: {
+        id: 4,
         index: 'NURSE',
         name: 'The Nurse',
         power: 'SPENCERS_LAST_BREATH',
@@ -40,6 +44,7 @@ export const Killers = {
         image: 'NR'
     },
     HUNTRESS: {
+        id: 5,
         index: 'HUNTRESS',
         name: 'The Huntress',
         power: 'HUNTING_HATCHETS',
@@ -54,6 +59,7 @@ export const Killers = {
         image: 'BE'
     },
     SHAPE: {
+        id: 6,
         index: 'SHAPE',
         name: 'The Shape',
         power: 'EVIL_WITHIN',
@@ -64,6 +70,7 @@ export const Killers = {
         image: 'SH'
     },
     HAG: {
+        id: 7,
         index: 'HAG',
         name: 'The Hag',
         power: 'BLACKENED_CATALYST',
@@ -74,6 +81,7 @@ export const Killers = {
         image: 'HA'
     },
     CANNIBAL: {
+        id: 8,
         index: 'CANNIBAL',
         name: 'The Cannibal',
         power: 'BUBBAS_CHAINSAW',
@@ -84,6 +92,7 @@ export const Killers = {
         image: 'CA'
     },
     DOCTOR: {
+        id: 9,
         index: 'DOCTOR',
         name: 'The Doctor',
         power: 'CARTERS_SPARK',
@@ -94,6 +103,7 @@ export const Killers = {
         image: 'DO'
     },
     NIGHTMARE: {
+        id: 10,
         index: 'NIGHTMARE',
         name: 'The Nightmare',
         power: 'DREAM_DEMON',
@@ -104,6 +114,7 @@ export const Killers = {
         image: 'SD'
     },
     PIG: {
+        id: 11,
         index: 'PIG',
         name: 'The Pig',
         power: 'JIGSAWS_BAPTISM',

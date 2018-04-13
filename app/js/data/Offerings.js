@@ -1,5 +1,6 @@
 export const SharedOfferings = {
     BLOODY_PARTY_STREAMERS: {
+        id: 1,
         index: 'BLOODY_PARTY_STREAMERS',
         name: 'Bloody Party Streamers',
         rarity: 'RARE',
@@ -10,6 +11,7 @@ export const SharedOfferings = {
         image: 'bloodyPartyStreamers'
     },
     CLEAR_REAGENT: {
+        id: 2,
         index: 'CLEAR_REAGENT',
         name: 'Clear Reagent',
         rarity: 'COMMON',
@@ -19,6 +21,7 @@ export const SharedOfferings = {
         image: 'clearReagent'
     },
     FAINT_REAGENT: {
+        id: 3,
         index: 'FAINT_REAGENT',
         name: 'Faint Reagent',
         rarity: 'COMMON',
@@ -27,6 +30,7 @@ export const SharedOfferings = {
         image: 'faintReagent'
     },
     HAZY_REAGENT: {
+        id: 4,
         index: 'HAZY_REAGENT',
         name: 'Hazy Reagent',
         rarity: 'UNCOMMON',
@@ -36,6 +40,7 @@ export const SharedOfferings = {
         image: 'hazyReagent'
     },
     MURKY_REAGENT: {
+        id: 5,
         index: 'MURKY_REAGENT',
         name: 'Murky Reagent',
         rarity: 'VERY_RARE',
@@ -45,6 +50,7 @@ export const SharedOfferings = {
         image: 'murkyReagent'
     },
     NEW_MOON_BOUQUET: {
+        id: 6,
         index: 'NEW_MOON_BOUQUET',
         name: 'New Moon Bouquet',
         rarity: 'ULTRA_RARE',
@@ -53,6 +59,7 @@ export const SharedOfferings = {
         image: 'newMoonBouquet'
     },
     CRESCENT_MOON_BOUQUET: {
+        id: 7,
         index: 'CRESCENT_MOON_BOUQUET',
         name: 'Crescent Moon Bouquet',
         rarity: 'UNCOMMON',
@@ -62,6 +69,7 @@ export const SharedOfferings = {
         image: 'crecentMoonBouquet'
     },
     QUARTER_MOON_BOUQUET: {
+        id: 8,
         index: 'QUARTER_MOON_BOUQUET',
         name: 'Quarter Moon Bouquet',
         rarity: 'UNCOMMON',
@@ -70,6 +78,7 @@ export const SharedOfferings = {
         image: 'quarterMoonBouquet'
     },
     FULL_MOON_BOUQUET: {
+        id: 9,
         index: 'FULL_MOON_BOUQUET',
         name: 'Full Moon Bouquet',
         rarity: 'VERY_RARE',
@@ -79,6 +88,7 @@ export const SharedOfferings = {
         image: 'fullMoonBouquet'
     },
     MACMILLAN_LEDGER_PAGE: {
+        id: 10,
         index: 'MACMILLAN_LEDGER_PAGE',
         name: 'MacMillan Ledger Page',
         rarity: 'COMMON',
@@ -89,6 +99,7 @@ export const SharedOfferings = {
         image: 'macmillianLedgerPage'
     },
     SIGNED_LEDGER_PAGE: {
+        id: 11,
         index: 'SIGNED_LEDGER_PAGE',
         name: 'Signed Ledger Page',
         rarity: 'UNCOMMON',
@@ -99,6 +110,7 @@ export const SharedOfferings = {
         image: 'signedLedgerPage'
     },
     MACMILLANS_PHALANX_BONE: {
+        id: 12,
         index: 'MACMILLANS_PHALANX_BONE',
         name: "MacMillan's Phalanx Bone",
         rarity: 'RARE',
@@ -109,6 +121,7 @@ export const SharedOfferings = {
         image: 'macmilliansPhalanxBone'
     },
     SHREDDED_PLATE: {
+        id: 13,
         index: 'SHREDDED_PLATE',
         name: 'Shredded Plate',
         rarity: 'COMMON',
@@ -118,6 +131,7 @@ export const SharedOfferings = {
         image: 'plateShredded'
     },
     VIRGINIA_PLATE: {
+        id: 14,
         index: 'VIRGINIA_PLATE',
         name: 'Virginia Plate',
         rarity: 'UNCOMMON',
@@ -127,6 +141,7 @@ export const SharedOfferings = {
         image: 'plateVirginia'
     },
     AZAROVS_KEY: {
+        id: 15,
         index: 'AZAROVS_KEY',
         name: "Azarov's Key",
         rarity: 'RARE',
@@ -137,6 +152,7 @@ export const SharedOfferings = {
         image: 'azarovsKey'
     },
     CATTLE_TAG_TWENTY_EIGHT: {
+        id: 16,
         index: 'CATTLE_TAG_TWENTY_EIGHT',
         name: 'Cattle Tag 28',
         rarity: 'COMMON',
@@ -147,6 +163,7 @@ export const SharedOfferings = {
         image: 'cattleTag28'
     },
     CATTLE_TAG_EIGHTY_ONE: {
+        id: 17,
         index: 'CATTLE_TAG_EIGHTY_ONE',
         name: 'Cattle Tag 81',
         rarity: 'UNCOMMON',
@@ -157,6 +174,7 @@ export const SharedOfferings = {
         image: 'cattleTag81'
     },
     HEART_LOCKET: {
+        id: 18,
         index: 'HEART_LOCKET',
         name: 'Heart Locket',
         rarity: 'RARE',
@@ -167,6 +185,7 @@ export const SharedOfferings = {
         image: 'heartLocket'
     },
     LUNACY_TICKET: {
+        id: 19,
         index: 'LUNACY_TICKET',
         name: 'Lunacy Ticket',
         rarity: 'COMMON',
@@ -177,6 +196,7 @@ export const SharedOfferings = {
         image: 'lunacyTicket'
     },
     P_ELLIOT_LUNACY_TICKET: {
+        id: 20,
         index: 'P_ELLIOT_LUNACY_TICKET',
         name: 'P. Elliott Lunacy Ticket',
         rarity: 'UNCOMMON',
@@ -187,6 +207,7 @@ export const SharedOfferings = {
         image: 'pElliottLunacyTicket'
     },
     CHARRED_WEDDING_PHOTOGRAPH: {
+        id: 21,
         index: 'CHARRED_WEDDING_PHOTOGRAPH',
         name: 'Charred Wedding Photograph',
         rarity: 'RARE',
@@ -197,6 +218,7 @@ export const SharedOfferings = {
         image: 'charredWeddingPhotograph'
     },
     HARVEST_FESTIVAL_LEAFLET: {
+        id: 22,
         index: 'HARVEST_FESTIVAL_LEAFLET',
         name: 'Harvest Festival Leaflet',
         rarity: 'COMMON',
@@ -207,6 +229,7 @@ export const SharedOfferings = {
         image: 'harvestFestivalLeaflet'
     },
     DECREPIT_CLAPBOARD: {
+        id: 23,
         index: 'DECREPIT_CLAPBOARD',
         name: 'Decrepit Clapboard',
         rarity: 'UNCOMMON',
@@ -217,6 +240,7 @@ export const SharedOfferings = {
         image: 'decrepitClapboard'
     },
     STRODE_REALTY_KEY: {
+        id: 24,
         index: 'STRODE_REALTY_KEY',
         name: 'Strode Realty Key',
         rarity: 'RARE',
@@ -227,6 +251,7 @@ export const SharedOfferings = {
         image: 'strodeRealtyKey'
     },
     FUMING_CORDAGE: {
+        id: 25,
         index: 'FUMING_CORDAGE',
         name: 'Fuming Cordage',
         rarity: 'COMMON',
@@ -237,6 +262,7 @@ export const SharedOfferings = {
         image: 'fumingCordage'
     },
     FUMING_WELCOME_SIGN: {
+        id: 26,
         index: 'FUMING_WELCOME_SIGN',
         name: 'Fuming Welcome Sign',
         rarity: 'UNCOMMON',
@@ -247,6 +273,7 @@ export const SharedOfferings = {
         image: 'fumingWelcomeSign'
     },
     GRANMAS_COOKBOOK: {
+        id: 27,
         index: 'GRANMAS_COOKBOOK',
         name: "Granma's Cookbook",
         rarity: 'RARE',
@@ -257,6 +284,7 @@ export const SharedOfferings = {
         image: 'granmasCookbook'
     },
     EMERGENCY_CERTIFICATE: {
+        id: 28,
         index: 'EMERGENCY_CERTIFICATE',
         name: 'Emergency Certificate',
         rarity: 'COMMON',
@@ -267,6 +295,7 @@ export const SharedOfferings = {
         image: 'emergencyCertificate'
     },
     PSYCHIATRIC_ASSESSMENT_REPORT: {
+        id: 29,
         index: 'PSYCHIATRIC_ASSESSMENT_REPORT',
         name: 'Psychiatric Assessment Report',
         rarity: 'UNCOMMON',
@@ -277,6 +306,7 @@ export const SharedOfferings = {
         image: 'psychiatricAssessmentReport'
     },
     SHATTERED_GLASSES: {
+        id: 30,
         index: 'SHATTERED_GLASSES',
         name: 'Shattered Glasses',
         rarity: 'RARE',
@@ -287,6 +317,7 @@ export const SharedOfferings = {
         image: 'shatteredGlasses'
     },
     PAINTED_RIVER_ROCK: {
+        id: 31,
         index: 'PAINTED_RIVER_ROCK',
         name: 'Painted River Rock',
         rarity: 'COMMON',
@@ -297,6 +328,7 @@ export const SharedOfferings = {
         image: 'paintedRiverRock'
     },
     CHILDRENS_BOOK: {
+        id: 32,
         index: 'CHILDRENS_BOOK',
         name: "Children's Book",
         rarity: 'UNCOMMON',
@@ -307,6 +339,7 @@ export const SharedOfferings = {
         image: 'childrensBook'
     },
     THE_LAST_MASK: {
+        id: 33,
         index: 'THE_LAST_MASK',
         name: 'The Last Mask',
         rarity: 'RARE',
@@ -317,6 +350,7 @@ export const SharedOfferings = {
         image: 'theLastMask'
     },
     THE_PIED_PIPER: {
+        id: 34,
         index: 'THE_PIED_PIPER',
         name: 'The Pied Piper',
         rarity: 'RARE',
@@ -327,6 +361,7 @@ export const SharedOfferings = {
         image: 'thePiedPiper'
     },
     SHROUD_OF_SEPARATION: {
+        id: 35,
         index: 'SHROUD_OF_SEPARATION',
         name: 'Shroud of Separation',
         rarity: 'UNCOMMON',
@@ -335,6 +370,7 @@ export const SharedOfferings = {
         image: 'shroudOfSeparation'
     },
     BLACK_WARD: {
+        id: 36,
         index: 'BLACK_WARD',
         name: 'Black Ward',
         rarity: 'VERY_RARE',
@@ -344,6 +380,7 @@ export const SharedOfferings = {
         image: 'wardBlack'
     },
     WHITE_WARD: {
+        id: 37,
         index: 'WHITE_WARD',
         name: 'White Ward',
         rarity: 'VERY_RARE',
@@ -356,128 +393,142 @@ export const SharedOfferings = {
 
 export const SurvivorOfferings = {
     BOG_LAUREL_SACHET: {
+        id: 50,
         index: 'BOG_LAUREL_SACHET',
         name: 'Bog Laurel Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b25%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b50%%b bonus Bloodpoints in the Objective Category.',
         flavor:
             '"A palm-sized hand sewn sachet filled with dry leaves. Releases a faint tea-like aroma."',
         image: 'bogLaurelSachet'
     },
     FRESH_BOG_LAUREL: {
+        id: 51,
         index: 'FRESH_BOG_LAUREL',
         name: 'Fresh Bog Laurel',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b75%%b bonus Bloodpoints in the Objective Category.',
         flavor:
             '"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a mild tea-like aroma."',
         image: 'freshBogLaurel'
     },
     FRAGRANT_BOG_LAUREL: {
+        id: 52,
         index: 'FRAGRANT_BOG_LAUREL',
         name: 'Fragrant Bog Laurel',
         rarity: 'RARE',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b100%%b bonus Bloodpoints in the Objective Category.',
         flavor:
             '"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a strong tea-like aroma."',
         image: 'fragrantBogLaurel'
     },
     CRISPLEAF_AMARANTH_SACHET: {
+        id: 53,
         index: 'CRISPLEAF_AMARANTH_SACHET',
         name: 'Crispleaf Amaranth Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b25%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b50%%b bonus Bloodpoints in the Survival Category.',
         image: 'crispleafAmaranthSachet'
     },
     FRESH_CRISPLEAF_AMARANTH: {
+        id: 54,
         index: 'FRESH_CRISPLEAF_AMARANTH',
         name: 'Fresh Crispleaf Amaranth',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b75%%b bonus Bloodpoints in the Survival Category.',
         image: 'freshCrispleafAmaranth'
     },
     FRAGRANT_CRISPLEAF_AMARANTH: {
+        id: 55,
         index: 'FRAGRANT_CRISPLEAF_AMARANTH',
         name: 'Fragrant Crispleaf Amaranth',
         rarity: 'RARE',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b100%%b bonus Bloodpoints in the Survival Category.',
         image: 'fragrantCrispleafAmaranth'
     },
     PRIMROSE_BLOSSOM_SACHET: {
+        id: 56,
         index: 'PRIMROSE_BLOSSOM_SACHET',
         name: 'Primrose Blossom Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b25%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b50%%b bonus Bloodpoints in the Altruism Category.',
         flavor:
             '"A palm-sized hand-sewn sachet containing 4 gold pultetals. The primrose opens at the very last moment before the sun gives place to the night."',
         image: 'primroseBlossomSachet'
     },
     FRESH_PRIMROSE_BLOSSOM: {
+        id: 57,
         index: 'FRESH_PRIMROSE_BLOSSOM',
         name: 'Fresh Primrose Blossom',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b75%%b bonus Bloodpoints in the Altruism Category.',
         flavor:
             '"Golden flowers harvested at their peak. The primrose opens at the very last moment before the sun gives place to the night."',
         image: 'freshPrimroseBlossom'
     },
     FRAGRANT_PRIMROSE_BLOSSOM: {
+        id: 58,
         index: 'FRAGRANT_PRIMROSE_BLOSSOM',
         name: 'Fragrant Primrose Blossom',
         rarity: 'RARE',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b100%%b bonus Bloodpoints in the Altruism Category.',
         image: 'fragrantPrimroseBlossom'
     },
     SWEET_WILLIAM_SACHET: {
+        id: 59,
         index: 'SWEET_WILLIAM_SACHET',
         name: 'Sweet William Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b25%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b50%%b bonus Bloodpoints in the Boldness Category.',
         flavor:
             '"A palm-sized hand-swen sachet containing a mix of pale petals and glaucous bluish leaves. Releases a strong spicy, cove-like scent."',
         image: 'sweetWilliamSachet'
     },
     FRESH_SWEET_WILLIAM: {
+        id: 60,
         index: 'FRESH_SWEET_WILLIAM',
         name: 'Fresh Sweet William',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b75%%b bonus Bloodpoints in the Boldness Category.',
         flavor:
             '"A bunch of flowers with pink petals and a blood red core. Releases a spicy, clove-like scent."',
         image: 'freshSweetWilliam'
     },
     FRAGRANT_SWEET_WILLIAM: {
+        id: 61,
         index: 'FRAGRANT_SWEET_WILLIAM',
         name: 'Fresh Sweet William',
         rarity: 'RARE',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b100%%b bonus Bloodpoints in the Boldness Category.',
         flavor:
             '"A bunch of flowers with pink petals and a blood red core. Releases a strong spicy, clove-lick scent."',
         image: 'fragrantSweetWilliam'
     },
     BOUND_ENVELOPE: {
+        id: 62,
         index: 'BOUND_ENVELOPE',
         name: 'Bound Envelope',
         rarity: 'RARE',
         description:
-            'Grants %b15%%b bonus bloodpoints in all Categories to all survivors.',
+            'Grants %b25%%b bonus bloodpoints in all Categories to all survivors.',
         flavor:
             '"An opened envelope re-sealed and bound with 4 coloured ribbons."',
         image: 'boundEnvelope'
     },
     SEALED_ENVELOPE: {
+        id: 63,
         index: 'SEALED_ENVELOPE',
         name: 'Sealed Envelope',
         rarity: 'UNCOMMON',
@@ -487,6 +538,7 @@ export const SurvivorOfferings = {
         image: 'sealedEnvelope'
     },
     ESCAPE_CAKE: {
+        id: 64,
         index: 'ESCAPE_CAKE',
         name: 'Escape Cake',
         rarity: 'UNCOMMON',
@@ -495,6 +547,7 @@ export const SurvivorOfferings = {
         image: 'escapeCake'
     },
     CHALK_POUCH: {
+        id: 65,
         index: 'CHALK_POUCH',
         name: 'Chalk Pouch',
         rarity: 'COMMON',
@@ -504,6 +557,7 @@ export const SurvivorOfferings = {
         image: 'chalkPouch'
     },
     CREAM_CHALK_POUCH: {
+        id: 66,
         index: 'CREAM_CHALK_POUCH',
         name: 'Cream Chalk Pouch',
         rarity: 'UNCOMMON',
@@ -513,6 +567,7 @@ export const SurvivorOfferings = {
         image: 'creamChalkPouch'
     },
     IVORY_CHALK_POUCH: {
+        id: 67,
         index: 'IVORY_CHALK_POUCH',
         name: 'Ivory Chalk Pouch',
         rarity: 'RARE',
@@ -522,6 +577,7 @@ export const SurvivorOfferings = {
         image: 'ivoryChalkPouch'
     },
     SALT_POUCH: {
+        id: 68,
         index: 'SALT_POUCH',
         name: 'Salt Pouch',
         rarity: 'UNCOMMON',
@@ -531,6 +587,7 @@ export const SurvivorOfferings = {
         image: 'saltPouch'
     },
     VIGOS_JAR_OF_SALTY_LIPS: {
+        id: 69,
         index: 'VIGOS_JAR_OF_SALTY_LIPS',
         name: "Vigo's Jar of Salty Lips",
         rarity: 'VERY_RARE',
@@ -540,6 +597,7 @@ export const SurvivorOfferings = {
         image: 'jarOfSaltyLips'
     },
     TARNISHED_COIN: {
+        id: 70,
         index: 'TARNISHED_COIN',
         name: 'Tarnished Coin',
         rarity: 'UNCOMMON',
@@ -548,6 +606,7 @@ export const SurvivorOfferings = {
         image: 'tarnishedCoin'
     },
     SHINY_COIN: {
+        id: 71,
         index: 'SHINY_COIN',
         name: 'Shiny Coin',
         rarity: 'VERY_RARE',
@@ -556,6 +615,7 @@ export const SurvivorOfferings = {
         image: 'shinyCoin'
     },
     PETRIFIED_OAK: {
+        id: 72,
         index: 'PETRIFIED_OAK',
         name: 'Petrified Oak',
         rarity: 'VERY_RARE',
@@ -564,6 +624,7 @@ export const SurvivorOfferings = {
         image: 'petrifiedOak'
     },
     SHROUD_OF_UNION: {
+        id: 73,
         index: 'SHROUD_OF_UNION',
         name: 'Shroud of Union',
         rarity: 'UNCOMMON',
@@ -572,6 +633,7 @@ export const SurvivorOfferings = {
         image: 'shroudOfUnion'
     },
     SHROUD_OF_BINDING: {
+        id: 74,
         index: 'SHROUD_OF_BINDING',
         name: 'Shroud of Binding',
         rarity: 'VERY_RARE',
@@ -584,117 +646,130 @@ export const SurvivorOfferings = {
 
 export const KillerOfferings = {
     TANAGER_WREATH: {
+        id: 100,
         index: 'TANAGER_WREATH',
         name: 'Tanager Wreath',
         rarity: 'COMMON',
-        description: 'Grants 25% bonus Bloodpoints in the Brutality Category.',
+        description: 'Grants 50% bonus Bloodpoints in the Brutality Category.',
         flavor:
             '"Crafted out of bloody sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'tanagerWreath'
     },
     DEVOUT_TANAGER_WREATH: {
+        id: 101,
         index: 'DEVOUT_TANAGER_WREATH',
         name: 'Devout Tanager Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Brutality Category.',
+        description: 'Grants 75% bonus Bloodpoints in the Brutality Category.',
         flavor:
             '"Devoutly crafted out of sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutTanagerWreath'
     },
     ARDENT_TANAGER_WREATH: {
+        id: 102,
         index: 'ARDENT_TANAGER_WREATH',
         name: 'Ardent Tanager Wreath',
         rarity: 'RARE',
-        description: 'Grants 75% bonus Bloodpoints in the Brutality Category.',
+        description: 'Grants 100% bonus Bloodpoints in the Brutality Category.',
         flavor:
             '"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentTanagerWreath'
     },
     RAVEN_WREATH: {
+        id: 103,
         index: 'RAVEN_WREATH',
         name: 'Raven Wreath',
         rarity: 'COMMON',
         description:
-            'Grants 25% bonus Bloodpoints in the Deviousness Category.',
+            'Grants 50% bonus Bloodpoints in the Deviousness Category.',
         flavor:
             '"Crafted out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ravenWreath'
     },
     DEVOUT_RAVEN_WREATH: {
+        id: 104,
         index: 'DEVOUT_RAVEN_WREATH',
         name: 'Devout Raven Wreath',
         rarity: 'UNCOMMON',
         description:
-            'Grants 50% bonus Bloodpoints in the Deviousness Category.',
+            'Grants 75% bonus Bloodpoints in the Deviousness Category.',
         flavor:
             '"Devoutly crafted out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutRavenWreath'
     },
     ARDENT_RAVEN_WREATH: {
+        id: 105,
         index: 'ARDENT_RAVEN_WREATH',
         name: 'Ardent Raven Wreath',
         rarity: 'RARE',
         description:
-            'Grants 75% bonus Bloodpoints in the Deviousness Category.',
+            'Grants 100% bonus Bloodpoints in the Deviousness Category.',
         flavor:
             '"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentRavenWreath'
     },
     SPOTTED_OWL_WREATH: {
+        id: 106,
         index: 'SPOTTED_OWL_WREATH',
         name: 'Spotted Owl Wreath',
         rarity: 'COMMON',
-        description: 'Grants 25% bonus Bloodpoints in the Hunting Category.',
+        description: 'Grants 50% bonus Bloodpoints in the Hunting Category.',
         flavor:
             '"Crafted out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'spottedOwlWreath'
     },
     DEVOUT_SPOTTED_OWL_WREATH: {
+        id: 107,
         index: 'DEVOUT_SPOTTED_OWL_WREATH',
         name: 'Devout Spotted Owl Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Hunting Category.',
+        description: 'Grants 75% bonus Bloodpoints in the Hunting Category.',
         flavor:
             '"Crafted out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutSpottedOwlWreath'
     },
     ARDENT_SPOTTED_OWL_WREATH: {
+        id: 108,
         index: 'ARDENT_SPOTTED_OWL_WREATH',
         name: 'Ardent Spotted Owl Wreath',
         rarity: 'RARE',
-        description: 'Grants 75% bonus Bloodpoints in the Hunting Category.',
+        description: 'Grants 100% bonus Bloodpoints in the Hunting Category.',
         flavor:
             '"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentSpottedOwlWreath'
     },
     SHRIKE_WREATH: {
+        id: 109,
         index: 'SHRIKE_WREATH',
         name: 'Shrike Wreath',
         rarity: 'COMMON',
-        description: 'Grants 25% bonus Bloodpoints in the Sacrifice Category.',
+        description: 'Grants 50% bonus Bloodpoints in the Sacrifice Category.',
         flavor:
             '"Crafted out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'shrikeWreath'
     },
     DEVOUT_SHRIKE_WREATH: {
+        id: 110,
         index: 'DEVOUT_SHRIKE_WREATH',
         name: 'Devout Shrike Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Sacrifice Category.',
+        description: 'Grants 75% bonus Bloodpoints in the Sacrifice Category.',
         flavor:
             '"Devoutly crafted out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutShrikeWreath'
     },
     ARDENT_SHRIKE_WREATH: {
+        id: 111,
         index: 'ARDENT_SHRIKE_WREATH',
         name: 'Ardent Shrike Wreath',
         rarity: 'RARE',
-        description: 'Grants 75% bonus Bloodpoints in the Sacrifice Category.',
+        description: 'Grants 100% bonus Bloodpoints in the Sacrifice Category.',
         flavor:
             '"Crafted with a fiery, undying passion out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentShrikeWreath'
     },
     HOLLOW_SHELL: {
+        id: 112,
         index: 'HOLLOW_SHELL',
         name: 'Hollow Shell',
         rarity: 'UNCOMMON',
@@ -704,6 +779,7 @@ export const KillerOfferings = {
         image: 'hollowShell'
     },
     SURVIVOR_PUDDING: {
+        id: 113,
         index: 'SURVIVOR_PUDDING',
         name: 'Survivor Pudding',
         rarity: 'UNCOMMON',
@@ -712,6 +788,7 @@ export const KillerOfferings = {
         image: 'survivorPudding'
     },
     CUT_COIN: {
+        id: 114,
         index: 'CUT_COIN',
         name: 'Cut Coin',
         rarity: 'VERY_RARE',
@@ -721,6 +798,7 @@ export const KillerOfferings = {
         image: 'cutCoin'
     },
     SCRATCHED_COIN: {
+        id: 115,
         index: 'SCRATCHED_COIN',
         name: 'Scratched Coin',
         rarity: 'UNCOMMON',
@@ -730,6 +808,7 @@ export const KillerOfferings = {
         image: 'scratchedCoin'
     },
     MOLDY_OAK: {
+        id: 116,
         index: 'MOLDY_OAK',
         name: 'Moldy Oak',
         rarity: 'UNCOMMON',
@@ -738,6 +817,7 @@ export const KillerOfferings = {
         image: 'moldyOak'
     },
     ROTTEN_OAK: {
+        id: 117,
         index: 'ROTTEN_OAK',
         name: 'Rotten Oak',
         rarity: 'RARE',
@@ -747,6 +827,7 @@ export const KillerOfferings = {
         image: 'rottenOak'
     },
     PUTRID_OAK: {
+        id: 118,
         index: 'PUTRID_OAK',
         name: 'Putrid Oak',
         rarity: 'VERY_RARE',
@@ -756,6 +837,7 @@ export const KillerOfferings = {
         image: 'putridOak'
     },
     CYPRESS_MEMENTO_MORI: {
+        id: 119,
         index: 'CYPRESS_MEMENTO_MORI',
         name: 'Cypress Memento Mori',
         rarity: 'UNCOMMON',
@@ -765,6 +847,7 @@ export const KillerOfferings = {
         image: 'momentoMoriCypress'
     },
     IVORY_MEMENTO_MORI: {
+        id: 120,
         index: 'IVORY_MEMENTO_MORI',
         name: 'Ivory Memento Mori',
         rarity: 'RARE',
@@ -774,6 +857,7 @@ export const KillerOfferings = {
         image: 'momentoMoriIvory'
     },
     EBONY_MEMENTO_MORI: {
+        id: 121,
         index: 'EBONY_MEMENTO_MORI',
         name: 'Ebony Memento Mori',
         rarity: 'ULTRA_RARE',

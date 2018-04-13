@@ -1,5 +1,6 @@
 export const KillerPerks = {
     BITTER_MURMUR: {
+        id: 1,
         index: 'BITTER_MURMUR',
         name: 'Bitter Murmur',
         owner: 'ALL',
@@ -10,6 +11,7 @@ export const KillerPerks = {
         tiers: [[5], [7], [9]]
     },
     DEERSTALKER: {
+        id: 2,
         index: 'DEERSTALKER',
         name: 'Deerstalker',
         owner: 'ALL',
@@ -20,6 +22,7 @@ export const KillerPerks = {
         tiers: [[12], [24], [36]]
     },
     DISTRESSING: {
+        id: 3,
         index: 'DISTRESSING',
         name: 'Distressing',
         owner: 'ALL',
@@ -31,6 +34,7 @@ export const KillerPerks = {
         tiers: [[22, 50], [24, 75], [26, 100]]
     },
     INSIDIOUS: {
+        id: 4,
         index: 'INSIDIOUS',
         name: 'Insidious',
         owner: 'ALL',
@@ -41,6 +45,7 @@ export const KillerPerks = {
         tiers: [[4], [3], [2]]
     },
     HEX_NO_ONE_ESCAPES_DEATH: {
+        id: 5,
         index: 'HEX_NO_ONE_ESCAPES_DEATH',
         name: 'Hex: No One Escapes Death',
         owner: 'ALL',
@@ -57,6 +62,7 @@ export const KillerPerks = {
         ]
     },
     HEX_THRILL_OF_THE_HUNT: {
+        id: 6,
         index: 'HEX_THRILL_OF_THE_HUNT',
         name: 'Hex: Thrill of the Hunt',
         owner: 'ALL',
@@ -67,6 +73,7 @@ export const KillerPerks = {
         tiers: [[6, 4], [8, 5], [10, 6]]
     },
     MONSTROUS_SHRINE: {
+        id: 7,
         index: 'MONSTROUS_SHRINE',
         name: 'Monstrous Shrine',
         owner: 'ALL',
@@ -77,6 +84,7 @@ export const KillerPerks = {
         tiers: [[3, 5, 3], [6, 10, 6], [9, 15, 9]]
     },
     SLOPPY_BUTCHER: {
+        id: 8,
         index: 'SLOPPY_BUTCHER',
         name: 'Sloppy Butcher',
         owner: 'ALL',
@@ -87,6 +95,7 @@ export const KillerPerks = {
         tiers: [['slightly'], ['moderately'], ['considerably']]
     },
     SPIES_FROM_THE_SHADOWS: {
+        id: 9,
         index: 'SPIES_FROM_THE_SHADOWS',
         name: 'Spies From The Shadows',
         owner: 'ALL',
@@ -99,6 +108,7 @@ export const KillerPerks = {
         tiers: [[50, 16], [50, 24], [75, 36]]
     },
     UNRELENTING: {
+        id: 10,
         index: 'UNRELENTING',
         name: 'Unrelenting',
         owner: 'ALL',
@@ -109,6 +119,7 @@ export const KillerPerks = {
         tiers: [[20], [25], [30]]
     },
     WHISPERS: {
+        id: 11,
         index: 'WHISPERS',
         name: 'Whispers',
         owner: 'ALL',
@@ -121,6 +132,7 @@ export const KillerPerks = {
         tiers: [[48], [40], [32]]
     },
     STRIDOR: {
+        id: 12,
         index: 'STRIDOR',
         name: 'Stridor',
         owner: 'NURSE',
@@ -132,6 +144,7 @@ export const KillerPerks = {
         tiers: [[25, 0], [50, 0], [50, 25]]
     },
     THANATOPHOBIA: {
+        id: 13,
         index: 'THANATOPHOBIA',
         name: 'Thanatophobia',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -143,6 +156,7 @@ export const KillerPerks = {
         tiers: [[4, 7, 10, 13], [5, 8, 11, 14], [6, 9, 12, 15]]
     },
     A_NURSES_CALLING: {
+        id: 14,
         index: 'A_NURSES_CALLING',
         name: "A Nurse's Calling",
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -155,6 +169,7 @@ export const KillerPerks = {
         tiers: [[20], [24], [28]]
     },
     UNNERVING_PRESENCE: {
+        id: 15,
         index: 'UNNERVING_PRESENCE',
         name: 'Unnerving Presence',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -166,6 +181,7 @@ export const KillerPerks = {
         tiers: [[6, 40], [8, 50], [10, 60]]
     },
     BRUTAL_STRENGTH: {
+        id: 16,
         index: 'BRUTAL_STRENGTH',
         name: 'Brutal Strength',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -177,6 +193,7 @@ export const KillerPerks = {
         tiers: [[10], [15], [20]]
     },
     AGITATION: {
+        id: 17,
         index: 'AGITATION',
         name: 'Agitation',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -189,6 +206,7 @@ export const KillerPerks = {
         tiers: [[6, 6], [8, 12], [12, 18]]
     },
     PREDATOR: {
+        id: 18,
         index: 'PREDATOR',
         name: 'Predator',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -201,6 +219,7 @@ export const KillerPerks = {
         tiers: [[1], [2], [3]]
     },
     BLOODHOUND: {
+        id: 19,
         index: 'BLOODHOUND',
         name: 'Bloodhound',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -213,6 +232,7 @@ export const KillerPerks = {
         tiers: [['slightly', 2], ['moderately', 3], ['considerably', 4]]
     },
     SHADOWBORN: {
+        id: 20,
         index: 'SHADOWBORN',
         name: 'Shadowborn',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -225,6 +245,7 @@ export const KillerPerks = {
         tiers: [[25, 'not', 20], [30, 'slightly', 25], [35, 'considerably', 30]]
     },
     ENDURING: {
+        id: 21,
         index: 'ENDURING',
         name: 'Enduring',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -236,6 +257,7 @@ export const KillerPerks = {
         tiers: [[50], [60], [75]]
     },
     LIGHTBORN: {
+        id: 22,
         index: 'LIGHTBORN',
         name: 'Lightborn',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -248,6 +270,7 @@ export const KillerPerks = {
         tiers: [[20], [40], [60]]
     },
     TINKERER: {
+        id: 23,
         index: 'TINKERER',
         name: 'Tinkerer',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -260,6 +283,7 @@ export const KillerPerks = {
         tiers: [[6], [8], [10]]
     },
     SAVE_THE_BEST_FOR_LAST: {
+        id: 24,
         index: 'SAVE_THE_BEST_FOR_LAST',
         name: 'Save The Best For Last',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -271,6 +295,7 @@ export const KillerPerks = {
         tiers: [[30], [35], [40]]
     },
     PLAY_WITH_YOUR_FOOD: {
+        id: 25,
         index: 'PLAY_WITH_YOUR_FOOD',
         name: 'Play With Your Food',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -282,6 +307,7 @@ export const KillerPerks = {
         tiers: [[3], [4], [5]]
     },
     DYING_LIGHT: {
+        id: 26,
         index: 'DYING_LIGHT',
         name: 'Dying Light',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -293,6 +319,7 @@ export const KillerPerks = {
         tiers: [[38, 19], [44, 22], [50, 25]]
     },
     HEX_THE_THIRD_SEAL: {
+        id: 27,
         index: 'HEX_THE_THIRD_SEAL',
         name: 'Hex: The Third Seal',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -304,6 +331,7 @@ export const KillerPerks = {
         tiers: [[2], [3], [4]]
     },
     HEX_RUIN: {
+        id: 28,
         index: 'HEX_RUIN',
         name: 'Hex: Ruin',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -315,6 +343,7 @@ export const KillerPerks = {
         tiers: [[2], [3], [4]]
     },
     HEX_DEVOUR_HOPE: {
+        id: 29,
         index: 'HEX_DEVOUR_HOPE',
         name: 'Hex: Devour Hope',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -343,6 +372,7 @@ export const KillerPerks = {
         ]
     },
     OVERWHELMING_PRESENCE: {
+        id: 30,
         index: 'OVERWHELMING_PRESENCE',
         name: 'Overwhelming Presence',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -354,6 +384,7 @@ export const KillerPerks = {
         tiers: [[80], [90], [100]]
     },
     MONITOR_AND_ABUSE: {
+        id: 31,
         index: 'MONITOR_AND_ABUSE',
         name: 'Monitor & Abuse',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -369,6 +400,7 @@ export const KillerPerks = {
         ]
     },
     OVERCHARGE: {
+        id: 32,
         index: 'OVERCHARGE',
         name: 'Overcharge',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -380,6 +412,7 @@ export const KillerPerks = {
         tiers: [['moderately', 3], ['considerably', 4], ['tremendously', 5]]
     },
     BEAST_OF_PREY: {
+        id: 33,
         index: 'BEAST_OF_PREY',
         name: 'Beast Of Prey',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -391,6 +424,7 @@ export const KillerPerks = {
         tiers: [[15], [20], [25]]
     },
     TERRITORIAL_IMPERATIVE: {
+        id: 34,
         index: 'TERRITORIAL_IMPERATIVE',
         name: 'Territorial Imperative',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -402,6 +436,7 @@ export const KillerPerks = {
         tiers: [[60], [45], [30]]
     },
     HEX_HUNTRESS_LULLABY: {
+        id: 35,
         index: 'HEX_HUNTRESS_LULLABY',
         name: 'Hex: Huntress Lullaby',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -413,6 +448,7 @@ export const KillerPerks = {
         tiers: [[2], [4], [6]]
     },
     KNOCK_OUT: {
+        id: 36,
         index: 'KNOCK_OUT',
         name: 'Knock Out',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -425,6 +461,7 @@ export const KillerPerks = {
         tiers: [[32], [24], [16]]
     },
     BARBECUE_AND_CHILI: {
+        id: 37,
         index: 'BARBECUE_AND_CHILI',
         name: 'Barbecue & Chili',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -437,6 +474,7 @@ export const KillerPerks = {
         tiers: [[52, 15], [46, 20], [40, 25]]
     },
     FRANKLINS_DEMISE: {
+        id: 38,
         index: 'FRANKLINS_DEMISE',
         name: "Franklin's Demise",
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -448,6 +486,7 @@ export const KillerPerks = {
         tiers: [[0], [5], [10]]
     },
     FIRE_UP: {
+        id: 39,
         index: 'FIRE_UP',
         name: 'Fire Up',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -459,6 +498,7 @@ export const KillerPerks = {
         tiers: [[6, 8, 10], [8, 10, 12], [10, 12, 14]]
     },
     REMEMBER_ME: {
+        id: 40,
         index: 'REMEMBER_ME',
         name: 'Remember Me',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -470,6 +510,7 @@ export const KillerPerks = {
         tiers: [[20], [25], [30]]
     },
     BLOOD_WARDEN: {
+        id: 41,
         index: 'BLOOD_WARDEN',
         name: 'Blood Warden',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -481,6 +522,7 @@ export const KillerPerks = {
         tiers: [[30], [40], [60]]
     },
     HANGMANS_TRICK: {
+        id: 42,
         index: 'HANGMANS_TRICK',
         name: "Hangman's Trick",
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -492,6 +534,7 @@ export const KillerPerks = {
         tiers: [[30], [20], [10]]
     },
     SURVEILLANCE: {
+        id: 43,
         index: 'SURVEILLANCE',
         name: 'Surveillance',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -507,6 +550,7 @@ export const KillerPerks = {
         ]
     },
     MAKE_YOUR_CHOICE: {
+        id: 44,
         index: 'MAKE_YOUR_CHOICE',
         name: 'Make Your Choice',
         rarity: ['RARE', 'RARE', 'VERY_RARE'],
@@ -522,6 +566,7 @@ export const KillerPerks = {
 
 export const SurvivorPerks = {
     DARK_SENSE: {
+        id: 100,
         index: 'DARK_SENSE',
         name: 'Dark Sense',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -534,6 +579,7 @@ export const SurvivorPerks = {
         tiers: [[3], [4], [7]]
     },
     DEJA_VU: {
+        id: 101,
         index: 'DEJA_VU',
         name: 'Déjà Vu',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -544,6 +590,7 @@ export const SurvivorPerks = {
         tiers: [[1, 4], [1, 8], [2, 8]]
     },
     HOPE: {
+        id: 102,
         index: 'HOPE',
         name: 'Hope',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -554,6 +601,7 @@ export const SurvivorPerks = {
         tiers: [[5], [6], [7]]
     },
     KINDRED: {
+        id: 103,
         index: 'KINDRED',
         name: 'Kindred',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -572,6 +620,7 @@ export const SurvivorPerks = {
         ]
     },
     LIGHTWEIGHT: {
+        id: 104,
         index: 'LIGHTWEIGHT',
         name: 'Lightweight',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -584,6 +633,7 @@ export const SurvivorPerks = {
         tiers: [[1], [2], [3]]
     },
     NO_ONE_LEFT_BEHIND: {
+        id: 105,
         index: 'NO_ONE_LEFT_BEHIND',
         name: 'No One Left Behind',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -596,6 +646,7 @@ export const SurvivorPerks = {
         tiers: [[50, 4], [75, 8], [100, 12]]
     },
     PLUNDERERS_INSTINCT: {
+        id: 106,
         index: 'PLUNDERERS_INSTINCT',
         name: "Plunderer's Instinct",
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -608,6 +659,7 @@ export const SurvivorPerks = {
         tiers: [[16, 'slightly'], [24, 'moderately'], [32, 'considerably']]
     },
     PREMONITION: {
+        id: 107,
         index: 'PREMONITION',
         name: 'Premonition',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -619,6 +671,7 @@ export const SurvivorPerks = {
         tiers: [[12, 60], [24, 45], [36, 30]]
     },
     RESILIENCE: {
+        id: 108,
         index: 'RESILIENCE',
         name: 'Resilience',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -630,6 +683,7 @@ export const SurvivorPerks = {
         tiers: [[3], [6], [9]]
     },
     SLIPPERY_MEAT: {
+        id: 109,
         index: 'SLIPPERY_MEAT',
         name: 'Slippery Meat',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -640,6 +694,7 @@ export const SurvivorPerks = {
         tiers: [[1, 15], [2, 20], [3, 25]]
     },
     SMALL_GAME: {
+        id: 110,
         index: 'SMALL_GAME',
         name: 'Small Game',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -651,6 +706,7 @@ export const SurvivorPerks = {
         tiers: [[8, 15], [10, 12], [12, 10]]
     },
     SPINE_CHILL: {
+        id: 111,
         index: 'SPINE_CHILL',
         name: 'Spine Chill',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -663,6 +719,7 @@ export const SurvivorPerks = {
         tiers: [[12, 2], [24, 4], [36, 6]]
     },
     THIS_IS_NOT_HAPPENING: {
+        id: 112,
         index: 'THIS_IS_NOT_HAPPENING',
         name: 'This Is Not Happening',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -673,6 +730,7 @@ export const SurvivorPerks = {
         tiers: [[10], [20], [30]]
     },
     WELL_MAKE_IT: {
+        id: 113,
         index: 'WELL_MAKE_IT',
         name: "We'll Make It",
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -683,6 +741,7 @@ export const SurvivorPerks = {
         tiers: [[25, 30], [50, 60], [100, 90]]
     },
     BOND: {
+        id: 114,
         index: 'BOND',
         name: 'Bond',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -695,6 +754,7 @@ export const SurvivorPerks = {
         tiers: [[12], [24], [36]]
     },
     PROVE_THYSELF: {
+        id: 115,
         index: 'PROVE_THYSELF',
         name: 'Prove Thyself',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -706,6 +766,7 @@ export const SurvivorPerks = {
         tiers: [[1, 2, 3], [2, 4, 6], [3, 6, 9]]
     },
     LEADER: {
+        id: 116,
         index: 'LEADER',
         name: 'Leader',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -717,6 +778,7 @@ export const SurvivorPerks = {
         tiers: [[3], [6], [9]]
     },
     QUICK_AND_QUIET: {
+        id: 117,
         index: 'QUICK_AND_QUIET',
         name: 'Quick & Quiet',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -727,6 +789,7 @@ export const SurvivorPerks = {
         tiers: [[100, 30], [100, 25], [100, 20]]
     },
     SPRINT_BURST: {
+        id: 118,
         index: 'SPRINT_BURST',
         name: 'Sprint Burst',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -737,6 +800,7 @@ export const SurvivorPerks = {
         tiers: [[60], [50], [40]]
     },
     ADRENALINE: {
+        id: 119,
         index: 'ADRENALINE',
         name: 'Adrenaline',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -747,6 +811,7 @@ export const SurvivorPerks = {
         tiers: [[60], [50], [40]]
     },
     EMPATHY: {
+        id: 120,
         index: 'EMPATHY',
         name: 'Empathy',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -757,6 +822,7 @@ export const SurvivorPerks = {
         tiers: [[32], [64], ['∞']]
     },
     BOTANY_KNOWLEDGE: {
+        id: 121,
         index: 'BOTANY_KNOWLEDGE',
         name: 'Botany Knowledge',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -769,6 +835,7 @@ export const SurvivorPerks = {
         tiers: [[10, 10], [15, 15], [20, 20]]
     },
     SELF_CARE: {
+        id: 122,
         index: 'SELF_CARE',
         name: 'Self Care',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -779,6 +846,7 @@ export const SurvivorPerks = {
         tiers: [[10], [15], [20]]
     },
     IRON_WILL: {
+        id: 123,
         index: 'IRON_WILL',
         name: 'Iron Will',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -793,6 +861,7 @@ export const SurvivorPerks = {
         ]
     },
     CALM_SPIRIT: {
+        id: 124,
         index: 'CALM_SPIRIT',
         name: 'Calm Spirit',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -803,6 +872,7 @@ export const SurvivorPerks = {
         tiers: [[80], [90], [100]]
     },
     SABOTEUR: {
+        id: 125,
         index: 'SABOTEUR',
         name: 'Saboteur',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -813,6 +883,7 @@ export const SurvivorPerks = {
         tiers: [[30, 0, 50], [40, 10, 75], [50, 20, 100]]
     },
     BALANCED_LANDING: {
+        id: 126,
         index: 'BALANCED_LANDING',
         name: 'Balanced Landing',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -824,6 +895,7 @@ export const SurvivorPerks = {
         tiers: [[50], [75], [75]]
     },
     URBAN_EVASION: {
+        id: 127,
         index: 'URBAN_EVASION',
         name: 'Urban Evasion',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -834,6 +906,7 @@ export const SurvivorPerks = {
         tiers: [[90], [95], [100]]
     },
     STREETWISE: {
+        id: 128,
         index: 'STREETWISE',
         name: 'Streetwise',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -846,6 +919,7 @@ export const SurvivorPerks = {
         tiers: [[10], [12], [15]]
     },
     LEFT_BEHIND: {
+        id: 129,
         index: 'LEFT_BEHIND',
         name: 'Left Behind',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -858,6 +932,7 @@ export const SurvivorPerks = {
         tiers: [[19], [22], [25]]
     },
     BORROWED_TIME: {
+        id: 130,
         index: 'BORROWED_TIME',
         name: 'Borrowed Time',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -870,6 +945,7 @@ export const SurvivorPerks = {
         tiers: [[15], [20], [25]]
     },
     UNBREAKABLE: {
+        id: 131,
         index: 'UNBREAKABLE',
         name: 'Unbreakable',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -881,6 +957,7 @@ export const SurvivorPerks = {
         tiers: [[15], [20], [25]]
     },
     WERE_GONNA_LIVE_FOREVER: {
+        id: 132,
         index: 'WERE_GONNA_LIVE_FOREVER',
         name: "We're Gonna Live Forever",
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -893,6 +970,7 @@ export const SurvivorPerks = {
         tiers: [[50], [75], [100]]
     },
     DEAD_HARD: {
+        id: 133,
         index: 'DEAD_HARD',
         name: 'Dead Hard',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -905,6 +983,7 @@ export const SurvivorPerks = {
         tiers: [[60], [50], [40]]
     },
     NO_MITHER: {
+        id: 134,
         index: 'NO_MITHER',
         name: 'No Mither',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -917,6 +996,7 @@ export const SurvivorPerks = {
         tiers: [[0], [25], [50]]
     },
     SOLE_SURVIVOR: {
+        id: 135,
         index: 'SOLE_SURVIVOR',
         name: 'Sole Survivor',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -928,6 +1008,7 @@ export const SurvivorPerks = {
         tiers: [[40, 40, 40], [45, 60, 75], [40, 75, 100]]
     },
     OBJECT_OF_OBSESSION: {
+        id: 136,
         index: 'OBJECT_OF_OBSESSION',
         name: 'Object of Obsession',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -939,6 +1020,7 @@ export const SurvivorPerks = {
         tiers: [[56, 44], [64, 56], [72, 64]]
     },
     DECISIVE_STRIKE: {
+        id: 137,
         index: 'DECISIVE_STRIKE',
         name: 'Decisive Strike',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -950,6 +1032,7 @@ export const SurvivorPerks = {
         tiers: [[3, 45], [3.5, 40], [4, 35]]
     },
     OPEN_HANDED: {
+        id: 138,
         index: 'OPEN_HANDED',
         name: 'Open Handed',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -962,6 +1045,7 @@ export const SurvivorPerks = {
         tiers: [[4], [6], [8]]
     },
     UP_THE_ANTE: {
+        id: 139,
         index: 'UP_THE_ANTE',
         name: 'Up The Ante',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -974,6 +1058,7 @@ export const SurvivorPerks = {
         tiers: [[1], [2], [3]]
     },
     ACE_IN_THE_HOLE: {
+        id: 140,
         index: 'ACE_IN_THE_HOLE',
         name: 'Ace in The Hole',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -986,6 +1071,7 @@ export const SurvivorPerks = {
         tiers: [['Uncommon'], ['Rare'], ['Very Rare']]
     },
     TECHNICIAN: {
+        id: 141,
         index: 'TECHNICIAN',
         name: 'Technician',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -997,6 +1083,7 @@ export const SurvivorPerks = {
         tiers: [[0, 30], [4, 40], [8, 50]]
     },
     LITHE: {
+        id: 142,
         index: 'LITHE',
         name: 'Lithe',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -1008,6 +1095,7 @@ export const SurvivorPerks = {
         tiers: [[60], [50], [40]]
     },
     ALERT: {
+        id: 143,
         index: 'ALERT',
         name: 'Alert',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -1019,6 +1107,7 @@ export const SurvivorPerks = {
         tiers: [[12, 60], [24, 45], [36, 30]]
     },
     WAKE_UP: {
+        id: 144,
         index: 'WAKE_UP',
         name: 'Wake Up!',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -1029,6 +1118,7 @@ export const SurvivorPerks = {
         tiers: [[24, 24, 5], [48, 48, 10], ['∞', '∞', 15]]
     },
     PHARMACY: {
+        id: 145,
         index: 'PHARMACY',
         name: 'Pharmacy',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -1039,6 +1129,7 @@ export const SurvivorPerks = {
         tiers: [[40], [60], [80]]
     },
     VIGIL: {
+        id: 146,
         index: 'VIGIL',
         name: 'Vigil',
         rarity: ['UNCOMMON', 'RARE', 'VERY_RARE'],
@@ -1049,6 +1140,7 @@ export const SurvivorPerks = {
         tiers: [[10], [15], [20]]
     },
     TENACITY: {
+        id: 147,
         index: 'TENACITY',
         name: 'Tenacity',
         rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
@@ -1061,6 +1153,7 @@ export const SurvivorPerks = {
         tiers: [[30], [40], [50]]
     },
     DETECTIVES_HUNCH: {
+        id: 148,
         index: 'DETECTIVES_HUNCH',
         name: "Detective's Hunch",
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],
@@ -1073,6 +1166,7 @@ export const SurvivorPerks = {
         tiers: [[32], [48], [64]]
     },
     STAKE_OUT: {
+        id: 149,
         index: 'STAKE_OUT',
         name: 'Stake Out',
         rarity: ['RARE', 'VERY_RARE', 'VERY_RARE'],

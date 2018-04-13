@@ -2,15 +2,17 @@ import { Rarities, ModifierTypes } from '../data';
 import { Model } from './Model';
 
 export class Offering extends Model {
-    constructor({ index, name, rarity, description, flavor, image } = {}) {
+    constructor({ index, name, rarity, description, flavor, image, id } = {}) {
         super({
             index,
             name,
             rarity,
             description,
             flavor,
-            image
+            image,
+            id
         });
+        this.id = id;
         this.index = index;
         this.name = name;
         this.flavor = flavor;

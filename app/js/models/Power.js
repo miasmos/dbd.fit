@@ -3,8 +3,17 @@ import { KillerFactory, SurvivorFactory } from '../factories';
 import { Model } from './Model';
 
 export class Power extends Model {
-    constructor({ index, name, owner, description, abilities, image } = {}) {
-        super({ index, name, owner, description, abilities, image });
+    constructor({
+        index,
+        name,
+        owner,
+        description,
+        abilities,
+        image,
+        id
+    } = {}) {
+        super({ index, name, owner, description, abilities, image, id });
+        this.id = id;
         this.index = index;
         this.name = name;
         this.image = image;

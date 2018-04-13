@@ -9,7 +9,7 @@ export class TypeSelector extends React.Component {
         return (
             <div className="type-selector">
                 <Link
-                    to="/survivors"
+                    to="/build/survivors"
                     onClick={this.setType.bind(this, Types.SURVIVOR)}
                 >
                     <div className="selection tooltip-activator">
@@ -18,7 +18,7 @@ export class TypeSelector extends React.Component {
                     </div>
                 </Link>
                 <Link
-                    to="/killers"
+                    to="/build/killers"
                     onClick={this.setType.bind(this, Types.KILLER)}
                 >
                     <div className="selection tooltip-activator">

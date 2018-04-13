@@ -4,7 +4,7 @@ import { i18n } from '../../i18n';
 
 export const Intro = () => (
     <div className="intro">
-        <Link to="/type">
+        <Link to="/build/type">
             <div className="intro-wrapper">
                 <div className="intro-inner">
                     <img src="images/logo.png" />

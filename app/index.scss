@@ -19,7 +19,7 @@ body {
     @include light();
 
     * {
-        font-family: 'Roboto', cursive;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         color: white;
     }
 }

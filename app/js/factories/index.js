@@ -1,10 +1,23 @@
-export { KillerPerkFactory, SurvivorPerkFactory } from './PerkFactory';
+export {
+    KillerPerkFactory,
+    SurvivorPerkFactory,
+    AllPerkFactory
+} from './PerkFactory';
 export { PowerFactory } from './PowerFactory';
-export { KillerFactory, SurvivorFactory } from './PlayerFactory';
-export { KillerAddonFactory, SurvivorAddonFactory } from './AddonFactory';
+export {
+    KillerFactory,
+    SurvivorFactory,
+    AllPlayerFactory
+} from './PlayerFactory';
+export {
+    KillerAddonFactory,
+    SurvivorAddonFactory,
+    AllAddonFactory
+} from './AddonFactory';
 export { ItemFactory } from './ItemFactory';
 export {
     KillerOfferingFactory,
     SurvivorOfferingFactory,
-    SharedOfferingFactory
+    SharedOfferingFactory,
+    AllOfferingFactory
 } from './OfferingFactory';

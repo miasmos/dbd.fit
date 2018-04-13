@@ -23,3 +23,11 @@ class SurvivorPerkFactoryClass extends PerkFactoryClass {
 }
 
 export const SurvivorPerkFactory = new SurvivorPerkFactoryClass();
+
+class AllPerkFactoryClass extends PerkFactoryClass {
+    constructor() {
+        super(Object.assign({}, KillerPerks, SurvivorPerks));
+    }
+}
+
+export const AllPerkFactory = new AllPerkFactoryClass();

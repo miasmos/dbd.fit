@@ -8,8 +8,9 @@ import { PowerFactory } from '../factories/PowerFactory';
 import { Model } from './Model';
 
 export class Player extends Model {
-    constructor({ index, name, power, description, perks, image } = {}) {
-        super({ index, name, power, description, perks, image });
+    constructor({ index, name, power, description, perks, image, id } = {}) {
+        super({ index, name, power, description, perks, image, id });
+        this.id = id;
         this.index = index;
         this.name = name;
         this.image = image;

@@ -1,5 +1,6 @@
 export const KillerAddons = {
     TRAPPER_GLOVES: {
+        id: 1,
         index: 'TRAPPER_GLOVES',
         name: 'Trapper Gloves',
         owner: 'TRAPPER',
@@ -9,6 +10,7 @@ export const KillerAddons = {
         image: 'trapperGloves'
     },
     STRONG_COIL_SPRING: {
+        id: 2,
         index: 'STRONG_COIL_SPRING',
         name: 'Strong Coil Spring',
         owner: 'TRAPPER',
@@ -18,6 +20,7 @@ export const KillerAddons = {
         image: 'coilSpring'
     },
     SERRATED_JAWS: {
+        id: 3,
         index: 'SERRATED_JAWS',
         name: 'Serrated Jaws',
         owner: 'TRAPPER',
@@ -28,6 +31,7 @@ export const KillerAddons = {
         image: 'serratedJaws'
     },
     WAX_BRICK: {
+        id: 4,
         index: 'WAX_BRICK',
         name: 'Wax Brick',
         owner: 'TRAPPER',
@@ -37,6 +41,7 @@ export const KillerAddons = {
         image: 'waxBrick'
     },
     TRAPPER_BAG: {
+        id: 5,
         index: 'TRAPPER_BAG',
         name: 'Trapper Bag',
         owner: 'TRAPPER',
@@ -46,6 +51,7 @@ export const KillerAddons = {
         image: 'trapperBag'
     },
     TRAP_SETTERS: {
+        id: 6,
         index: 'TRAP_SETTERS',
         name: 'Trap Setters',
         owner: 'TRAPPER',
@@ -55,6 +61,7 @@ export const KillerAddons = {
         image: 'tapSetters'
     },
     SECONDARY_COIL: {
+        id: 7,
         index: 'SECONDARY_COIL',
         name: 'Secondary Coil',
         owner: 'TRAPPER',
@@ -64,6 +71,7 @@ export const KillerAddons = {
         image: 'secondaryCoil'
     },
     LOGWOOD_DYE: {
+        id: 8,
         index: 'LOGWOOD_DYE',
         name: 'Logwood Dye',
         owner: 'TRAPPER',
@@ -73,6 +81,7 @@ export const KillerAddons = {
         image: 'logwoodDye'
     },
     FOUR_COIL_SPRING_KIT: {
+        id: 9,
         index: 'FOUR_COIL_SPRING_KIT',
         name: '4-Coil Spring Kit',
         owner: 'TRAPPER',
@@ -82,6 +91,7 @@ export const KillerAddons = {
         image: 'coilsKit4'
     },
     TAR_BOTTLE: {
+        id: 10,
         index: 'TAR_BOTTLE',
         name: 'Tar Bottle',
         owner: 'TRAPPER',
@@ -91,6 +101,7 @@ export const KillerAddons = {
         image: 'tarBottle'
     },
     SETTING_TOOLS: {
+        id: 11,
         index: 'SETTING_TOOLS',
         name: 'Setting Tools',
         owner: 'TRAPPER',
@@ -100,6 +111,7 @@ export const KillerAddons = {
         image: 'settingTools'
     },
     RUSTED_JAWS: {
+        id: 12,
         index: 'RUSTED_JAWS',
         name: 'Rusted Jaws',
         owner: 'TRAPPER',
@@ -109,6 +121,7 @@ export const KillerAddons = {
         image: 'rustedJaws'
     },
     OILY_COIL: {
+        id: 13,
         index: 'OILY_COIL',
         name: 'Oily Coil',
         owner: 'TRAPPER',
@@ -118,6 +131,7 @@ export const KillerAddons = {
         image: 'oilyCoil'
     },
     FASTENING_TOOLS: {
+        id: 14,
         index: 'FASTENING_TOOLS',
         name: 'Fastening Tools',
         owner: 'TRAPPER',
@@ -127,6 +141,7 @@ export const KillerAddons = {
         image: 'fasteningTools'
     },
     STITCHED_BAG: {
+        id: 15,
         index: 'STITCHED_BAG',
         name: 'Stitched Bag',
         owner: 'TRAPPER',
@@ -136,6 +151,7 @@ export const KillerAddons = {
         image: 'stitchedBag'
     },
     HONING_STONE: {
+        id: 16,
         index: 'HONING_STONE',
         name: 'Honing Stone',
         owner: 'TRAPPER',
@@ -145,6 +161,7 @@ export const KillerAddons = {
         image: 'honingStone'
     },
     BLOODY_COIL: {
+        id: 17,
         index: 'BLOODY_COIL',
         name: 'Bloody Coil',
         owner: 'TRAPPER',
@@ -154,6 +171,7 @@ export const KillerAddons = {
         image: 'bloodyCoil'
     },
     DIAMOND_STONE: {
+        id: 18,
         index: 'DIAMOND_STONE',
         name: 'Diamond Stone',
         owner: 'TRAPPER',
@@ -163,6 +181,7 @@ export const KillerAddons = {
         image: 'diamondStone'
     },
     BONE_CLAPPER: {
+        id: 50,
         index: 'BONE_CLAPPER',
         name: 'Bone Clapper',
         owner: 'WRAITH',
@@ -172,6 +191,7 @@ export const KillerAddons = {
         image: 'boneClapper'
     },
     SWIFT_HUNT_SOOT: {
+        id: 51,
         index: 'SWIFT_HUNT_SOOT',
         name: '"Swift Hunt" - Soot',
         owner: 'WRAITH',
@@ -181,6 +201,7 @@ export const KillerAddons = {
         image: 'sootKuntinTakkho'
     },
     BLINK_SOOT: {
+        id: 52,
         index: 'BLINK_SOOT',
         name: '"Blink" - Soot',
         owner: 'WRAITH',
@@ -190,6 +211,7 @@ export const KillerAddons = {
         image: 'sootKratin'
     },
     BLIND_WARRIOR_SOOT: {
+        id: 53,
         index: 'BLIND_WARRIOR_SOOT',
         name: '"Blink" - Soot',
         owner: 'WRAITH',
@@ -199,6 +221,7 @@ export const KillerAddons = {
         image: 'sootBaikraKaeug'
     },
     COXCOMBED_CLAPPER: {
+        id: 54,
         index: 'COXCOMBED_CLAPPER',
         name: 'Coxcombed Clapper',
         owner: 'WRAITH',
@@ -208,6 +231,7 @@ export const KillerAddons = {
         image: 'coxcombedClapper'
     },
     WINDSTORM_MUD: {
+        id: 55,
         index: 'WINDSTORM_MUD',
         name: '"Windstorm" - Mud',
         owner: 'WRAITH',
@@ -217,6 +241,7 @@ export const KillerAddons = {
         image: 'mudWindstorm'
     },
     SWIFT_HUNT_MUD: {
+        id: 56,
         index: 'SWIFT_HUNT_MUD',
         name: '"Swift Hunt" - Mud',
         owner: 'WRAITH',
@@ -226,6 +251,7 @@ export const KillerAddons = {
         image: 'mudSwiftHunt'
     },
     BLIND_WARRIOR_MUD: {
+        id: 57,
         index: 'BLIND_WARRIOR_MUD',
         name: '"Blind Warrior" - Mud',
         owner: 'WRAITH',
@@ -235,6 +261,7 @@ export const KillerAddons = {
         image: 'mudBaikraKaeug'
     },
     ALL_SEEING_MUD: {
+        id: 58,
         index: 'ALL_SEEING_MUD',
         name: '"All Seeing" - Mud',
         owner: 'WRAITH',
@@ -244,6 +271,7 @@ export const KillerAddons = {
         image: 'mudKraFabai'
     },
     WINDSTORM_WHITE: {
+        id: 59,
         index: 'WINDSTORM_WHITE',
         name: '"Windstorm" - White',
         owner: 'WRAITH',
@@ -253,6 +281,7 @@ export const KillerAddons = {
         image: 'whiteWindstorm'
     },
     THE_GHOST_WHITE: {
+        id: 60,
         index: 'THE_GHOST_WHITE',
         name: '"The Ghost" - White',
         owner: 'WRAITH',
@@ -262,6 +291,7 @@ export const KillerAddons = {
         image: 'images/whiteTheGhost'
     },
     SWIFT_HUNT_WHITE: {
+        id: 61,
         index: 'SWIFT_HUNT_WHITE',
         name: '"Swift Hunt" - White',
         owner: 'WRAITH',
@@ -271,6 +301,7 @@ export const KillerAddons = {
         image: 'whiteKuntinTakkho'
     },
     BLIND_WARRIOR_WHITE: {
+        id: 62,
         index: 'BLIND_WARRIOR_WHITE',
         name: '"Blind Warrior" - White',
         owner: 'WRAITH',
@@ -280,6 +311,7 @@ export const KillerAddons = {
         image: 'whiteBlindWarrior'
     },
     ALL_SEEING_WHITE: {
+        id: 63,
         index: 'ALL_SEEING_WHITE',
         name: '"All Seeing" - White',
         owner: 'WRAITH',
@@ -289,6 +321,7 @@ export const KillerAddons = {
         image: 'whiteAllSeeing'
     },
     WINDSTORM_BLOOD: {
+        id: 64,
         index: 'WINDSTORM_BLOOD',
         name: '"Windstorm" - Blood',
         owner: 'WRAITH',
@@ -298,6 +331,7 @@ export const KillerAddons = {
         image: 'bloodWindstorm'
     },
     BLIND_WARRIOR_BLOOD: {
+        id: 65,
         index: 'BLIND_WARRIOR_BLOOD',
         name: '"Blind Warrior" - Blood',
         owner: 'WRAITH',
@@ -307,6 +341,7 @@ export const KillerAddons = {
         image: 'bloodBlindWarrior'
     },
     ALL_SEEING_BLOOD: {
+        id: 66,
         index: 'ALL_SEEING_BLOOD',
         name: '"All Seeing" - Blood',
         owner: 'WRAITH',
@@ -316,6 +351,7 @@ export const KillerAddons = {
         image: 'bloodKraFabai'
     },
     BLIND_WARRIOR_SPIRIT: {
+        id: 67,
         index: 'BLIND_WARRIOR_SPIRIT',
         name: '"Blind Warrior" - Spirit',
         owner: 'WRAITH',
@@ -325,6 +361,7 @@ export const KillerAddons = {
         image: 'spiritBlindWarrior'
     },
     ALL_SEEING_SPIRIT: {
+        id: 68,
         index: 'ALL_SEEING_SPIRIT',
         name: '"All Seeing" - Spirit',
         owner: 'WRAITH',
@@ -334,6 +371,7 @@ export const KillerAddons = {
         image: 'spiritAllSeeing'
     },
     VEGETABLE_OIL: {
+        id: 100,
         index: 'VEGETABLE_OIL',
         name: 'Vegetable Oil',
         owner: 'HILLBILLY',
@@ -343,6 +381,7 @@ export const KillerAddons = {
         image: 'vegetableOil'
     },
     SPARK_PLUG: {
+        id: 101,
         index: 'SPARK_PLUG',
         name: 'Spark Plug',
         owner: 'HILLBILLY',
@@ -352,6 +391,7 @@ export const KillerAddons = {
         image: 'sparkPlug'
     },
     CHAINSAW_FILE: {
+        id: 102,
         index: 'CHAINSAW_FILE',
         name: 'Chainsaw File',
         owner: 'HILLBILLY',
@@ -361,6 +401,7 @@ export const KillerAddons = {
         image: 'chainsawFile'
     },
     SPIKED_BOOTS: {
+        id: 103,
         index: 'SPIKED_BOOTS',
         name: 'Spiked Boots',
         owner: 'HILLBILLY',
@@ -370,6 +411,7 @@ export const KillerAddons = {
         image: 'spikedBoots'
     },
     SPEED_LIMITER: {
+        id: 104,
         index: 'SPEED_LIMITER',
         name: 'Speed Limiter',
         owner: 'HILLBILLY',
@@ -379,6 +421,7 @@ export const KillerAddons = {
         image: 'speedLimiter'
     },
     SHOP_LUBRICANT: {
+        id: 105,
         index: 'SHOP_LUBRICANT',
         name: 'Shop Lubricant',
         owner: 'HILLBILLY',
@@ -388,6 +431,7 @@ export const KillerAddons = {
         image: 'shopLubricant'
     },
     PRIMER_BULB: {
+        id: 106,
         index: 'PRIMER_BULB',
         name: 'Primer Bulb',
         owner: 'HILLBILLY',
@@ -397,6 +441,7 @@ export const KillerAddons = {
         image: 'primerBulb'
     },
     LONG_GUIDE_BAR: {
+        id: 107,
         index: 'LONG_GUIDE_BAR',
         name: 'Long Guide Bar',
         owner: 'HILLBILLY',
@@ -406,6 +451,7 @@ export const KillerAddons = {
         image: 'longGuideBar'
     },
     HOMEMADE_MUFFLER: {
+        id: 108,
         index: 'HOMEMADE_MUFFLER',
         name: 'Homemade Muffler',
         owner: 'HILLBILLY',
@@ -415,6 +461,7 @@ export const KillerAddons = {
         image: 'homemadeMuffler'
     },
     GRISLY_CHAINS: {
+        id: 109,
         index: 'GRISLY_CHAINS',
         name: 'Grisly Chains',
         owner: 'HILLBILLY',
@@ -424,6 +471,7 @@ export const KillerAddons = {
         image: 'chainsGrisly'
     },
     DEPTH_GUAGE_RAKE: {
+        id: 110,
         index: 'DEPTH_GUAGE_RAKE',
         name: 'Depth Gauge Rake',
         owner: 'HILLBILLY',
@@ -433,6 +481,7 @@ export const KillerAddons = {
         image: 'depthGaugeRake'
     },
     DEATH_ENGRAVINGS: {
+        id: 111,
         index: 'DEATH_ENGRAVINGS',
         name: 'Death Engravings',
         owner: 'HILLBILLY',
@@ -442,6 +491,7 @@ export const KillerAddons = {
         image: 'deathEngravings'
     },
     THE_THOMPSONS_MIX: {
+        id: 112,
         index: 'THE_THOMPSONS_MIX',
         name: "The Thompson's Mix",
         owner: 'HILLBILLY',
@@ -451,6 +501,7 @@ export const KillerAddons = {
         image: 'theThompsonsMix'
     },
     RUSTED_CHAINS: {
+        id: 113,
         index: 'RUSTED_CHAINS',
         name: 'Rusted Chains',
         owner: 'HILLBILLY',
@@ -460,6 +511,7 @@ export const KillerAddons = {
         image: 'chainsRusted'
     },
     LIGHT_CHASSIS: {
+        id: 114,
         index: 'LIGHT_CHASSIS',
         name: 'Light Chassis',
         owner: 'HILLBILLY',
@@ -469,6 +521,7 @@ export const KillerAddons = {
         image: 'lightChassis'
     },
     DOOM_ENGRAVINGS: {
+        id: 115,
         index: 'DOOM_ENGRAVINGS',
         name: 'Doom Engravings',
         owner: 'HILLBILLY',
@@ -478,6 +531,7 @@ export const KillerAddons = {
         image: 'doomEngravings'
     },
     THOMPSONS_MOONSHINE: {
+        id: 116,
         index: 'THOMPSONS_MOONSHINE',
         name: "Thompson's Moonshine",
         owner: 'HILLBILLY',
@@ -487,6 +541,7 @@ export const KillerAddons = {
         image: 'thompsonsMoonshine'
     },
     BEGRIMED_CHAINS: {
+        id: 117,
         index: 'BEGRIMED_CHAINS',
         name: 'Begrimed Chains',
         owner: 'HILLBILLY',
@@ -496,6 +551,7 @@ export const KillerAddons = {
         image: 'chainsBloody'
     },
     WOODEN_HORSE: {
+        id: 150,
         index: 'WOODEN_HORSE',
         name: 'Wooden Horse',
         owner: 'NURSE',
@@ -505,6 +561,7 @@ export const KillerAddons = {
         image: 'woodenHorse'
     },
     WHITE_NIT_COMB: {
+        id: 151,
         index: 'WHITE_NIT_COMB',
         name: 'White Nit Comb',
         owner: 'NURSE',
@@ -514,6 +571,7 @@ export const KillerAddons = {
         image: 'whiteNitComb'
     },
     TORN_BOOKMARK: {
+        id: 152,
         index: 'TORN_BOOKMARK',
         name: 'Torn Bookmark',
         owner: 'NURSE',
@@ -523,6 +581,7 @@ export const KillerAddons = {
         image: 'tornBookmark'
     },
     METAL_SPOON: {
+        id: 153,
         index: 'METAL_SPOON',
         name: 'Metal Spoon',
         owner: 'NURSE',
@@ -532,6 +591,7 @@ export const KillerAddons = {
         image: 'metalSpoon'
     },
     MATCHBOX: {
+        id: 154,
         index: 'MATCHBOX',
         name: 'Matchbox',
         owner: 'NURSE',
@@ -541,6 +601,7 @@ export const KillerAddons = {
         image: 'matchBox'
     },
     BAD_MAN_KEEPSAKE: {
+        id: 155,
         index: 'BAD_MAN_KEEPSAKE',
         name: 'Bad Man Keepsake',
         owner: 'NURSE',
@@ -550,6 +611,7 @@ export const KillerAddons = {
         image: 'badManKeepsake'
     },
     POCKET_WATCH: {
+        id: 156,
         index: 'POCKET_WATCH',
         name: 'Pocket Watch',
         owner: 'NURSE',
@@ -559,6 +621,7 @@ export const KillerAddons = {
         image: 'pocketWatch'
     },
     DULL_BRACELET: {
+        id: 157,
         index: 'DULL_BRACELET',
         name: 'Dull Bracelet',
         owner: 'NURSE',
@@ -568,6 +631,7 @@ export const KillerAddons = {
         image: 'dullBracelet'
     },
     DARK_CINCTURE: {
+        id: 158,
         index: 'DARK_CINCTURE',
         name: 'Dark Cincture',
         owner: 'NURSE',
@@ -577,6 +641,7 @@ export const KillerAddons = {
         image: 'darkCincture'
     },
     CATATONIC_BOYS_TREASURE: {
+        id: 159,
         index: 'CATATONIC_BOYS_TREASURE',
         name: "Catatonic Boy's Treasure",
         owner: 'NURSE',
@@ -586,6 +651,7 @@ export const KillerAddons = {
         image: 'catatonicTreasure'
     },
     SPASMODIC_BREATH: {
+        id: 160,
         index: 'SPASMODIC_BREATH',
         name: 'Spasmodic Breath',
         owner: 'NURSE',
@@ -595,6 +661,7 @@ export const KillerAddons = {
         image: 'spasmodicBreath'
     },
     HEAVY_PANTING: {
+        id: 161,
         index: 'HEAVY_PANTING',
         name: 'Heavy Panting',
         owner: 'NURSE',
@@ -604,6 +671,7 @@ export const KillerAddons = {
         image: 'heavyPanting'
     },
     FRAGILE_WHEEZE: {
+        id: 162,
         index: 'FRAGILE_WHEEZE',
         name: 'Fragile Wheeze',
         owner: 'NURSE',
@@ -613,6 +681,7 @@ export const KillerAddons = {
         image: 'fragileWheeze'
     },
     ATAXIC_RESPIRATION: {
+        id: 163,
         index: 'ATAXIC_RESPIRATION',
         name: 'Ataxic Respiration',
         owner: 'NURSE',
@@ -622,6 +691,7 @@ export const KillerAddons = {
         image: 'ataxicRespiration'
     },
     ANXIOUS_GASP: {
+        id: 164,
         index: 'ANXIOUS_GASP',
         name: 'Anxious Gasp',
         owner: 'NURSE',
@@ -631,6 +701,7 @@ export const KillerAddons = {
         image: 'anxiousGasp'
     },
     PLAID_FLANNEL: {
+        id: 165,
         index: 'PLAID_FLANNEL',
         name: 'Plaid Flannel',
         owner: 'NURSE',
@@ -640,6 +711,7 @@ export const KillerAddons = {
         image: 'plaidFlannel'
     },
     KAVANAGHS_LAST_BREATH: {
+        id: 166,
         index: 'KAVANAGHS_LAST_BREATH',
         name: "Kavanagh's Last Breath",
         owner: 'NURSE',
@@ -649,6 +721,7 @@ export const KillerAddons = {
         image: 'kavanaghsLastBreath'
     },
     JENNERS_LAST_BREATH: {
+        id: 167,
         index: 'JENNERS_LAST_BREATH',
         name: "Jenner's Last Breath",
         owner: 'NURSE',
@@ -658,6 +731,7 @@ export const KillerAddons = {
         image: 'jennersLastBreath'
     },
     CAMPBELLS_LAST_BREATH: {
+        id: 168,
         index: 'CAMPBELLS_LAST_BREATH',
         name: "Campbell's Last Breath",
         owner: 'NURSE',
@@ -667,6 +741,7 @@ export const KillerAddons = {
         image: 'campbellsLastBreath'
     },
     BAD_MANS_LAST_BREATH: {
+        id: 169,
         index: 'BAD_MANS_LAST_BREATH',
         name: '"Bad Man\'s" Last Breath',
         owner: 'NURSE',
@@ -676,6 +751,7 @@ export const KillerAddons = {
         image: 'badMansLastBreath'
     },
     TACKY_EARRINGS: {
+        id: 200,
         index: 'TACKY_EARRINGS',
         name: 'Tacky Earrings',
         owner: 'SHAPE',
@@ -685,6 +761,7 @@ export const KillerAddons = {
         image: 'tackyEarrings'
     },
     BOYFRIENDS_MEMO: {
+        id: 201,
         index: 'BOYFRIENDS_MEMO',
         name: "Boyfriend's Memo",
         owner: 'SHAPE',
@@ -695,6 +772,7 @@ export const KillerAddons = {
         image: 'boyfriendsMemo'
     },
     BLOND_HAIR: {
+        id: 202,
         index: 'BLOND_HAIR',
         name: 'Blond Hair',
         owner: 'SHAPE',
@@ -704,6 +782,7 @@ export const KillerAddons = {
         image: 'blondeHair'
     },
     REFLECTIVE_FRAGMENT: {
+        id: 203,
         index: 'REFLECTIVE_FRAGMENT',
         name: 'Reflective Fragment',
         owner: 'SHAPE',
@@ -713,6 +792,7 @@ export const KillerAddons = {
         image: 'reflectiveFragment'
     },
     MEMORIAL_FLOWER: {
+        id: 204,
         index: 'MEMORIAL_FLOWER',
         name: 'Memorial Flower',
         owner: 'SHAPE',
@@ -722,6 +802,7 @@ export const KillerAddons = {
         image: 'memorialFlower'
     },
     JEWELRY: {
+        id: 205,
         index: 'JEWELRY',
         name: 'Jewelry',
         owner: 'SHAPE',
@@ -731,6 +812,7 @@ export const KillerAddons = {
         image: 'jewelry'
     },
     HAIR_BRUSH: {
+        id: 206,
         index: 'HAIR_BRUSH',
         name: 'Hair Brush',
         owner: 'SHAPE',
@@ -740,6 +822,7 @@ export const KillerAddons = {
         image: 'hairBrush'
     },
     GLASS_FRAGMENT: {
+        id: 207,
         index: 'GLASS_FRAGMENT',
         name: 'Glass Fragment',
         owner: 'SHAPE',
@@ -749,6 +832,7 @@ export const KillerAddons = {
         image: 'glassFragment'
     },
     DEAD_RABBIT: {
+        id: 208,
         index: 'DEAD_RABBIT',
         name: 'Dead Rabbit',
         owner: 'SHAPE',
@@ -758,6 +842,7 @@ export const KillerAddons = {
         image: 'deadRabbit'
     },
     MIRROR_SHARD: {
+        id: 209,
         index: 'MIRROR_SHARD',
         name: 'Mirror Shard',
         owner: 'SHAPE',
@@ -767,6 +852,7 @@ export const KillerAddons = {
         image: 'mirrorShard'
     },
     JUDITHS_JOURNAL: {
+        id: 210,
         index: 'JUDITHS_JOURNAL',
         name: "Judith's Journal",
         owner: 'SHAPE',
@@ -776,6 +862,7 @@ export const KillerAddons = {
         image: 'judithsJournal'
     },
     JEWELRY_BOX: {
+        id: 211,
         index: 'JEWELRY_BOX',
         name: 'Jewelry Box',
         owner: 'SHAPE',
@@ -785,6 +872,7 @@ export const KillerAddons = {
         image: 'jewelryBox'
     },
     J_MYERS_MEMORIAL: {
+        id: 212,
         index: 'J_MYERS_MEMORIAL',
         name: 'J. Myers Memorial',
         owner: 'SHAPE',
@@ -794,6 +882,7 @@ export const KillerAddons = {
         image: 'jMyersMemorial'
     },
     HAIR_BOW: {
+        id: 213,
         index: 'HAIR_BOW',
         name: 'Hair Bow',
         owner: 'SHAPE',
@@ -803,6 +892,7 @@ export const KillerAddons = {
         image: 'hairBow'
     },
     VANITY_MIRROR: {
+        id: 214,
         index: 'VANITY_MIRROR',
         name: 'Vanity Mirror',
         owner: 'SHAPE',
@@ -812,6 +902,7 @@ export const KillerAddons = {
         image: 'vanityMirror'
     },
     TOMBSTONE_PIECE: {
+        id: 215,
         index: 'TOMBSTONE_PIECE',
         name: 'Tombstone Piece',
         owner: 'SHAPE',
@@ -821,6 +912,7 @@ export const KillerAddons = {
         image: 'tombstonePiece'
     },
     SCRATCHED_MIRROR: {
+        id: 216,
         index: 'SCRATCHED_MIRROR',
         name: 'Scratched Mirror',
         owner: 'SHAPE',
@@ -830,6 +922,7 @@ export const KillerAddons = {
         image: 'scratchedMirror'
     },
     LOCK_OF_HAIR: {
+        id: 217,
         index: 'LOCK_OF_HAIR',
         name: 'Lock of Hair',
         owner: 'SHAPE',
@@ -839,6 +932,7 @@ export const KillerAddons = {
         image: 'lockOfHair'
     },
     JUDITHS_TOMBSTONE: {
+        id: 218,
         index: 'JUDITHS_TOMBSTONE',
         name: "Judith's Tombstone",
         owner: 'SHAPE',
@@ -849,6 +943,7 @@ export const KillerAddons = {
         image: 'judithsTombstone'
     },
     FRAGRANT_TUFT_OF_HAIR: {
+        id: 219,
         index: 'FRAGRANT_TUFT_OF_HAIR',
         name: 'Fragrant Tuft of Hair',
         owner: 'SHAPE',
@@ -858,6 +953,7 @@ export const KillerAddons = {
         image: 'tuftOfHair'
     },
     ROPE_NECKLET: {
+        id: 250,
         index: 'ROPE_NECKLET',
         name: 'Rope Necklet',
         owner: 'HAG',
@@ -867,6 +963,7 @@ export const KillerAddons = {
         image: 'ropeNecklet'
     },
     POWDERED_EGGSHELL: {
+        id: 251,
         index: 'POWDERED_EGGSHELL',
         name: 'Powdered Eggshell',
         owner: 'HAG',
@@ -876,6 +973,7 @@ export const KillerAddons = {
         image: 'powderedEggshell'
     },
     DEAD_FLY_MUD: {
+        id: 252,
         index: 'DEAD_FLY_MUD',
         name: 'Dead Fly Mud',
         owner: 'HAG',
@@ -885,6 +983,7 @@ export const KillerAddons = {
         image: 'deadFlyMud'
     },
     BOG_WATER: {
+        id: 253,
         index: 'BOG_WATER',
         name: 'Bog Water',
         owner: 'HAG',
@@ -894,6 +993,7 @@ export const KillerAddons = {
         image: 'bogWater'
     },
     PUSSY_WILLOW_CATKINS: {
+        id: 254,
         index: 'PUSSY_WILLOW_CATKINS',
         name: 'Pussy Willow Catkins',
         owner: 'HAG',
@@ -903,6 +1003,7 @@ export const KillerAddons = {
         image: 'pussyWillowCatkins'
     },
     HALF_EGGSHELL: {
+        id: 255,
         index: 'HALF_EGGSHELL',
         name: 'Half Eggshell',
         owner: 'HAG',
@@ -912,6 +1013,7 @@ export const KillerAddons = {
         image: 'halfEggshell'
     },
     DRAGONFLY_WINGS: {
+        id: 256,
         index: 'DRAGONFLY_WINGS',
         name: 'Dragonfly Wings',
         owner: 'HAG',
@@ -921,6 +1023,7 @@ export const KillerAddons = {
         image: 'dragonflyWings'
     },
     CYPRESS_NECKLET: {
+        id: 257,
         index: 'CYPRESS_NECKLET',
         name: 'Cypress Necklet',
         owner: 'HAG',
@@ -930,6 +1033,7 @@ export const KillerAddons = {
         image: 'cypressNecklet'
     },
     BLOODIED_WATER: {
+        id: 258,
         index: 'BLOODIED_WATER',
         name: 'Bloodied Water',
         owner: 'HAG',
@@ -939,6 +1043,7 @@ export const KillerAddons = {
         image: 'bloodiedWater'
     },
     WILLOW_WREATH: {
+        id: 259,
         index: 'WILLOW_WREATH',
         name: 'Willow Wreath',
         owner: 'HAG',
@@ -948,6 +1053,7 @@ export const KillerAddons = {
         image: 'willowWreath'
     },
     SWAMP_ORCHID_NECKLET: {
+        id: 260,
         index: 'SWAMP_ORCHID_NECKLET',
         name: 'Swamp Orchid Necklet',
         owner: 'HAG',
@@ -957,6 +1063,7 @@ export const KillerAddons = {
         image: 'swampOrchidNecklet'
     },
     DRIED_CICADA: {
+        id: 261,
         index: 'DRIED_CICADA',
         name: 'Dried Cicada',
         owner: 'HAG',
@@ -966,6 +1073,7 @@ export const KillerAddons = {
         image: 'driedCicada'
     },
     CRACKED_TURTLE_EGG: {
+        id: 262,
         index: 'CRACKED_TURTLE_EGG',
         name: 'Cracked Turtle Egg',
         owner: 'HAG',
@@ -975,6 +1083,7 @@ export const KillerAddons = {
         image: 'crackedTurtleEgg'
     },
     BLOODIED_MUD: {
+        id: 263,
         index: 'BLOODIED_MUD',
         name: 'Bloodied Mud',
         owner: 'HAG',
@@ -984,6 +1093,7 @@ export const KillerAddons = {
         image: 'bloodiedMud'
     },
     SCARRED_HAND: {
+        id: 264,
         index: 'SCARRED_HAND',
         name: 'Scarred Hand',
         owner: 'HAG',
@@ -994,6 +1104,7 @@ export const KillerAddons = {
         image: 'scarredHand'
     },
     RUSTY_SHACKLES: {
+        id: 265,
         index: 'RUSTY_SHACKLES',
         name: 'Rusty Shackles',
         owner: 'HAG',
@@ -1003,6 +1114,7 @@ export const KillerAddons = {
         image: 'rustyShackles'
     },
     GRANDMAS_HEART: {
+        id: 266,
         index: 'GRANDMAS_HEART',
         name: "Granma's Heart",
         owner: 'HAG',
@@ -1013,6 +1125,7 @@ export const KillerAddons = {
         image: 'granmasHeart'
     },
     DISFIGURED_EAR: {
+        id: 267,
         index: 'DISFIGURED_EAR',
         name: 'Disfigured Ear',
         owner: 'HAG',
@@ -1022,6 +1135,7 @@ export const KillerAddons = {
         image: 'disfiguredEar'
     },
     WATERLOGGED_SHOE: {
+        id: 268,
         index: 'WATERLOGGED_SHOE',
         name: 'Waterlogged Shoe',
         owner: 'HAG',
@@ -1031,6 +1145,7 @@ export const KillerAddons = {
         image: 'waterloggedShoe'
     },
     MINT_RAG: {
+        id: 269,
         index: 'MINT_RAG',
         name: 'Mint Rag',
         owner: 'HAG',
@@ -1040,6 +1155,7 @@ export const KillerAddons = {
         image: 'mintRag'
     },
     MOLDY_ELECTRODE: {
+        id: 300,
         index: 'MOLDY_ELECTRODE',
         name: 'Moldy Electrode',
         owner: 'DOCTOR',
@@ -1049,6 +1165,7 @@ export const KillerAddons = {
         image: 'moldyElectrode'
     },
     MAPLE_KNIGHT: {
+        id: 301,
         index: 'MAPLE_KNIGHT',
         name: 'Maple Knight',
         owner: 'DOCTOR',
@@ -1058,6 +1175,7 @@ export const KillerAddons = {
         image: 'mapleKnight'
     },
     ORDER_CLASS_I: {
+        id: 302,
         index: 'ORDER_CLASS_I',
         name: '"Order" - Class I',
         owner: 'DOCTOR',
@@ -1067,6 +1185,7 @@ export const KillerAddons = {
         image: 'orderClassI'
     },
     CALM_CLASS_I: {
+        id: 303,
         index: 'CALM_CLASS_I',
         name: '"Calm" - Class I',
         owner: 'DOCTOR',
@@ -1076,6 +1195,7 @@ export const KillerAddons = {
         image: 'calmClassI'
     },
     SCRAPPED_TAPE: {
+        id: 304,
         index: 'SCRAPPED_TAPE',
         name: 'Scrapped Tape',
         owner: 'DOCTOR',
@@ -1085,6 +1205,7 @@ export const KillerAddons = {
         image: 'scrappedTape'
     },
     POLISHED_ELECTRODE: {
+        id: 305,
         index: 'POLISHED_ELECTRODE',
         name: 'Polished Electrode',
         owner: 'DOCTOR',
@@ -1094,6 +1215,7 @@ export const KillerAddons = {
         image: 'polishedElectrode'
     },
     INTERVIEW_TAPE: {
+        id: 306,
         index: 'INTERVIEW_TAPE',
         name: 'Interview Tape',
         owner: 'DOCTOR',
@@ -1103,6 +1225,7 @@ export const KillerAddons = {
         image: 'interviewTape'
     },
     RESTRAINT_CLASS_II: {
+        id: 307,
         index: 'RESTRAINT_CLASS_II',
         name: '"Restraint" - Class II',
         owner: 'DOCTOR',
@@ -1112,6 +1235,7 @@ export const KillerAddons = {
         image: 'restraintClassII'
     },
     ORDER_CLASS_II: {
+        id: 308,
         index: 'ORDER_CLASS_II',
         name: '"Order" - Class II',
         owner: 'DOCTOR',
@@ -1122,6 +1246,7 @@ export const KillerAddons = {
         image: 'orderClassII'
     },
     DISCIPLINE_CLASS_II: {
+        id: 309,
         index: 'DISCIPLINE_CLASS_II',
         name: '"Order" - Class II',
         owner: 'DOCTOR',
@@ -1133,6 +1258,7 @@ export const KillerAddons = {
         image: 'diciplineClassII'
     },
     CALM_CLASS_II: {
+        id: 310,
         index: 'CALM_CLASS_II',
         name: '"Calm" - Class II',
         owner: 'DOCTOR',
@@ -1144,6 +1270,7 @@ export const KillerAddons = {
         image: 'calmClassII'
     },
     HIGH_STIMULUS_ELECTRODE: {
+        id: 311,
         index: 'HIGH_STIMULUS_ELECTRODE',
         name: 'High Stimulus Electrode',
         owner: 'DOCTOR',
@@ -1153,6 +1280,7 @@ export const KillerAddons = {
         image: 'highStimulusElectrode'
     },
     RESTRAINT_CLASS_III: {
+        id: 312,
         index: 'RESTRAINT_CLASS_III',
         name: '"Restraint" - Class III',
         owner: 'DOCTOR',
@@ -1162,6 +1290,7 @@ export const KillerAddons = {
         image: 'restraintClassIII'
     },
     DISCIPLINE_CLASS_III: {
+        id: 313,
         index: 'DISCIPLINE_CLASS_III',
         name: '"Discipline" - Class III',
         owner: 'DOCTOR',
@@ -1173,6 +1302,7 @@ export const KillerAddons = {
         image: 'diciplineClassIII'
     },
     RESTRAINT_CARTERS_NOTES: {
+        id: 314,
         index: 'RESTRAINT_CARTERS_NOTES',
         name: '"Restraint" - Carter\'s Notes',
         owner: 'DOCTOR',
@@ -1184,6 +1314,7 @@ export const KillerAddons = {
         image: 'restraintCartersNotes'
     },
     ORDER_CARTERS_NOTES: {
+        id: 315,
         index: 'ORDER_CARTERS_NOTES',
         name: '"Order" - Carter\'s Notes',
         owner: 'DOCTOR',
@@ -1195,6 +1326,7 @@ export const KillerAddons = {
         image: 'orderCartersNotes'
     },
     OBEDIENCE_CARTERS_NOTES: {
+        id: 316,
         index: 'OBEDIENCE_CARTERS_NOTES',
         name: '"Obedience" - Carter\'s Notes',
         owner: 'DOCTOR',
@@ -1206,6 +1338,7 @@ export const KillerAddons = {
         image: 'obedienceCartersNotes'
     },
     DISCIPLINE_CARTERS_NOTES: {
+        id: 317,
         index: 'OBEDIENCE_CARTERS_NOTES',
         name: '"Obedience" - Carter\'s Notes',
         owner: 'DOCTOR',
@@ -1217,6 +1350,7 @@ export const KillerAddons = {
         image: 'disciplineCartersNotes'
     },
     CALM_CARTERS_NOTES: {
+        id: 318,
         index: 'CALM_CARTERS_NOTES',
         name: '"Calm" - Carter\'s Notes',
         owner: 'DOCTOR',
@@ -1228,6 +1362,7 @@ export const KillerAddons = {
         image: 'calmCartersNotes'
     },
     IRIDESCENT_KING: {
+        id: 319,
         index: 'IRIDESCENT_KING',
         name: 'Iridescent King',
         owner: 'DOCTOR',
@@ -1239,6 +1374,7 @@ export const KillerAddons = {
         image: 'iridescentKing'
     },
     COARSE_STONE: {
+        id: 350,
         index: 'COARSE_STONE',
         name: 'Coarse Stone',
         owner: 'HUNTRESS',
@@ -1248,6 +1384,7 @@ export const KillerAddons = {
         image: 'coarseStone'
     },
     BERUS_TOXIN: {
+        id: 351,
         index: 'BERUS_TOXIN',
         name: 'Berus Toxin',
         owner: 'HUNTRESS',
@@ -1257,6 +1394,7 @@ export const KillerAddons = {
         image: 'berusToxin'
     },
     BANDAGED_HAFT: {
+        id: 352,
         index: 'BANDAGED_HAFT',
         name: 'Bandaged Haft',
         owner: 'HUNTRESS',
@@ -1266,6 +1404,7 @@ export const KillerAddons = {
         image: 'bandagedHaft'
     },
     AMANITA_TOXIN: {
+        id: 353,
         index: 'AMANITA_TOXIN',
         name: 'Amanita Toxin',
         owner: 'HUNTRESS',
@@ -1275,6 +1414,7 @@ export const KillerAddons = {
         image: 'amanitaToxin'
     },
     YEW_SEED_BREW: {
+        id: 354,
         index: 'YEW_SEED_BREW',
         name: 'Yew Seed Brew',
         owner: 'HUNTRESS',
@@ -1284,6 +1424,7 @@ export const KillerAddons = {
         image: 'yewSeedBrew'
     },
     SHINY_PIN: {
+        id: 355,
         index: 'SHINY_PIN',
         name: 'Shiny Pin',
         owner: 'HUNTRESS',
@@ -1293,6 +1434,7 @@ export const KillerAddons = {
         image: 'shinyPin'
     },
     OAK_HAFT: {
+        id: 356,
         index: 'OAK_HAFT',
         name: 'Oak Haft',
         owner: 'HUNTRESS',
@@ -1302,6 +1444,7 @@ export const KillerAddons = {
         image: 'oakHaft'
     },
     MANNA_GRASS_BRAID: {
+        id: 357,
         index: 'MANNA_GRASS_BRAID',
         name: 'Manna Grass Braid',
         owner: 'HUNTRESS',
@@ -1311,6 +1454,7 @@ export const KillerAddons = {
         image: 'mannaGrassBraid'
     },
     LEATHER_LOOP: {
+        id: 358,
         index: 'LEATHER_LOOP',
         name: 'Leather Loop',
         owner: 'HUNTRESS',
@@ -1320,6 +1464,7 @@ export const KillerAddons = {
         image: 'leatherLoop'
     },
     FINE_STONE: {
+        id: 359,
         index: 'FINE_STONE',
         name: 'Fine Stone',
         owner: 'HUNTRESS',
@@ -1329,6 +1474,7 @@ export const KillerAddons = {
         image: 'fineStone'
     },
     DEERSKIN_GLOVES: {
+        id: 360,
         index: 'DEERSKIN_GLOVES',
         name: 'Deerskin Gloves',
         owner: 'HUNTRESS',
@@ -1338,6 +1484,7 @@ export const KillerAddons = {
         image: 'deerskinGloves'
     },
     YEW_SEED_CONCOCTION: {
+        id: 361,
         index: 'YEW_SEED_CONCOCTION',
         name: 'Yew Seed Concoction',
         owner: 'HUNTRESS',
@@ -1347,6 +1494,7 @@ export const KillerAddons = {
         image: 'yewSeedConcoction'
     },
     VENOMOUS_CONCOCTION: {
+        id: 362,
         index: 'VENOMOUS_CONCOCTION',
         name: 'Venomous Concoction',
         owner: 'HUNTRESS',
@@ -1356,6 +1504,7 @@ export const KillerAddons = {
         image: 'venomousConcoction'
     },
     RUSTY_HEAD: {
+        id: 363,
         index: 'RUSTY_HEAD',
         name: 'Rusty Head',
         owner: 'HUNTRESS',
@@ -1365,6 +1514,7 @@ export const KillerAddons = {
         image: 'rustyHead'
     },
     PUNGENT_FIALE: {
+        id: 364,
         index: 'PUNGENT_FIALE',
         name: 'Pungent Fiale',
         owner: 'HUNTRESS',
@@ -1374,6 +1524,7 @@ export const KillerAddons = {
         image: 'pungentFiale'
     },
     FLOWER_BABUSHKA: {
+        id: 365,
         index: 'FLOWER_BABUSHKA',
         name: 'Flower Babushka',
         owner: 'HUNTRESS',
@@ -1383,6 +1534,7 @@ export const KillerAddons = {
         image: 'flowerBabushka'
     },
     INFANTRY_BELT: {
+        id: 366,
         index: 'INFANTRY_BELT',
         name: 'Infantry Belt',
         owner: 'HUNTRESS',
@@ -1392,6 +1544,7 @@ export const KillerAddons = {
         image: 'infantryBelt'
     },
     GLOWING_CONCOCTION: {
+        id: 367,
         index: 'GLOWING_CONCOCTION',
         name: 'Glowing Concoction',
         owner: 'HUNTRESS',
@@ -1401,6 +1554,7 @@ export const KillerAddons = {
         image: 'glowingConcoction'
     },
     BEGRIMED_HEAD: {
+        id: 368,
         index: 'BEGRIMED_HEAD',
         name: 'Begrimed Head',
         owner: 'HUNTRESS',
@@ -1410,6 +1564,7 @@ export const KillerAddons = {
         image: 'begrimedHead'
     },
     IRIDESCENT_HEAD: {
+        id: 369,
         index: 'IRIDESCENT_HEAD',
         name: 'Iridescent Head',
         owner: 'HUNTRESS',
@@ -1420,6 +1575,7 @@ export const KillerAddons = {
         image: 'iridescentHead'
     },
     VEGETABLE_OIL_C: {
+        id: 400,
         index: 'VEGETABLE_OIL_C',
         name: 'Vegetable Oil',
         owner: 'CANNIBAL',
@@ -1429,6 +1585,7 @@ export const KillerAddons = {
         image: 'vegetableOil'
     },
     SPARK_PLUG_C: {
+        id: 401,
         index: 'SPARK_PLUG_C',
         name: 'Spark Plug',
         owner: 'CANNIBAL',
@@ -1438,6 +1595,7 @@ export const KillerAddons = {
         image: 'sparkPlug'
     },
     CHAINSAW_FILE_C: {
+        id: 402,
         index: 'CHAINSAW_FILE_C',
         name: 'Chainsaw File',
         owner: 'CANNIBAL',
@@ -1447,6 +1605,7 @@ export const KillerAddons = {
         image: 'chainsawFile'
     },
     SPEED_LIMITER_C: {
+        id: 403,
         index: 'SPEED_LIMITER_C',
         name: 'Speed Limiter',
         owner: 'CANNIBAL',
@@ -1456,6 +1615,7 @@ export const KillerAddons = {
         image: 'speedLimiter'
     },
     SHOP_LUBRICANT_C: {
+        id: 404,
         index: 'SHOP_LUBRICANT_C',
         name: 'Shop Lubricant',
         owner: 'CANNIBAL',
@@ -1465,6 +1625,7 @@ export const KillerAddons = {
         image: 'shopLubricant'
     },
     PRIMER_BULB_C: {
+        id: 405,
         index: 'PRIMER_BULB_C',
         name: 'Primer Bulb',
         owner: 'CANNIBAL',
@@ -1474,6 +1635,7 @@ export const KillerAddons = {
         image: 'primerBulb'
     },
     LONG_GUIDE_BAR_C: {
+        id: 406,
         index: 'LONG_GUIDE_BAR_C',
         name: 'Long Guide Bar',
         owner: 'CANNIBAL',
@@ -1483,6 +1645,7 @@ export const KillerAddons = {
         image: 'longGuideBar'
     },
     KNIFE_SCRATCHES: {
+        id: 407,
         index: 'KNIFE_SCRATCHES',
         name: 'Knife Scratches',
         owner: 'CANNIBAL',
@@ -1492,6 +1655,7 @@ export const KillerAddons = {
         image: 'knifeScratches'
     },
     HOMEMADE_MUFFLER_C: {
+        id: 408,
         index: 'HOMEMADE_MUFFLER_C',
         name: 'Homemade Muffler',
         owner: 'CANNIBAL',
@@ -1501,6 +1665,7 @@ export const KillerAddons = {
         image: 'homemadeMuffler'
     },
     GRISLY_CHAINS_C: {
+        id: 409,
         index: 'GRISLY_CHAINS_C',
         name: 'Grisly Chains',
         owner: 'CANNIBAL',
@@ -1510,6 +1675,7 @@ export const KillerAddons = {
         image: 'chainsGrisly'
     },
     DEPTH_GUAGE_RAKE_C: {
+        id: 410,
         index: 'DEPTH_GUAGE_RAKE_C',
         name: 'Depth Gauge Rake',
         owner: 'CANNIBAL',
@@ -1519,6 +1685,7 @@ export const KillerAddons = {
         image: 'depthGaugeRake'
     },
     CHILLI: {
+        id: 411,
         index: 'CHILLI',
         name: 'Chilli',
         owner: 'CANNIBAL',
@@ -1529,6 +1696,7 @@ export const KillerAddons = {
         image: ''
     },
     THE_GREASE: {
+        id: 412,
         index: 'THE_GREASE',
         name: 'The Grease',
         owner: 'CANNIBAL',
@@ -1538,6 +1706,7 @@ export const KillerAddons = {
         image: 'chili'
     },
     THE_BEASTS_MARKS: {
+        id: 413,
         index: 'THE_BEASTS_MARKS',
         name: "The Beast's Marks",
         owner: 'CANNIBAL',
@@ -1547,6 +1716,7 @@ export const KillerAddons = {
         image: 'theBeastsMark'
     },
     RUSTED_CHAINS_C: {
+        id: 414,
         index: 'RUSTED_CHAINS_C',
         name: 'Rusted Chains',
         owner: 'CANNIBAL',
@@ -1556,6 +1726,7 @@ export const KillerAddons = {
         image: 'chainsRusted'
     },
     LIGHT_CHASSIS_C: {
+        id: 415,
         index: 'LIGHT_CHASSIS_C',
         name: 'Light Chassis',
         owner: 'CANNIBAL',
@@ -1565,6 +1736,7 @@ export const KillerAddons = {
         image: 'lightChassis'
     },
     CARBURETOR_TUNING_GUIDE_C: {
+        id: 416,
         index: 'CARBURETOR_TUNING_GUIDE_C',
         name: 'Carburetor Tuning Guide',
         owner: 'CANNIBAL',
@@ -1574,6 +1746,7 @@ export const KillerAddons = {
         image: 'carburetorTuningGuide'
     },
     BEGRIMED_CHAINS_C: {
+        id: 417,
         index: 'BEGRIMED_CHAINS_C',
         name: 'Begrimed Chains',
         owner: 'CANNIBAL',
@@ -1583,6 +1756,7 @@ export const KillerAddons = {
         image: 'chainsBloody'
     },
     AWARD_WINNING_CHILLI: {
+        id: 418,
         index: 'AWARD_WINNING_CHILLI',
         name: 'Award-winning Chilli',
         owner: 'CANNIBAL',
@@ -1593,6 +1767,7 @@ export const KillerAddons = {
         image: 'awardwinningChili'
     },
     WOOL_SHIRT: {
+        id: 450,
         index: 'WOOL_SHIRT',
         name: 'Wool Shirt',
         owner: 'NIGHTMARE',
@@ -1602,6 +1777,7 @@ export const KillerAddons = {
         image: 'woolShirt'
     },
     SHEEP_BLOCK: {
+        id: 451,
         index: 'SHEEP_BLOCK',
         name: 'Sheep Block',
         owner: 'NIGHTMARE',
@@ -1611,6 +1787,7 @@ export const KillerAddons = {
         image: 'sheepBlock'
     },
     KIDS_DRAWING: {
+        id: 452,
         index: 'KIDS_DRAWING',
         name: "Kid's Drawing",
         owner: 'NIGHTMARE',
@@ -1620,6 +1797,7 @@ export const KillerAddons = {
         image: 'kidsDrawing'
     },
     GARDEN_RAKE: {
+        id: 453,
         index: 'GARDEN_RAKE',
         name: 'Garden Rake',
         owner: 'NIGHTMARE',
@@ -1629,6 +1807,7 @@ export const KillerAddons = {
         image: 'gardenRake'
     },
     PROTOTYPE_CLAWS: {
+        id: 454,
         index: 'PROTOTYPE_CLAWS',
         name: 'Prototype Claws',
         owner: 'NIGHTMARE',
@@ -1638,6 +1817,7 @@ export const KillerAddons = {
         image: 'prototypeClaw'
     },
     OUTDOOR_ROPE: {
+        id: 455,
         index: 'OUTDOOR_ROPE',
         name: 'Outdoor Rope',
         owner: 'NIGHTMARE',
@@ -1647,6 +1827,7 @@ export const KillerAddons = {
         image: 'outdoorRope'
     },
     NANCYS_SKETCH: {
+        id: 456,
         index: 'NANCYS_SKETCH',
         name: "Nancy's Sketch",
         owner: 'NIGHTMARE',
@@ -1656,6 +1837,7 @@ export const KillerAddons = {
         image: 'nancysSketch'
     },
     GREEN_DRESS: {
+        id: 457,
         index: 'GREEN_DRESS',
         name: 'Green Dress',
         owner: 'NIGHTMARE',
@@ -1665,6 +1847,7 @@ export const KillerAddons = {
         image: 'greenDress'
     },
     CAT_BLOCK: {
+        id: 458,
         index: 'CAT_BLOCK',
         name: 'Cat Block',
         owner: 'NIGHTMARE',
@@ -1674,6 +1857,7 @@ export const KillerAddons = {
         image: 'catBlock'
     },
     UNICORN_BLOCK: {
+        id: 459,
         index: 'UNICORN_BLOCK',
         name: 'Unicorn Block',
         owner: 'NIGHTMARE',
@@ -1683,6 +1867,7 @@ export const KillerAddons = {
         image: 'unicornBlock'
     },
     SWING_CHAINS: {
+        id: 460,
         index: 'SWING_CHAINS',
         name: 'Swing Chains',
         owner: 'NIGHTMARE',
@@ -1692,6 +1877,7 @@ export const KillerAddons = {
         image: 'swingChains'
     },
     NANCYS_MASTERPIECE: {
+        id: 461,
         index: 'NANCYS_MASTERPIECE',
         name: "Nancy's Masterpiece",
         owner: 'NIGHTMARE',
@@ -1701,6 +1887,7 @@ export const KillerAddons = {
         image: 'nancysMasterpiece'
     },
     JUMP_ROPE: {
+        id: 462,
         index: 'JUMP_ROPE',
         name: 'Jump Rope',
         owner: 'NIGHTMARE',
@@ -1710,6 +1897,7 @@ export const KillerAddons = {
         image: 'jumpRope'
     },
     BLUE_DRESS: {
+        id: 463,
         index: 'BLUE_DRESS',
         name: 'Blue Dress',
         owner: 'NIGHTMARE',
@@ -1719,6 +1907,7 @@ export const KillerAddons = {
         image: ''
     },
     PILL_BOTTLE: {
+        id: 464,
         index: 'PILL_BOTTLE',
         name: 'Pill Bottle',
         owner: 'NIGHTMARE',
@@ -1728,6 +1917,7 @@ export const KillerAddons = {
         image: 'blueDress'
     },
     PAINT_THINNER: {
+        id: 465,
         index: 'PAINT_THINNER',
         name: 'Paint Thinner',
         owner: 'NIGHTMARE',
@@ -1737,6 +1927,7 @@ export const KillerAddons = {
         image: 'paintThinner'
     },
     CLASS_PHOTO: {
+        id: 466,
         index: 'CLASS_PHOTO',
         name: 'Class Photo',
         owner: 'NIGHTMARE',
@@ -1746,6 +1937,7 @@ export const KillerAddons = {
         image: 'classPhoto'
     },
     Z_BLOCK: {
+        id: 467,
         index: 'Z_BLOCK',
         name: '"Z" Block',
         owner: 'NIGHTMARE',
@@ -1755,6 +1947,7 @@ export const KillerAddons = {
         image: 'zBlock'
     },
     RED_PAINT_BRUSH: {
+        id: 468,
         index: 'RED_PAINT_BRUSH',
         name: 'Red Paint Brush',
         owner: 'NIGHTMARE',
@@ -1764,6 +1957,7 @@ export const KillerAddons = {
         image: 'redPaintBrush'
     },
     BLACK_BOX: {
+        id: 469,
         index: 'BLACK_BOX',
         name: 'Black Box',
         owner: 'NIGHTMARE',
@@ -1773,6 +1967,7 @@ export const KillerAddons = {
         image: 'blackBox'
     },
     WORKSHOP_GREASE: {
+        id: 500,
         index: 'WORKSHOP_GREASE',
         name: 'Workshop Grease',
         owner: 'PIG',
@@ -1782,6 +1977,7 @@ export const KillerAddons = {
         image: 'workshopGrease'
     },
     SHATTERED_SYRINGE: {
+        id: 501,
         index: 'SHATTERED_SYRINGE',
         name: 'Shattered Syringe',
         owner: 'PIG',
@@ -1791,6 +1987,7 @@ export const KillerAddons = {
         image: 'shatteredSyringe'
     },
     JOHNS_MEDICAL_FILE: {
+        id: 502,
         index: 'JOHNS_MEDICAL_FILE',
         name: "John's Medical File",
         owner: 'PIG',
@@ -1800,6 +1997,7 @@ export const KillerAddons = {
         image: 'johnsMedicalFile'
     },
     COMBAT_STRAPS: {
+        id: 503,
         index: 'COMBAT_STRAPS',
         name: 'Combat Straps',
         owner: 'PIG',
@@ -1809,6 +2007,7 @@ export const KillerAddons = {
         image: 'combatStraps'
     },
     VIDEO_TAPE: {
+        id: 504,
         index: 'VIDEO_TAPE',
         name: 'Video Tape',
         owner: 'PIG',
@@ -1818,6 +2017,7 @@ export const KillerAddons = {
         image: 'videoTape'
     },
     UTILITY_BLADES: {
+        id: 505,
         index: 'UTILITY_BLADES',
         name: 'Utility Blades',
         owner: 'PIG',
@@ -1827,6 +2027,7 @@ export const KillerAddons = {
         image: 'utilityBlades'
     },
     RAZOR_WIRES: {
+        id: 506,
         index: 'RAZOR_WIRES',
         name: 'Razor Wires',
         owner: 'PIG',
@@ -1836,6 +2037,7 @@ export const KillerAddons = {
         image: 'razerWire'
     },
     LAST_WILL: {
+        id: 507,
         index: 'LAST_WILL',
         name: 'Last Will',
         owner: 'PIG',
@@ -1845,6 +2047,7 @@ export const KillerAddons = {
         image: 'lastWill'
     },
     FACE_MASK: {
+        id: 508,
         index: 'FACE_MASK',
         name: 'Face Mask',
         owner: 'PIG',
@@ -1854,6 +2057,7 @@ export const KillerAddons = {
         image: 'faceMask'
     },
     SLOW_RELEASE_TOXIN: {
+        id: 509,
         index: 'SLOW_RELEASE_TOXIN',
         name: 'Slow-Release Toxin',
         owner: 'PIG',
@@ -1863,6 +2067,7 @@ export const KillerAddons = {
         image: 'slowReleaseToxin'
     },
     RUSTY_ATTACHMENTS: {
+        id: 510,
         index: 'RUSTY_ATTACHMENTS',
         name: 'Rusty Attachments',
         owner: 'PIG',
@@ -1872,6 +2077,7 @@ export const KillerAddons = {
         image: 'slowReleaseToxin'
     },
     JIGSAWS_SKETCH: {
+        id: 511,
         index: 'JIGSAWS_SKETCH',
         name: "Jigsaw's Sketch",
         owner: 'PIG',
@@ -1881,6 +2087,7 @@ export const KillerAddons = {
         image: 'jigsawsSketch'
     },
     INTERLOCKING_RAZOR: {
+        id: 512,
         index: 'INTERLOCKING_RAZOR',
         name: 'Interlocking Razor',
         owner: 'PIG',
@@ -1890,6 +2097,7 @@ export const KillerAddons = {
         image: 'jigsawsSketch'
     },
     BAG_OF_GEARS: {
+        id: 513,
         index: 'BAG_OF_GEARS',
         name: 'Bag Of Gears',
         owner: 'PIG',
@@ -1899,6 +2107,7 @@ export const KillerAddons = {
         image: 'bagOfGears'
     },
     TAMPERED_TIMER: {
+        id: 514,
         index: 'TAMPERED_TIMER',
         name: 'Tampered Timer',
         owner: 'PIG',
@@ -1908,6 +2117,7 @@ export const KillerAddons = {
         image: 'tamperedTimer'
     },
     JIGSAWS_ANNOTATED_PLAN: {
+        id: 515,
         index: 'JIGSAWS_ANNOTATED_PLAN',
         name: "Jigsaw's Annotated Plan",
         owner: 'PIG',
@@ -1917,6 +2127,7 @@ export const KillerAddons = {
         image: 'jigsawsAnnotatedPlan'
     },
     CRATE_OF_GEARS: {
+        id: 516,
         index: 'CRATE_OF_GEARS',
         name: 'Crate Of Gears',
         owner: 'PIG',
@@ -1926,6 +2137,7 @@ export const KillerAddons = {
         image: 'crateOfGears'
     },
     AMANDAS_SECRET: {
+        id: 517,
         index: 'AMANDAS_SECRET',
         name: "Amanda's Secret",
         owner: 'PIG',
@@ -1935,6 +2147,7 @@ export const KillerAddons = {
         image: 'amandasSecret'
     },
     RULES_SET_NO_2: {
+        id: 518,
         index: 'RULES_SET_NO_2',
         name: 'Rules Set No.2',
         owner: 'PIG',
@@ -1945,6 +2158,7 @@ export const KillerAddons = {
         image: 'rulesSetN2'
     },
     AMANDAS_LETTER: {
+        id: 519,
         index: 'AMANDAS_LETTER',
         name: "Amanda's Letter",
         owner: 'PIG',
@@ -1959,6 +2173,7 @@ export const KillerAddons = {
 
 export const SurvivorAddons = {
     WIDE_LENS: {
+        id: 1,
         index: 'WIDE_LENS',
         name: 'Wide Lens',
         type: 'FLASHLIGHT',
@@ -1968,6 +2183,7 @@ export const SurvivorAddons = {
         image: 'wideLens'
     },
     POWER_BULB: {
+        id: 2,
         index: 'POWER_BULB',
         name: 'Power Bulb',
         type: 'FLASHLIGHT',
@@ -1979,6 +2195,7 @@ export const SurvivorAddons = {
         image: 'powerBulb'
     },
     LEATHER_GRIP: {
+        id: 3,
         index: 'LEATHER_GRIP',
         name: 'Leather Grip',
         type: 'FLASHLIGHT',
@@ -1989,6 +2206,7 @@ export const SurvivorAddons = {
         image: 'leatherGrip'
     },
     BATTERY: {
+        id: 4,
         index: 'BATTERY',
         name: 'Battery',
         type: 'FLASHLIGHT',
@@ -1999,6 +2217,7 @@ export const SurvivorAddons = {
         image: 'battery'
     },
     TIR_OPTIC: {
+        id: 5,
         index: 'TIR_OPTIC',
         name: 'Tir Optic',
         type: 'FLASHLIGHT',
@@ -2009,6 +2228,7 @@ export const SurvivorAddons = {
         image: 'tirOptic'
     },
     RUBBER_GRIP: {
+        id: 6,
         index: 'RUBBER_GRIP',
         name: 'Rubber Grip',
         type: 'FLASHLIGHT',
@@ -2018,6 +2238,7 @@ export const SurvivorAddons = {
         image: 'rubberGrip'
     },
     LOW_AMP_FILAMENT: {
+        id: 7,
         index: 'LOW_AMP_FILAMENT',
         name: 'Low Amp Filament',
         type: 'FLASHLIGHT',
@@ -2027,6 +2248,7 @@ export const SurvivorAddons = {
         image: 'threadedFilament'
     },
     HEAVY_DUTY_BATTERY: {
+        id: 8,
         index: 'HEAVY_DUTY_BATTERY',
         name: 'Heavy Duty Battery',
         type: 'FLASHLIGHT',
@@ -2038,6 +2260,7 @@ export const SurvivorAddons = {
         image: 'heavyDutyBattery'
     },
     FOCUS_LENS: {
+        id: 9,
         index: 'FOCUS_LENS',
         name: 'Focus Lens',
         type: 'FLASHLIGHT',
@@ -2047,6 +2270,7 @@ export const SurvivorAddons = {
         image: 'focusLens'
     },
     LONG_LIFE_BATTERY: {
+        id: 10,
         index: 'LONG_LIFE_BATTERY',
         name: 'Long Life Battery',
         type: 'FLASHLIGHT',
@@ -2056,6 +2280,7 @@ export const SurvivorAddons = {
         image: 'longLifeBattery'
     },
     INTENSE_HALOGEN: {
+        id: 11,
         index: 'INTENSE_HALOGEN',
         name: 'Intense Halogen',
         type: 'FLASHLIGHT',
@@ -2065,6 +2290,7 @@ export const SurvivorAddons = {
         image: 'intenseHalogen'
     },
     HIGH_END_SAPPHIRE_LENS: {
+        id: 12,
         index: 'HIGH_END_SAPPHIRE_LENS',
         name: 'High-End Sapphire Lens',
         type: 'FLASHLIGHT',
@@ -2074,6 +2300,7 @@ export const SurvivorAddons = {
         image: 'highEndSapphireLens'
     },
     ODD_BULB: {
+        id: 13,
         index: 'ODD_BULB',
         name: 'Odd Bulb',
         type: 'FLASHLIGHT',
@@ -2083,6 +2310,7 @@ export const SurvivorAddons = {
         image: 'oddBulb'
     },
     PRAYER_ROPE: {
+        id: 14,
         index: 'PRAYER_ROPE',
         name: 'Prayer Rope',
         type: 'KEY',
@@ -2094,6 +2322,7 @@ export const SurvivorAddons = {
         image: 'prayerRope'
     },
     SCRATCHED_PEARL: {
+        id: 15,
         index: 'SCRATCHED_PEARL',
         name: 'Scratched Pearl',
         type: 'KEY',
@@ -2103,6 +2332,7 @@ export const SurvivorAddons = {
         image: 'scratchedPearl'
     },
     PRAYER_BEADS: {
+        id: 16,
         index: 'PRAYER_BEADS',
         name: 'Prayer Beads',
         type: 'KEY',
@@ -2112,6 +2342,7 @@ export const SurvivorAddons = {
         image: 'prayerBeads'
     },
     ERODED_TOKEN: {
+        id: 17,
         index: 'ERODED_TOKEN',
         name: 'Eroded Token',
         type: 'KEY',
@@ -2121,6 +2352,7 @@ export const SurvivorAddons = {
         image: 'tokenErroded'
     },
     GOLD_TOKEN: {
+        id: 18,
         index: 'GOLD_TOKEN',
         name: 'Gold Token',
         type: 'KEY',
@@ -2130,6 +2362,7 @@ export const SurvivorAddons = {
         image: 'tokenGold'
     },
     WEAVED_RING: {
+        id: 19,
         index: 'WEAVED_RING',
         name: 'Weaved Ring',
         type: 'KEY',
@@ -2139,6 +2372,7 @@ export const SurvivorAddons = {
         image: 'weavedRing'
     },
     MILKY_GLASS: {
+        id: 20,
         index: 'MILKY_GLASS',
         name: 'Milky Glass',
         type: 'KEY',
@@ -2148,6 +2382,7 @@ export const SurvivorAddons = {
         image: 'milkyGlass'
     },
     BLOOD_AMBER: {
+        id: 21,
         index: 'BLOOD_AMBER',
         name: 'Blood Amber',
         type: 'KEY',
@@ -2157,6 +2392,7 @@ export const SurvivorAddons = {
         image: 'bloodAmber'
     },
     MAP_ADDENDUM: {
+        id: 22,
         index: 'MAP_ADDENDUM',
         name: 'Map Addendum',
         type: 'MAP',
@@ -2166,6 +2402,7 @@ export const SurvivorAddons = {
         image: 'mapAddendum'
     },
     YELLOW_WIRE: {
+        id: 23,
         index: 'YELLOW_WIRE',
         name: 'Yellow Wire',
         type: 'MAP',
@@ -2175,6 +2412,7 @@ export const SurvivorAddons = {
         image: 'ropeYellow'
     },
     UNUSUAL_STAMP: {
+        id: 24,
         index: 'UNUSUAL_STAMP',
         name: 'Unusual Stamp',
         type: 'MAP',
@@ -2184,6 +2422,7 @@ export const SurvivorAddons = {
         image: 'stampUnusual'
     },
     RETARDANT_JELLY: {
+        id: 25,
         index: 'RETARDANT_JELLY',
         name: 'Retardant Jelly',
         type: 'MAP',
@@ -2193,6 +2432,7 @@ export const SurvivorAddons = {
         image: 'retardantJelly'
     },
     RED_TWINE: {
+        id: 26,
         index: 'RED_TWINE',
         name: 'Red Twine',
         type: 'MAP',
@@ -2202,6 +2442,7 @@ export const SurvivorAddons = {
         image: 'ropeRed'
     },
     GLASS_BEAD: {
+        id: 27,
         index: 'GLASS_BEAD',
         name: 'Glass Bead',
         type: 'MAP',
@@ -2211,6 +2452,7 @@ export const SurvivorAddons = {
         image: 'beadGlass'
     },
     ODD_STAMP: {
+        id: 28,
         index: 'ODD_STAMP',
         name: 'Odd Stamp',
         type: 'MAP',
@@ -2220,6 +2462,7 @@ export const SurvivorAddons = {
         image: 'stampOdd'
     },
     BLACK_SILK_CORD: {
+        id: 29,
         index: 'BLACK_SILK_CORD',
         name: 'Black Silk Cord',
         type: 'MAP',
@@ -2229,6 +2472,7 @@ export const SurvivorAddons = {
         image: 'ropeBlack'
     },
     CRYSTAL_BEAD: {
+        id: 30,
         index: 'CRYSTAL_BEAD',
         name: 'Crystal Bead',
         type: 'MAP',
@@ -2238,6 +2482,7 @@ export const SurvivorAddons = {
         image: 'beadCrystal'
     },
     RUBBER_GLOVES: {
+        id: 31,
         index: 'RUBBER_GLOVES',
         name: 'Rubber Gloves',
         type: 'AID_KIT',
@@ -2247,6 +2492,7 @@ export const SurvivorAddons = {
         image: 'gloves'
     },
     BUTTERFLY_TAPE: {
+        id: 32,
         index: 'BUTTERFLY_TAPE',
         name: 'Butterfly Tape',
         type: 'AID_KIT',
@@ -2256,6 +2502,7 @@ export const SurvivorAddons = {
         image: 'butterflyTape'
     },
     BANDAGES: {
+        id: 33,
         index: 'BANDAGES',
         name: 'Bandages',
         type: 'AID_KIT',
@@ -2265,6 +2512,7 @@ export const SurvivorAddons = {
         image: 'bandages'
     },
     SPONGE: {
+        id: 34,
         index: 'SPONGE',
         name: 'Sponge',
         type: 'AID_KIT',
@@ -2274,6 +2522,7 @@ export const SurvivorAddons = {
         image: 'sponge'
     },
     SELF_ADHERENT_WRAP: {
+        id: 35,
         index: 'SELF_ADHERENT_WRAP',
         name: 'Self Adherent Wrap',
         type: 'AID_KIT',
@@ -2283,6 +2532,7 @@ export const SurvivorAddons = {
         image: 'selfAdherentWrap'
     },
     NEEDLE_AND_THREAD: {
+        id: 36,
         index: 'NEEDLE_AND_THREAD',
         name: 'Needle & Thread',
         type: 'AID_KIT',
@@ -2292,6 +2542,7 @@ export const SurvivorAddons = {
         image: 'needAndThread'
     },
     MEDICAL_SCISSORS: {
+        id: 37,
         index: 'MEDICAL_SCISSORS',
         name: 'Medical Scissors',
         type: 'AID_KIT',
@@ -2301,6 +2552,7 @@ export const SurvivorAddons = {
         image: 'scissors'
     },
     GAUZE_ROLL: {
+        id: 38,
         index: 'GAUZE_ROLL',
         name: 'Gauze Roll',
         type: 'AID_KIT',
@@ -2310,6 +2562,7 @@ export const SurvivorAddons = {
         image: 'gauseRoll'
     },
     SURGICAL_SUTURE: {
+        id: 39,
         index: 'SURGICAL_SUTURE',
         name: 'Surgical Suture',
         type: 'AID_KIT',
@@ -2319,6 +2572,7 @@ export const SurvivorAddons = {
         image: 'surgicalSuture'
     },
     GEL_DRESSINGS: {
+        id: 40,
         index: 'GEL_DRESSINGS',
         name: 'Gel Dressings',
         type: 'AID_KIT',
@@ -2328,6 +2582,7 @@ export const SurvivorAddons = {
         image: 'gelDressings'
     },
     ABDOMINAL_DRESSING: {
+        id: 41,
         index: 'ABDOMINAL_DRESSING',
         name: 'Abdominal Dressing',
         type: 'AID_KIT',
@@ -2337,6 +2592,7 @@ export const SurvivorAddons = {
         image: 'abdominalDressing'
     },
     STYPTIC_AGENT: {
+        id: 42,
         index: 'STYPTIC_AGENT',
         name: 'Styptic Agent',
         type: 'AID_KIT',
@@ -2346,6 +2602,7 @@ export const SurvivorAddons = {
         image: 'stypticAgent'
     },
     ANTI_HEMORRHAGIC_SYRINGE: {
+        id: 43,
         index: 'ANTI_HEMORRHAGIC_SYRINGE',
         name: 'Anti-Hemorrhagic Syringe',
         type: 'AID_KIT',
@@ -2355,6 +2612,7 @@ export const SurvivorAddons = {
         image: 'syringe'
     },
     SPRING_CLAMP: {
+        id: 44,
         index: 'SPRING_CLAMP',
         name: 'Spring Clamp',
         type: 'TOOLBOX',
@@ -2364,6 +2622,7 @@ export const SurvivorAddons = {
         image: 'springClamp'
     },
     SCRAPS: {
+        id: 45,
         index: 'SCRAPS',
         name: 'Scraps',
         type: 'TOOLBOX',
@@ -2373,6 +2632,7 @@ export const SurvivorAddons = {
         image: 'scraps'
     },
     CLEAN_RAG: {
+        id: 46,
         index: 'CLEAN_RAG',
         name: 'Clean Rag',
         type: 'TOOLBOX',
@@ -2382,6 +2642,7 @@ export const SurvivorAddons = {
         image: 'cleanRag'
     },
     WIRE_SPOOL: {
+        id: 47,
         index: 'WIRE_SPOOL',
         name: 'Wire Spool',
         type: 'TOOLBOX',
@@ -2391,6 +2652,7 @@ export const SurvivorAddons = {
         image: 'spoolOfWire'
     },
     SOCKET_SWIVELS: {
+        id: 48,
         index: 'SOCKET_SWIVELS',
         name: 'Socket Swivels',
         type: 'TOOLBOX',
@@ -2400,6 +2662,7 @@ export const SurvivorAddons = {
         image: 'socketSwivels'
     },
     PROTECTIVE_GLOVES: {
+        id: 49,
         index: 'PROTECTIVE_GLOVES',
         name: 'Protective Gloves',
         type: 'TOOLBOX',
@@ -2409,6 +2672,7 @@ export const SurvivorAddons = {
         image: 'protectiveGloves'
     },
     INSTRUCTIONS: {
+        id: 50,
         index: 'INSTRUCTIONS',
         name: 'Instructions',
         type: 'TOOLBOX',
@@ -2418,6 +2682,7 @@ export const SurvivorAddons = {
         image: 'instructions'
     },
     GRIP_WRENCH: {
+        id: 51,
         index: 'GRIP_WRENCH',
         name: 'Grip Wrench',
         type: 'TOOLBOX',
@@ -2427,6 +2692,7 @@ export const SurvivorAddons = {
         image: 'gripWrench'
     },
     CUTTING_WIRE: {
+        id: 52,
         index: 'CUTTING_WIRE',
         name: 'Cutting Wire',
         type: 'TOOLBOX',
@@ -2436,6 +2702,7 @@ export const SurvivorAddons = {
         image: 'cuttingWire'
     },
     HACKSAW: {
+        id: 53,
         index: 'HACKSAW',
         name: 'Hacksaw',
         type: 'TOOLBOX',
@@ -2445,6 +2712,7 @@ export const SurvivorAddons = {
         image: 'metalSaw'
     },
     BRAND_NEW_PART: {
+        id: 54,
         index: 'BRAND_NEW_PART',
         name: 'Brand New Part',
         type: 'TOOLBOX',

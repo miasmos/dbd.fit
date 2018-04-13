@@ -31,3 +31,18 @@ class SharedOfferingFactoryClass extends OfferingFactoryClass {
 }
 
 export const SharedOfferingFactory = new SharedOfferingFactoryClass();
+
+class AllOfferingFactoryClass extends OfferingFactoryClass {
+    constructor() {
+        super(
+            Object.assign(
+                {},
+                KillerOfferings,
+                SurvivorOfferings,
+                SharedOfferings
+            )
+        );
+    }
+}
+
+export const AllOfferingFactory = new AllOfferingFactoryClass();

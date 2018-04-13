@@ -1,5 +1,6 @@
 export const Items = {
     CHINESE_FIRECRACKER: {
+        id: 1,
         index: 'CHINESE_FIRECRACKER',
         name: 'Chinese Firecracker',
         description:
@@ -8,6 +9,7 @@ export const Items = {
         image: 'chineseFirecracker'
     },
     FLASHLIGHT: {
+        id: 2,
         index: 'FLASHLIGHT',
         name: 'Flashlight',
         description:
@@ -19,6 +21,7 @@ export const Items = {
         image: 'flashlight'
     },
     WILL_O_WISP: {
+        id: 3,
         index: 'WILL_O_WISP',
         name: "Will O' Wisp",
         description:
@@ -29,6 +32,7 @@ export const Items = {
         image: 'flashlightHalloween'
     },
     SPORT_FLASHLIGHT: {
+        id: 4,
         index: 'SPORT_FLASHLIGHT',
         name: 'Sport Flashlight',
         description:
@@ -38,6 +42,7 @@ export const Items = {
         image: 'flashlightSport'
     },
     UTILITY_FLASHLIGHT: {
+        id: 5,
         index: 'UTILITY_FLASHLIGHT',
         name: 'Utility Flashlight',
         description:
@@ -47,6 +52,7 @@ export const Items = {
         image: 'flashlightUtility'
     },
     BROKEN_KEY: {
+        id: 6,
         index: 'BROKEN_KEY',
         name: 'Broken Key',
         description:
@@ -56,6 +62,7 @@ export const Items = {
         image: 'brokenKey'
     },
     DULL_KEY: {
+        id: 7,
         index: 'DULL_KEY',
         name: 'Dull Key',
         description:
@@ -65,6 +72,7 @@ export const Items = {
         image: 'dullKey'
     },
     SKELETON_KEY: {
+        id: 8,
         index: 'SKELETON_KEY',
         name: 'Skeleton Key',
         description:
@@ -74,6 +82,7 @@ export const Items = {
         image: 'key'
     },
     MAP: {
+        id: 9,
         index: 'MAP',
         name: 'Map',
         description:
@@ -83,6 +92,7 @@ export const Items = {
         image: 'map'
     },
     RAINBOW_MAP: {
+        id: 10,
         index: 'RAINBOW_MAP',
         name: 'Rainbow Map',
         description:
@@ -94,6 +104,7 @@ export const Items = {
         image: 'rainbowMap'
     },
     CAMPING_AID_KIT: {
+        id: 11,
         index: 'CAMPING_AID_KIT',
         name: 'Camping Aid Kit',
         description:
@@ -104,6 +115,7 @@ export const Items = {
         image: 'rundownAidKit'
     },
     ALL_HALLOWS_EVE_LUNCHBOX: {
+        id: 12,
         index: 'ALL_HALLOWS_EVE_LUNCHBOX',
         name: "All Hallows' Eve Lunchbox",
         description:
@@ -115,6 +127,7 @@ export const Items = {
         image: 'medkitHalloween'
     },
     FIRST_AID_KIT: {
+        id: 13,
         index: 'FIRST_AID_KIT',
         name: 'First Aid Kit',
         description:
@@ -124,6 +137,7 @@ export const Items = {
         image: 'firstAidKit'
     },
     EMERGENCY_MED_KIT: {
+        id: 14,
         index: 'EMERGENCY_MED_KIT',
         name: 'Emergency Med-Kit',
         description:
@@ -134,6 +148,7 @@ export const Items = {
         image: 'medkit'
     },
     RANGER_MED_KIT: {
+        id: 15,
         index: 'RANGER_MED_KIT',
         name: 'Ranger Med-Kit',
         description:
@@ -145,6 +160,7 @@ export const Items = {
         image: 'rangersAidKit'
     },
     WORN_OUT_TOOLS: {
+        id: 16,
         index: 'WORN_OUT_TOOLS',
         name: 'Worn-Out Tools',
         description:
@@ -155,6 +171,7 @@ export const Items = {
         image: 'toolboxWornOut'
     },
     TOOLBOX: {
+        id: 17,
         index: 'TOOLBOX',
         name: 'Toolbox',
         description:
@@ -166,6 +183,7 @@ export const Items = {
         image: 'toolbox'
     },
     MECHANICS_TOOLBOX: {
+        id: 18,
         index: 'MECHANICS_TOOLBOX',
         name: "Mechanic's Toolbox",
         description:
@@ -175,6 +193,7 @@ export const Items = {
         image: 'toolboxMechanics'
     },
     COMMODIOUS_TOOLBOX: {
+        id: 19,
         index: 'COMMODIOUS_TOOLBOX',
         name: 'Commodious Toolbox',
         description:
@@ -184,6 +203,7 @@ export const Items = {
         image: 'toolboxCommodious'
     },
     ENGINEERS_TOOLBOX: {
+        id: 20,
         index: 'ENGINEERS_TOOLBOX',
         name: "Engineer's Toolbox",
         description:
@@ -195,6 +215,7 @@ export const Items = {
         image: 'toolboxEngineers'
     },
     ALEXS_TOOLBOX: {
+        id: 21,
         index: 'ALEXS_TOOLBOX',
         name: "Alex's Toolbox",
         description:
