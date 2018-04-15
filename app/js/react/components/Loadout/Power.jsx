@@ -42,7 +42,9 @@ export class Power extends React.Component {
                 <div className="background">
                     <img src={backgroundPath} />
                 </div>
-                {!!power && !power.empty && <PowerTooltip power={power} />}
+                {!!power &&
+                    !power.empty &&
+                    this.state.showTooltip && <PowerTooltip power={power} />}
             </div>
         );
     }

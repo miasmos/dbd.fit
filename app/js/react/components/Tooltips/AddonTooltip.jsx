@@ -11,6 +11,9 @@ export const AddonTooltip = ({ addon }) => {
         : EnumToString.itemType(addon.type);
     const subtitle = `${rarity} ${addonType} ${i18n.text.addon}`;
     const rarityClass = rarity.toLowerCase().replace(/\s/, '');
+    const abilities = addon.abilities.map((value, index) => (
+        <li key={index}>{TextInterpolator.get(value)}</li>
+    ));
 
     return (
         <div className="tooltip tooltip-detailed addon-tooltip">
@@ -21,6 +24,7 @@ export const AddonTooltip = ({ addon }) => {
             <div className="tooltip-body">
                 <div className="tooltip-text">
                     {TextInterpolator.get(addon.description)}
+                    <ul>{abilities}</ul>
                 </div>
                 {!!addon.flavor && (
                     <div className="tooltip-flavor">{addon.flavor}</div>

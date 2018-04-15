@@ -81,7 +81,9 @@ export class Addon extends React.Component {
                     />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!!addon && !addon.empty && <AddonTooltip addon={addon} />}
+                {!!addon &&
+                    !addon.empty &&
+                    this.state.showTooltip && <AddonTooltip addon={addon} />}
             </div>
         );
     }

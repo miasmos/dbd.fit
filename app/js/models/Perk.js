@@ -85,7 +85,7 @@ export class Perk extends Model {
                 if (isLast) {
                     str += `${value1}`;
                 } else {
-                    str += `${value1}${value[index1]}`;
+                    str += `${value1}%c${value[index1]}%/c`;
                 }
             });
             this.descriptions.push(str);

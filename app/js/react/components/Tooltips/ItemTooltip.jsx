@@ -11,6 +11,9 @@ export const ItemTooltip = ({ item }) => {
         : EnumToString.itemType(item.type);
     const subtitle = `${rarity} ${itemType} ${i18n.text.item}`;
     const rarityClass = rarity.toLowerCase().replace(/\s/, '');
+    const abilities = item.abilities.map((value, index) => (
+        <li key={index}>{TextInterpolator.get(value)}</li>
+    ));
 
     return (
         <div className="tooltip tooltip-detailed item-tooltip">
@@ -21,6 +24,7 @@ export const ItemTooltip = ({ item }) => {
             <div className="tooltip-body">
                 <div className="tooltip-text">
                     {TextInterpolator.get(item.description)}
+                    <ul>{abilities}</ul>
                 </div>
                 {!!item.flavor && (
                     <div className="tooltip-flavor">{item.flavor}</div>

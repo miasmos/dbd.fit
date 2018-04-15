@@ -10,15 +10,26 @@ export class Power extends Model {
         description,
         abilities,
         image,
+        flavor,
         id
     } = {}) {
-        super({ index, name, owner, description, abilities, image, id });
+        super({
+            index,
+            name,
+            owner,
+            description,
+            abilities,
+            image,
+            flavor,
+            id
+        });
         this.id = id;
         this.index = index;
         this.name = name;
         this.image = image;
         this.description = description;
-        this.abilities = abilities;
+        this.abilities = abilities || [];
+        this.flavor = flavor;
         this.modifierType = ModifierTypes.POWER;
         this.owner;
     }

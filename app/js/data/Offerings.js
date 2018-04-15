@@ -5,7 +5,8 @@ export const SharedOfferings = {
         name: 'Bloody Party Streamers',
         rarity: 'RARE',
         description:
-            'Grants %b100%%b bonus Bloodpoints in all Categories for all Players.',
+            'Grants %b100%/b% bonus Bloodpoints in all Categories for all Players.',
+        abilities: ['Stacks'],
         flavor:
             '"A reminder of a bloody good time when people came together, but left screaming."',
         image: 'bloodyPartyStreamers'
@@ -15,7 +16,8 @@ export const SharedOfferings = {
         index: 'CLEAR_REAGENT',
         name: 'Clear Reagent',
         rarity: 'COMMON',
-        description: 'Clears the Dark Mist.',
+        description: '%bSlightly lessens%/b the Dark Mist.',
+        abilities: ['Stacks'],
         flavor:
             '"The Mist rolls in, traps all in its deep madness. There is no running, no escape, no asylum, except for the clear waters of the pond lost in the forest." — Unknown, Notebook',
         image: 'clearReagent'
@@ -25,7 +27,8 @@ export const SharedOfferings = {
         index: 'FAINT_REAGENT',
         name: 'Faint Reagent',
         rarity: 'COMMON',
-        description: 'Slightly thickens the Dark Mist.',
+        description: '%bSlightly thickens%/b the Dark Mist.',
+        abilities: ['Stacks'],
         flavor: '"Paralysed, I stand in the cold as death lingers."',
         image: 'faintReagent'
     },
@@ -34,7 +37,8 @@ export const SharedOfferings = {
         index: 'HAZY_REAGENT',
         name: 'Hazy Reagent',
         rarity: 'UNCOMMON',
-        description: 'Moderately thickens the Dark Mist.',
+        description: '%bModerately thickens%/b the Dark Mist.',
+        abilities: ['Stacks'],
         flavor:
             '"The Mist is alluring, hypnotising. I love it and fear it at the same time." — Donna\'s Sketchbook',
         image: 'hazyReagent'
@@ -44,7 +48,8 @@ export const SharedOfferings = {
         index: 'MURKY_REAGENT',
         name: 'Murky Reagent',
         rarity: 'VERY_RARE',
-        description: 'Considerably thickens the Dark Mist.',
+        description: '%bConsiderably thickens%/b the Dark Mist.',
+        abilities: ['Stacks'],
         flavor:
             '"The Mist seems to protect us from the beast, but it is a poison, a cancer, filling us with darkness and insanity." — Unknown, Notebook',
         image: 'murkyReagent'
@@ -54,7 +59,7 @@ export const SharedOfferings = {
         index: 'NEW_MOON_BOUQUET',
         name: 'New Moon Bouquet',
         rarity: 'ULTRA_RARE',
-        description: 'Calls upon the Entity for the darkest Moonlight.',
+        description: 'Calls upon The Entity for the %bdarkest Moonlight%/b.',
         flavor: '"Better go back to sleep, there is no moon this night."',
         image: 'newMoonBouquet'
     },
@@ -63,7 +68,7 @@ export const SharedOfferings = {
         index: 'CRESCENT_MOON_BOUQUET',
         name: 'Crescent Moon Bouquet',
         rarity: 'UNCOMMON',
-        description: 'Calls upon the Entity for a dimmed Moonlight.',
+        description: 'Calls upon the Entity for a %bdimmed Moonlight%/b.',
         flavor:
             '"The moon slowly fades into a smile: "Don\'t worry, your secret is safe with me." Or is it a grin?"',
         image: 'crecentMoonBouquet'
@@ -73,7 +78,7 @@ export const SharedOfferings = {
         index: 'QUARTER_MOON_BOUQUET',
         name: 'Quarter Moon Bouquet',
         rarity: 'UNCOMMON',
-        description: 'Calls upon the Entity for a brighter Moonlight.',
+        description: 'Calls upon the Entity for a %bbrighter Moonlight%/b.',
         flavor: '"The old moon shows her face, looking down on the preys."',
         image: 'quarterMoonBouquet'
     },
@@ -82,7 +87,7 @@ export const SharedOfferings = {
         index: 'FULL_MOON_BOUQUET',
         name: 'Full Moon Bouquet',
         rarity: 'VERY_RARE',
-        description: 'Calls upon the Entity for the brightest Moonlight.',
+        description: 'Calls upon the Entity for the %bbrightest Moonlight%/b.',
         flavor:
             '"As the moon rises, the wolves howl, marking the beginning of the hunt."',
         image: 'fullMoonBouquet'
@@ -93,7 +98,8 @@ export const SharedOfferings = {
         name: 'MacMillan Ledger Page',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to MacMillan Estate when burnt.',
+            '%bSlightly increases%/b the chance to be sent to MacMillan Estate when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A torn and faded-out ledger page with unreadable information except for the MacMillan stamp."',
         image: 'macmillianLedgerPage'
@@ -104,7 +110,8 @@ export const SharedOfferings = {
         name: 'Signed Ledger Page',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to MacMillan Estate when burnt.',
+            '%bConsiderably%/b increases the chance to be sent to MacMillan Estate when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A faded-out ledger page referring to mining related equipment and other transactions. Signed by Archie MacMillan."',
         image: 'signedLedgerPage'
@@ -115,7 +122,8 @@ export const SharedOfferings = {
         name: "MacMillan's Phalanx Bone",
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to MacMillan Estate when burnt.',
+            '%bTremendously increases%/b the chance to be sent to MacMillan Estate when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"MacMillan\'s skeletal remains were found in the basement of the mine\'s storehouse. His leg bones shattered into pieces and a mining hammer lying in his lap."',
         image: 'macmilliansPhalanxBone'
@@ -126,7 +134,8 @@ export const SharedOfferings = {
         name: 'Shredded Plate',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Autohaven Wreckers when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Autohaven Wreckers when burnt.',
+        abilities: ['Stacks'],
         flavor: '"A heavily rusted, bent and torn metal sheet."',
         image: 'plateShredded'
     },
@@ -136,8 +145,9 @@ export const SharedOfferings = {
         name: 'Virginia Plate',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Autohaven Wreckers when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Autohaven Wreckers when burnt.',
         flavor: '"A rusted and bent license plate from the state of Virginia."',
+        abilities: ['Stacks'],
         image: 'plateVirginia'
     },
     AZAROVS_KEY: {
@@ -146,7 +156,8 @@ export const SharedOfferings = {
         name: "Azarov's Key",
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Autohaven Wreckers when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Autohaven Wreckers when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A broken key pertaining to a vehicle of unknown brand. A key-chain attached to it identifies the owner as a certain A. Azarov"',
         image: 'azarovsKey'
@@ -157,7 +168,8 @@ export const SharedOfferings = {
         name: 'Cattle Tag 28',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Coldwind Farm when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Coldwind Farm when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A blood stained cattle tag identified with the number \'28\'."',
         image: 'cattleTag28'
@@ -168,7 +180,8 @@ export const SharedOfferings = {
         name: 'Cattle Tag 81',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Coldwind Farm when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Coldwind Farm when burnt.',
+        abilities: ['Stacks'],
         flavor:
             "\"A blood stained cattle tag identified with 'Coldwind Farm' and the number '81'.\"",
         image: 'cattleTag81'
@@ -179,7 +192,8 @@ export const SharedOfferings = {
         name: 'Heart Locket',
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Coldwind Farm when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Coldwind Farm when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A silver heart locket necklace. The simple interior is engraved with the following: \'E+M\'."',
         image: 'heartLocket'
@@ -190,7 +204,8 @@ export const SharedOfferings = {
         name: 'Lunacy Ticket',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Crotus Prenn Asylum when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Crotus Prenn Asylum when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A worn and faded-out ticket of paper with unreadable information."',
         image: 'lunacyTicket'
@@ -201,7 +216,8 @@ export const SharedOfferings = {
         name: 'P. Elliott Lunacy Ticket',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Crotus Prenn Asylum when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Crotus Prenn Asylum when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A pink paper ticket identifying Philip Elliott as to be transferred to Crotus Prenn Asylum."',
         image: 'pElliottLunacyTicket'
@@ -212,7 +228,8 @@ export const SharedOfferings = {
         name: 'Charred Wedding Photograph',
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Crotus Prenn Asylum when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Crotus Prenn Asylum when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A burned portrait of a couple on their wedding day, the faces are completely charred and unidentifiable."',
         image: 'charredWeddingPhotograph'
@@ -223,7 +240,8 @@ export const SharedOfferings = {
         name: 'Harvest Festival Leaflet',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Haddonfield when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Haddonfield when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A washed out informational leaflet for the \'78 Haddonfield Harvest Festival. A large cartoon pumpkin is depicted on the front."',
         image: 'harvestFestivalLeaflet'
@@ -234,7 +252,8 @@ export const SharedOfferings = {
         name: 'Decrepit Clapboard',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Haddonfield when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Haddonfield when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A moldy and rotten beaded oak clapboard like the ones found on most houses of Haddonfield."',
         image: 'decrepitClapboard'
@@ -245,7 +264,8 @@ export const SharedOfferings = {
         name: 'Strode Realty Key',
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Haddonfield when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Haddonfield when burnt.',
+        abilities: ['Stacks'],
         flavor:
             "\"A house key, mundane in appearance. A cardboard key-tag attached to it reads 'Strode Real Estate', followed by a handwritten address: '45 Lampkin Lane'.\"",
         image: 'strodeRealtyKey'
@@ -256,7 +276,8 @@ export const SharedOfferings = {
         name: 'Fuming Cordage',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Backwater Swamp when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Backwater Swamp when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A burnt piece of marine rope still emitting a warm black smoke."',
         image: 'fumingCordage'
@@ -267,7 +288,8 @@ export const SharedOfferings = {
         name: 'Fuming Welcome Sign',
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Backwater Swamp when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Backwater Swamp when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A welcome sign made from a coarse piece of water polished cypress board. The sign is charred and still fuming."',
         image: 'fumingWelcomeSign'
@@ -278,7 +300,8 @@ export const SharedOfferings = {
         name: "Granma's Cookbook",
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Backwater Swamp when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Backwater Swamp when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A leather-bound book containing horrible human meat recipes such as the granny-slapping good chilli."',
         image: 'granmasCookbook'
@@ -289,7 +312,8 @@ export const SharedOfferings = {
         name: 'Emergency Certificate',
         rarity: 'COMMON',
         description:
-            "Slightly increases the chance to be sent to Léry's Memorial Institute when burnt.",
+            "%bSlightly increases%/b the chance to be sent to Léry's Memorial Institute when burnt.",
+        abilities: ['Stacks'],
         flavor:
             '"A yellow carbon-copy certificate which admits a patient into immediate detention for emergency treatment. Copied information smudged and unreadable."',
         image: 'emergencyCertificate'
@@ -300,7 +324,8 @@ export const SharedOfferings = {
         name: 'Psychiatric Assessment Report',
         rarity: 'UNCOMMON',
         description:
-            "Considerably increases the chance to be sent to Léry's Memorial Institute when burnt.",
+            "%bConsiderably increases%/b the chance to be sent to Léry's Memorial Institute when burnt.",
+        abilities: ['Stacks'],
         flavor:
             '"A Psychiatric report signed by Herman Carter. It describes the memory deterioration of a patient and suggestions for next steps in the procedure."',
         image: 'psychiatricAssessmentReport'
@@ -311,7 +336,8 @@ export const SharedOfferings = {
         name: 'Shattered Glasses',
         rarity: 'RARE',
         description:
-            "Tremendously increases the chance to be sent to Léry's Memorial Institute when burnt.",
+            "%bTremendously increases%/b the chance to be sent to Léry's Memorial Institute when burnt.",
+        abilities: ['Stacks'],
         flavor:
             '"Bent reading glasses. Speckles of dried blood can be seen on the shattered lenses."',
         image: 'shatteredGlasses'
@@ -322,7 +348,8 @@ export const SharedOfferings = {
         name: 'Painted River Rock',
         rarity: 'COMMON',
         description:
-            'Slightly increases the chance to be sent to Red Forest when burnt.',
+            '%bSlightly increases%/b the chance to be sent to Red Forest when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A slick and soft rock, polished by a stream. Decorated with red, black and white paint to depict a serious looking bear."',
         image: 'paintedRiverRock'
@@ -333,7 +360,8 @@ export const SharedOfferings = {
         name: "Children's Book",
         rarity: 'UNCOMMON',
         description:
-            'Considerably increases the chance to be sent to Red Forest when burnt.',
+            '%bConsiderably increases%/b the chance to be sent to Red Forest when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"An ancient and decrepit story book which pages have been lost to the elements."',
         image: 'childrensBook'
@@ -344,7 +372,8 @@ export const SharedOfferings = {
         name: 'The Last Mask',
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Red Forest when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Red Forest when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"A beautifully crafted tiger mask that would fit snug on a child\'s face. A faded note in the Cyrillic alphabet can be found scripted on the back."',
         image: 'theLastMask'
@@ -355,19 +384,11 @@ export const SharedOfferings = {
         name: 'The Pied Piper',
         rarity: 'RARE',
         description:
-            'Tremendously increases the chance to be sent to Springwood when burnt.',
+            '%bTremendously increases%/b the chance to be sent to Springwood when burnt.',
+        abilities: ['Stacks'],
         flavor:
             '"Betrayed by the town, he exact his revenge by taking all their children."',
         image: 'thePiedPiper'
-    },
-    SHROUD_OF_SEPARATION: {
-        id: 35,
-        index: 'SHROUD_OF_SEPARATION',
-        name: 'Shroud of Separation',
-        rarity: 'UNCOMMON',
-        description: 'All Survivors start the trial separated.',
-        flavor: '"A thin black shroud which is falling apart."',
-        image: 'shroudOfSeparation'
     },
     BLACK_WARD: {
         id: 36,
@@ -398,7 +419,8 @@ export const SurvivorOfferings = {
         name: 'Bog Laurel Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b50%/b% bonus Bloodpoints in the Objective Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A palm-sized hand sewn sachet filled with dry leaves. Releases a faint tea-like aroma."',
         image: 'bogLaurelSachet'
@@ -409,7 +431,8 @@ export const SurvivorOfferings = {
         name: 'Fresh Bog Laurel',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b75%/b% bonus Bloodpoints in the Objective Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a mild tea-like aroma."',
         image: 'freshBogLaurel'
@@ -420,7 +443,8 @@ export const SurvivorOfferings = {
         name: 'Fragrant Bog Laurel',
         rarity: 'RARE',
         description:
-            'Grants %b100%%b bonus Bloodpoints in the Objective Category.',
+            'Grants %b100%/b% bonus Bloodpoints in the Objective Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A beautiful purple flower that grows in the midst of the tainted swamp. Releases a strong tea-like aroma."',
         image: 'fragrantBogLaurel'
@@ -431,7 +455,8 @@ export const SurvivorOfferings = {
         name: 'Crispleaf Amaranth Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b50%/b% bonus Bloodpoints in the Survival Category.',
+        abilities: ['Personal', 'Stacks'],
         image: 'crispleafAmaranthSachet'
     },
     FRESH_CRISPLEAF_AMARANTH: {
@@ -440,7 +465,8 @@ export const SurvivorOfferings = {
         name: 'Fresh Crispleaf Amaranth',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b75%/b% bonus Bloodpoints in the Survival Category.',
+        abilities: ['Personal', 'Stacks'],
         image: 'freshCrispleafAmaranth'
     },
     FRAGRANT_CRISPLEAF_AMARANTH: {
@@ -449,7 +475,8 @@ export const SurvivorOfferings = {
         name: 'Fragrant Crispleaf Amaranth',
         rarity: 'RARE',
         description:
-            'Grants %b100%%b bonus Bloodpoints in the Survival Category.',
+            'Grants %b100%/b% bonus Bloodpoints in the Survival Category.',
+        abilities: ['Personal', 'Stacks'],
         image: 'fragrantCrispleafAmaranth'
     },
     PRIMROSE_BLOSSOM_SACHET: {
@@ -458,7 +485,8 @@ export const SurvivorOfferings = {
         name: 'Primrose Blossom Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b50%/b% bonus Bloodpoints in the Altruism Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A palm-sized hand-sewn sachet containing 4 gold pultetals. The primrose opens at the very last moment before the sun gives place to the night."',
         image: 'primroseBlossomSachet'
@@ -469,7 +497,8 @@ export const SurvivorOfferings = {
         name: 'Fresh Primrose Blossom',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b75%/b% bonus Bloodpoints in the Altruism Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"Golden flowers harvested at their peak. The primrose opens at the very last moment before the sun gives place to the night."',
         image: 'freshPrimroseBlossom'
@@ -480,7 +509,8 @@ export const SurvivorOfferings = {
         name: 'Fragrant Primrose Blossom',
         rarity: 'RARE',
         description:
-            'Grants %b100%%b bonus Bloodpoints in the Altruism Category.',
+            'Grants %b100%/b% bonus Bloodpoints in the Altruism Category.',
+        abilities: ['Personal', 'Stacks'],
         image: 'fragrantPrimroseBlossom'
     },
     SWEET_WILLIAM_SACHET: {
@@ -489,7 +519,8 @@ export const SurvivorOfferings = {
         name: 'Sweet William Sachet',
         rarity: 'COMMON',
         description:
-            'Grants %b50%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b50%/b% bonus Bloodpoints in the Boldness Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A palm-sized hand-swen sachet containing a mix of pale petals and glaucous bluish leaves. Releases a strong spicy, cove-like scent."',
         image: 'sweetWilliamSachet'
@@ -500,7 +531,8 @@ export const SurvivorOfferings = {
         name: 'Fresh Sweet William',
         rarity: 'UNCOMMON',
         description:
-            'Grants %b75%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b75%/b% bonus Bloodpoints in the Boldness Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A bunch of flowers with pink petals and a blood red core. Releases a spicy, clove-like scent."',
         image: 'freshSweetWilliam'
@@ -511,7 +543,8 @@ export const SurvivorOfferings = {
         name: 'Fresh Sweet William',
         rarity: 'RARE',
         description:
-            'Grants %b100%%b bonus Bloodpoints in the Boldness Category.',
+            'Grants %b100%/b% bonus Bloodpoints in the Boldness Category.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A bunch of flowers with pink petals and a blood red core. Releases a strong spicy, clove-lick scent."',
         image: 'fragrantSweetWilliam'
@@ -522,7 +555,8 @@ export const SurvivorOfferings = {
         name: 'Bound Envelope',
         rarity: 'RARE',
         description:
-            'Grants %b25%%b bonus bloodpoints in all Categories to all survivors.',
+            'Grants %b25%/b% bonus bloodpoints in all Categories to all survivors.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"An opened envelope re-sealed and bound with 4 coloured ribbons."',
         image: 'boundEnvelope'
@@ -532,7 +566,8 @@ export const SurvivorOfferings = {
         index: 'SEALED_ENVELOPE',
         name: 'Sealed Envelope',
         rarity: 'UNCOMMON',
-        description: 'Grants %b25%%b bonus Bloodpoints in all Categories.',
+        description: 'Grants %b25%/b% bonus Bloodpoints in all Categories.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"An unaddressed and unopened envelope yellowed by its time. Its message will never be known."',
         image: 'sealedEnvelope'
@@ -542,7 +577,8 @@ export const SurvivorOfferings = {
         index: 'ESCAPE_CAKE',
         name: 'Escape Cake',
         rarity: 'UNCOMMON',
-        description: 'Grants %b100%%b bonus Bloodpoints in all Categories.',
+        description: 'Grants %b100%/b% bonus Bloodpoints in all Categories.',
+        abilities: ['Personal', 'Stacks'],
         flavor: '"This picture of a cake sure is real."',
         image: 'escapeCake'
     },
@@ -551,7 +587,8 @@ export const SurvivorOfferings = {
         index: 'CHALK_POUCH',
         name: 'Chalk Pouch',
         rarity: 'COMMON',
-        description: 'Slightly increases Luck.',
+        description: '%bSlightly increases%/b Luck.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A small cotton pouch filled with white chalky powder of unknown origin. Some believe it brings good fortune."',
         image: 'chalkPouch'
@@ -561,7 +598,8 @@ export const SurvivorOfferings = {
         index: 'CREAM_CHALK_POUCH',
         name: 'Cream Chalk Pouch',
         rarity: 'UNCOMMON',
-        description: 'Moderately increases Luck.',
+        description: '%bModerately increases%/b Luck.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A small cotton pouch half-filled with a cream coloured chalky powder of unknown origin. Releases a faint herbal aroma. Some believe it brings good fortune."',
         image: 'creamChalkPouch'
@@ -571,7 +609,8 @@ export const SurvivorOfferings = {
         index: 'IVORY_CHALK_POUCH',
         name: 'Ivory Chalk Pouch',
         rarity: 'RARE',
-        description: 'Considerably increases Luck.',
+        description: '%bConsiderably increases%/b Luck.',
+        abilities: ['Personal', 'Stacks'],
         flavor:
             '"A small leather pouch displaying a straight white line hand-sewn on one of its sides. The bag is filled with an ivory chalky powder that shines under the moonlight. Some believe it brings good fortune."',
         image: 'ivoryChalkPouch'
@@ -581,7 +620,8 @@ export const SurvivorOfferings = {
         index: 'SALT_POUCH',
         name: 'Salt Pouch',
         rarity: 'UNCOMMON',
-        description: 'Slightly increases Luck of all Survivors.',
+        description: '%bSlightly increases%/b Luck of all Survivors.',
+        abilities: ['Stacks'],
         flavor:
             '"A small cotton pouch filled with black salt crystals. Some believe it brings good fortune. Don\'t spill it."',
         image: 'saltPouch'
@@ -591,7 +631,8 @@ export const SurvivorOfferings = {
         index: 'VIGOS_JAR_OF_SALTY_LIPS',
         name: "Vigo's Jar of Salty Lips",
         rarity: 'VERY_RARE',
-        description: 'Considerably increases Luck of all Survivors.',
+        description: '%bConsiderably increases%/b Luck of all Survivors.',
+        abilities: ['Stacks'],
         flavor:
             '"A tightly sealed glass jar containing torn human lips floating in a murky brine. Some believe it brings good fortune."',
         image: 'jarOfSaltyLips'
@@ -601,7 +642,8 @@ export const SurvivorOfferings = {
         index: 'TARNISHED_COIN',
         name: 'Tarnished Coin',
         rarity: 'UNCOMMON',
-        description: 'Calls on the Entity to create 1 more Chest.',
+        description: 'Calls on the Entity to create %b1%/b more Chest.',
+        abilities: ['Stacks'],
         flavor: '"A round piece of metal which has lost all sheen."',
         image: 'tarnishedCoin'
     },
@@ -610,7 +652,8 @@ export const SurvivorOfferings = {
         index: 'SHINY_COIN',
         name: 'Shiny Coin',
         rarity: 'VERY_RARE',
-        description: 'Calls on the Entity to create 2 more Chests.',
+        description: 'Calls on the Entity to create %b2%/b more Chests.',
+        abilities: ['Stacks'],
         flavor: '"A clean and polished piece of gold."',
         image: 'shinyCoin'
     },
@@ -619,7 +662,9 @@ export const SurvivorOfferings = {
         index: 'PETRIFIED_OAK',
         name: 'Petrified Oak',
         rarity: 'VERY_RARE',
-        description: 'Calms The Entity and prevents 1 Hook from appearing.',
+        description:
+            'Calms The Entity and prevents %b1%/b Hook from appearing.',
+        abilities: ['Stacks'],
         flavor: '"A deteriorating piece of petrified wood."',
         image: 'petrifiedOak'
     },
@@ -629,6 +674,7 @@ export const SurvivorOfferings = {
         name: 'Shroud of Union',
         rarity: 'UNCOMMON',
         description: 'You start the trial with someone else.',
+        abilities: ['Secret'],
         flavor: '"A knotted piece of fabric."',
         image: 'shroudOfUnion'
     },
@@ -638,9 +684,22 @@ export const SurvivorOfferings = {
         name: 'Shroud of Binding',
         rarity: 'VERY_RARE',
         description: 'All Survivors start the trial together.',
+        abilities: ['Secret'],
         flavor:
             '"A square and washed out piece of fabric with small knots on each end."',
         image: 'shroudOfBinding'
+    },
+    VIGOS_SHROUD: {
+        id: 75,
+        index: 'VIGOS_SHROUD',
+        name: "Vigo's Shroud",
+        rarity: 'UNCOMMON',
+        description:
+            'You start the trial as far away as possible from the Killer.',
+        abilities: ['Secret'],
+        flavor:
+            '"I found marvels through the years in the fog, but only now do I understand how to bend the fog\'s irrefragable rules." -Vigo\'s Journal',
+        image: 'vigosShroud'
     }
 };
 
@@ -650,7 +709,9 @@ export const KillerOfferings = {
         index: 'TANAGER_WREATH',
         name: 'Tanager Wreath',
         rarity: 'COMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Brutality Category.',
+        description:
+            'Grants %b50%/b% bonus Bloodpoints in the Brutality Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted out of bloody sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'tanagerWreath'
@@ -660,7 +721,9 @@ export const KillerOfferings = {
         index: 'DEVOUT_TANAGER_WREATH',
         name: 'Devout Tanager Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 75% bonus Bloodpoints in the Brutality Category.',
+        description:
+            'Grants %b75%/b% bonus Bloodpoints in the Brutality Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Devoutly crafted out of sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutTanagerWreath'
@@ -670,7 +733,9 @@ export const KillerOfferings = {
         index: 'ARDENT_TANAGER_WREATH',
         name: 'Ardent Tanager Wreath',
         rarity: 'RARE',
-        description: 'Grants 100% bonus Bloodpoints in the Brutality Category.',
+        description:
+            'Grants %b100%/b% bonus Bloodpoints in the Brutality Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted with a fiery, undying passion out of bloody sticks and guts, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentTanagerWreath'
@@ -681,7 +746,8 @@ export const KillerOfferings = {
         name: 'Raven Wreath',
         rarity: 'COMMON',
         description:
-            'Grants 50% bonus Bloodpoints in the Deviousness Category.',
+            'Grants %b50%/b% bonus Bloodpoints in the Deviousness Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ravenWreath'
@@ -692,7 +758,8 @@ export const KillerOfferings = {
         name: 'Devout Raven Wreath',
         rarity: 'UNCOMMON',
         description:
-            'Grants 75% bonus Bloodpoints in the Deviousness Category.',
+            'Grants %b75%/b% bonus Bloodpoints in the Deviousness Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Devoutly crafted out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutRavenWreath'
@@ -703,7 +770,8 @@ export const KillerOfferings = {
         name: 'Ardent Raven Wreath',
         rarity: 'RARE',
         description:
-            'Grants 100% bonus Bloodpoints in the Deviousness Category.',
+            'Grants %b100%/b% bonus Bloodpoints in the Deviousness Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted with a fiery, undying passion out of blackened branches and coals, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentRavenWreath'
@@ -713,7 +781,9 @@ export const KillerOfferings = {
         index: 'SPOTTED_OWL_WREATH',
         name: 'Spotted Owl Wreath',
         rarity: 'COMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Hunting Category.',
+        description:
+            'Grants %b50%/b% bonus Bloodpoints in the Hunting Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'spottedOwlWreath'
@@ -723,7 +793,9 @@ export const KillerOfferings = {
         index: 'DEVOUT_SPOTTED_OWL_WREATH',
         name: 'Devout Spotted Owl Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 75% bonus Bloodpoints in the Hunting Category.',
+        description:
+            'Grants %b75%/b% bonus Bloodpoints in the Hunting Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutSpottedOwlWreath'
@@ -733,7 +805,9 @@ export const KillerOfferings = {
         index: 'ARDENT_SPOTTED_OWL_WREATH',
         name: 'Ardent Spotted Owl Wreath',
         rarity: 'RARE',
-        description: 'Grants 100% bonus Bloodpoints in the Hunting Category.',
+        description:
+            'Grants %b100%/b% bonus Bloodpoints in the Hunting Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted with a fiery, undying passion out of sharp metals, ropes and feathers, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentSpottedOwlWreath'
@@ -743,7 +817,9 @@ export const KillerOfferings = {
         index: 'SHRIKE_WREATH',
         name: 'Shrike Wreath',
         rarity: 'COMMON',
-        description: 'Grants 50% bonus Bloodpoints in the Sacrifice Category.',
+        description:
+            'Grants %b50%/b% bonus Bloodpoints in the Sacrifice Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'shrikeWreath'
@@ -753,7 +829,9 @@ export const KillerOfferings = {
         index: 'DEVOUT_SHRIKE_WREATH',
         name: 'Devout Shrike Wreath',
         rarity: 'UNCOMMON',
-        description: 'Grants 75% bonus Bloodpoints in the Sacrifice Category.',
+        description:
+            'Grants %b75%/b% bonus Bloodpoints in the Sacrifice Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Devoutly crafted out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'devoutShrikeWreath'
@@ -763,7 +841,9 @@ export const KillerOfferings = {
         index: 'ARDENT_SHRIKE_WREATH',
         name: 'Ardent Shrike Wreath',
         rarity: 'RARE',
-        description: 'Grants 100% bonus Bloodpoints in the Sacrifice Category.',
+        description:
+            'Grants %b100%/b% bonus Bloodpoints in the Sacrifice Category.',
+        abilities: ['Stacks'],
         flavor:
             '"Crafted with a fiery, undying passion out of sticks, strings and bones, this wreath calls on the Entity\'s blessing for more blood."',
         image: 'ardentShrikeWreath'
@@ -773,7 +853,8 @@ export const KillerOfferings = {
         index: 'HOLLOW_SHELL',
         name: 'Hollow Shell',
         rarity: 'UNCOMMON',
-        description: 'Grants 25% extra Bloodpoints in all Categories.',
+        description: 'Grants %b25%/b% extra Bloodpoints in all Categories.',
+        abilities: ['Stacks'],
         flavor:
             '"An unidentifiable cocoon which was breached by whatever was inside."',
         image: 'hollowShell'
@@ -783,7 +864,8 @@ export const KillerOfferings = {
         index: 'SURVIVOR_PUDDING',
         name: 'Survivor Pudding',
         rarity: 'UNCOMMON',
-        description: 'Grants 100% bonus Bloodpoints in all Categories.',
+        description: 'Grants %b100%/b% bonus Bloodpoints in all Categories.',
+        abilities: ['Stacks'],
         flavor: '"A heavily salted pudding..."',
         image: 'survivorPudding'
     },
@@ -793,7 +875,8 @@ export const KillerOfferings = {
         name: 'Cut Coin',
         rarity: 'VERY_RARE',
         description:
-            'Calls on the Entity to prevent the appearance of 2 Chests.',
+            'Calls on the Entity to prevent the appearance of %b2%/b Chests.',
+        abilities: ['Stacks'],
         flavor: '"Two halves of a thick metallic coin."',
         image: 'cutCoin'
     },
@@ -803,7 +886,8 @@ export const KillerOfferings = {
         name: 'Scratched Coin',
         rarity: 'UNCOMMON',
         description:
-            'Calls on the Entity to prevent the appearance of 1 Chest.',
+            'Calls on the Entity to prevent the appearance of %b1%/b Chest.',
+        abilities: ['Stacks'],
         flavor: '"A defaced coin of unknown origin."',
         image: 'scratchedCoin'
     },
@@ -812,7 +896,8 @@ export const KillerOfferings = {
         index: 'MOLDY_OAK',
         name: 'Moldy Oak',
         rarity: 'UNCOMMON',
-        description: 'Calls on the Entity to create 1 more Hook.',
+        description: 'Calls on the Entity to create %b1%/b more Hook.',
+        abilities: ['Stacks'],
         flavor: '"A damp and decaying piece of oak replete with mold."',
         image: 'moldyOak'
     },
@@ -821,7 +906,8 @@ export const KillerOfferings = {
         index: 'ROTTEN_OAK',
         name: 'Rotten Oak',
         rarity: 'RARE',
-        description: 'Calls on the Entity to create 2 more Hooks.',
+        description: 'Calls on the Entity to create %b2%/b more Hooks.',
+        abilities: ['Stacks'],
         flavor:
             '"A decomposing piece of oak in which strange markings have been etched."',
         image: 'rottenOak'
@@ -831,7 +917,8 @@ export const KillerOfferings = {
         index: 'PUTRID_OAK',
         name: 'Putrid Oak',
         rarity: 'VERY_RARE',
-        description: 'Calls on the Entity to create 3 more Hooks.',
+        description: 'Calls on the Entity to create %b3%/b more Hooks.',
+        abilities: ['Stacks'],
         flavor:
             '"A ruined piece of oak oozing with a black putrescent liquid."',
         image: 'putridOak'
@@ -842,7 +929,8 @@ export const KillerOfferings = {
         name: 'Cypress Memento Mori',
         rarity: 'UNCOMMON',
         description:
-            'Grants the ability to kill the last Survivor by your hand during the next trial.',
+            'Grants the ability to %bkill the last Survivor%/b by your hand during the next trial.',
+        abilities: ['Secret'],
         flavor: '"You worked well, the last one is yours."',
         image: 'momentoMoriCypress'
     },
@@ -852,7 +940,8 @@ export const KillerOfferings = {
         name: 'Ivory Memento Mori',
         rarity: 'RARE',
         description:
-            'Grants the ability to kill one survivor who has been hooked by your hand during the next trial.',
+            'Grants the ability to %bkill one survivor%/b who has been hooked by your hand during the next trial.',
+        abilities: ['Secret'],
         flavor: '"Grant me the favour of killing one."',
         image: 'momentoMoriIvory'
     },
@@ -862,9 +951,20 @@ export const KillerOfferings = {
         name: 'Ebony Memento Mori',
         rarity: 'ULTRA_RARE',
         description:
-            'Grants the ability to kill all Survivors who have been hooked by your hand during the next trial.',
+            'Grants the ability to %bkill all Survivors%/b who have been hooked by your hand during the next trial.',
+        abilities: ['Secret'],
         flavor:
             '"I could swear It spoke to the beast. It came to a halt, as if calmly listening to the leaves rustling, and then... grinned."',
         image: 'momentoMoriEbony'
+    },
+    SHROUD_OF_SEPARATION: {
+        id: 122,
+        index: 'SHROUD_OF_SEPARATION',
+        name: 'Shroud of Separation',
+        rarity: 'UNCOMMON',
+        description: 'All Survivors start the trial separated.',
+        abilities: ['Secret'],
+        flavor: '"A thin black shroud which is falling apart."',
+        image: 'shroudOfSeparation'
     }
 };

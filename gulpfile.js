@@ -1,6 +1,7 @@
 const gulp = require('gulp'),
     flatten = require('gulp-flatten'),
     rename = require('gulp-rename'),
+    imagemin = require('gulp-imagemin'),
     source =
         'C:/Program Files (x86)/Steam/steamapps/common/Dead by Daylight/DeadByDaylight/Content/UI/Icons',
     dest = './images';
@@ -28,6 +29,7 @@ gulp.task('portraits', () => {
                 );
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/portrait'));
 });
 
@@ -40,6 +42,7 @@ gulp.task('favors', () => {
                 path.basename = path.basename.replace('iconFavors_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/offerings'));
 });
 
@@ -52,6 +55,7 @@ gulp.task('helpLoading', () => {
                 path.basename = path.basename.replace('iconHelpLoading_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/help'));
 });
 
@@ -64,6 +68,7 @@ gulp.task('addons', () => {
                 path.basename = path.basename.replace('iconAddon_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/addons'));
 });
 
@@ -76,6 +81,7 @@ gulp.task('items', () => {
                 path.basename = path.basename.replace('iconItems_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/items'));
 });
 
@@ -88,6 +94,7 @@ gulp.task('perks', () => {
                 path.basename = path.basename.replace('iconPerks_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/perks'));
 });
 
@@ -100,6 +107,7 @@ gulp.task('powers', () => {
                 path.basename = path.basename.replace('iconPowers_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/powers'));
 });
 
@@ -112,5 +120,6 @@ gulp.task('statusEffects', () => {
                 path.basename = path.basename.replace('iconStatusEffects_', '');
             })
         )
+        .pipe(imagemin())
         .pipe(gulp.dest(dest + '/status'));
 });

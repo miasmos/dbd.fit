@@ -6,6 +6,9 @@ import { i18n } from '../../../i18n';
 
 export const PowerTooltip = ({ power }) => {
     const subtitle = i18n.text.power;
+    const abilities = power.abilities.map((value, index) => (
+        <li key={index}>{TextInterpolator.get(value)}</li>
+    ));
 
     return (
         <div className="tooltip tooltip-detailed power-tooltip">
@@ -16,6 +19,7 @@ export const PowerTooltip = ({ power }) => {
             <div className="tooltip-body">
                 <div className="tooltip-text">
                     {TextInterpolator.get(power.description)}
+                    <ul>{abilities}</ul>
                 </div>
                 {!!power.flavor && (
                     <div className="tooltip-flavor">{power.flavor}</div>

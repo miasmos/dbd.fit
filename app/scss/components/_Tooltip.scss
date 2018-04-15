@@ -76,17 +76,46 @@
                 padding: 15px 19px;
                 white-space: normal;
                 text-transform: none;
+                line-height: 1.3em;
                 @include regular();
             }
         }
 
         ul {
             padding-left: 15px;
+            margin-left: 11px;
+            margin-top: 8px;
+
+            li:not(:first-child) {
+                padding-top: 1px;
+            }
+
+            li:not(:last-child) {
+                padding-bottom: 1px;
+            }
         }
 
         .tooltip-abilities {
             margin-top: 10px;
         }
+    }
+
+    .font-colored {
+        font-size: 1.5em;
+        color: #fed506;
+        font-weight: bold;
+    }
+
+    .font-colored:nth-of-type(2) {
+        color: #c55511;
+    }
+
+    .font-colored:nth-of-type(3) {
+        color: #d60000;
+    }
+
+    .font-colored:nth-of-type(4) {
+        color: #a42afb;
     }
 }
 

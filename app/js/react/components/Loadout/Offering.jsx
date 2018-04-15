@@ -86,7 +86,11 @@ export class Offering extends React.Component {
                     />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!offering.empty && <OfferingTooltip offering={offering} />}
+                {!!offering &&
+                    !offering.empty &&
+                    this.state.showTooltip && (
+                        <OfferingTooltip offering={offering} />
+                    )}
             </div>
         );
     }

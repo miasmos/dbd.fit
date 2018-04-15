@@ -5,8 +5,11 @@ export const KillerAddons = {
         name: 'Trapper Gloves',
         owner: 'TRAPPER',
         rarity: 'COMMON',
-        description:
-            'Protective padded leather gloves.\nSlightly decreases the setting time of Bear Traps.\nAffects every Bear Trap.',
+        description: 'Protective padded leather gloves.',
+        abilities: [
+            '%bSlightly decreases%/b the setting time of Bear Traps.',
+            'Affects every Bear Trap.'
+        ],
         image: 'trapperGloves'
     },
     STRONG_COIL_SPRING: {
@@ -16,7 +19,12 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'COMMON',
         description:
-            "A large and heavy coil spring which adds a good amount of strength to the Bear Trap's hold.\nSlightly increases the difficulty to escape from Bear Traps.\nSlightly increases the rescue time of Bear Traps.\nSlightly increases the setting time of Bear Traps.\nAffects every Bear Trap.",
+            "A large and heavy coil spring which adds a good amount of strength to the Bear Trap's hold.",
+        abilities: [
+            '%bSlightly increases%/b the difficulty to escape from Bear Traps.',
+            '%bSlightly increases%/b the rescue time of Bear Traps.',
+            '%bAffects every Bear Trap.%/b'
+        ],
         image: 'coilSpring'
     },
     SERRATED_JAWS: {
@@ -26,7 +34,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'COMMON',
         description:
-            'These replacement Bear Trap jaws have saw-like blades which cause awful open wounds when they snap.\nInflicts heavy bleeding upon the trapped victim until healed.\nAffects every Bear Trap.',
+            'These replacement Bear Trap jaws have saw-like blades which cause awful open wounds when they snap.',
+        abilities: [
+            'Inflicts %bheavy bleeding%/b upon the trapped victim until healed.',
+            'Affects every Bear Trap.'
+        ],
         flavor: '"Like a predatory beast, it can smell and track blood."',
         image: 'serratedJaws'
     },
@@ -37,7 +49,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            "A block of wax used to lower friction and facilitate movement in mechanical parts.\nModerately decreases the Bear Trap's sabotage Skill Check success zone.\nAffects every Bear Trap.",
+            'A block of wax used to lower friction and facilitate movement in mechanical parts.',
+        abilities: [
+            "%bModerately decreases%/b the Bear Trap's sabotage Skill Check success zone.",
+            'Affects every Bear Trap.'
+        ],
         image: 'waxBrick'
     },
     TRAPPER_BAG: {
@@ -47,7 +63,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            'A cured leather waist bag. Large and sturdy to transport hunting equipment.\nStart with 1 extra Bear Trap.\nAllows the transportation of 1 extra Bear Trap.',
+            'A cured leather waist bag. Large and sturdy to transport hunting equipment.',
+        abilities: [
+            'Start with %b1%/b extra Bear Trap.',
+            'Allows the transportation of %b1%/b extra Bear Trap.'
+        ],
         image: 'trapperBag'
     },
     TRAP_SETTERS: {
@@ -57,7 +77,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            'Simple tools designed to quickly and safely set Bear Traps.\nModerately decreases the setting time of Bear Traps.\nAffects every Bear Trap.',
+            'Simple tools designed to quickly and safely set Bear Traps.',
+        abilities: [
+            '%bModerately decreases%/b the setting time of Bear Traps.',
+            'Affects every Bear Trap.'
+        ],
         image: 'tapSetters'
     },
     SECONDARY_COIL: {
@@ -67,7 +91,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            "A secondary coil which keeps a Bear Trap functional in times when the primary coil becomes unusable.\nModerately increases the Bear Trap's sabotage time.\nAffects every Bear Trap.",
+            'A secondary coil which keeps a Bear Trap functional in times when the primary coil becomes unusable.',
+        abilities: [
+            "%bModerately increases%/b the Bear Trap's sabotage time.",
+            'Affects every Bear Trap.'
+        ],
         image: 'secondaryCoil'
     },
     LOGWOOD_DYE: {
@@ -77,7 +105,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            'Wood ash. When boiled, can be used to dye Bear Traps and make them less noticeable.\nModerately darkens the trap.\nAffects every Bear Trap.',
+            'Wood ash. When boiled, can be used to dye Bear Traps and make them less noticeable.',
+        abilities: [
+            '%bModerately darkens%/b the trap.',
+            'Affects every Bear Trap.'
+        ],
         image: 'logwoodDye'
     },
     FOUR_COIL_SPRING_KIT: {
@@ -87,7 +119,13 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'UNCOMMON',
         description:
-            "A replacement kit for Bear Traps which changes the usual dual spring system to 4 coil springs, adding a great amount of strength to a Bear Trap's hold.\nModerately increases the difficulty to escape of the Bear Traps.\nModerately increases the rescue time of the Bear Traps.\nSlightly increases the setting time of the Bear Traps.\nAffects every Bear Trap.",
+            "A replacement kit for Bear Traps which changes the usual dual spring system to 4 coil springs, adding a great amount of strength to a Bear Trap's hold.",
+        abilities: [
+            '%bModerately increases%/b the difficulty to escape of the Bear Traps.',
+            '%bModerately increases%/b the rescue time of the Bear Traps.',
+            '%bSlightly increases%/b the setting time of the Bear Traps.',
+            'Affects every Bear Trap.'
+        ],
         image: 'coilsKit4'
     },
     TAR_BOTTLE: {
@@ -97,7 +135,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'RARE',
         description:
-            'A black, matte and sticky substance similar to tar. When applied to Bear Traps, makes them far less noticeable.\nConsiderably darkens the trap.\nAffects every Bear Trap.',
+            'A black, matte and sticky substance similar to tar. When applied to Bear Traps, makes them far less noticeable.',
+        abilities: [
+            '%bConsiderably darkens%/b the trap.',
+            'Affects every Bear Trap.'
+        ],
         image: 'tarBottle'
     },
     SETTING_TOOLS: {
@@ -107,7 +149,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'RARE',
         description:
-            'Specialised tools designed to quickly and effortlessly set Bear Traps.\nConsiderably decreases the setting time of Bear Traps.\nAffects every Bear Trap.',
+            'Specialised tools designed to quickly and effortlessly set Bear Traps.',
+        abilities: [
+            '%bConsiderably decreases%/b the setting time of Bear Traps.',
+            'Affects every Bear Trap.'
+        ],
         image: 'settingTools'
     },
     RUSTED_JAWS: {
@@ -117,7 +163,12 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'RARE',
         description:
-            "These Bear Trap jaws are covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nModerately increases the healing time of Survivors injured by the Bear Trap.\nSlightly decreases the Bear Trap's sabotage time.\nAffects every Bear Trap.",
+            'These Bear Trap jaws are covered with crusty and volatile rust spots that make injuries particularly difficult to heal.',
+        abilities: [
+            '%bModerately increases%/b the healing time of Survivors injured by the Bear Trap.',
+            "%bSlightly decreases%/b the Bear Trap's sabotage time.",
+            'Affects every Bear Trap.'
+        ],
         image: 'rustedJaws'
     },
     OILY_COIL: {
@@ -127,7 +178,12 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'RARE',
         description:
-            "A clear oil that makes handling the Trap's spring more hazardous.\nModerately increases the Bear Trap's sabotage time.\nSlightly decreases the Bear Trap's sabotage Skill Check success zone.\nAffects every Bear Trap.",
+            "A clear oil that makes handling the Trap's spring more hazardous.",
+        abilities: [
+            "%bModerately increases%/b the Bear Trap's sabotage time.",
+            "%bSlightly decreases%/b the Bear Trap's sabotage Skill Check success zone.",
+            'Affects every Bear Trap.'
+        ],
         image: 'oilyCoil'
     },
     FASTENING_TOOLS: {
@@ -137,7 +193,14 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'RARE',
         description:
-            "A specialised set of tools used to fasten Bear Traps to ensure their effectiveness.\nModerately increases the sabotage time of Bear Traps.\nModerately increases the Bear Trap's disable time.\nSlightly increases the setting time of Bear Traps.\nSlightly decreases the Bear Trap's sabotage Skill Check success zone.\nAffects every Bear Trap.",
+            'A specialised set of tools used to fasten Bear Traps to ensure their effectiveness.',
+        abilities: [
+            '%bModerately increases%/b the sabotage time of Bear Traps.',
+            "%bModerately increases%/b the Bear Trap's disable time.",
+            '%bSlightly increases%/b the setting time of Bear Traps.',
+            "%bSlightly decreases%/b the Bear Trap's sabotage Skill Check success zone.",
+            'Affects every Bear Trap.'
+        ],
         image: 'fasteningTools'
     },
     STITCHED_BAG: {
@@ -147,7 +210,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'VERY_RARE',
         description:
-            'Skin pieces of all sorts crudely stitched together making for a very large bag.\nStart with 2 extra Bear Traps.\nAllows the transportation of 2 extra Bear Traps.',
+            'Skin pieces of all sorts crudely stitched together making for a very large bag.',
+        abilities: [
+            'Start with %b2%/b extra Bear Traps.',
+            'Allows the transportation of %b2%/b extra Bear Traps.'
+        ],
         image: 'stichedBag'
     },
     HONING_STONE: {
@@ -157,7 +224,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'VERY_RARE',
         description:
-            'When used with the Bear Trap, the Honing Stone sharpens its blades. The razor-sharp blades inflict deep wounds aimed at bleeding the victim as fast as possible.\n50% chance to inflict dying state upon the trapped victim.\nAffects every Bear Trap.',
+            'When used with the Bear Trap, the Honing Stone sharpens its blades. The razor-sharp blades inflict deep wounds aimed at bleeding the victim as fast as possible.',
+        abilities: [
+            '%b50% chance to inflict Dying State%/b upon the trapped victim.',
+            'Affects every Bear Trap.'
+        ],
         image: 'honingStone'
     },
     BLOODY_COIL: {
@@ -167,7 +238,13 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'VERY_RARE',
         description:
-            "Part sticky, part slippery, this grim liquid makes handling the Trap's spring more dangerous.\nTremendously increases the Bear Trap's sabotage time\nSlightly increases the setting time of Bear Traps.\nModerately decreases the Bear Trap's sabotage Skill Check success zone\nAffects every Bear Trap.",
+            "Part sticky, part slippery, this grim liquid makes handling the Trap's spring more dangerous.",
+        abilities: [
+            "%bTremendously increases%/b the Bear Trap's sabotage time",
+            '%bSlightly increases%/b the setting time of Bear Traps.',
+            "%bModerately decreases%/b the Bear Trap's sabotage Skill Check success zone",
+            'Affects every Bear Trap.'
+        ],
         image: 'bloodyCoil'
     },
     DIAMOND_STONE: {
@@ -177,7 +254,11 @@ export const KillerAddons = {
         owner: 'TRAPPER',
         rarity: 'ULTRA_RARE',
         description:
-            'This honing tool consist of small diamonds attached to a metal plate. It can be used to sharpen the Bear Trap blades and inflicts lethal wounds.\nInflicts dying state upon the trapped victim\nAffects every Bear Trap.',
+            'This honing tool consist of small diamonds attached to a metal plate. It can be used to sharpen the Bear Trap blades and inflicts lethal wounds.',
+        abilities: [
+            '%bInflicts Dying State%/b upon the trapped victim',
+            'Affects every Bear Trap.'
+        ],
         image: 'diamondStone'
     },
     BONE_CLAPPER: {
@@ -187,7 +268,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'COMMON',
         description:
-            'A Bell clapper made from a highly polished piece of bone.\nSlightly reduces the range at which the Bell can be heard.',
+            'A Bell clapper made from a highly polished piece of bone.',
+        abilities: [
+            "%bSlightly reduces%/b the range at which Survivors hear The Wraith's successful cloak/uncloak audio."
+        ],
         image: 'boneClapper'
     },
     SWIFT_HUNT_SOOT: {
@@ -197,7 +281,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'COMMON',
         description:
-            "The Kuntin-Takko symbol, representing a rapid descent on a prey, is finger-drawn in soot on the body of the Bell.\nSlightly reduces the Bell's reappearance time.",
+            'The Kuntin-Takko symbol, representing a rapid descent on a prey, is finger-drawn in soot on the body of the Bell.',
+        abilities: ["%bSlightly reduces%/b the Wraith's reappearance time."],
         image: 'sootKuntinTakkho'
     },
     BLINK_SOOT: {
@@ -207,7 +292,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'COMMON',
         description:
-            "The Kratin symbol, represting quick passing, is finger-drawn in soot on the body of the Bell.\nSlightly reduces the Bell's disappearance time.",
+            'The Kratin symbol, represting quick passing, is finger-drawn in soot on the body of the Bell.',
+        abilities: ["%bSlightly reduces%/b the Wraith's disappearance time."],
         image: 'sootKratin'
     },
     BLIND_WARRIOR_SOOT: {
@@ -217,7 +303,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'COMMON',
         description:
-            'The Baikra-Kaeug symbol, representing imperviousness, is finger-drawn in soot on the body of the Bell.\nSlightly increases Lightburn resistance.',
+            'The Baikra-Kaeug symbol, representing imperviousness, is finger-drawn in soot on the body of the Bell.',
+        abilities: ['%bSlightly increases%/b Lightburn resistance.'],
         image: 'sootBaikraKaeug'
     },
     COXCOMBED_CLAPPER: {
@@ -227,7 +314,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'UNCOMMON',
         description:
-            'A coxcombed rope knotted around the Bell clapper to create a softer sound.\nModerately reduces the range at which the Bell can be heard.',
+            'A coxcombed rope knotted around the Bell clapper to create a softer sound.',
+        abilities: [
+            "%bModerately reduces%/b the range at which Survivors hear The Wraith's successful cloak/uncloak audio."
+        ],
         image: 'coxcombedClapper'
     },
     WINDSTORM_MUD: {
@@ -237,7 +327,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'UNCOMMON',
         description:
-            'The Ohuwe-Onmnea symbol, representing a violent storm, is finger-drawn in soot on the body of the Bell.\nGrants a boost to movement speed for 0.5 second after reappearing.',
+            'The Ohuwe-Onmnea symbol, representing a violent storm, is finger-drawn in soot on the body of the Bell.',
+        abilities: [
+            'Grants a boost to movement speed for %b0.5 second%/b after reappearing.'
+        ],
         image: 'mudWindstorm'
     },
     SWIFT_HUNT_MUD: {
@@ -247,7 +340,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'UNCOMMON',
         description:
-            "The Kuntin-Takko symbol, representing a rapid descent on a prey, is finger-drawn in mud on the body of the Bell.\nModerately reduces the Bell's reappearance time.",
+            'The Kuntin-Takko symbol, representing a rapid descent on a prey, is finger-drawn in mud on the body of the Bell.',
+        abilities: ["%bModerately reduces%/b the Wraith's reappearance time."],
         image: 'mudSwiftHunt'
     },
     BLIND_WARRIOR_MUD: {
@@ -257,7 +351,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'UNCOMMON',
         description:
-            'The Baikra-Kaeug symbol, representing imperviousness, is finger-drawn in mud on the body of the Bell.\nModerately increases Lightburn resistance.',
+            'The Baikra-Kaeug symbol, representing imperviousness, is finger-drawn in mud on the body of the Bell.',
+        abilities: ['%bModerately increases%/b Lightburn resistance.'],
         image: 'mudBaikraKaeug'
     },
     ALL_SEEING_MUD: {
@@ -267,7 +362,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'UNCOMMON',
         description:
-            "The Kra-Frabai symbol, representing the Entity watching over us, is finger-drawn in mud on the head of the Bell.\nWhile invisible, see the Survivors' Auras within an 4 meter range.",
+            'The Kra-Frabai symbol, representing the Entity watching over us, is finger-drawn in mud on the head of the Bell.',
+        abilities: [
+            "While invisible, see the Survivors' Auras within %b6%/b meters of range."
+        ],
         image: 'mudKraFabai'
     },
     WINDSTORM_WHITE: {
@@ -277,7 +375,11 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'RARE',
         description:
-            "The Ohuwe-Onmnea symbol, representing a violent storm, is finger-drawn in white ink on the body of the Bell.\nGrants a boost to movement speed for 1 second after reappearing.\nSlightly increases The Wraith's reappearance time.",
+            'The Ohuwe-Onmnea symbol, representing a violent storm, is finger-drawn in white ink on the body of the Bell.',
+        abilities: [
+            'Grants a boost to movement speed for %b1 second%/b after reappearing.',
+            "%bSlightly increases%/b The Wraith's reappearance time."
+        ],
         image: 'whiteWindstorm'
     },
     THE_GHOST_WHITE: {
@@ -287,7 +389,11 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'RARE',
         description:
-            'The Khugwemuu symbol, representing the spirit world, is finger-drawn in soot on the body of the Bell.\nGrants stealth when uncloaking while motionless.\nStealth reduces your terror radius to 0m until you move or act again.',
+            'The Khugwemuu symbol, representing the spirit world, is finger-drawn in soot on the body of the Bell.',
+        abilities: [
+            '%bGrants stealth%/b when uncloaking while motionless.',
+            'Stealth reduces your terror radius to %b0 metres%/b until you move or act again.'
+        ],
         image: 'whiteTheGhost'
     },
     SWIFT_HUNT_WHITE: {
@@ -297,7 +403,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'RARE',
         description:
-            "The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in white ink on the body of the Bell.\nConsiderably reduces the Bell's reappearance time.",
+            'The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in white ink on the body of the Bell.',
+        abilities: [
+            "%bConsiderably reduces%/b The Wraith's reappearance time."
+        ],
         image: 'whiteKuntinTakkho'
     },
     BLIND_WARRIOR_WHITE: {
@@ -307,7 +416,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'RARE',
         description:
-            'The Baikra-Kaeug symbol, representing imperviousness, is stamped out of white ink on the body of the Bell.\nConsiderably increases Lightburn resistance.',
+            'The Baikra-Kaeug symbol, representing imperviousness, is stamped out of white ink on the body of the Bell.',
+        abilities: ['%bConsiderably increases%/b Lightburn resistance.'],
         image: 'whiteBlindWarrior'
     },
     ALL_SEEING_WHITE: {
@@ -317,7 +427,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'RARE',
         description:
-            "The Kra-Frabai symbol, representing the Entity watching over us, is stamped out of white ink on the head of the Bell.\nWhile invisible, see the Survivors' Auras within a 6 meter range.",
+            'The Kra-Frabai symbol, representing the Entity watching over us, is stamped out of white ink on the head of the Bell.',
+        abilities: [
+            "While invisible, see the Survivors' Auras within %b8 meters%/b of range."
+        ],
         image: 'whiteAllSeeing'
     },
     WINDSTORM_BLOOD: {
@@ -327,7 +440,11 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'VERY_RARE',
         description:
-            'The Ohuwee-Onmnea smybol, representing a violent storm, is stamped out of blood on the body of the Bell.\nGrants a boost to movement speed for 1.5 seconds after reappearing.',
+            'The Ohuwee-Onmnea smybol, representing a violent storm, is stamped out of blood on the body of the Bell.',
+        abilities: [
+            'Grants a boost to movement speed for %b1.5 seconds%/b after reappearing.',
+            "%bModerately increases%/b The Wraith's reappearance time."
+        ],
         image: 'bloodWindstorm'
     },
     BLIND_WARRIOR_BLOOD: {
@@ -337,7 +454,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'VERY_RARE',
         description:
-            'The Baikra-Kaeug symbol, representing imperviousness, is stamped out of blood on the body of the Bell.\nTremendously increases Lightburn resistance.',
+            'The Baikra-Kaeug symbol, representing imperviousness, is stamped out of blood on the body of the Bell.',
+        abilities: ['%bTremendously increases%/b Lightburn resistance.'],
         image: 'bloodBlindWarrior'
     },
     ALL_SEEING_BLOOD: {
@@ -347,7 +465,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'VERY_RARE',
         description:
-            "The Kra-Frabai symbol. representing the Entity watching over us, is stamped in blood on the head of the Bell.\nWhile invisible, see the Survivors' Auras within an 8 meter range.",
+            'The Kra-Frabai symbol. representing the Entity watching over us, is stamped in blood on the head of the Bell.',
+        abilities: [
+            "While invisible, see the Survivors' Auras within %b10 metres%/b of range."
+        ],
         image: 'bloodKraFabai'
     },
     BLIND_WARRIOR_SPIRIT: {
@@ -357,7 +478,8 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'ULTRA_RARE',
         description:
-            'The Baikra-Kaeug symbol, representing imperviousness, ominously glows on the body of the Bell.\nGrants immunity to Lightburn.',
+            'The Baikra-Kaeug symbol, representing imperviousness, ominously glows on the body of the Bell.',
+        abilities: ['%bGrants immunity%/b to Lightburn.'],
         image: 'spiritBlindWarrior'
     },
     ALL_SEEING_SPIRIT: {
@@ -367,7 +489,10 @@ export const KillerAddons = {
         owner: 'WRAITH',
         rarity: 'ULTRA_RARE',
         description:
-            "The Kra-Frabai symbol, representing the Entity watching over us, ominously glows on the head of the Bell.\nWhile invisible, see the Survivors' Auras within a 10 meter range.",
+            'The Kra-Frabai symbol, representing the Entity watching over us, ominously glows on the head of the Bell.',
+        abilities: [
+            "While invisible, see the Survivors' Auras within %b12 metres%/b of range."
+        ],
         image: 'spiritAllSeeing'
     },
     VEGETABLE_OIL: {
@@ -376,8 +501,8 @@ export const KillerAddons = {
         name: 'Vegetable Oil',
         owner: 'HILLBILLY',
         rarity: 'COMMON',
-        description:
-            "A rancid oil used as a poor quality lubricant.\nSlightly decrease the Chainsaw's cooldown.",
+        description: 'A rancid oil used as a poor quality lubricant.',
+        abilities: ["%bSlightly decrease%/b the Chainsaw's cooldown."],
         image: 'vegetableOil'
     },
     SPARK_PLUG: {
@@ -386,8 +511,8 @@ export const KillerAddons = {
         name: 'Spark Plug',
         owner: 'HILLBILLY',
         rarity: 'COMMON',
-        description:
-            "A clean spark plug fitted for a Chainsaw.\nSlightly decreases the Chainsaw's charge time.",
+        description: 'A clean spark plug fitted for a Chainsaw.',
+        abilities: ["%bSlightly decreases%/b the Chainsaw's charge time."],
         image: 'sparkPlug'
     },
     CHAINSAW_FILE: {
@@ -396,8 +521,8 @@ export const KillerAddons = {
         name: 'Chainsaw File',
         owner: 'HILLBILLY',
         rarity: 'COMMON',
-        description:
-            'A file whose purpose is to hone Chainsaw chains.\nSlightly reduces the noise made by the Chainsaw.',
+        description: 'A file whose purpose is to hone Chainsaw chains.',
+        abilities: ['%bSlightly reduces%/b the noise made by the Chainsaw.'],
         image: 'chainsawFile'
     },
     SPIKED_BOOTS: {
@@ -407,7 +532,10 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            'Boots with metal spikes protruding from the soles, which provide more stability and control when walking on slippery soil.\nModerately increases steering while using the Chainsaw.',
+            'Boots with metal spikes protruding from the soles, which provide more stability and control when walking on slippery soil.',
+        abilities: [
+            '%bModerately increases%/b steering while using the Chainsaw.'
+        ],
         image: 'spikedBoots'
     },
     SPEED_LIMITER: {
@@ -417,7 +545,11 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            'A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\nChainsaw does not automatically trigger dying state.\nGet 50% more Bloodpoints for Chainsaw score events in the Deviousness category.',
+            'A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.',
+        abilities: [
+            'Chainsaw does not automatically trigger dying state.',
+            'Get %b50%%/b more Bloodpoints for Chainsaw score events in the %bDeviousness%/b category.'
+        ],
         image: 'speedLimiter'
     },
     SHOP_LUBRICANT: {
@@ -427,7 +559,8 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            "An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.\nModerately decreases the Chainsaw's cooldown.",
+            'An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.',
+        abilities: ["%bModerately decreases%/b the Chainsaw's cooldown."],
         image: 'shopLubricant'
     },
     PRIMER_BULB: {
@@ -437,7 +570,8 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            "Pumps more gas in the ignition system to ensure a quick and powerful start.\nModerately decreases the Chainsaw's charge time.",
+            'Pumps more gas in the ignition system to ensure a quick and powerful start.',
+        abilities: ["%bModerately decreases%/b the Chainsaw's charge time."],
         image: 'primerBulb'
     },
     LONG_GUIDE_BAR: {
@@ -446,8 +580,10 @@ export const KillerAddons = {
         name: 'Long Guide Bar',
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
-        description:
-            'A sturdy iron replacement bar for long chains.\nSlightly increases the reach of the Chainsaw attack.',
+        description: 'A sturdy iron replacement bar for long chains.',
+        abilities: [
+            '%bSlightly increases%/b the reach of the Chainsaw attack.'
+        ],
         image: 'longGuideBar'
     },
     HOMEMADE_MUFFLER: {
@@ -456,8 +592,8 @@ export const KillerAddons = {
         name: 'Homemade Muffler',
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
-        description:
-            'A makeshift exhaust system made of black gas pipes.\nModerately reduces the noise made by the Chainsaw.',
+        description: 'A makeshift exhaust system made of black gas pipes.',
+        abilities: ['%bModerately reduces%/b the noise made by the Chainsaw.'],
         image: 'homemadeMuffler'
     },
     GRISLY_CHAINS: {
@@ -467,7 +603,10 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            'A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.\nModerately decreases the repair speed of survivors injured by the Chainsaw.',
+            'A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.',
+        abilities: [
+            '%bModerately decreases%/b the repair speed of survivors injured by the Chainsaw for %b90 seconds%/b.'
+        ],
         image: 'chainsGrisly'
     },
     DEPTH_GUAGE_RAKE: {
@@ -477,7 +616,10 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            'Tool that increases the angle of the depth gauge, making the chain eat more "wood".\nModerately reduces the time penalty when bumping into objects.',
+            'Tool that increases the angle of the depth gauge, making the chain eat more "wood".',
+        abilities: [
+            '%bModerately reduces%/b the time penalty when bumping into objects.'
+        ],
         image: 'depthGaugeRake'
     },
     DEATH_ENGRAVINGS: {
@@ -487,7 +629,11 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'UNCOMMON',
         description:
-            "Engravings found on the Chainsaw body counting the amount of lives it took. Fills the user with determination.\nSlightly increases the Chainsaw's movement speed.\nSlightly increases charge time.",
+            'Engravings found on the Chainsaw body counting the amount of lives it took. Fills the user with determination.',
+        abilities: [
+            "%bSlightly increases%/b the Chainsaw's movement speed.",
+            '%bSlightly increases%/b charge time.'
+        ],
         image: 'deathEngravings'
     },
     THE_THOMPSONS_MIX: {
@@ -497,7 +643,11 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'RARE',
         description:
-            "A special oily substance used in the lubrication of all machinery concocted by the Thompson's themselves.\nConsiderably decreases the Chainsaw's cooldown.\nSlightly decreases the Chainsaw's charge time.",
+            "A special oily substance used in the lubrication of all machinery concocted by the Thompson's themselves.",
+        abilities: [
+            "%bConsiderably decreases%/b the Chainsaw's cooldown.",
+            "%bSlightly decreases%/b the Chainsaw's charge time."
+        ],
         image: 'theThompsonsMix'
     },
     RUSTED_CHAINS: {
@@ -508,6 +658,9 @@ export const KillerAddons = {
         rarity: 'RARE',
         description:
             'This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nConsiderably increases the healing time of survivors injured by the Chainsaw.',
+        abilities: [
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds.%/b'
+        ],
         image: 'chainsRusted'
     },
     LIGHT_CHASSIS: {
@@ -517,7 +670,11 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'RARE',
         description:
-            'A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.\nSlightly reduces the reach of the Chainsaw attack.\nConsiderably reduces the time penalty when bumping into objects.',
+            'A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.',
+        abilities: [
+            '%bSlightly reduces%/b the reach of the Chainsaw attack.',
+            '%bConsiderably reduces%/b the time penalty when bumping into objects.'
+        ],
         image: 'lightChassis'
     },
     DOOM_ENGRAVINGS: {
@@ -527,27 +684,55 @@ export const KillerAddons = {
         owner: 'HILLBILLY',
         rarity: 'RARE',
         description:
-            "Engravings found on the Chainsaw body representing the dark beast that lives in the Fog. Fills the user with determination.\nModerately increases the Chainsaw's movement speed.\nSlightly increases charge time.",
+            'Engravings found on the Chainsaw body representing the dark beast that lives in the Fog. Fills the user with determination.',
+        abilities: [
+            "%bModerately increases%/b the Chainsaw's movement speed.",
+            '%bSlightly increases%/b charge time.'
+        ],
         image: 'doomEngravings'
     },
+    CARBURETOR_TUNING_GUIDE: {
+        id: 117,
+        index: 'CARBURETOR_TUNING_GUIDE',
+        name: 'Carburetor Tuning Guide',
+        owner: 'HILLBILLY',
+        rarity: 'RARE',
+        description:
+            'A crudely drawn guide to properly adjust and tune a Chainsaw carburetor.',
+        abilities: [
+            "%bModerately decreases%/b the Chainsaw's charge time.",
+            "%bSlightly decreases%/b the Chainsaw's cooldown.",
+            '%bSlightly reduces%/b the time penalty when bumping into objects.',
+            '%bSlightly reduces%/b the noise made by the Chainsaw.'
+        ],
+        image: 'carburetorTuningGuide'
+    },
     THOMPSONS_MOONSHINE: {
-        id: 116,
+        id: 118,
         index: 'THOMPSONS_MOONSHINE',
         name: "Thompson's Moonshine",
         owner: 'HILLBILLY',
         rarity: 'VERY_RARE',
         description:
-            "A strong beverage made from corn and a recipe passed down in the Thompson's family. Instils rage and headache.\nTremendously increases steering while using the Chainsaw.\nConsiderably increases the time penalty when bumping into objects.",
+            "A strong beverage made from corn and a recipe passed down in the Thompson's family. Instils rage and headache.",
+        abilities: [
+            '%bTremendously increases%/b steering while using the Chainsaw.',
+            '%bConsiderably increases%/b the time penalty when bumping into objects.'
+        ],
         image: 'thompsonsMoonshine'
     },
     BEGRIMED_CHAINS: {
-        id: 117,
+        id: 119,
         index: 'BEGRIMED_CHAINS',
         name: 'Begrimed Chains',
         owner: 'HILLBILLY',
         rarity: 'VERY_RARE',
         description:
-            'This chain is stained with a foul substance that afflicts anyone it touches with debilities.\nSlightly decreases the repair speed on survivors injured by the Chainsaw until healed.\nConsiderably increases the healing time of survivors injured by the Chainsaw.',
+            'This chain is stained with a foul substance that afflicts anyone it touches with debilities.',
+        abilities: [
+            '%bModerately decreases%/b the repair speed on Survivors injured by the Chainsaw.',
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds%/b.'
+        ],
         image: 'chainsBloody'
     },
     WOODEN_HORSE: {
@@ -557,7 +742,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and her Nurse.\nSlightly decreases the accuracy of the Blink.\nSlightly increases the maximum range of the Blink.',
+            'An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and her Nurse.',
+        abilities: [
+            '%bSlightly decreases%/b the accuracy of the Blink.',
+            '%bSlightly increases%/b the maximum range of the Blink.'
+        ],
         image: 'woodenHorse'
     },
     WHITE_NIT_COMB: {
@@ -567,7 +756,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her Nurse.\nSlightly increases the Blink movement speed.',
+            'A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her Nurse.',
+        abilities: ['%bSlightly increases%/b the Blink movement speed.'],
         image: 'whiteNitComb'
     },
     TORN_BOOKMARK: {
@@ -577,7 +767,12 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'A white and pristine piece of ribbon once attached to a sacred book. Once the symbol of a dispute.\nAdds 1 additional chain Blink.\nSlightly decreases the maximum range of the Blink.\nSlightly reduces the chain Blink window.',
+            'A white and pristine piece of ribbon once attached to a sacred book. Once the symbol of a dispute.',
+        abilities: [
+            'Adds %b1%/b additional chain Blink.',
+            '%bSlightly decreases%/b the maximum range of the Blink.',
+            '%bSlightly reduces%/b the chain Blink window.'
+        ],
         image: 'tornBookmark'
     },
     METAL_SPOON: {
@@ -587,7 +782,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'A dull, partially rusted and stained metallic spoon. Confiscated from Room 202\'s patient, the "Bad Man".\nSlightly increases the charge speed of the Blink.',
+            'A dull, partially rusted and stained metallic spoon. Confiscated from Room 202\'s patient, the "Bad Man".',
+        abilities: ['%bSlightly increases%/b the charge speed of the Blink.'],
         image: 'metalSpoon'
     },
     MATCHBOX: {
@@ -597,7 +793,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'A matchbox containing an odd collection of mismatched buttons.\nSlightly increases the chain Blink window.',
+            'A matchbox containing an odd collection of mismatched buttons.',
+        abilities: ['%bSlightly increases%/b the chain Blink window.'],
         image: 'matchBox'
     },
     BAD_MAN_KEEPSAKE: {
@@ -607,7 +804,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'COMMON',
         description:
-            'A rotten molar ripped from the "Bad Man\'s" cold dead hand.\n Moderately increases the charge speed of the Blink.',
+            'A rotten molar ripped from the "Bad Man\'s" cold dead hand.',
+        abilities: ['%bModerately increases%/b the charge speed of the Blink.'],
         image: 'badManKeepsake'
     },
     POCKET_WATCH: {
@@ -617,7 +815,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'UNCOMMON',
         description:
-            "A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body.\nSlightly decreases the charge speed of the Blink.\nModerately reduces the fatigue time of the Blink.",
+            "A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body.",
+        abilities: [
+            '%bSlightly decreases%/b the charge speed of the Blink.',
+            '%bModerately reduces%/b the fatigue time of the Blink.'
+        ],
         image: 'pocketWatch'
     },
     DULL_BRACELET: {
@@ -627,7 +829,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'UNCOMMON',
         description:
-            "A worthless piece of jewelry that might have an important significance to someone. Taken from the Anxious Girl's body.\nModerately increases the Blink movement speed.\nSlightly decreases Blink charge speed.",
+            "A worthless piece of jewelry that might have an important significance to someone. Taken from the Anxious Girl's body.",
+        abilities: [
+            '%bModerately increases%/b the Blink movement speed.',
+            '%bSlightly decreases%/b Blink charge speed.'
+        ],
         image: 'dullBracelet'
     },
     DARK_CINCTURE: {
@@ -637,7 +843,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'UNCOMMON',
         description:
-            "A black rope used as a belt in times of mourning. Taken from Father Campbell's body.\nAdds 1 additional chain Blink.\nSlightly reduces the maximum range of the Blink.",
+            "A black rope used as a belt in times of mourning. Taken from Father Campbell's body.",
+        abilities: [
+            'Adds %b1%/b additional chain Blink.',
+            '%bSlightly reduces%/b the maximum range of the Blink.'
+        ],
         image: 'darkCincture'
     },
     CATATONIC_BOYS_TREASURE: {
@@ -647,7 +857,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'UNCOMMON',
         description:
-            "A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the Catatonic Boy's body.\nModerately increases the maximum range of the Blink.\nModerately decreases the accuracy of the Blink.",
+            "A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the Catatonic Boy's body.",
+        abilities: [
+            '%bModerately increases%/b the maximum range of the Blink.',
+            '%bModerately decreases%/b the accuracy of the Blink.'
+        ],
         image: 'catatonicTreasure'
     },
     SPASMODIC_BREATH: {
@@ -657,7 +871,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'RARE',
         description:
-            'The twitchy and tremulous breath stolen from the "Bad Man". Aggressively pulses and jumps at The Nurse\'s touch.\nConsiderably increases the charge speed of the Blink.\nSlightly increases the fatigue time of the Blink.',
+            'The twitchy and tremulous breath stolen from the "Bad Man". Aggressively pulses and jumps at The Nurse\'s touch.',
+        abilities: [
+            '%bConsiderably increases%/b the charge speed of the Blink.',
+            '%bSlightly increases%/b the fatigue time of the Blink.'
+        ],
         image: 'spasmodicBreath'
     },
     HEAVY_PANTING: {
@@ -667,7 +885,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'RARE',
         description:
-            "The slow and bulging breath stolen from the fat Orderly. Dimly oscillates at The Nurse's touch.\nModerately increases the chain Blink window.\nModerately increases fatigue duration.",
+            "The slow and bulging breath stolen from the fat Orderly. Dimly oscillates at The Nurse's touch.",
+        abilities: [
+            '%bModerately increases%/b the chain Blink window.',
+            '%bModerately increases%/b fatigue duration.'
+        ],
         image: 'heavyPanting'
     },
     FRAGILE_WHEEZE: {
@@ -677,7 +899,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'RARE',
         description:
-            "The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch.\nAdds 1 additional chain Blink.",
+            "The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch.",
+        abilities: ['Adds %b1%/b additional chain Blink.'],
         image: 'fragileWheeze'
     },
     ATAXIC_RESPIRATION: {
@@ -687,7 +910,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'RARE',
         description:
-            "The irregular and deteriorating breath collected from the Catatonic Boy. Normally stable and calm, becomes incredibly agitated at The Nurse's touch.\nConsiderably increases the maximum range of the Blink.\nConsiderably decreases the accuracy of the Blink.",
+            "The irregular and deteriorating breath collected from the Catatonic Boy. Normally stable and calm, becomes incredibly agitated at The Nurse's touch.",
+        abilities: [
+            '%bConsiderably increases%/b the maximum range of the Blink.',
+            '%bConsiderably decreases%/b the accuracy of the Blink.'
+        ],
         image: 'ataxicRespiration'
     },
     ANXIOUS_GASP: {
@@ -697,7 +924,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'RARE',
         description:
-            "The gasp of surprise collected from an Anxious Girl which the Nurse was fond of. Twitches vigorously at The Nurse's touch.\nConsiderably increases the Blink movement speed.\nModerately decreases Blink charge speed.",
+            "The gasp of surprise collected from an Anxious Girl which the Nurse was fond of. Twitches vigorously at The Nurse's touch.",
+        abilities: [
+            '%bConsiderably increases%/b the Blink movement speed.',
+            '%bModerately decreases%/b Blink charge speed.'
+        ],
         image: 'anxiousGasp'
     },
     PLAID_FLANNEL: {
@@ -707,7 +938,8 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'VERY_RARE',
         description:
-            'A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus.\nAllows you to see the landing area of the Blink.',
+            'A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus.',
+        abilities: ['Allows you to see the landing area of the Blink.'],
         image: 'plaidFlannel'
     },
     KAVANAGHS_LAST_BREATH: {
@@ -717,7 +949,12 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'VERY_RARE',
         description:
-            'A powerful last breath snatched from Crotus Prenn Asylum Orderly Harvey Kavanagh. In the hands of The Nurse, it wobbles with intensity.\nModerately increases the chain Blink window.\nSlightly increases fatigue duration.\nRemoves 1 chain Blink.',
+            'A powerful last breath snatched from Crotus Prenn Asylum Orderly Harvey Kavanagh. In the hands of The Nurse, it wobbles with intensity.',
+        abilities: [
+            '%bModerately increases%/b the chain Blink window.',
+            '%bSlightly increases%/b fatigue duration.',
+            'Removes %b1%/b chain Blink.'
+        ],
         image: 'kavanaghsLastBreath'
     },
     JENNERS_LAST_BREATH: {
@@ -727,7 +964,12 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'VERY_RARE',
         description:
-            'A powerful last breath snatched from Crotus Prenn Asylum patient Mary Jenner. In the hands of The Nurse, it trembles with intensity.\nTremendously increases the Blink movement speed.\nModerately decreases Blink charge speed.\nRemoves 1 chain Blink.',
+            'A powerful last breath snatched from Crotus Prenn Asylum patient Mary Jenner. In the hands of The Nurse, it trembles with intensity.',
+        abilities: [
+            '%bTremendously increases%/b the Blink movement speed.',
+            '%bModerately decreases%/b Blink charge speed.',
+            'Removes %b1%/b chain Blink.'
+        ],
         image: 'jennersLastBreath'
     },
     CAMPBELLS_LAST_BREATH: {
@@ -737,7 +979,11 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'VERY_RARE',
         description:
-            'A powerful last breath snatched from Crotus Prenn Asylum priest Father Campbell. In the hand of The Nurse, it crackles with intensity.\nAdds 2 additional chain Blinks.\nSlightly reduces the maximum range of the Blink.',
+            'A powerful last breath snatched from Crotus Prenn Asylum priest Father Campbell. In the hand of The Nurse, it crackles with intensity.',
+        abilities: [
+            'Adds %b2%/b additional chain Blinks.',
+            '%bSlightly reduces%/b the maximum range of the Blink.'
+        ],
         image: 'campbellsLastBreath'
     },
     BAD_MANS_LAST_BREATH: {
@@ -747,7 +993,12 @@ export const KillerAddons = {
         owner: 'NURSE',
         rarity: 'VERY_RARE',
         description:
-            'A powerful last breath snatched from Crotus Prenn Asylum patient the "Bad Man". In the hands of The Nurse, it jolts with intensity.\nTremendously increases the charge speed of the Blink.\nSlightly increases the fatigue time of the Blink.\nRemoves 1 chain Blink.',
+            'A powerful last breath snatched from Crotus Prenn Asylum patient the "Bad Man". In the hands of The Nurse, it jolts with intensity.',
+        abilities: [
+            '%bTremendously increases%/b the charge speed of the Blink.',
+            '%bSlightly increases%/b the fatigue time of the Blink.',
+            'Removes %b1%/b chain Blink.'
+        ],
         image: 'badMansLastBreath'
     },
     TACKY_EARRINGS: {
@@ -757,7 +1008,8 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'COMMON',
         description:
-            'A very cheap piece of jewelry made from plastic. Painted to resemble precious material.\nSlightly increases movement speed while stalking.',
+            'A very cheap piece of jewelry made from plastic. Painted to resemble precious material.',
+        abilities: ['%bSlightly increases%/b movement speed while stalking.'],
         image: 'tackyEarrings'
     },
     BOYFRIENDS_MEMO: {
@@ -767,7 +1019,8 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'COMMON',
         description:
-            'A "romantic", if slightly sleazy, note left around to draw the attention of a female lover.\nSlightly increases the lunge of Evil Within I.',
+            'A "romantic", if slightly sleazy, note left around to draw the attention of a female lover.',
+        abilities: ['%bSlightly increases%/b the lunge of %bEvil Within I%/b.'],
         flavor: '"The note is signed: D."',
         image: 'boyfriendsMemo'
     },
@@ -777,8 +1030,11 @@ export const KillerAddons = {
         name: 'Blond Hair',
         owner: 'SHAPE',
         rarity: 'COMMON',
-        description:
-            'A single slightly wavy blond hair.\nSlightly increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.',
+        description: 'A single slightly wavy blond hair.',
+        abilities: [
+            '%bSlightly increases%/b the duration of %bEvil Within III%/b.',
+            '%bSlightly increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'blondeHair'
     },
     REFLECTIVE_FRAGMENT: {
@@ -788,7 +1044,11 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
         description:
-            'A tiny piece of a highly reflective material most probably from a broken mirror.\nEvil Within II reveals the aura of Survivors who have been stalked for at least 1 second.\nAura stays visible for a duration of 2 seconds.',
+            'A tiny piece of a highly reflective material most probably from a broken mirror.',
+        abilities: [
+            '%bEvil Within II%/b reveals the aura of Survivors who have been stalked for at least %b1 second%/b.',
+            'Aura stays visible for a duration of %b2 seconds%/b.'
+        ],
         image: 'reflectiveFragment'
     },
     MEMORIAL_FLOWER: {
@@ -798,7 +1058,10 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
         description:
-            'A partially faded and dried pink larkspur picked up from a gravestone.\nSlightly increases the rate at which evil is gained when stalking a Survivor.',
+            'A partially faded and dried pink larkspur picked up from a gravestone.',
+        abilities: [
+            '%bSlightly increases%/b the rate at which evil is gained when stalking a Survivor.'
+        ],
         image: 'memorialFlower'
     },
     JEWELRY: {
@@ -808,7 +1071,8 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
         description:
-            "A large necklace made of beads an inexpensive metals. One of Judith's favourites.\nModerately increases movement speed while stalking.",
+            "A large necklace made of beads an inexpensive metals. One of Judith's favourites.",
+        abilities: ['%bModerately increases%/b movement speed while stalking.'],
         image: 'jewelry'
     },
     HAIR_BRUSH: {
@@ -818,7 +1082,11 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
         description:
-            'A nylon bristle brush used to add body and softness to hair.\nModerately increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.',
+            'A nylon bristle brush used to add body and softness to hair.',
+        abilities: [
+            '%bModerately increases%/b the duration of %bEvil Within III%/b.',
+            '%bSlightly increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'hairBrush'
     },
     GLASS_FRAGMENT: {
@@ -828,7 +1096,11 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
         description:
-            'A tiny piece of tinted glass, probably from a broken object. It is impossible to determine its origin.\nEvil Within I reveals the aura of Survivors who have been stalked for at least 1 second.\nAura stays visible for a duration of 2 seconds.',
+            'A tiny piece of tinted glass, probably from a broken object. It is impossible to determine its origin.',
+        abilities: [
+            '%bEvil Within I%/b reveals the aura of Survivors who have been stalked for at least %b1 second%/b.',
+            'Aura stays visible for a duration of %b2 seconds%/b.'
+        ],
         image: 'glassFragment'
     },
     DEAD_RABBIT: {
@@ -837,8 +1109,11 @@ export const KillerAddons = {
         name: 'Dead Rabbit',
         owner: 'SHAPE',
         rarity: 'UNCOMMON',
-        description:
-            'A grey rabbit which has been opened from neck to tail.\nModerately decreases the Terror Radius of Evil Within II.\nModerately increases the Terror Radius of Evil Within III.',
+        description: 'A grey rabbit which has been opened from neck to tail.',
+        abilities: [
+            '%bModerately decreases%/b the Terror Radius of %bEvil Within II%/b.',
+            '%bModerately increases%/b the Terror Radius of %bEvil Within III%/b.'
+        ],
         image: 'deadRabbit'
     },
     MIRROR_SHARD: {
@@ -847,8 +1122,11 @@ export const KillerAddons = {
         name: 'Mirror Shard',
         owner: 'SHAPE',
         rarity: 'RARE',
-        description:
-            'A large and sharp piece of a broken mirror.\nEvil Within II reveals the aura of Survivors who have been stalked for at least 1 second.\nAura stays visible for a duration of 5 seconds.',
+        description: 'A large and sharp piece of a broken mirror.',
+        abilities: [
+            '%bEvil Within II%/b reveals the aura of Survivors who have been stalked for at least %b1 second%/b.',
+            'Aura stays visible for a duration of %b5 seconds%/b.'
+        ],
         image: 'mirrorShard'
     },
     JUDITHS_JOURNAL: {
@@ -858,7 +1136,11 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'RARE',
         description:
-            'A journal identified as owned by Judith M. Myers. Most of the pages are defaced with frightening and disturbing drawings.\nYou become obsessed with one Survivor.\nConsiderably increases the rate at which evil is gained when stalking your Obsession.',
+            'A journal identified as owned by Judith M. Myers. Most of the pages are defaced with frightening and disturbing drawings.',
+        abilities: [
+            'You become %bobsessed%/b with one Survivor.',
+            '%bConsiderably increases%/b the rate at which evil is gained when stalking your Obsession.'
+        ],
         image: 'judithsJournal'
     },
     JEWELRY_BOX: {
@@ -868,7 +1150,10 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'RARE',
         description:
-            'A barren wooden box in which vanity items were once stored.\nConsiderably increases movement speed while stalking.',
+            'A barren wooden box in which vanity items were once stored..',
+        abilities: [
+            '%bConsiderably increases%/b movement speed while stalking.'
+        ],
         image: 'jewelryBox'
     },
     J_MYERS_MEMORIAL: {
@@ -878,7 +1163,10 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'RARE',
         description:
-            'A glossy page ripped from the 1965 Haddonfield High School yearbook, one dedicated to the memory of Judith Myers.\nModerately increases the rate at which evil is gained when stalking a Survivor.',
+            'A glossy page ripped from the 1965 Haddonfield High School yearbook, one dedicated to the memory of Judith Myers.',
+        abilities: [
+            '%bModerately increases%/b the rate at which evil is gained when stalking a Survivor.'
+        ],
         image: 'jMyersMemorial'
     },
     HAIR_BOW: {
@@ -887,8 +1175,11 @@ export const KillerAddons = {
         name: 'Hair Bow',
         owner: 'SHAPE',
         rarity: 'RARE',
-        description:
-            'A blue tartan ribbon used to tie hair.\nConsiderably increases the duration of Evil Within III.\nSlightly increases the amount of evil required to reach Evil Within III.',
+        description: 'A blue tartan ribbon used to tie hair.',
+        abilities: [
+            '%bConsiderably increases%/b the duration of %bEvil Within III%/b.',
+            '%bSlightly increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'hairBow'
     },
     VANITY_MIRROR: {
@@ -898,7 +1189,13 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'VERY_RARE',
         description:
-            "A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.\nEvil Within II reveals Survivors' auras when stalking within a 16 meter range.\nEvil Within cannot progress past TIER II.\nSlightly reduces movement speed.\nFor each Hit Score Event, grant 100% Bloodpoints for the Hit Score Event in the Brutality category and an additional 150% Bloodpoints in the Deviousness category.",
+            'A standing portable vanity mirror in perfect condition except for a fine layer of dust and face powder covering it.',
+        abilities: [
+            "%bEvil Within II%/b reveals Survivors' auras when stalking within a %b16 meter%/b range.",
+            'Evil Within cannot progress past %bTIER II%/b.',
+            '%bSlightly reduces%/b movement speed.',
+            'For each %bHit%/b Score Event, grant %b100%/b% Bloodpoints for the %bHit%/b Score Event in the %bBrutality%/b category and an additional %b150%/b% Bloodpoints in the %bDeviousness%/b category.'
+        ],
         image: 'vanityMirror'
     },
     TOMBSTONE_PIECE: {
@@ -908,7 +1205,13 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'VERY_RARE',
         description:
-            'A fist-sized granite piece taken from a broken tombstone.\nKill healthy or injured Survivors with Evil Within III.\nDisables the ability to stalk with Evil Within III.\nKilling a Survivor considerably drains the power of Evil Within.\nConsiderably increases the amount of evil required to reach Evil Within III.',
+            'A fist-sized granite piece taken from a broken tombstone.',
+        abilities: [
+            '%bKill healthy or injured Survivors%/b with %bEvil Within III%/b.',
+            '%bDisables%/b the ability to stalk with %bEvil Within III%/b.',
+            'Killing a Survivor %bconsiderably drains%/b the power of Evil Within.',
+            '%bConsiderably increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'tombstonePiece'
     },
     SCRATCHED_MIRROR: {
@@ -918,7 +1221,12 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'VERY_RARE',
         description:
-            "A standing portable vanity mirror which has been violently scratched with a sharp metallic object.\nEvil Within I reveals Survivors' auras when stalking within a 32 meter range.\nEvil Within cannot progress past TIER I.\nFor each Hit Score Event, grant 100% Bloodpoints for the Hit Score Event in the Brutality category and an additional 200% Bloodpoints in the Deviousness category.",
+            'A standing portable vanity mirror which has been violently scratched with a sharp metallic object.',
+        abilities: [
+            "%bEvil Within I%/b reveals Survivors' auras when stalking within a %b32 meter%/b range.",
+            'Evil Within cannot progress past %bTIER I%/b.',
+            'For each %bHit%/b Score Event, grant %b100%/b% Bloodpoints for the %bHit%/b Score Event in the %bBrutality%/b category and an additional %b200%/b% Bloodpoints in the %bDeviousness%/b category.'
+        ],
         image: 'scratchedMirror'
     },
     LOCK_OF_HAIR: {
@@ -927,8 +1235,11 @@ export const KillerAddons = {
         name: 'Lock of Hair',
         owner: 'SHAPE',
         rarity: 'VERY_RARE',
-        description:
-            'A cut lock of blond hair bunched with a black elastic.\nTremendously increases the duration of Evil Within III.\nModerately increases the amount of evil required to reach Evil Within III.',
+        description: 'A cut lock of blond hair bunched with a black elastic.',
+        abilities: [
+            '%bTremendously increases%/b the duration of %bEvil Within III%/b.',
+            '%bModerately increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'lockOfHair'
     },
     JUDITHS_TOMBSTONE: {
@@ -938,7 +1249,13 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'ULTRA_RARE',
         description:
-            'A large and heavy granite tombstone stolen from Mt. Sinclair cemetery, belonging to Judith Myers.\nUnlocks the ability to kill healthy or injured Survivors with Evil Within III.\nDisables the ability to stalk with Evil Within III.\nTremendously increases the amount of evil required to reach Evil Within III.\nModerately decreases movement speed.',
+            'A large and heavy granite tombstone stolen from Mt. Sinclair cemetery, belonging to Judith Myers.',
+        abilities: [
+            'Unlocks the ability to %bkill healthy or injured Survivors%/b with Evil Within III.',
+            '%bDisables%/b the ability to stalk with %bEvil Within III%/b.',
+            '%bTremendously increases%/b the amount of evil required to reach Evil Within III.',
+            '%bModerately decreases%/b movement speed.'
+        ],
         flavor: '"Here lies our beloved daughter."',
         image: 'judithsTombstone'
     },
@@ -949,7 +1266,11 @@ export const KillerAddons = {
         owner: 'SHAPE',
         rarity: 'ULTRA_RARE',
         description:
-            "A tuft of blond hair which was forcefully torn off someone's scalp. Releases hints of feminine floral fragrance.\nUnlimited duration of Evil Within III.\nTremendously increases the amount of evil required to reach Evil Within III.",
+            "A tuft of blond hair which was forcefully torn off someone's scalp. Releases hints of feminine floral fragrance.",
+        abilities: [
+            '%bUnlimited duration%/b of %bEvil Within III%/b.',
+            '%bTremendously increases%/b the amount of evil required to reach %bEvil Within III%/b.'
+        ],
         image: 'tuftOfHair'
     },
     ROPE_NECKLET: {
@@ -959,7 +1280,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'COMMON',
         description:
-            'A rigid ornament worn around the neck made from dead plants.\nSlightly reduces the setting time of Phantasm traps.',
+            'A rigid ornament worn around the neck made from dead plants.',
+        abilities: [
+            '%bSlightly reduces%/b the setting time of Phantasm traps.'
+        ],
         image: 'ropeNecklet'
     },
     POWDERED_EGGSHELL: {
@@ -969,7 +1293,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'COMMON',
         description:
-            'Minuscule eggshell fragments shimmering with a pale golden hue.\nSlightly increases the tripped Phantasm trap duration time.',
+            'Minuscule eggshell fragments shimmering with a pale golden hue.',
+        abilities: [
+            '%bSlightly increases%/b the tripped Phantasm trap duration time.'
+        ],
         image: 'powderedEggshell'
     },
     DEAD_FLY_MUD: {
@@ -979,7 +1306,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'COMMON',
         description:
-            'A small lump of mud, black with the remains of flies. Devoured to increase stamina.\nSlightly increases the distance from where The Hag can teleport to her traps.',
+            'A small lump of mud, black with the remains of flies. Devoured to increase stamina.',
+        abilities: [
+            '%bSlightly increases%/b the distance from where The Hag can teleport to her traps.'
+        ],
         image: 'deadFlyMud'
     },
     BOG_WATER: {
@@ -989,7 +1319,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'COMMON',
         description:
-            'Murky water contained in a glass pill bottle from another time.\nSlightly increases the effective Phantasm trap range.',
+            'Murky water contained in a glass pill bottle from another time.',
+        abilities: [
+            '%bSlightly increases%/b the effective Phantasm trap range.'
+        ],
         image: 'bogWater'
     },
     PUSSY_WILLOW_CATKINS: {
@@ -999,7 +1332,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'UNCOMMON',
         description:
-            "A handful of small, pristine flower clusters covered in a fine greyish fur.\nReveals the Survivor's aura for 2 seconds when they trip the Phantasm trap.\nSlightly reduces the effective Phantasm trap range.",
+            'A handful of small, pristine flower clusters covered in a fine greyish fur.',
+        abilities: [
+            "Reveals the Survivor's aura for %b2 seconds%/b when they trip the Phantasm trap.",
+            '%bSlightly reduces%/b the effective Phantasm trap range.'
+        ],
         image: 'pussyWillowCatkins'
     },
     HALF_EGGSHELL: {
@@ -1008,8 +1345,11 @@ export const KillerAddons = {
         name: 'Half Eggshell',
         owner: 'HAG',
         rarity: 'UNCOMMON',
-        description:
-            'One half of a perfectly round hollow eggshell.\nModerately increases the tripped Phantasm trap duration time.\nSlightly decreases the distance from where The Hag can teleport to her traps.',
+        description: 'One half of a perfectly round hollow eggshell.',
+        abilities: [
+            '%bModerately increases%/b the tripped Phantasm trap duration time.',
+            '%bSlightly decreases%/b the distance from where The Hag can teleport to her traps.'
+        ],
         image: 'halfEggshell'
     },
     DRAGONFLY_WINGS: {
@@ -1019,7 +1359,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'UNCOMMON',
         description:
-            'A handful of yellowish wings, dry and crisp. Devoured to increase stamina.\nModerately increases the distance from where The Hag can teleport to her traps.\nSlightly increases the setting time of Phantasm traps.',
+            'A handful of yellowish wings, dry and crisp. Devoured to increase stamina.',
+        abilities: [
+            '%bModerately increases%/b the distance from where The Hag can teleport to her traps.',
+            '%bSlightly increases%/b the setting time of Phantasm traps.'
+        ],
         image: 'dragonflyWings'
     },
     CYPRESS_NECKLET: {
@@ -1029,7 +1373,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'UNCOMMON',
         description:
-            'A rigid ornament worn around the neck made from dead plants adorned with crudely attached cypress bark and swamp moss.\nModerately reduces the setting time of Phantasm traps.',
+            'A rigid ornament worn around the neck made from dead plants adorned with crudely attached cypress bark and swamp moss.',
+        abilities: [
+            '%bModerately reduces%/b the setting time of Phantasm traps.'
+        ],
         image: 'cypressNecklet'
     },
     BLOODIED_WATER: {
@@ -1038,8 +1385,10 @@ export const KillerAddons = {
         name: 'Bloodied Water',
         owner: 'HAG',
         rarity: 'UNCOMMON',
-        description:
-            'Tainted water contained in a folded water lily leaf.\nModerately increases the effective Phantasm trap range.',
+        description: 'Tainted water contained in a folded water lily leaf.',
+        abilities: [
+            '%bModerately increases%/b the effective Phantasm trap range.'
+        ],
         image: 'bloodiedWater'
     },
     WILLOW_WREATH: {
@@ -1049,7 +1398,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'RARE',
         description:
-            "Three frail willow branches attached to form a triangular wreath.\nReveals the Survivor's aura for 4 seconds when they trip the Phantasm trap.\nModerately reduces the effective Phantasm trap range.",
+            'Three frail willow branches attached to form a triangular wreath.',
+        abilities: [
+            "Reveals the Survivor's aura for %b4 seconds%/b when they trip the Phantasm trap.",
+            '%bModerately reduces%/b the effective Phantasm trap range.'
+        ],
         image: 'willowWreath'
     },
     SWAMP_ORCHID_NECKLET: {
@@ -1059,7 +1412,10 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'RARE',
         description:
-            'A rigid ornament worn around the neck made from dead plants adorned with withered orchid petals and leaves.\nConsiderably reduces the setting time of Phantasm traps.',
+            'A rigid ornament worn around the neck made from dead plants adorned with withered orchid petals and leaves.',
+        abilities: [
+            '%bConsiderably reduces%/b the setting time of Phantasm traps.'
+        ],
         image: 'swampOrchidNecklet'
     },
     DRIED_CICADA: {
@@ -1069,7 +1425,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'RARE',
         description:
-            'A large swamp cicada covered in a fine layer of ash. Crispy. Devoured to increase stamina.\nConsiderably increases the distance from where The Hag can teleport to her traps.\nModerately increases the setting time of Phantasm traps.',
+            'A large swamp cicada covered in a fine layer of ash. Crispy. Devoured to increase stamina.',
+        abilities: [
+            '%bConsiderably increases%/b the distance from where The Hag can teleport to her traps.',
+            '%bModerately increases%/b the setting time of Phantasm traps.'
+        ],
         image: 'driedCicada'
     },
     CRACKED_TURTLE_EGG: {
@@ -1079,7 +1439,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'RARE',
         description:
-            'A pale orange turtle egg, cracked and emptied of its content.\nConsiderably increases the tripped Phantasm trap duration time.\nModerately decreases the distance from where The Hag can teleport to her traps.',
+            'A pale orange turtle egg, cracked and emptied of its content.',
+        abilities: [
+            '%bConsiderably increases%/b the tripped Phantasm trap duration time.',
+            '%bModerately decreases%/b the distance from where The Hag can teleport to her traps.'
+        ],
         image: 'crackedTurtleEgg'
     },
     BLOODIED_MUD: {
@@ -1089,7 +1453,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'RARE',
         description:
-            'A handful of mud with veins of deep crimson. The bloody layers empower the mud.\nConsiderably increases the effective Phantasm trap range.\nSlightly decreases the tripped Phantasm trap duration time.',
+            'A handful of mud with veins of deep crimson. The bloody layers empower the mud.',
+        abilities: [
+            '%bConsiderably increases%/b the effective Phantasm trap range.',
+            '%bSlightly decreases%/b the tripped Phantasm trap duration time.'
+        ],
         image: 'bloodiedMud'
     },
     SCARRED_HAND: {
@@ -1099,7 +1467,14 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'VERY_RARE',
         description:
-            "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.\nMud Phantasms have collision.\nModerately reduces The Hag's movement speed.\nRemoves The Hag's ability to teleport to her traps.\nGrants 300% Bloodpoints from Deviousness Score Events.\nTrumps all other Add-ons.",
+            "The cut up, severed hand of the cannibal village butcher. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            'Mud Phantasms have collision.',
+            "%bModerately reduces%/b The Hag's movement speed.",
+            "Removes The Hag's ability to teleport to her traps.",
+            'Grants %b300%/b% Bloodpoints from %bDeviousness%/b Score Events.',
+            'Trumps all other Add-ons.'
+        ],
         flavor: '"..." — The Butcher',
         image: 'scarredHand'
     },
@@ -1110,7 +1485,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'VERY_RARE',
         description:
-            "Shackles once used to hold prisoners and carcasses in the cannibal village cellar. The trapped life essence within unlocks tremendous potential in The Hag's power.\nTrap does not spawn a Hag Phantasm.\nTripped Phantasm traps give no indication of being triggered to the Survivor.",
+            "Shackles once used to hold prisoners and carcasses in the cannibal village cellar. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            'Trap does not spawn a Hag Phantasm.',
+            'Tripped Phantasm traps give no indication of being triggered to the Survivor.'
+        ],
         image: 'rustyShackles'
     },
     GRANDMAS_HEART: {
@@ -1120,7 +1499,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'VERY_RARE',
         description:
-            "The cold heart of the cannibal village elder. The trapped life essence within unlocks tremendous potential in The Hag's power.\nReduces The Hag's Terror Radius to 0m when a Survivor triggers a Phantasm trap.\nIncreases a Mud Phantasm's Terror Radius to 16m for the tripped Phantasm trap duration time",
+            "The cold heart of the cannibal village elder. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            "Reduces The Hag's Terror Radius to %b0m%/b when a Survivor triggers a Phantasm trap.",
+            "Increases a Mud Phantasm's Terror Radius to %b16m%/b for the tripped Phantasm trap duration time"
+        ],
         flavor: '"Bring me another slice of the girl." — Granma',
         image: 'granmasHeart'
     },
@@ -1131,7 +1514,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'VERY_RARE',
         description:
-            "The cannibal village deaf boy's ear. Deformed due to several hits to the head. The trapped life essence within unlocks tremendous potential in The Hag's power.\nSurvivors who trigger a Phantasm trap are deafened for 6 seconds.\nConsiderably decreases the tripped Phantasm trap's duration time.",
+            "The cannibal village deaf boy's ear. Deformed due to several hits to the head. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            'Survivors who trigger a Phantasm trap are deafened for %b6 seconds%/b.',
+            "%bConsiderably decreases%/b the tripped Phantasm trap's duration time."
+        ],
         image: 'disfiguredEar'
     },
     WATERLOGGED_SHOE: {
@@ -1141,7 +1528,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'ULTRA_RARE',
         description:
-            "A child's shoe, long lost in the bog's waters. The trapped life essence within unlocks tremendous potential in The Hag's power.\nPhantasm traps slow down any Survivors within the effective trap range.\nRemoves The Hag's ability to teleport to her traps.",
+            "A child's shoe, long lost in the bog's waters. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            'Survivors within the triggered Trap range will suffer from the %bHindered Status Effect%/b.',
+            "Removes The Hag's ability to teleport to her Traps."
+        ],
         image: 'waterloggedShoe'
     },
     MINT_RAG: {
@@ -1151,7 +1542,11 @@ export const KillerAddons = {
         owner: 'HAG',
         rarity: 'ULTRA_RARE',
         description:
-            "A small piece of cotton torn from the dress worn by Lisa Sherwood on the day she disappeared. The trapped life essence within unlocks tremendous potential in The Hag's power.\nThe Hag can teleport to any Phantasm trap in the level.\nPhantasm trap teleport has a cooldown of 15 seconds.",
+            "A small piece of cotton torn from the dress worn by Lisa Sherwood on the day she disappeared. The trapped life essence within unlocks tremendous potential in The Hag's power.",
+        abilities: [
+            'The Hag can teleport to any Phantasm trap in the level.',
+            'Phantasm trap teleport has a cooldown of %b15 seconds%/b.'
+        ],
         image: 'mintRag'
     },
     MOLDY_ELECTRODE: {
@@ -1161,7 +1556,11 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'COMMON',
         description:
-            'A moldy electrode which can nevertheless conduct a weak electrical current.\nIncreases Shock Therapy attack range by 25%.\nSlightly increases Shock Therapy charge time.',
+            'A moldy electrode which can nevertheless conduct a weak electrical current.',
+        abilities: [
+            '%bIncreases%/b Shock Therapy attack range by %b25%/b%.',
+            '%bSlightly increases%/b Shock Therapy charge time.'
+        ],
         image: 'moldyElectrode'
     },
     MAPLE_KNIGHT: {
@@ -1171,7 +1570,8 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'COMMON',
         description:
-            'A white knight chess piece made of maple. This gift from an old man brings back distant memories and imbues The Doctor with devastating focus.\nReveals Shock Therapy area of effect.',
+            'A white knight chess piece made of maple. This gift from an old man brings back distant memories and imbues The Doctor with devastating focus.',
+        abilities: ['Reveals Shock Therapy area of effect.'],
         image: 'mapleKnight'
     },
     ORDER_CLASS_I: {
@@ -1181,7 +1581,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'COMMON',
         description:
-            "A conventional ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute. Can cause a state of mild confusion in the patient.\n10% increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a 32 meter range of The Doctor.\nThe Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
+            "A conventional ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute. Can cause a state of mild confusion in the patient.",
+        abilities: [
+            '%b10% increase%/b in Madness inflicted by the %bStatic Field%/b.',
+            'Survivors with %bMadness II/III%/b have the following affliction:',
+            '%bBroken Pallets%/b may appear to be replaced with %bIllusionary Pallets%/b that persist until approached.',
+            '%bIllusionary Pallets%/b are generated every %b20 seconds%/b at the location of a broken Pallet within a %b32 meter%/b range of The Doctor.',
+            "The Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets.",
+            'Afflictions of the same type do not stack.'
+        ],
         image: 'orderClassI'
     },
     CALM_CLASS_I: {
@@ -1191,7 +1599,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'COMMON',
         description:
-            "An ECT procedure using a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure can cause mild anxiety in the patient.\nSlightly increases Terror Radius in Treatment mode.\nSlightly decreases Terror Radius in Punishment mode.\nSurvivors with Madness II/III have the following affliction:\nConsiderable chance to play Terror Radius heartbeat for 15 seconds.\nAfflictions of the same type do not stack.",
+            "An ECT procedure using a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure can cause mild anxiety in the patient.",
+        abilities: [
+            '%bSlightly increases%/b Terror Radius in Treatment mode.',
+            '%bSlightly decreases%/b Terror Radius in Punishment mode.',
+            'Survivors with %bMadness II/III%/b have the following affliction:',
+            '%bConsiderable chance%/b to play Terror Radius heartbeat for %b15 seconds%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
+
         image: 'calmClassI'
     },
     SCRAPPED_TAPE: {
@@ -1201,7 +1617,10 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "A compact cassette from Project Awakening containing mostly white noise. Opens The Doctor's mind to alternate treatment methods.\nShock Therapy area of effect becomes a ring 8m in front of The Doctor, with an outer radius of 4.2m and an inner radius of 3m. The actual area of effect is in-between those two radii.",
+            "A compact cassette from Project Awakening containing mostly white noise. Opens The Doctor's mind to alternate treatment methods.",
+        abilities: [
+            'Shock Therapy area of effect becomes a %bring%/b 8m in front of The Doctor, with an outer radius of 4.2m and an inner radius of 3m. The actual area of effect is in-between those two radii.'
+        ],
         image: 'scrappedTape'
     },
     POLISHED_ELECTRODE: {
@@ -1211,7 +1630,11 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            'A like-new standard electrode equipment to conduct electro-convulsive treatments.\nIncreases Shock Therapy attack range by 50%.\nModerately increases Shock Therapy charge time.',
+            'A like-new standard electrode equipment to conduct electro-convulsive treatments.',
+        abilities: [
+            '%bIncreases%/b Shock Therapy attack range %bby 50%%/b.',
+            '%bModerately increases%/b Shock Therapy charge time.'
+        ],
         image: 'polishedElectrode'
     },
     INTERVIEW_TAPE: {
@@ -1221,7 +1644,10 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "A compact cassette from Project Awakening containing an un-edited interview of a victim. Opens The Doctor's mind to alternate treatment methods.\nShock Therapy area of effect becomes a beam with a 20m range and a 2m width.",
+            "A compact cassette from Project Awakening containing an un-edited interview of a victim. Opens The Doctor's mind to alternate treatment methods.",
+        abilities: [
+            'Shock Therapy area of effect becomes a beam with a %b20m%/b range and a %b2m%/b width.'
+        ],
         image: 'interviewTape'
     },
     RESTRAINT_CLASS_II: {
@@ -1231,7 +1657,14 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "An experimental ECT procedure developed within the Fog. Uses a wavelength that links the patient's and Doctor's minds. This procedure is known to cause mild cases of hallucination in the patient.\nReveals Survivors' auras for 1 second when Madness increases.\nSurvivors with Madness have the following affliction:\nMadness II: Slightly increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nMadness III: Moderately increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nAfflictions of the same type do not stack.",
+            "An experimental ECT procedure developed within the Fog. Uses a wavelength that links the patient's and Doctor's minds. This procedure is known to cause mild cases of hallucination in the patient.",
+        abilities: [
+            "Reveals Survivors' auras for %b1 second%/b when Madness increases.",
+            'Survivors with %bMadness%/b have the following affliction:',
+            'Madness II: %bSlightly increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Madness III: %bModerately increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         image: 'restraintClassII'
     },
     ORDER_CLASS_II: {
@@ -1241,7 +1674,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "A high stimulus ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute. Can cause a state of moderate confusion in the patient.\n15% increase in Madness inflicted by the Static Field.\nSurvivors with Madness II/III have the following affliction:\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within a 64 meter range of The Doctor.\nThe Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets.\nAfflictions of the same type do not stack.",
+            "A high stimulus ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute. Can cause a state of moderate confusion in the patient.",
+        abilities: [
+            '%b15%%/b increase in Madness inflicted by the %bStatic Field%/b.',
+            'Survivors with %bMadness II/III%/b have the following affliction:',
+            '%bBroken Pallets%/b may appear to be replaced with %bIllusionary Pallets%/b that persist until approached.',
+            '%bIllusionary Pallets%/b are generated every %b20 seconds%/b at the location of a broken Pallet within a %b64 meter%/b range of The Doctor.',
+            "The Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets.",
+            'Afflictions of the same type do not stack.'
+        ],
         flavor: '"Side effects are very rare." — Léry\'s Memorial Institute',
         image: 'orderClassII'
     },
@@ -1252,7 +1693,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.\n15% increase in Madness inflicted by Shock Therapy.\nSurvivors with Madness have the following affliction:\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 6 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 12 seconds.\nThe Doctor shares in his patients' madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.",
+            'Project Awakening ECT procedure for disciplinary action which uses a fixed dose at high voltage. Can cause a state of moderate paranoia in the patient.',
+        abilities: [
+            '%b15% increase%/b in Madness inflicted by %bShock Therapy%/b.',
+            'Survivors with %bMadness%/b have the following affliction:',
+            'Madness II: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b6 seconds%/b.',
+            'Madness III: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b12 seconds%/b.',
+            "The Doctor shares in his patients' madness in order to see the Illusionary Red Stain.",
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
             '"We re-educate our patients with the greatest care." — Léry\'s Memorial Institute',
         image: 'diciplineClassII'
@@ -1264,7 +1713,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'UNCOMMON',
         description:
-            "A risky ECT procedure using a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure can cause moderate anxiety in the patient.\nModerately increases Terror Radius in Treatment mode.\nModerately decreases Terror Radius in Punishment mode.\nSurvivors with Madness II/III have the following affliction:\nTremendous chance to play Terror Radius heartbeat for 20 seconds.\nAfflictions of the same type do not stack.",
+            "A risky ECT procedure using a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure can cause moderate anxiety in the patient.",
+        abilities: [
+            "A risky ECT procedure using a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure can cause moderate anxiety in the patient.",
+            '%bModerately increases%/b Terror Radius in Treatment mode.',
+            '%bModerately decreases%/b Terror Radius in Punishment mode.',
+            'Survivors with %bMadness II/III%/b have the following affliction:',
+            '%bTremendous chance%/b to play Terror Radius heartbeat for %b20 seconds%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
             'Electro-convulsive therapy is one of the safest medical procedures." — Léry\'s Memorial Institute',
         image: 'calmClassII'
@@ -1276,7 +1733,11 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'RARE',
         description:
-            'An experimental electrode that can withstand very high charges for a longer period of time.\nIncreases Shock Therapy attack range by 75%.\nConsiderably increases Shock Therapy charge time.',
+            'An experimental electrode that can withstand very high charges for a longer period of time.',
+        abilities: [
+            '%bIncreases%/b Shock Therapy attack range %bby 75%/b%.',
+            '%bConsiderably increases%/b Shock Therapy charge time.'
+        ],
         image: 'highStimulusElectrode'
     },
     RESTRAINT_CLASS_III: {
@@ -1286,7 +1747,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'RARE',
         description:
-            "An experimental ECT procedure developed within the Fog. Uses a high stimulus wavelength to link the patient's and Doctor's minds. This procedure is known to cause serious cases of hallucinations in the patient.\nReveals Survivors' auras for 2 seconds when Madness increases.\nSurvivors with Madness have the following affliction:\nMadness II: Moderately increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nMadness III: Considerably increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nAfflictions of the same type do not stack.",
+            "An experimental ECT procedure developed within the Fog. Uses a high stimulus wavelength to link the patient's and Doctor's minds. This procedure is known to cause serious cases of hallucinations in the patient.",
+        abilities: [
+            "An experimental ECT procedure developed within the Fog. Uses a high stimulus wavelength to link the patient's and Doctor's minds. This procedure is known to cause serious cases of hallucinations in the patient.",
+            "Reveals Survivors' auras for %b2 seconds%/b when Madness increases.",
+            'Survivors with %bMadness%/b have the following affliction:',
+            'Madness II: %bModerately increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Madness III: %bConsiderably increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         image: 'restraintClassIII'
     },
     DISCIPLINE_CLASS_III: {
@@ -1296,7 +1765,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'RARE',
         description:
-            "Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.\n20% increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 8 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 16 seconds.\nThe Doctor shares in his patients' madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.",
+            'Project Awakening ECT procedure for disciplinary action which uses a fixed dose at very high voltage. Can cause a state of serious paranoia in the patient.',
+        abilities: [
+            '%b20% increase%/b in Madness inflicted by %bShock Therapy%/b attack.',
+            'Survivors with %bMadness%/b have the following affliction:',
+            'Madness II: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b8 seconds%/b.',
+            'Madness III: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b16 seconds%/b.',
+            "The Doctor shares in his patients' madness in order to see the Illusionary Red Stain.",
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
             '"Respect of our patients is at the core of our principles." — Léry\'s Memorial Institute',
         image: 'diciplineClassIII'
@@ -1308,9 +1785,17 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'VERY_RARE',
         description:
-            "An experimental ECT procedure developed within the Fog, crudely annotated. Uses an unbearable stimulus wavelength to link the patient's and Doctor's minds. This procedure is known to cause severe cases of hallucinations in the patient.\nReveals Survivors' auras for 3 seconds when Madness increases.\nSurvivors with Madness have the following affliction:\nMadness II: Considerably increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nMadness III: Tremendously increased duration for an Illusionary Doctor. Can be seen by The Doctor as an allied aura.\nAfflictions of the same type do not stack.",
+            "An experimental ECT procedure developed within the Fog, crudely annotated. Uses an unbearable stimulus wavelength to link the patient's and Doctor's minds. This procedure is known to cause severe cases of hallucinations in the patient.",
+        abilities: [
+            "Reveals Survivors' auras for %b3 seconds%/b when %bMadness%/b increases.",
+            'Survivors with %bMadness%/b have the following affliction:',
+
+            'Madness II: %bConsiderably increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Madness III: %bTremendously increased%/b duration for an Illusionary Doctor. Can be seen by The Doctor as an allied %baura%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
-            '"I CAN SEE THEIR DISGUSTING ILLNESSES ." — Unsigned Notes (potentially Herman Carter)',
+            '"I CAN SEE THEIR DISGUSTING %bILLNESSES%/b." — Unsigned Notes (potentially Herman Carter)',
         image: 'restraintCartersNotes'
     },
     ORDER_CARTERS_NOTES: {
@@ -1320,9 +1805,17 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'VERY_RARE',
         description:
-            "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.\n25% increase in Madness inflicted by the Static Field.\nSurvivors with Madness have the following affliction:\nBroken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIllusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an unlimited range of The Doctor.\nThe Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets.",
+            'An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself The long, constant stimulus leaves the patient in a state of severe confusion.',
+        abilities: [
+            '%b25%/b% increase in Madness inflicted by the %bStatic Field%/b.',
+            'Survivors with %bMadness%/b have the following affliction:',
+
+            '%bBroken Pallets%/b may appear to be replaced with %bIllusionary Pallets%/b that persist until approached.',
+            'Illusionary Pallets are generated every 20 seconds at the location of a broken Pallet within an %bunlimited%/b range of The Doctor.',
+            "The Doctor shares in his patients' madness in order to read the Auras of Illusionary Pallets."
+        ],
         flavor:
-            '"The stimulus must be kept active at a convulsive level." — Herman Carter',
+            '"The stimulus must be kept active at a %bconvulsive%/b level." — Herman Carter',
         image: 'orderCartersNotes'
     },
     OBEDIENCE_CARTERS_NOTES: {
@@ -1332,7 +1825,15 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'VERY_RARE',
         description:
-            "An experimental ECT procedure developed within the Fog, crudely annotated. The extra surge of power causes extreme muscle tension which depletes the patient's energy.\n2 second increase to Snap Out of It.\nSurvivors with Madness III have the following affliction:\nExhausted.\nAfflictions of the same type do not stack.",
+            "An experimental ECT procedure developed within the Fog, crudely annotated. The extra surge of power causes extreme muscle tension which depletes the patient's energy.",
+        abilities: [
+            "An experimental ECT procedure developed within the Fog, crudely annotated. The extra surge of power causes extreme muscle tension which depletes the patient's energy.",
+            '%b2 second%/b increase to Snap Out of It.',
+            'Survivors with %bMadness III%/b have the following affliction:',
+
+            '%bExhausted%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
             '"BREAK THEIR IMPURE BODIES" — Unsigned Notes (potentially Herman Carter)',
         image: 'obedienceCartersNotes'
@@ -1344,9 +1845,18 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'VERY_RARE',
         description:
-            "Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.\n25% increase in Madness inflicted by Shock Therapy attack.\nSurvivors with Madness have the following affliction:\nMadness II: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds.\nMadness III: When a chase begins, Survivors perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of Madness III.\nThe Doctor shares in his patients' madness in order to see the Illusionary Red Stain.\nAfflictions of the same type do not stack.",
+            'Project Awakening ECT procedure for disciplinary action, annotated by Doctor Herman Carter himself. The intolerably high voltage leaves the patient in a severe state of paranoia.',
+        abilities: [
+            '%b25% increase%/b in Madness inflicted by %bShock Therapy%/b attack.',
+            'Survivors with %bMadness%/b have the following affliction:',
+
+            'Madness II: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b10 seconds%/b.',
+            'Madness III: When a chase begins, Survivors perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %bMadness III%/b.',
+            "The Doctor shares in his patients' madness in order to see the Illusionary Red Stain.",
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
-            '"To avoid relapse from our most tenacious subjects, use maximum levels when proceeding with disciplinary actions." — Herman Carter',
+            '"To avoid relapse from our most tenacious subjects, use %bmaximum%/b levels when proceeding with disciplinary actions." — Herman Carter',
         image: 'disciplineCartersNotes'
     },
     CALM_CARTERS_NOTES: {
@@ -1356,11 +1866,21 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'VERY_RARE',
         description:
-            "An experimental version of the ECT procedure annotated by Doctor Herman Carter himself. Uses a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure causes uncontrollable fear and anxiety in the patient.\nConsiderably increases Terror Radius in Treatment mode.\nConsiderably decreases Terror Radius in Punishment mode.\nSurvivors with Madness have the following affliction:\nMadness II: Tremendous chance to play Terror Radius heartbeat for 20 seconds.\nMadness III: Constantly plays Terror Radius heartbeat.\nAfflictions of the same type do not stack.",
+            "An experimental version of the ECT procedure annotated by Doctor Herman Carter himself. Uses a deep wavelength that soothes various mental illnesses. With Carter's Spark as its source, this procedure causes uncontrollable fear and anxiety in the patient.",
+        abilities: [
+            '%bConsiderably increases%/b Terror Radius in Treatment mode.',
+            '%bConsiderably decreases%/b Terror Radius in Punishment mode.',
+            'Survivors with %bMadness%/b have the following affliction:',
+
+            'Madness II: %bTremendous chance%/b to play Terror Radius heartbeat for 20 seconds.',
+            'Madness III: %bConstantly%/b plays Terror Radius heartbeat.',
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
-            '"Higher quality seizures trigger catatonia. At least it gives me peace for the time it lasts." — Herman Carter',
+            '"Higher quality seizures trigger catatonia. At least it gives me %bpeace%/b for the time it lasts." — Herman Carter',
         image: 'calmCartersNotes'
     },
+
     IRIDESCENT_KING: {
         id: 319,
         index: 'IRIDESCENT_KING',
@@ -1368,7 +1888,16 @@ export const KillerAddons = {
         owner: 'DOCTOR',
         rarity: 'ULTRA_RARE',
         description:
-            "A glass-like king chess piece moulded from The Fog itself. The Entity's trace reverberating within can break the most powerful minds.\nEvery time a Survivor receives a Shock Therapy attack, they gain an affliction chosen at random from the following list:\nIridescent Order: Broken Pallets may appear to be replaced with Illusionary Pallets that persist until approached.\nIridescent Restraint: Tremendously increases the duration of Doctor Illusions.\nIridescent Calm: Survivors hear a constant distant heartbeat.\nIridescent Discipline: When a chase begins, Survivor in Madness II perceive the Red Stain and Terror Radius as though The Doctor were right behind them for a duration of 10 seconds. This effect is always active for Survivors in Madness III.\nIridescent Obedience: In Madness III, Survivors are exhausted.\nAfflictions of the same type do not stack.",
+            "A glass-like king chess piece moulded from The Fog itself. The Entity's trace reverberating within can break the most powerful minds.",
+        abilities: [
+            'Every time a Survivor receives a %bShock Therapy%/b attack, they gain an affliction chosen at random from the following list:',
+            'Iridescent Order: Broken Pallets may appear to be replaced with %bIllusionary Pallets%/b that persist until approached.',
+            'Iridescent Restraint: %bTremendously increases%/b the duration of Doctor Illusions.',
+            'Iridescent Calm: Survivors hear a %bconstant%/b distant heartbeat.',
+            'Iridescent Discipline: When a chase begins, Survivors in %bMadness II%/b perceive the %bRed Stain%/b and %bTerror Radius%/b as though The Doctor were right behind them for a duration of %b10 seconds%/b. This effect is always active for Survivors in %bMadness III%/b.',
+            'Iridescent Obedience: In %bMadness III%/b, Survivors are %bexhausted%/b.',
+            'Afflictions of the same type do not stack.'
+        ],
         flavor:
             '"Higher quality seizures trigger catatonia. At least it gives me peace for the time it lasts." — Herman Carter',
         image: 'iridescentKing'
@@ -1380,7 +1909,11 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'COMMON',
         description:
-            'This stone is too coarse to do any good. A blade damaged by it inflicts awful open wounds.\nHit target suffers from the Hemorrhage Status Effect for 30 seconds.',
+            'This stone is too coarse to do any good. A blade damaged by it inflicts awful open wounds.',
+        abilities: [
+            'Hit target suffers from the %bHemorrhage%/b Status Effect for %b30 seconds%/b.'
+        ],
+
         image: 'coarseStone'
     },
     BERUS_TOXIN: {
@@ -1390,7 +1923,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'COMMON',
         description:
-            "A toxin applied to the Hatchets' blades. The Berus snake toxin causes tiredness in such a small amount.\nHit target suffers from the Exhaustion Status Effect for 30 seconds.",
+            "A toxin applied to the Hatchets' blades. The Berus snake toxin causes tiredness in such a small amount.",
+        abilities: [
+            'Hit target suffers from the %bExhaustion%/b Status Effect for %b30 seconds%/b.'
+        ],
         image: 'berusToxin'
     },
     BANDAGED_HAFT: {
@@ -1400,7 +1936,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'COMMON',
         description:
-            "First-aid bandages securely rolled and attached to the Hatchets' hafts.\nSlightly decreases cooldown time between Hatchet throws.",
+            "First-aid bandages securely rolled and attached to the Hatchets' hafts.",
+        abilities: [
+            '%bSlightly decreases%/b cool-down time between Hatchet throws.'
+        ],
         image: 'bandagedHaft'
     },
     AMANITA_TOXIN: {
@@ -1410,7 +1949,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'COMMON',
         description:
-            "A toxin applied to the Hatchet's blades. The Amanita mushrooms' toxin numbs the mind.\nHit target suffers from the Blindness Status Effect for 30 seconds.",
+            "A toxin applied to the Hatchet's blades. The Amanita mushrooms' toxin numbs the mind.",
+        abilities: [
+            'Hit target suffers from the %bBlindness%/b Status Effect for %b30 seconds%/b.'
+        ],
         image: 'amanitaToxin'
     },
     YEW_SEED_BREW: {
@@ -1420,7 +1962,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            "A toxic brew applied to the Hatchets' blades. The thick brew is mainly composed of yew seeds which give it paralytic capabilities.\nHit target suffers from the Hindered Status Effect for 15 seconds.",
+            "A toxic brew applied to the Hatchets' blades. The thick brew is mainly composed of yew seeds which give it paralytic capabilities.",
+        abilities: [
+            'Hit target suffers from the %bHindered%/b Status Effect for %b15 seconds%/b.'
+        ],
         image: 'yewSeedBrew'
     },
     SHINY_PIN: {
@@ -1430,7 +1975,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            'A copper pin defaced beyond recognition yet polished to a high sheen. Pillaged from a particularly difficult prey.\nSlightly increases your movement speed while winding up your throw action.',
+            'A copper pin defaced beyond recognition yet polished to a high sheen. Pillaged from a particularly difficult prey.',
+        abilities: [
+            '%bSlightly increases%/b your movement speed while winding up your throw action.'
+        ],
         image: 'shinyPin'
     },
     OAK_HAFT: {
@@ -1440,7 +1988,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            'A polished haft which allows for a quick and sly manipulation of the deadly tool.\nModerately decreases cooldown time between Hatchet throws.',
+            'A polished haft which allows for a quick and sly manipulation of the deadly tool.',
+        abilities: [
+            '%bModerately decreases%/b cool-down time between Hatchet throws.'
+        ],
         image: 'oakHaft'
     },
     MANNA_GRASS_BRAID: {
@@ -1450,7 +2001,8 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            'A circular decorative braid made from manna grass. This memory of a list little one fills The Huntress with rage and focus.\nModerately decreases Hatchet wind up time.',
+            'A circular decorative braid made from manna grass. This memory of a list little one fills The Huntress with rage and focus.',
+        abilities: ['%bModerately decreases%/b Hatchet wind-up time.'],
         image: 'mannaGrassBraid'
     },
     LEATHER_LOOP: {
@@ -1460,7 +2012,11 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            'This leather strip tied into a loop can be attached to a belt to allow easy transportation of tools.\nStart with 1 extra Hatchet.\nIncreases maximum carried Hatchet amount by 1.',
+            'This leather strip tied into a loop can be attached to a belt to allow easy transportation of tools.',
+        abilities: [
+            'Start with %b1 extra%/b Hatchet.',
+            'Increases maximum carried Hatchet amount by %b1%/b.'
+        ],
         image: 'leatherLoop'
     },
     FINE_STONE: {
@@ -1470,7 +2026,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            "This puck shaped honing tool can be used to sharpen the Hatchets' blades and inflicts clean wounds.\nHit target suffers from the Hemorrhage Status Effect for 60 seconds.",
+            "This puck shaped honing tool can be used to sharpen the Hatchets' blades and inflicts clean wounds.",
+        abilities: [
+            'Hit target suffers from the %bHemorrhage%/b Status Effect for %b60 seconds%/b.'
+        ],
         image: 'fineStone'
     },
     DEERSKIN_GLOVES: {
@@ -1480,7 +2039,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'UNCOMMON',
         description:
-            'Cured leather gloves that protect the hands and give a sure grip.\nModerately decreases Hatchets reload time at a Locker.',
+            'Cured leather gloves that protect the hands and give a sure grip.',
+        abilities: [
+            '%bModerately decreases%/b Hatchets reload time at a Locker.'
+        ],
         image: 'deerskinGloves'
     },
     YEW_SEED_CONCOCTION: {
@@ -1490,7 +2052,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'RARE',
         description:
-            "A toxic concoction applied to the Hatchets' blades. The muddy concoction is mainly composed of yew seeds which give it paralytic capabilities.\nHit target suffers from the Hindered Status Effect for 30 seconds.",
+            "A toxic concoction applied to the Hatchets' blades. The muddy concoction is mainly composed of yew seeds which give it paralytic capabilities.",
+        abilities: [
+            'Hit target suffers from the %bHindered%/b Status Effect for %b30 seconds%/b.'
+        ],
         image: 'yewSeedConcoction'
     },
     VENOMOUS_CONCOCTION: {
@@ -1500,7 +2065,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'RARE',
         description:
-            "A toxic concoction applied to the Hatchets' blades. The murky concoction is mainly composed of Berus snake venom which gives it fatiguing capabilities.\nHit target suffers from the Exhaustion Status Effect for 90 seconds.",
+            "A toxic concoction applied to the Hatchets' blades. The murky concoction is mainly composed of Berus snake venom which gives it fatiguing capabilities.",
+        abilities: [
+            'Hit target suffers from the %bExhaustion%/b Status Effect for %b90 seconds%/b.'
+        ],
         image: 'venomousConcoction'
     },
     RUSTY_HEAD: {
@@ -1510,7 +2078,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'RARE',
         description:
-            "These Hatchets' heads are covered with crusty and volatile rust spots that make injuries particularly difficult to heal from.\nHit target suffers considerably from the Mangled Status Effect for 120 seconds.",
+            "These Hatchets' heads are covered with crusty and volatile rust spots that make injuries particularly difficult to heal from.",
+        abilities: [
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds%/b.'
+        ],
         image: 'rustyHead'
     },
     PUNGENT_FIALE: {
@@ -1520,7 +2091,10 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'RARE',
         description:
-            "The clear liquid has a very particular stench that can be recognised and tracked by some animals.\nLockers' Auras are shown to you when within a 36 metre range.",
+            'The clear liquid has a very particular stench that can be recognised and tracked by some animals.',
+        abilities: [
+            "Lockers' Auras are shown to you when within %b36 metres%/b of range."
+        ],
         image: 'pungentFiale'
     },
     FLOWER_BABUSHKA: {
@@ -1530,7 +2104,8 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'RARE',
         description:
-            'A clean and colourful handkerchief adorned with a flower pattern. This memory of a lost little one fills The Huntress with rage and focus.\nConsiderably decreases Hatchets wind up time.',
+            'A clean and colourful handkerchief adorned with a flower pattern. This memory of a lost little one fills The Huntress with rage and focus.',
+        abilities: ['%bConsiderably decreases%/b Hatchets wind-up time.'],
         image: 'flowerBabushka'
     },
     INFANTRY_BELT: {
@@ -1540,7 +2115,11 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'VERY_RARE',
         description:
-            'A sturdy utility belt pillaged from a soldier. Its multiple leather loops and holsters are useful to transport tools.\nStart with 2 extra Hatchets.\nIncreases maximum carried Hatched amount by 2.',
+            'A sturdy utility belt pillaged from a soldier. Its multiple leather loops and holsters are useful to transport tools.',
+        abilities: [
+            'Start with %b2 extra%/b Hatchets.',
+            'Increases maximum carried Hatched amount by %b2%/b.'
+        ],
         image: 'infantryBelt'
     },
     GLOWING_CONCOCTION: {
@@ -1550,7 +2129,8 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'VERY_RARE',
         description:
-            "An otherworldly concoction that faintly glows a foreboding light.\nHit victims' Auras are shown to you for 5 seconds.",
+            'An otherworldly concoction that faintly glows a foreboding light.',
+        abilities: ["Hit victims' Auras are shown to you for %b5 seconds%/b."],
         image: 'glowingConcoction'
     },
     BEGRIMED_HEAD: {
@@ -1560,7 +2140,11 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'VERY_RARE',
         description:
-            "These Hatchets' heads are stained with a foul substance that afflicts anyone who it touches with debilities.\nHit target suffers considerably from the Mangled Status Effect for 120 seconds.\nModerately decreases the repair speed of Survivors injured by the Hatchet.",
+            "These Hatchets' heads are stained with a foul substance that afflicts anyone who it touches with debilities.",
+        abilities: [
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds%/b.',
+            '%bModerately decreases%/b the repair speed of Survivors injured by the Hatchet.'
+        ],
         image: 'begrimedHead'
     },
     IRIDESCENT_HEAD: {
@@ -1570,7 +2154,11 @@ export const KillerAddons = {
         owner: 'HUNTRESS',
         rarity: 'ULTRA_RARE',
         description:
-            "A glass-like Hatchet head molded from The Fog itself. The blade is warm and reverberating with The Entity's power.\nInflicts dying upon the victim.\nReduces maximum carried Hatchet amount by 4.",
+            "A glass-like Hatchet head molded from The Fog itself. The blade is warm and reverberating with The Entity's power.",
+        abilities: [
+            'Inflicts %bdying%/b upon the victim.',
+            'Reduces maximum carried Hatchet amount by %b4%/b.'
+        ],
         flavor: '"The iridescent glass cuts through flesh and soul."',
         image: 'iridescentHead'
     },
@@ -1580,8 +2168,8 @@ export const KillerAddons = {
         name: 'Vegetable Oil',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
-        description:
-            "A rancid oil used as a poor quality lubricant.\nSlightly decrease the Chainsaw's cooldown.",
+        description: 'A rancid oil used as a poor quality lubricant.',
+        abilities: ["%bSlightly decreases%/b the Chainsaw's cooldown."],
         image: 'vegetableOil'
     },
     SPARK_PLUG_C: {
@@ -1590,8 +2178,8 @@ export const KillerAddons = {
         name: 'Spark Plug',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
-        description:
-            "A clean spark plug fitted for a Chainsaw.\nSlightly decreases the Chainsaw's charge time.",
+        description: 'A clean spark plug fitted for a Chainsaw.',
+        abilities: ["%bSlightly decreases%/b the Chainsaw's charge time."],
         image: 'sparkPlug'
     },
     CHAINSAW_FILE_C: {
@@ -1600,8 +2188,8 @@ export const KillerAddons = {
         name: 'Chainsaw File',
         owner: 'CANNIBAL',
         rarity: 'COMMON',
-        description:
-            'A file whose purpose is to hone Chainsaw chains.\nSlightly reduces the noise made by the Chainsaw.',
+        description: 'A file whose purpose is to hone Chainsaw chains.',
+        abilities: ['%bSlightly reduces%/b the noise made by the Chainsaw.'],
         image: 'chainsawFile'
     },
     SPEED_LIMITER_C: {
@@ -1611,7 +2199,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            'A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.\nChainsaw does not automatically trigger dying state.\nGet 50% more Bloodpoints for Chainsaw score events in the Deviousness category.',
+            'A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.',
+        abilities: [
+            'Chainsaw does not automatically trigger dying state.',
+            'Get %b25%/b% more Bloodpoints for Chainsaw score events in the %bDeviousness%/b category.'
+        ],
         image: 'speedLimiter'
     },
     SHOP_LUBRICANT_C: {
@@ -1621,7 +2213,8 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            "An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.\nModerately decreases the Chainsaw's cooldown.",
+            'An oil specifically formulated for Chainsaws. A special additive prevents oil throw off.',
+        abilities: ["%bModerately decreases%/b the Chainsaw's cooldown."],
         image: 'shopLubricant'
     },
     PRIMER_BULB_C: {
@@ -1631,7 +2224,8 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            "Pumps more gas in the ignition system to ensure a quick and powerful start.\nModerately decreases the Chainsaw's charge time.",
+            'Pumps more gas in the ignition system to ensure a quick and powerful start.',
+        abilities: ["%bModerately decreases%/b the Chainsaw's charge time."],
         image: 'primerBulb'
     },
     LONG_GUIDE_BAR_C: {
@@ -1640,8 +2234,10 @@ export const KillerAddons = {
         name: 'Long Guide Bar',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
-        description:
-            'A sturdy iron replacement bar for long chains.\nSlightly increases the reach of the Chainsaw attack.',
+        description: 'A sturdy iron replacement bar for long chains.',
+        abilities: [
+            '%bSlightly increases%/b the reach of the Chainsaw attack.'
+        ],
         image: 'longGuideBar'
     },
     KNIFE_SCRATCHES: {
@@ -1651,7 +2247,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            "Scratches cover the Chainsaw's body, caused by a searing blade. Memories of reprimands fill its holder with the fear of failure.\nSlightly increases the Chainsaw movement speed.\nSlightly increases the Chainsaw's charge time.",
+            "Scratches cover the Chainsaw's body, caused by a searing blade. Memories of reprimands fill its holder with the fear of failure.",
+        abilities: [
+            '%bSlightly increases%/b the Chainsaw movement speed.',
+            "%bSlightly increases%/b the Chainsaw's charge time."
+        ],
         image: 'knifeScratches'
     },
     HOMEMADE_MUFFLER_C: {
@@ -1660,8 +2260,8 @@ export const KillerAddons = {
         name: 'Homemade Muffler',
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
-        description:
-            'A makeshift exhaust system made of black gas pipes.\nModerately reduces the noise made by the Chainsaw.',
+        description: 'A makeshift exhaust system made of black gas pipes.',
+        abilities: ['%bModerately reduces%/b the noise made by the Chainsaw.'],
         image: 'homemadeMuffler'
     },
     GRISLY_CHAINS_C: {
@@ -1671,7 +2271,10 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            'A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.\nModerately decreases the repair speed of survivors injured by the Chainsaw.',
+            'A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.',
+        abilities: [
+            '%bModerately decreases%/b the repair speed of survivors injured by the Chainsaw for %b90 seconds%/b.'
+        ],
         image: 'chainsGrisly'
     },
     DEPTH_GUAGE_RAKE_C: {
@@ -1681,7 +2284,10 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            'Tool that increases the angle of the depth gauge, making the chain eat more "wood".\nModerately reduces the time penalty when bumping into objects.',
+            'Tool that increases the angle of the depth gauge, making the chain eat more "wood".',
+        abilities: [
+            '%bModerately reduces%/b the time penalty when bumping into objects.'
+        ],
         image: 'depthGaugeRake'
     },
     CHILLI: {
@@ -1691,7 +2297,10 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'UNCOMMON',
         description:
-            'A big bowl of steaming Chilli to keep you fresh and strong.\nModerately increases acceleration when using the Chainsaw.',
+            'A big bowl of steaming Chilli to keep you fresh and strong.',
+        abilities: [
+            '%bModerately increases%/b acceleration when using the Chainsaw.'
+        ],
         flavor: '"I got some good barbecue here!" — Drayton Sawyer',
         image: 'chili'
     },
@@ -1702,7 +2311,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'RARE',
         description:
-            "A thick yellowish ooze, concocted by the Sawyers. Used for all-purpose lubrication around their house.\nConsiderably decreases the Chainsaw's cooldown.\nSlightly decreases the Chainsaw's charge time.",
+            'A thick yellowish ooze, concocted by the Sawyers. Used for all-purpose lubrication around their house.',
+        abilities: [
+            "%bConsiderably decreases%/b the Chainsaw's cooldown.",
+            "%bSlightly decreases%/b the Chainsaw's charge time."
+        ],
         image: 'theGrease'
     },
     THE_BEASTS_MARKS: {
@@ -1712,7 +2325,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'RARE',
         description:
-            "Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog. Memories of violent reprimands fill its holder with the fear of failure.\nModerately increases the Chainsaw movement speed.\nSlightly increases the Chainsaw's charge time.",
+            "Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog. Memories of violent reprimands fill its holder with the fear of failure.",
+        abilities: [
+            '%bModerately increases%/b the Chainsaw movement speed.',
+            "%bSlightly increases%/b the Chainsaw's charge time."
+        ],
         image: 'theBeastsMark'
     },
     RUSTED_CHAINS_C: {
@@ -1722,7 +2339,10 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'RARE',
         description:
-            'This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nConsiderably increases the healing time of survivors injured by the Chainsaw.',
+            'This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.',
+        abilities: [
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds%/b.'
+        ],
         image: 'chainsRusted'
     },
     LIGHT_CHASSIS_C: {
@@ -1732,7 +2352,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'RARE',
         description:
-            'A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.\nSlightly reduces the reach of the Chainsaw attack.\nConsiderably reduces the time penalty when bumping into objects.',
+            'A light and durable Chainsaw chassis with a shorter guide bar. Makes the Chainsaw easier to handle.',
+        abilities: [
+            '%bSlightly reduces%/b the reach of the Chainsaw attack.',
+            '%bConsiderably reduces%/b the time penalty when bumping into objects.'
+        ],
         image: 'lightChassis'
     },
     CARBURETOR_TUNING_GUIDE_C: {
@@ -1742,7 +2366,13 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'RARE',
         description:
-            "A crudely drawn guide to properly adjust and tune a Chainsaw carburetor.\nModerately decreases the Chainsaw's charge time.\nSlightly decreases the Chainsaw's cooldown.\nSlightly reduces the time penalty when bumping into objects.\nSlightly reduces the noise made by the Chainsaw.",
+            'A crudely drawn guide to properly adjust and tune a Chainsaw carburetor.',
+        abilities: [
+            "%bModerately decreases%/b the Chainsaw's charge time.",
+            "%bSlightly decreases%/b the Chainsaw's cooldown.",
+            '%bSlightly reduces%/b the time penalty when bumping into objects.',
+            '%bSlightly reduces%/b the noise made by the Chainsaw.'
+        ],
         image: 'carburetorTuningGuide'
     },
     BEGRIMED_CHAINS_C: {
@@ -1752,7 +2382,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'VERY_RARE',
         description:
-            'This chain is stained with a foul substance that afflicts anyone it touches with debilities.\nSlightly decreases the repair speed on survivors injured by the Chainsaw until healed.\nConsiderably increases the healing time of survivors injured by the Chainsaw.',
+            'This chain is stained with a foul substance that afflicts anyone it touches with debilities.',
+        abilities: [
+            '%bModerately decreases%/b the repair speed on Survivors injured by the Chainsaw.',
+            'Hit target suffers %bconsiderably%/b from the %bMangled%/b Status Effect for %b120 seconds%/b.'
+        ],
         image: 'chainsBloody'
     },
     AWARD_WINNING_CHILLI: {
@@ -1762,7 +2396,11 @@ export const KillerAddons = {
         owner: 'CANNIBAL',
         rarity: 'VERY_RARE',
         description:
-            'A big bowl of spicy Chilli made famous thanks to prime meat.\nTremendously increases acceleration when using the Chainsaw.\nConsiderably increases the time penalty when bumping into objects.',
+            'A big bowl of spicy Chilli made famous thanks to prime meat.',
+        abilities: [
+            '%bTremendously increases%/b acceleration when using the Chainsaw.',
+            '%bConsiderably increases%/b the time penalty when bumping into objects.'
+        ],
         flavor: '"The secret\'s in the meat" — Drayton Sawyer',
         image: 'awardwinningChili'
     },
@@ -1773,7 +2411,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'COMMON',
         description:
-            'A small boy\'s orange and yellow striped shirt. Identified with a sewn name tag to "Jesse".\nSlightly decreases Skill Check chances in the Dream World.',
+            'A small boy\'s orange and yellow striped shirt. Identified with a sewn name tag to "Jesse".',
+        abilities: [
+            '%bSlightly decreases%/b Skill Check chances in the %bDream World%/b.'
+        ],
         image: 'woolShirt'
     },
     SHEEP_BLOCK: {
@@ -1783,7 +2424,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'COMMON',
         description:
-            'A white and blue wooden block depicting two woolly Lambs grazing and the letter "S".\nSlightly reduces the Dream Transition. Time to fall asleep reduced by 0.5 seconds.',
+            'A white and blue wooden block depicting two woolly Lambs grazing and the letter "S".',
+        abilities: [
+            '%bSlightly reduces%/b the Dream Transition. Time to fall asleep reduced by %b0.5 seconds%/b.'
+        ],
         image: 'sheepBlock'
     },
     KIDS_DRAWING: {
@@ -1793,7 +2437,8 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'COMMON',
         description:
-            'An unattributed drawing clearly crafted by a young child.\nSlightly increases the Power range.',
+            'An unattributed drawing clearly crafted by a young child.',
+        abilities: ['%bSlightly increases%/b the Power range.'],
         image: 'kidsDrawing'
     },
     GARDEN_RAKE: {
@@ -1803,7 +2448,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'COMMON',
         description:
-            'A small claw rake, a must have tool for any accomplished gardener.\nSlightly increases movement speed after successfully putting a Survivor into the Dream World.',
+            'A small claw rake, a must have tool for any accomplished gardener.',
+        abilities: [
+            '%bSlightly increases%/b movement speed after successfully putting a Survivor into the %bDream World%/b.'
+        ],
         image: 'gardenRake'
     },
     PROTOTYPE_CLAWS: {
@@ -1812,8 +2460,10 @@ export const KillerAddons = {
         name: 'Prototype Claws',
         owner: 'NIGHTMARE',
         rarity: 'UNCOMMON',
-        description:
-            'A home-made tool to facilitate bush trimming.\nModerately increases movement speed after successfully putting a Survivor into the Dream World.',
+        description: 'A home-made tool to facilitate bush trimming.',
+        abilities: [
+            '%bModerately increases%/b movement speed after successfully putting a Survivor into the %bDream World%/b.'
+        ],
         image: 'prototypeClaw'
     },
     OUTDOOR_ROPE: {
@@ -1822,8 +2472,10 @@ export const KillerAddons = {
         name: 'Outdoor Rope',
         owner: 'NIGHTMARE',
         rarity: 'UNCOMMON',
-        description:
-            "Sturdy outdoor rope, handy to tie up anything.\nModerately decreases the Survivors' Action Speed when in the Dream World.",
+        description: 'Sturdy outdoor rope, handy to tie up anything.',
+        abilities: [
+            "%bModerately decreases%/b the Survivors' Action Speed when in the %bDream World%/b."
+        ],
         image: 'outdoorRope'
     },
     NANCYS_SKETCH: {
@@ -1833,7 +2485,8 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'UNCOMMON',
         description:
-            'A crude and bold sketch made with Fusain, signed by Nancy H.\nModerately increases the Power range.',
+            'A crude and bold sketch made with Fusain, signed by Nancy H.',
+        abilities: ['%bModerately increases%/b the Power range.'],
         image: 'nancysSketch'
     },
     GREEN_DRESS: {
@@ -1842,8 +2495,11 @@ export const KillerAddons = {
         name: 'Green Dress',
         owner: 'NIGHTMARE',
         rarity: 'UNCOMMON',
-        description:
-            "A little girl's green dress with a silky white ribbon.\nConsiderably decreases Skill Check chances in the Dream World.\nSlightly increases the Dream Transition. Time to fall asleep increased by 0.5 seconds.",
+        description: "A little girl's green dress with a silky white ribbon.",
+        abilities: [
+            '%bConsiderably decreases%/b Skill Check chances in the %bDream World%/b.',
+            '%bSlightly increases%/b the Dream Transition. Time to fall asleep increased by %b0.5 seconds%/b.'
+        ],
         image: 'greenDress'
     },
     CAT_BLOCK: {
@@ -1853,7 +2509,11 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'UNCOMMON',
         description:
-            'A white and purple wooden block depicting a sleeping Cat and the letter "C".\nConsiderably reduces the Dream Transition. Time to fall asleep reduced by 1.5 seconds.\nSlightly increases Skill Check chances in the Dream World.',
+            'A white and purple wooden block depicting a sleeping Cat and the letter "C".',
+        abilities: [
+            '%bConsiderably reduces%/b the Dream Transition. Time to fall asleep reduced by %b1.5 seconds%/b.',
+            '%bSlightly increases%/b Skill Check chances in the %bDream World%/b.'
+        ],
         image: 'catBlock'
     },
     UNICORN_BLOCK: {
@@ -1863,7 +2523,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'RARE',
         description:
-            'A white and red wooden block depicting a prancing Unicorn and the letter "U".\nConsiderably reduces the Dream Transition. Time to fall asleep reduced by 1.5 seconds.',
+            'A white and red wooden block depicting a prancing Unicorn and the letter "U".',
+        abilities: [
+            '%bConsiderably reduces%/b the Dream Transition. Time to fall asleep reduced by %b1.5 seconds%/b.'
+        ],
         image: 'unicornBlock'
     },
     SWING_CHAINS: {
@@ -1873,7 +2536,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'RARE',
         description:
-            'Rusty, but sturdy chains used to securely attach a swing seat.\nSurvivors suffer an additional 25% Action Speed penalty when pulled into the Dream World for the second time.',
+            'Rusty, but sturdy chains used to securely attach a swing seat.',
+        abilities: [
+            'Survivors suffer an additional %b25%/b% Action Speed penalty when pulled into the %bDream World%/b for the %bsecond%/b time.'
+        ],
         image: 'swingChains'
     },
     NANCYS_MASTERPIECE: {
@@ -1883,7 +2549,8 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'RARE',
         description:
-            'A painting of a Character, made by Nancy Holbrook at Badham and kept as a treasure memory.\nTremendously increases the Power range.',
+            'A painting of a Character, made by Nancy Holbrook at Badham and kept as a treasure memory.',
+        abilities: ['%bTremendously increases%/b the Power range.'],
         image: 'nancysMasterpiece'
     },
     JUMP_ROPE: {
@@ -1893,7 +2560,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'RARE',
         description:
-            "A long Double Dutch jump rope, stained with many years of use.\nTremendously decreases Survivors' Action Speed when in the Dream World.",
+            'A long Double Dutch jump rope, stained with many years of use.',
+        abilities: [
+            "%bTremendously decreases%/b Survivors' Action Speed when in the %bDream World%/b."
+        ],
         image: 'jumpRope'
     },
     BLUE_DRESS: {
@@ -1903,7 +2573,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'RARE',
         description:
-            "A little girl's pale blue dress with white lace which's front is ruined by large cuts.\nModerately decreases Skill Check chances in the Dream World.",
+            "A little girl's pale blue dress with white lace which's front is ruined by large cuts.",
+        abilities: [
+            '%bModerately decreases%/b Skill Check chances in the %bDream World%/b.'
+        ],
         image: 'blueDress'
     },
     PILL_BOTTLE: {
@@ -1913,7 +2586,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'VERY_RARE',
         description:
-            'An empty pill bottle which once contained a medicine called "Zoneral".\nSurvivors do not see glimpses of you during the Dream Transition.',
+            'An empty pill bottle which once contained a medicine called "Zoneral".',
+        abilities: [
+            'Survivors do not see glimpses of you during the Dream Transition.'
+        ],
         image: 'pillBottle'
     },
     PAINT_THINNER: {
@@ -1922,8 +2598,10 @@ export const KillerAddons = {
         name: 'Paint Thinner',
         owner: 'NIGHTMARE',
         rarity: 'VERY_RARE',
-        description:
-            'A tin of a highly volatile and inflammable material.\nTremendously increases movement speed after successfully putting a Survivor into the Dream World.',
+        description: 'A tin of a highly volatile and inflammable material.',
+        abilities: [
+            '%bTremendously increases%/b movement speed after successfully putting a Survivor into the %bDream World%/b.'
+        ],
         image: 'paintThinner'
     },
     CLASS_PHOTO: {
@@ -1933,7 +2611,11 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'VERY_RARE',
         description:
-            "A large photograph taken at Badham Preschool showing the cheerful class of 94-95.\nWhen a Survivors is pulled into the Dream Transition, all other Survivors' Auras are revealed to you for the duration of the Dream Transition.\nTremendously increases the Dream Transition. Time to fall asleep increased by 2 seconds.",
+            'A large photograph taken at Badham Preschool showing the cheerful class of 94-95.',
+        abilities: [
+            "When a Survivors is pulled into the Dream Transition, all other Survivors' Auras are revealed to you for the duration of the Dream Transition.",
+            '%bTremendously increases%/b the Dream Transition. Time to fall asleep increased by %b2 seconds%/b.'
+        ],
         image: 'classPhoto'
     },
     Z_BLOCK: {
@@ -1943,7 +2625,10 @@ export const KillerAddons = {
         owner: 'NIGHTMARE',
         rarity: 'VERY_RARE',
         description:
-            'A deeply scratched and burnt wooden block which\'s only recognisable feature is the letter "Z".\nTremendously reduces the Dream Transition. Time to fall asleep reduced by 2 seconds.',
+            'A deeply scratched and burnt wooden block which\'s only recognisable feature is the letter "Z".',
+        abilities: [
+            '%bTremendously reduces%/b the Dream Transition. Time to fall asleep reduced by %b2 seconds%/b.'
+        ],
         image: 'zBlock'
     },
     RED_PAINT_BRUSH: {
@@ -1952,8 +2637,12 @@ export const KillerAddons = {
         name: 'Red Paint Brush',
         owner: 'NIGHTMARE',
         rarity: 'ULTRA_RARE',
-        description:
-            'A large paint brush, wet with crimson paint.\nSlightly reduces movement speed.\nTremendously reduces the Terror Radius.\nTremendously reduces the Dream Transition. Time to fall asleep reduced by 2 seconds.',
+        description: 'A large paint brush, wet with crimson paint.',
+        abilities: [
+            '%bSlightly reduces%/b movement speed.',
+            '%bTremendously reduces%/b the Terror Radius.',
+            '%bTremendously reduces%/b the Dream Transition. Time to fall asleep reduced by %b2 seconds%/b.'
+        ],
         image: 'redPaintBrush'
     },
     BLACK_BOX: {
@@ -1962,8 +2651,12 @@ export const KillerAddons = {
         name: 'Black Box',
         owner: 'NIGHTMARE',
         rarity: 'ULTRA_RARE',
-        description:
-            'A black cardboard box filled with photographs.\nObsession starts the Trial in the Dream World.\nYou become obsessed with one Survivor.\nOnly one Obsession per Trial.',
+        description: 'A black cardboard box filled with photographs.',
+        abilities: [
+            '%bObsession%/b starts the Trial in the %bDream World%/b.',
+            'You become obsessed with one Survivor.',
+            'Only one Obsession per Trial.'
+        ],
         image: 'blackBox'
     },
     WORKSHOP_GREASE: {
@@ -1973,7 +2666,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'COMMON',
         description:
-            'A modification to the Jigsaw Box: the lubricated parts make the search a more delicate exercise.\n%bSlightly increases%b the Skill Check trigger odds when interacting with a Jigsaw Box.',
+            'A modification to the Jigsaw Box: the lubricated parts make the search a more delicate exercise.',
+        abilities: [
+            '%bSlightly increases%/b the Skill Check trigger odds when interacting with a Jigsaw Box.'
+        ],
         image: 'workshopGrease'
     },
     SHATTERED_SYRINGE: {
@@ -1983,7 +2679,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'COMMON',
         description:
-            'Symbol of a broken way of life. Reminiscing about her past-self hardens her determination.\n%bSlightly decreases%b the Ambush Attack miss cool-down.',
+            'Symbol of a broken way of life. Reminiscing about her past-self hardens her determination.',
+        abilities: [
+            '%bSlightly decreases%/b the Ambush Attack miss cool-down.'
+        ],
         image: 'shatteredSyringe'
     },
     JOHNS_MEDICAL_FILE: {
@@ -1993,7 +2692,8 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'COMMON',
         description:
-            'The medical file of a cancerous man. Fills the reader with dread and recklessness.\n%bSlightly decreases%b the Ambush Attack charging time.',
+            'The medical file of a cancerous man. Fills the reader with dread and recklessness.',
+        abilities: ['%bSlightly decreases%/b the Ambush Attack charging time.'],
         image: 'johnsMedicalFile'
     },
     COMBAT_STRAPS: {
@@ -2003,7 +2703,8 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'COMMON',
         description:
-            'Leather straps that hold fabric in place for nimbler movement.\n%bSlightly decreases%b time it takes to crouch.',
+            'Leather straps that hold fabric in place for nimbler movement.',
+        abilities: ['%bSlightly decreases%/b time it takes to crouch.'],
         image: 'combatStraps'
     },
     VIDEO_TAPE: {
@@ -2013,7 +2714,11 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'UNCOMMON',
         description:
-            "A recording of Jigsaw, explaining the game's rules to Amanda. Reminiscing about her past-self hardens her determination.\n%bSlightly decreases%b the Ambush Attack charging time.\n%bSlightly decreases%b the Ambush Attack miss cool-down.",
+            "A recording of Jigsaw, explaining the game's rules to Amanda. Reminiscing about her past-self hardens her determination.",
+        abilities: [
+            '%bSlightly decreases%/b the Ambush Attack charging time.',
+            '%bSlightly decreases%/b the Ambush Attack miss cool-down.'
+        ],
         image: 'videoTape'
     },
     UTILITY_BLADES: {
@@ -2023,7 +2728,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'UNCOMMON',
         description:
-            "A modification to the Reverse Bear Trap: sharp blades attached to the Trap's interior lacerate the victim with every movement.\nSurvivors caught in a Reverse Bear Trap suffer from the %b%iHemorrhage%iStatus Effect%b.",
+            "A modification to the Reverse Bear Trap: sharp blades attached to the Trap's interior lacerate the victim with every movement.",
+        abilities: [
+            'Survivors caught in a Reverse Bear Trap suffer from the %bHemorrhage Status Effect%/b.'
+        ],
         image: 'utilityBlades'
     },
     RAZOR_WIRES: {
@@ -2033,7 +2741,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'UNCOMMON',
         description:
-            'A modification to the Jigsaw Box: the addition of razor sharp wires makes it extra difficult and potentially painful to search them.\n%bModerately increases%b the Skill Check trigger odds when interacting with a Jigsaw Box.',
+            'A modification to the Jigsaw Box: the addition of razor sharp wires makes it extra difficult and potentially painful to search them.',
+        abilities: [
+            '%bModerately increases%/b the Skill Check trigger odds when interacting with a Jigsaw Box.'
+        ],
         image: 'razerWire'
     },
     LAST_WILL: {
@@ -2043,7 +2754,8 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'UNCOMMON',
         description:
-            'A latched wooden box with a satin lining, offered as part of a last will.\n%bIncreases%b available Reverse Bear Traps by 1.',
+            'A latched wooden box with a satin lining, offered as part of a last will.',
+        abilities: ['%bIncreases%/b available Reverse Bear Traps by %b1%/b.'],
         image: 'lastWill'
     },
     FACE_MASK: {
@@ -2053,7 +2765,11 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'UNCOMMON',
         description:
-            'A modification to the Reverse Bear Trap: the heavy cloth face mask, laced with a sedative, partially suffocates the target, making it hard to concentrate.\nSurvivors caught in a Reverse Bear Trap suffer from the %b%iBlindness%i Status Effect%b.\nDoes not affect the Jigsaw Box highlight.',
+            'A modification to the Reverse Bear Trap: the heavy cloth face mask, laced with a sedative, partially suffocates the target, making it hard to concentrate.',
+        abilities: [
+            'Survivors caught in a Reverse Bear Trap suffer from the %bBlindness Status%/b Effect.',
+            '%bDoes not affect the Jigsaw Box highlight%/b.'
+        ],
         image: 'faceMask'
     },
     SLOW_RELEASE_TOXIN: {
@@ -2063,7 +2779,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'RARE',
         description:
-            'A modification to the Reverse Bear Trap: a poison that is not fatal, but weakens the body and makes it nearly impossible to recover fully from any effort.\nSurvivors caught in a Reverse Bear Trap suffer from the %b%iExhausted Status Effect%i%b.',
+            'A modification to the Reverse Bear Trap: a poison that is not fatal, but weakens the body and makes it nearly impossible to recover fully from any effort.',
+        abilities: [
+            'Survivors caught in a Reverse Bear Trap suffer from the %bExhausted Status Effect%/b.'
+        ],
         image: 'slowReleaseToxin'
     },
     RUSTY_ATTACHMENTS: {
@@ -2073,7 +2792,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'RARE',
         description:
-            'A modification to the Reverse Bear Trap: mouth spikes, covered with crusty and volatile rust spots that make injuries particularly difficult to heal.\nSurvivors caught in a Reverse Bear Trap suffer from the %b%iMangled%i Status Effect%b.',
+            'A modification to the Reverse Bear Trap: mouth spikes, covered with crusty and volatile rust spots that make injuries particularly difficult to heal.',
+        abilities: [
+            'Survivors caught in a Reverse Bear Trap suffer from the %bMangled Status Effect%/b.'
+        ],
         image: 'slowReleaseToxin'
     },
     JIGSAWS_SKETCH: {
@@ -2083,7 +2805,11 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'RARE',
         description:
-            'A disturbing, yet brilliant, Trap design sketched in detail on a sheet of paper.\n%bIncreases%b available Jigsaw Boxes by 1.\n%bModerately increases%b the Reverse Bear Trap death timer.',
+            'A disturbing, yet brilliant, Trap design sketched in detail on a sheet of paper.',
+        abilities: [
+            '%bIncreases%/b available Jigsaw Boxes by %b1%/b.',
+            '%bModerately increases%/b the Reverse Bear Trap death timer.'
+        ],
         image: 'jigsawsSketch'
     },
     INTERLOCKING_RAZOR: {
@@ -2093,7 +2819,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'RARE',
         description:
-            "A modification to the Jigsaw Box: the addition of interlocking razor blades makes it impossible to move suddenly in the Jigsaw Box without slitting one's wrists.\n%bTremendously increases%b the penalty of failed Skill Checks on Jigsaw Boxes.",
+            "A modification to the Jigsaw Box: the addition of interlocking razor blades makes it impossible to move suddenly in the Jigsaw Box without slitting one's wrists.",
+        abilities: [
+            '%bTremendously increases%/b the penalty of failed Skill Checks on Jigsaw Boxes.'
+        ],
         image: 'jigsawsSketch'
     },
     BAG_OF_GEARS: {
@@ -2103,7 +2832,11 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'RARE',
         description:
-            'A few mechanical parts that allow the creation of challenging Jigsaw Boxes and easier to install Reverse Bear Traps.\n%bSlightly increases%b the time it takes Survivors to search a Jigsaw Box.\n%bSlightly decreases%b the time it takes to put on a Reverse Bear Trap.',
+            'A few mechanical parts that allow the creation of challenging Jigsaw Boxes and easier to install Reverse Bear Traps.',
+        abilities: [
+            '%bSlightly increases%/b the time it takes Survivors to search a Jigsaw Box.',
+            '%bSlightly decreases%/b the time it takes to put on a Reverse Bear Trap.'
+        ],
         image: 'bagOfGears'
     },
     TAMPERED_TIMER: {
@@ -2113,7 +2846,10 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'VERY_RARE',
         description:
-            'A timer that has been fiddled with. A spring in the mechanism forces the gears to turn faster.\n%bModerately reduces%b the Reverse Bear Trap death timer.',
+            'A timer that has been fiddled with. A spring in the mechanism forces the gears to turn faster.',
+        abilities: [
+            '%bModerately reduces%/b the Reverse Bear Trap death timer.'
+        ],
         image: 'tamperedTimer'
     },
     JIGSAWS_ANNOTATED_PLAN: {
@@ -2123,7 +2859,8 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'VERY_RARE',
         description:
-            'A disturbing, yet brilliant, Trap design laid down on paper and annotated by Jigsaw.\n%bIncreases%b available Jigsaw Boxes by 1.',
+            'A disturbing, yet brilliant, Trap design laid down on paper and annotated by Jigsaw.',
+        abilities: ['%bIncreases%/b available Jigsaw Boxes by %b1%/b.'],
         image: 'jigsawsAnnotatedPlan'
     },
     CRATE_OF_GEARS: {
@@ -2133,7 +2870,11 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'VERY_RARE',
         description:
-            'This collection of mechanical parts allows the creation of extra-challenging Jigsaw Boxes and Reverse Bear Traps that are easier to install.\n%bConsiderably increases%b the time it takes Survivors to search a Jigsaw Box.\n%bModerately decreases%b the time it takes to put the Reverse Bear Trap on a Survivor.',
+            'This collection of mechanical parts allows the creation of extra-challenging Jigsaw Boxes and Reverse Bear Traps that are easier to install.',
+        abilities: [
+            '%bConsiderably increases%/b the time it takes Survivors to search a Jigsaw Box.',
+            '%bModerately decreases%/b the time it takes to put the Reverse Bear Trap on a Survivor.'
+        ],
         image: 'crateOfGears'
     },
     AMANDAS_SECRET: {
@@ -2143,7 +2884,12 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'VERY_RARE',
         description:
-            "A black metal box containing a knife and various medical supplies, such as bandages and compresses. Deep cuts reduce stress and awaken the senses.\n%bDisables%b The Pig's ability to see Jigsaw Boxes' Auras.\n%bGain a notification%b when a Survivor removes a Reverse Bear Trap.\nAuras of Survivors removing a Reverse Bear Trap are revealed to you for %b6 seconds%b.",
+            'A black metal box containing a knife and various medical supplies, such as bandages and compresses. Deep cuts reduce stress and awaken the senses.',
+        abilities: [
+            "%bDisables%/b The Pig's ability to see Jigsaw Boxes' Auras.",
+            '%bGain a notification%/b when a Survivor removes a Reverse Bear Trap.',
+            'Auras of Survivors removing a Reverse Bear Trap are revealed to you for %b6 seconds%/b.'
+        ],
         image: 'amandasSecret'
     },
     RULES_SET_NO_2: {
@@ -2152,8 +2898,10 @@ export const KillerAddons = {
         name: 'Rules Set No.2',
         owner: 'PIG',
         rarity: 'ULTRA_RARE',
-        description:
-            "Not all games need to have the same rules.\n%bDisables%b the Survivors' ability to see Jigsaw Boxes highlighted until their Trap is activated.",
+        description: 'Not all games need to have the same rules.',
+        abilities: [
+            "%bDisables%/b the Survivors' ability to see Jigsaw Boxes highlighted until their Trap is activated."
+        ],
         flavor: '"Listen, there are rules." — Jigsaw',
         image: 'rulesSetN2'
     },
@@ -2164,7 +2912,12 @@ export const KillerAddons = {
         owner: 'PIG',
         rarity: 'ULTRA_RARE',
         description:
-            'A blackmailing Letter for the attention of Amanda. Fills the reader with rage and focus.\nWhile crouched, see outlines of Survivors within 12 metres of range.\n%bReduces%b available Reverse Bear Traps by 3.\n%bReduces%b available Jigsaw Boxes by 2.',
+            'A blackmailing Letter for the attention of Amanda. Fills the reader with rage and focus.',
+        abilities: [
+            'While crouched, see outlines of Survivors within %b12 metres%/b of range.',
+            '%bReduces%/b available Reverse Bear Traps by %b3%/b.',
+            '%bReduces%/b available Jigsaw Boxes by %b2%/b.'
+        ],
         flavor:
             '"Amanda, you were with Cecil the night Jill lost Gideon. You killed their child. You know it and I know it." — Amanda\'s Letter',
         image: 'amandasLetter'
@@ -2179,7 +2932,11 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'COMMON',
         description:
-            'A thing wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range fo effectiveness.\nModerately widens the Flashlight beam.\nSlightly decreases the range of the Flashlight beam.',
+            'A thing wide lens in perfect condition. Designed to spread the Flashlight beam at the cost of reducing its range of effectiveness.',
+        abilities: [
+            '%bModerately widens%/b the Flashlight beam.',
+            '%bSlightly decreases%/b the range of the Flashlight beam.'
+        ],
         image: 'wideLens'
     },
     POWER_BULB: {
@@ -2189,7 +2946,12 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'COMMON',
         description:
-            'A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.\nSlightly increases Flashlight beam effects against the Killer.',
+            'A tiny Flashlight bulb that packs more wattage for a brighter, more powerful light beam.',
+        abilities: [
+            '%bSlightly tightens%/b the radius of the Flashlight beam.',
+            "%bSlightly increases%/b the beam's visual brightness.",
+            '%bSlightly increases%/b the Blindness duration'
+        ],
         flavor:
             '"Even the most powerful light cannot pierce through the Black Fog\'s darkness."',
         image: 'powerBulb'
@@ -2201,7 +2963,8 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'COMMON',
         description:
-            "A leather strip wrapped around the Flashlight for more grip.\nSlightly increases the Flashlight's accuracy.",
+            'A leather strip wrapped around the Flashlight for more grip.',
+        abilities: ["%bSlightly increases%/b the Flashlight's accuracy."],
         flavor: '"Too many have fallen due to sweaty hands."',
         image: 'leatherGrip'
     },
@@ -2211,8 +2974,8 @@ export const SurvivorAddons = {
         name: 'Battery',
         type: 'FLASHLIGHT',
         rarity: 'COMMON',
-        description:
-            'A standard battery of unknown brand.\nAdds 2 seconds of use to a standard Flashlight.',
+        description: 'A standard battery of unknown brand.',
+        abilities: ['Adds %b2 seconds%/b of use to a standard Flashlight.'],
         flavor: '"Another nearly empty battery."',
         image: 'battery'
     },
@@ -2223,7 +2986,11 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'UNCOMMON',
         description:
-            "A lens and reflector combo which can magnify a Flashlight's beam.\nModerately increases Flashlight beam effects against the Killer.",
+            "A lens and reflector combo which can magnify a Flashlight's beam.",
+        abilities: [
+            "%bModerately increases%/b the beam's visual brightness.",
+            '%bModerately increases%/b the Blindness duration.'
+        ],
         flavor: '"Let the light burn them out of their dark shroud."',
         image: 'tirOptic'
     },
@@ -2234,7 +3001,8 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'UNCOMMON',
         description:
-            "A rubber grip specifically fitting Flashlights for more grip.\nModerately increases the Flashlight's accuracy.",
+            'A rubber grip specifically fitting Flashlights for more grip.',
+        abilities: ["%bModerately increases%/b the Flashlight's accuracy."],
         image: 'rubberGrip'
     },
     LOW_AMP_FILAMENT: {
@@ -2244,7 +3012,10 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'UNCOMMON',
         description:
-            "A filament bulb designed to extend a Flashlight battery's life.\nModerately decreases Flashlight battery consumption.",
+            "A filament bulb designed to extend a Flashlight battery's life.",
+        abilities: [
+            '%bModerately decreases%/b Flashlight battery consumption.'
+        ],
         image: 'threadedFilament'
     },
     HEAVY_DUTY_BATTERY: {
@@ -2253,8 +3024,8 @@ export const SurvivorAddons = {
         name: 'Heavy Duty Battery',
         type: 'FLASHLIGHT',
         rarity: 'UNCOMMON',
-        description:
-            'A battery marked as "industrial strength".\nAdds 4 seconds of use to a standard Flashlight.',
+        description: 'A battery marked as "industrial strength".',
+        abilities: ['Adds %b4 seconds%/b of use to a standard Flashlight.'],
         flavor:
             '"A battery advertised as lasting 8 hours lasts only a couple of seconds in the Black Fog."',
         image: 'heavyDutyBattery'
@@ -2266,7 +3037,13 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'UNCOMMON',
         description:
-            'A thick glass lens that focuses the Flashlight beam to increase its intensity.\nSlightly increases the range of the Flashlight beam.\nSlightly tightens the radius of the Flashlight beam.\nSlightly increases the power of the Flashlight beam.',
+            'A thick glass lens that focuses the Flashlight beam to increase its intensity.',
+        abilities: [
+            '%bSlightly increases%/b the range of the Flashlight beam.',
+            '%bSlightly tightens%/b the radius of the Flashlight beam.',
+            "%bSlightly increases%/b the beam's visual brightness.",
+            '%bSlightly increases%/b the Blindness duration'
+        ],
         image: 'focusLens'
     },
     LONG_LIFE_BATTERY: {
@@ -2275,8 +3052,8 @@ export const SurvivorAddons = {
         name: 'Long Life Battery',
         type: 'FLASHLIGHT',
         rarity: 'RARE',
-        description:
-            'A recent model of battery that lasts longer.\nAdds 6 seconds of use to a standard Flashlight.',
+        description: 'A recent model of battery that lasts longer.',
+        abilities: ['Adds %b6 seconds%/b of use to a standard Flashlight.'],
         image: 'longLifeBattery'
     },
     INTENSE_HALOGEN: {
@@ -2285,8 +3062,11 @@ export const SurvivorAddons = {
         name: 'Intense Halogen',
         type: 'FLASHLIGHT',
         rarity: 'RARE',
-        description:
-            'A chemical bulb that generates an intensely clear light.\nConsiderably increases the Flashlight beam effects against the Killer.',
+        description: 'A chemical bulb that generates an intensely clear light.',
+        abilities: [
+            "%bConsiderably increases%/b the beam's visual brightness.",
+            '%bConsiderably increases%/b the Blindness duration.'
+        ],
         image: 'intenseHalogen'
     },
     HIGH_END_SAPPHIRE_LENS: {
@@ -2296,7 +3076,13 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'VERY_RARE',
         description:
-            'A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.\nModerately widens the Flashlight beam.\nSlightly increases the Flashlight beam.\nModerately increases the power of the Flashlight beam.',
+            'A wide lens made of unscratchable sapphire that optimises the power and range of the light beam.',
+        abilities: [
+            '%bModerately widens%/b the Flashlight beam.',
+            '%bSlightly increases%/b the Flashlight beam.',
+            "%bModerately increases%/b the beam's visual brightness.",
+            '%bModerately increases%/b the Blindness duration.'
+        ],
         image: 'highEndSapphireLens'
     },
     ODD_BULB: {
@@ -2306,7 +3092,12 @@ export const SurvivorAddons = {
         type: 'FLASHLIGHT',
         rarity: 'ULTRA_RARE',
         description:
-            'A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.\nTremendously increases the Flashlight beam effects against the Killer.\nModerately increases the Flashlight battery consumption.',
+            'A heavy and completely opaque bulb of unknown origin which emits a faint light even when turned off.',
+        abilities: [
+            "%bTremendously increases%/b the beam's visual brightness.",
+            '%bTremendously increases%/b increases the Blindness duration.',
+            '%bSlightly increases%/b the Flashlight battery consumption.'
+        ],
         image: 'oddBulb'
     },
     PRAYER_ROPE: {
@@ -2316,7 +3107,8 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'COMMON',
         description:
-            'Tightly knitted rope used in praying rituals. Can be attached to the Key.\nAdds 10 seconds of use to the Key.',
+            'Tightly knitted rope used in praying rituals. Can be attached to the Key.',
+        abilities: ['Adds %b10 seconds%/b of use to the Key.'],
         flavor:
             '"Pray all you want, your words are getting lost somewhere up there, in the Fog."',
         image: 'prayerRope'
@@ -2328,7 +3120,10 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'UNCOMMON',
         description:
-            "A porous and scratched white pearl. A minuscule jump ring allows the pearl to be attached to the Key.\nModerately increases the range of the Key's Aura reading ability.",
+            'A porous and scratched white pearl. A minuscule jump ring allows the pearl to be attached to the Key.',
+        abilities: [
+            "%bModerately increases%/b the range of the Key's Aura reading ability."
+        ],
         image: 'scratchedPearl'
     },
     PRAYER_BEADS: {
@@ -2338,7 +3133,8 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'UNCOMMON',
         description:
-            'A chain of matte beads of various sizes used in praying ritual. Can be attached to the Key.\nAdds 15 seconds of use to the Key.',
+            'A chain of matte beads of various sizes used in praying ritual. Can be attached to the Key.',
+        abilities: ['Adds %b15 seconds%/b of use to the Key.'],
         image: 'prayerBeads'
     },
     ERODED_TOKEN: {
@@ -2348,7 +3144,10 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'UNCOMMON',
         description:
-            "A heavily worn out token made of brass. If an inscription or drawing was once engraved in it, it has today completely disappeared. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.\nReveals Survivors' Auras when within a 24 meter range.",
+            "A heavily worn out token made of brass. If an inscription or drawing was once engraved in it, it has today completely disappeared. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.",
+        abilities: [
+            "Reveals %bSurvivors' Auras%/b when within %b24 metres%/b of range."
+        ],
         image: 'tokenErroded'
     },
     GOLD_TOKEN: {
@@ -2358,7 +3157,10 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'RARE',
         description:
-            "A gold token with a dull appearance. Both faces are smooth and void of any inscriptions. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.\nReveals Survivors' Auras when within a 48 meter range.",
+            "A gold token with a dull appearance. Both faces are smooth and void of any inscriptions. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.",
+        abilities: [
+            "Reveals %bSurvivors' Auras%/b when within %b48 metres%/b of range."
+        ],
         image: 'tokenGold'
     },
     WEAVED_RING: {
@@ -2368,7 +3170,8 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'VERY_RARE',
         description:
-            'A mundane key ring in appearance with an unusual bluish dark sheen. The ring binds the Key to the user, preventing its loss even in the darkest of times.\nDo not lose the Key on death, lose this Add-on instead.',
+            'A mundane key ring in appearance with an unusual bluish dark sheen. The ring binds the Key to the user, preventing its loss even in the darkest of times.',
+        abilities: ['Do not lose the Key on death, lose this Add-on instead.'],
         image: 'weavedRing'
     },
     MILKY_GLASS: {
@@ -2378,7 +3181,10 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'VERY_RARE',
         description:
-            "This opaque piece of glass emits a dull vibrating noise. When the Skeleton or Dull Key is used to unlock a Black Lock, the glass token protects the Key from breaking, channelling the Black Fog's energy into the glass.\nDo not lose the Key when unlocking a Black Lock, lose this Add-on instead.",
+            "This opaque piece of glass emits a dull vibrating noise. When the Skeleton or Dull Key is used to unlock a Black Lock, the glass token protects the Key from breaking, channelling the Black Fog's energy into the glass.",
+        abilities: [
+            'Do not lose the Key when unlocking a Black Lock, lose this Add-on instead.'
+        ],
         image: 'milkyGlass'
     },
     BLOOD_AMBER: {
@@ -2388,7 +3194,10 @@ export const SurvivorAddons = {
         type: 'KEY',
         rarity: 'VERY_RARE',
         description:
-            "A blood-red amber striped with black veins. The amber is warm to the touch. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.\nReveals the Killer's Aura when a 32 meter range at the great expense of the Key's energy.",
+            "A blood-red amber striped with black veins. The amber is warm to the touch. Can be attached to the Key using its jump ring to channel the Key's Aura reading ability.",
+        abilities: [
+            "Reveals the %bKiller's Aura%/b when within %b32 metres%/b of range at the %bgreat expense%/b of the Key's energy."
+        ],
         image: 'bloodAmber'
     },
     MAP_ADDENDUM: {
@@ -2398,7 +3207,8 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'COMMON',
         description:
-            'A fragmented piece of a thick fibrous material. A partial and faded map is drawn on it which by itself is useless.\nAdds a 5 second charge to any Map.',
+            'A fragmented piece of a thick fibrous material. A partial and faded map is drawn on it which by itself is useless.',
+        abilities: ['Adds a %b5 second charge%/b to any Map.'],
         image: 'mapAddendum'
     },
     YELLOW_WIRE: {
@@ -2408,7 +3218,8 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'UNCOMMON',
         description:
-            'A small electrical wire. Both ends are heavily damaged like it has been forcefully torn out of its intended location. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track Exit Gates.',
+            'A small electrical wire. Both ends are heavily damaged like it has been forcefully torn out of its intended location. Can be tied around a map to enhance its Aura reading ability.',
+        abilities: ['Unlocks the ability to track %bExit Gates%/b.'],
         image: 'ropeYellow'
     },
     UNUSUAL_STAMP: {
@@ -2418,7 +3229,10 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'UNCOMMON',
         description:
-            'A wooden stamp with a crosshatched rubber pad used to mark documents. It is unclear as to how or by whom this stamp was originally used. Can be used with a map.\nModerately increases the range of the map tracking ability.',
+            'A wooden stamp with a crosshatched rubber pad used to mark documents. It is unclear as to how or by whom this stamp was originally used. Can be used with a map.',
+        abilities: [
+            '%bModerately increases%/b the range of the map tracking ability.'
+        ],
         image: 'stampUnusual'
     },
     RETARDANT_JELLY: {
@@ -2428,7 +3242,8 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'UNCOMMON',
         description:
-            'A slimy, translucent substance with a ghastly lavender shade. This jelly from unknown origin is highly resistant to heat.\nModerately slows down the burning rate of the map.',
+            'A slimy, translucent substance with a ghastly lavender shade. This jelly from unknown origin is highly resistant to heat.',
+        abilities: ['%bModerately slows down%/b the burning rate of the map.'],
         image: 'retardantJelly'
     },
     RED_TWINE: {
@@ -2438,7 +3253,10 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'UNCOMMON',
         description:
-            "A bristly and rough piece of twine of a deep red colour. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track the Killer's belongings.",
+            'A bristly and rough piece of twine of a deep red colour. Can be tied around a map to enhance its Aura reading ability.',
+        abilities: [
+            "Unlocks the ability to track the %bKiller's belongings%/b."
+        ],
         image: 'ropeRed'
     },
     GLASS_BEAD: {
@@ -2448,7 +3266,11 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'UNCOMMON',
         description:
-            'A strange bead circled with gold that can be used to magnify the map and mark a specific position. The bead emits an energy which can be felt and seen by Survivors.\nUnlocks the Marker Ability on secondary action.\nCreating a marker that can be seen by all the Survivors.',
+            'A strange bead circled with gold that can be used to magnify the map and mark a specific position. The bead emits an energy which can be felt and seen by Survivors.',
+        abilities: [
+            'Unlocks the Marker Ability on secondary action.',
+            'Creating a marker that can be seen by all the Survivors.'
+        ],
         image: 'beadGlass'
     },
     ODD_STAMP: {
@@ -2458,7 +3280,10 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'RARE',
         description:
-            'A stamp carved out of sturdy blonde wood. The text found at the base is incomprehensible: "kw\'zvre\'od". Can be used with a map.\nConsiderably increases the range of the map tracking ability.',
+            'A stamp carved out of sturdy blonde wood. The text found at the base is incomprehensible: "kw\'zvre\'od". Can be used with a map.',
+        abilities: [
+            '%bConsiderably increases%/b the range of the map tracking ability.'
+        ],
         image: 'stampOdd'
     },
     BLACK_SILK_CORD: {
@@ -2468,7 +3293,8 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'RARE',
         description:
-            'A smooth black cord with a soft appearance. Can be tied around a map to enhance its Aura reading ability.\nUnlocks the ability to track the Black Lock.',
+            'A smooth black cord with a soft appearance. Can be tied around a map to enhance its Aura reading ability.',
+        abilities: ['Unlocks the ability to track the %bBlack Lock%/b.'],
         image: 'ropeBlack'
     },
     CRYSTAL_BEAD: {
@@ -2478,7 +3304,10 @@ export const SurvivorAddons = {
         type: 'MAP',
         rarity: 'VERY_RARE',
         description:
-            "An intricate set of lenses wrapped up in an astonishingly complex apparatus. The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.\nEvery Survivor sees the Aura generated by the map when the owner activates it.",
+            "An intricate set of lenses wrapped up in an astonishingly complex apparatus. The gears controlling the lenses' focus move by themselves as to focus on something invisible to humans.",
+        abilities: [
+            'Every Survivor sees the Aura generated by the map when the owner activates it.'
+        ],
         image: 'beadCrystal'
     },
     RUBBER_GLOVES: {
@@ -2487,8 +3316,10 @@ export const SurvivorAddons = {
         name: 'Rubber Gloves',
         type: 'AID_KIT',
         rarity: 'COMMON',
-        description:
-            'Disposable medical gloves to avoid cross-contamination.\nSlightly decreases the healing Skill Check difficulty.',
+        description: 'Disposable medical gloves to avoid cross-contamination.',
+        abilities: [
+            '%bSlightly decreases%/b the healing Skill Check difficulty.'
+        ],
         image: 'gloves'
     },
     BUTTERFLY_TAPE: {
@@ -2497,8 +3328,8 @@ export const SurvivorAddons = {
         name: 'Butterfly Tape',
         type: 'AID_KIT',
         rarity: 'COMMON',
-        description:
-            'Medical quality tape used to close small wounds.\nSlightly increases healing speed.',
+        description: 'Medical quality tape used to close small wounds.',
+        abilities: ['%bSlightly increases%/b healing speed.'],
         image: 'butterflyTape'
     },
     BANDAGES: {
@@ -2507,8 +3338,8 @@ export const SurvivorAddons = {
         name: 'Bandages',
         type: 'AID_KIT',
         rarity: 'COMMON',
-        description:
-            'A pack of bandages usually found in First Aid Kits.\nAdds 6 charges to the Med-Kit.',
+        description: 'A pack of bandages usually found in First Aid Kits.',
+        abilities: ['Adds %b6 charges%/b to the Med-Kit.'],
         image: 'bandages'
     },
     SPONGE: {
@@ -2519,6 +3350,9 @@ export const SurvivorAddons = {
         rarity: 'UNCOMMON',
         description:
             'A mundane sponge used to soak up extra blood, providing easier access to wounds.\nModerately decreases the healing Skill Check difficulty.',
+        abilities: [
+            '%bModerately decreases%/b the healing Skill Check difficulty.'
+        ],
         image: 'sponge'
     },
     SELF_ADHERENT_WRAP: {
@@ -2528,7 +3362,11 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'UNCOMMON',
         description:
-            'A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.\nAdds 6 charges to the Med-kit.\nSlightly increases the healing speed.',
+            'A pack of bandages that stick to themselves without the need of clips for a faster patch-up that requires less readjustments.',
+        abilities: [
+            'Adds %b6 charges%/b to the Med-Kit.',
+            '%bSlightly increases%/b the healing speed.'
+        ],
         image: 'selfAdherentWrap'
     },
     NEEDLE_AND_THREAD: {
@@ -2538,7 +3376,12 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'UNCOMMON',
         description:
-            'Not exactly a medical device, however it can be used to quickly and painfully close up a wound.\nSlightly increases the chance to trigger a Skill Check.\nConsiderably reduces the Skill Check success zones.\nModerately increases the healing speed.',
+            'Not exactly a medical device, however it can be used to quickly and painfully close up a wound.',
+        abilities: [
+            '%bSlightly increases%/b the chance to trigger a Skill Check.',
+            '%bConsiderably reduces%/b the Skill Check success zones.',
+            '%bModerately increases%/b the healing speed.'
+        ],
         image: 'needAndThread'
     },
     MEDICAL_SCISSORS: {
@@ -2547,8 +3390,8 @@ export const SurvivorAddons = {
         name: 'Medical Scissors',
         type: 'AID_KIT',
         rarity: 'UNCOMMON',
-        description:
-            'Scissors designed to easily cut through textiles.\nModerately increases healing speed.',
+        description: 'Scissors designed to easily cut through textiles.',
+        abilities: ['%bModerately increases%/b healing speed.'],
         image: 'scissors'
     },
     GAUZE_ROLL: {
@@ -2558,7 +3401,8 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'UNCOMMON',
         description:
-            'A sterile gauze used for a variety of wounds. Part of a total wound care system.\nAdds 8 charges to the Med-Kit.',
+            'A sterile gauze used for a variety of wounds. Part of a total wound care system.',
+        abilities: ['Adds %b8 charges%/b to the Med-Kit.'],
         image: 'gauseRoll'
     },
     SURGICAL_SUTURE: {
@@ -2568,7 +3412,12 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'RARE',
         description:
-            "A medical device used to close and hold body tissue. Even though it's very effective, the surgical suture is challenging to use.\nModerately increases the chance to trigger a Skill Check.\nModerately reduces the Skill Check success zones.\nModerately increases the healing speed.",
+            "A medical device used to close and hold body tissue. Even though it's very effective, the surgical suture is challenging to use.",
+        abilities: [
+            '%bModerately increases%/b the chance to trigger a Skill Check.',
+            '%bModerately reduces%/b the Skill Check success zones.',
+            '%bModerately increases%/b the healing speed.'
+        ],
         image: 'surgicalSuture'
     },
     GEL_DRESSINGS: {
@@ -2578,7 +3427,8 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'RARE',
         description:
-            'A pack of gel forming pads used to patch up heavily exudating wounds.\nAdds 10 charges to the Med-Kit.',
+            'A pack of gel forming pads used to patch up heavily exudating wounds.',
+        abilities: ['Adds %b10 charges%/b to the Med-Kit.'],
         image: 'gelDressings'
     },
     ABDOMINAL_DRESSING: {
@@ -2588,7 +3438,11 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'RARE',
         description:
-            'A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.\nConsiderably increases healing speed.\nReduces charges by 25%.',
+            'A highly absorbent pad that prevents bodily fluid leakage when applied to large abdominal wounds.',
+        abilities: [
+            '%bConsiderably increases%/b healing speed.',
+            'Reduces charges by %b25%/b%.'
+        ],
         image: 'abdominalDressing'
     },
     STYPTIC_AGENT: {
@@ -2598,7 +3452,12 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'VERY_RARE',
         description:
-            'A white powder with coagulant properties. Apply the agent to a wound to stop it from hemorrhaging.\nReduces charges by 25%.\nInstantly heal one Health State on secondary action.\nDepletes the Med-Kit on use.',
+            'A white powder with coagulant properties. Apply the agent to a wound to stop it from hemorrhaging.',
+        abilities: [
+            'Reduces charges by %b25%/b%.',
+            '%bInstantly%/b heal one %bHealth State%/b on secondary action.',
+            'Depletes the Med-Kit on use.'
+        ],
         image: 'stypticAgent'
     },
     ANTI_HEMORRHAGIC_SYRINGE: {
@@ -2608,7 +3467,12 @@ export const SurvivorAddons = {
         type: 'AID_KIT',
         rarity: 'ULTRA_RARE',
         description:
-            'An anti-hemorrhagic substance that stops the bleeding in a matter of seconds.\nReduces charges by 50%\nInstantly and completely heal on secondary action.\nDepletes the Med-Kit on use.',
+            'An anti-hemorrhagic substance that stops the bleeding in a matter of seconds.',
+        abilities: [
+            'Reduces charges by %b50%/b%.',
+            '%bInstantly%/b and %bcompletely%/b heal on secondary action.',
+            'Depletes the Med-Kit on use.'
+        ],
         image: 'syringe'
     },
     SPRING_CLAMP: {
@@ -2618,7 +3482,10 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'COMMON',
         description:
-            'Useful tool to clamp hoses or hold wires in place and prevent damage or injury.\nSlightly increases repair Skill Check success zones.',
+            'Useful tool to clamp hoses or hold wires in place and prevent damage or injury.',
+        abilities: [
+            '%bSlightly increases%/b repair Skill Check success zones.'
+        ],
         image: 'springClamp'
     },
     SCRAPS: {
@@ -2627,8 +3494,8 @@ export const SurvivorAddons = {
         name: 'Scraps',
         type: 'TOOLBOX',
         rarity: 'COMMON',
-        description:
-            'Springs, screws and gears. Mostly unusable junk.\nAdds 15 charges to the Toolbox.',
+        description: 'Springs, screws and gears. Mostly unusable junk..',
+        abilities: ['Adds %b15 charges%/b to the Toolbox.'],
         image: 'scraps'
     },
     CLEAN_RAG: {
@@ -2637,8 +3504,8 @@ export const SurvivorAddons = {
         name: 'Clean Rag',
         type: 'TOOLBOX',
         rarity: 'COMMON',
-        description:
-            "A mundane rag. Suspiciously clean.\nSlightly increases the Toolbox's repair speed.",
+        description: 'A mundane rag. Suspiciously clean.',
+        abilities: ["%bSlightly increases%/b the Toolbox's repair speed."],
         image: 'cleanRag'
     },
     WIRE_SPOOL: {
@@ -2647,8 +3514,8 @@ export const SurvivorAddons = {
         name: 'Wire Spool',
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
-        description:
-            'A portable but heavy spool of copper wire.\nAdds 30 charges to the Toolbox.',
+        description: 'A portable but heavy spool of copper wire.',
+        abilities: ['Adds %b30 charges%/b to the Toolbox.'],
         image: 'spoolOfWire'
     },
     SOCKET_SWIVELS: {
@@ -2658,7 +3525,8 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
         description:
-            'Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.\nModerately increases the Toolbox repair speed.',
+            'Swivels provide bend and flexibility for bolts that are out of reach, deep within mechanical devices.',
+        abilities: ['%bModerately increases%/b the Toolbox repair speed.'],
         image: 'socketSwivels'
     },
     PROTECTIVE_GLOVES: {
@@ -2668,7 +3536,12 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
         description:
-            'Thick gloves, which reduce menial dexterity but protect hands from injury.\nSlightly increase the chances to trigger a sabotage Skill Check.\nSlightly increase sabotage Skill Check success zones.\nConsiderably reduces the sabotage Skill Check failed penalty.',
+            'Thick gloves, which reduce menial dexterity but protect hands from injury.',
+        abilities: [
+            '%bSlightly increases%/b the chances to trigger a sabotage Skill Check.',
+            '%bSlightly increases%/b sabotage Skill Check success zones.',
+            '%bConsiderably reduces%/b the sabotage Skill Check failed penalty.'
+        ],
         image: 'protectiveGloves'
     },
     INSTRUCTIONS: {
@@ -2678,7 +3551,10 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
         description:
-            "Someone quickly painted what seems to be repair instructions on this piece of bark.\nModerately increases the Toolbox's repair efficiency.",
+            'Someone quickly painted what seems to be repair instructions on this piece of bark.',
+        abilities: [
+            "%bModerately increases%/b the Toolbox's repair efficiency."
+        ],
         image: 'instructions'
     },
     GRIP_WRENCH: {
@@ -2688,7 +3564,10 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
         description:
-            'An adjustable wrench with a tough grip. Essential in any Toolbox.\nModerately increases repair Skill Check success zones.',
+            'An adjustable wrench with a tough grip. Essential in any Toolbox.',
+        abilities: [
+            '%bModerately increases%/b repair Skill Check success zones.'
+        ],
         image: 'gripWrench'
     },
     CUTTING_WIRE: {
@@ -2698,7 +3577,8 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'UNCOMMON',
         description:
-            "A rudimentary cutting tool made from a jagged metal wire and two wooden handles.\nSlightly increases the Toolbox's sabotage speed.",
+            'A rudimentary cutting tool made from a jagged metal wire and two wooden handles..',
+        abilities: ["%bSlightly increases%/b the Toolbox's sabotage speed."],
         image: 'cuttingWire'
     },
     HACKSAW: {
@@ -2707,8 +3587,8 @@ export const SurvivorAddons = {
         name: 'Hacksaw',
         type: 'TOOLBOX',
         rarity: 'RARE',
-        description:
-            "A small hand saw mounted with a metal cutting blade.\nModerately increases the Toolbox's sabotage speed.",
+        description: 'A small hand saw mounted with a metal cutting blade.',
+        abilities: ["%bModerately increases%/b the Toolbox's sabotage speed."],
         image: 'metalSaw'
     },
     BRAND_NEW_PART: {
@@ -2718,7 +3598,14 @@ export const SurvivorAddons = {
         type: 'TOOLBOX',
         rarity: 'ULTRA_RARE',
         description:
-            'This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory.\nToolbox Repair action is replaced with Install Brand New Part.\nInstall Brand New Part will trigger a Skill Check every 2 seconds until the Generator is repaired or the interaction ends.\nGood Skill Checks grant 5% total Generator progression.\nGreat Skill Checks grant 10% total Generator progression.\nCompleting the repair, interrupting the action or failing a Skill Check will consume the Toolbox and all its Add-ons.',
+            'This intricate mechanical part feels oddly out of place. It is clean and shiny as if straight out of the factory.',
+        abilities: [
+            '%bToolbox Repair%/b action is replaced with %bInstall Brand New Part%/b.',
+            '%bInstall Brand New Part%/b will trigger a Skill Check every %b2 seconds%/b until the Generator is repaired or the interaction ends.',
+            '%bGood%/b Skill Checks grant %b5%/b% total Generator progression.',
+            '%bGreat%/b Skill Checks grant %b10%/b% total Generator progression.',
+            'Completing the repair, interrupting the action or failing a Skill Check will consume the Toolbox and all its Add-ons.'
+        ],
         image: 'brandNewPart'
     }
 };

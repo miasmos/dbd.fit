@@ -33,6 +33,10 @@
         .addon {
             width: 55px;
         }
+
+        .offering {
+            width: 70px;
+        }
     }
 
     .container-middle {
@@ -249,6 +253,31 @@
         }
     }
 
+    .inventory-container .inventory.offerings {
+        .page > *:nth-child(5n + 1) {
+            margin-left: 0;
+        }
+
+        .page {
+            > *:nth-child(6) {
+                margin-left: 42px !important;
+            }
+
+            > *:nth-child(6),
+            > *:nth-child(7),
+            > *:nth-child(8),
+            > *:nth-child(9),
+            > *:nth-child(10),
+            > *:nth-child(11),
+            > *:nth-child(12),
+            > *:nth-child(13),
+            > *:nth-child(14),
+            > *:nth-child(15) {
+                margin-top: -12px;
+            }
+        }
+    }
+
     .inventory-container .inventory.add-ons {
         .page {
             width: 410px;
@@ -275,11 +304,11 @@
 
     .inventory-container .inventory.offerings {
         .page {
-            width: 400px;
+            width: 500px;
         }
 
         .inventory-inner {
-            margin: 0 82px;
+            margin: 0 33px;
         }
     }
 
@@ -566,7 +595,7 @@
 
     .offering {
         position: relative;
-        width: 70px;
+        width: 80px;
         cursor: pointer;
 
         &.selected .select {

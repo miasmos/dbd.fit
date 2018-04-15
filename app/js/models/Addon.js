@@ -8,6 +8,7 @@ export class Addon extends Model {
         name,
         rarity,
         description,
+        abilities,
         image,
         owner,
         type,
@@ -27,6 +28,7 @@ export class Addon extends Model {
         this.index = index;
         this.name = name;
         this.description = description;
+        this.abilities = abilities || [];
         this.image = image;
         this.rarity = Rarities[rarity];
         this.owner;

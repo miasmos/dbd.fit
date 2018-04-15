@@ -113,7 +113,9 @@ export class Perk extends React.Component {
                     />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!!perk && !perk.empty && <PerkTooltip perk={perk} />}
+                {!!perk &&
+                    !perk.empty &&
+                    this.state.showTooltip && <PerkTooltip perk={perk} />}
             </div>
         );
     }

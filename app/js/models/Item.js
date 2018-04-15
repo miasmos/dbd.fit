@@ -2,12 +2,22 @@ import { Rarities, ModifierTypes, ItemTypes } from '../data';
 import { Model } from './Model';
 
 export class Item extends Model {
-    constructor({ index, name, rarity, description, image, type, id } = {}) {
+    constructor({
+        index,
+        name,
+        rarity,
+        description,
+        abilities,
+        image,
+        type,
+        id
+    } = {}) {
         super({
             index,
             name,
             rarity,
             description,
+            abilities,
             image,
             type,
             id
@@ -16,6 +26,7 @@ export class Item extends Model {
         this.index = index;
         this.name = name;
         this.description = description;
+        this.abilities = abilities || [];
         this.image = image;
         this.rarity = Rarities[rarity];
         this.type = !!type ? ItemTypes[type] : ItemTypes.EMPTY;

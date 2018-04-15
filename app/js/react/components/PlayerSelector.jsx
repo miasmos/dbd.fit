@@ -7,6 +7,13 @@ import { Link, withRouter } from 'react-router-dom';
 import { Config } from '../../services';
 
 class PlayerSelector extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            showTooltip: -1,
+            tooltipPlayer: undefined
+        };
+    }
     componentWillMount() {
         const { store, history } = this.props;
 
@@ -31,6 +38,8 @@ class PlayerSelector extends React.Component {
                 className="player tooltip-activator"
                 key={index}
                 onClick={setPlayer.bind(this, player)}
+                onMouseOver={this.showTooltip.bind(this, index, player)}
+                onMouseOut={this.hideTooltip.bind(this)}
             >
                 <div className="outline">
                     <img
@@ -68,10 +77,14 @@ class PlayerSelector extends React.Component {
                     className="background"
                     src={`${Config.basePath}images/Profile_Background.png`}
                 />
-                {type === Types.KILLER ? (
-                    <KillerTooltip killer={player} />
+                {this.state.showTooltip === index ? (
+                    type === Types.KILLER ? (
+                        <KillerTooltip killer={this.state.tooltipPlayer} />
+                    ) : (
+                        <SurvivorTooltip survivor={this.state.tooltipPlayer} />
+                    )
                 ) : (
-                    <SurvivorTooltip survivor={player} />
+                    undefined
                 )}
             </Link>
         ));
@@ -82,6 +95,20 @@ class PlayerSelector extends React.Component {
                 <div className="players">{players}</div>
             </div>
         );
+    }
+
+    showTooltip(index, player) {
+        this.setState({
+            showTooltip: index,
+            tooltipPlayer: player
+        });
+    }
+
+    hideTooltip() {
+        this.setState({
+            showTooltip: -1,
+            tooltipPlayer: undefined
+        });
     }
 }
 

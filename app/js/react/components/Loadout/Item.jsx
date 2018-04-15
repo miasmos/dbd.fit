@@ -81,7 +81,9 @@ export class Item extends React.Component {
                     />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!!item && !item.empty && <ItemTooltip item={item} />}
+                {!!item &&
+                    !item.empty &&
+                    this.state.showTooltip && <ItemTooltip item={item} />}
             </div>
         );
     }
