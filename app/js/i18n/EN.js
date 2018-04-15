@@ -5,6 +5,8 @@ export const EN = {
     loadout: 'Loadout',
     playAsSurvivor: 'Play as Survivor',
     playAsKiller: 'Play as Killer',
+    switchToSurvivor: 'Switch to survivor',
+    switchToKiller: 'Switch to killer',
     continue: 'Click anywhere to continue',
     killer: 'Killer',
     survivor: 'Survivor',
@@ -30,5 +32,7 @@ export const EN = {
     map: 'Map',
     aidKit: 'Camping Aid Kit',
     flashlight: 'Flashlight',
-    empty: 'Empty'
+    empty: 'Empty',
+    save: 'Share loadout',
+    yourLoadout: 'Your Loadout'
 };

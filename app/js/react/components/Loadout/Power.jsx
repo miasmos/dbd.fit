@@ -1,5 +1,6 @@
 import React from 'react';
 import { PowerTooltip } from '../Tooltips';
+import { Config } from '../../../services';
 
 export class Power extends React.Component {
     constructor() {
@@ -13,11 +14,15 @@ export class Power extends React.Component {
         let backgroundPath, iconPath;
         const { power } = this.props;
 
-        if (power.empty) {
-            backgroundPath = `images/template_addon_empty.png`;
+        if (!power || power.empty) {
+            backgroundPath = `${
+                Config.basePath
+            }images/template_addon_empty.png`;
         } else {
-            backgroundPath = `images/template_addon_common.png`;
-            iconPath = `images/powers/${power.image}.png`;
+            backgroundPath = `${
+                Config.basePath
+            }images/template_addon_common.png`;
+            iconPath = `${Config.basePath}images/powers/${power.image}.png`;
         }
 
         return (
@@ -28,15 +33,16 @@ export class Power extends React.Component {
                 onMouseOver={this.onMouseOver.bind(this)}
                 onMouseOut={this.onMouseOut.bind(this)}
             >
-                {!power.empty && (
-                    <div className="foreground">
-                        <img src={iconPath} />
-                    </div>
-                )}
+                {!!power &&
+                    !power.empty && (
+                        <div className="foreground">
+                            <img src={iconPath} />
+                        </div>
+                    )}
                 <div className="background">
                     <img src={backgroundPath} />
                 </div>
-                {!power.empty && <PowerTooltip power={power} />}
+                {!!power && !power.empty && <PowerTooltip power={power} />}
             </div>
         );
     }

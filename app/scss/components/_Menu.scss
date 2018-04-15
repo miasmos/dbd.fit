@@ -6,21 +6,51 @@
 
 .icon {
     cursor: pointer;
+    position: relative;
 
     .icon-foreground {
         margin-top: -2px;
         @include center();
+        z-index: 2;
+        transition: 0.3s opacity;
     }
 
     .icon-background {
         width: 70px;
+        z-index: 1;
+        transition: 0.3s opacity;
     }
 }
 
 .icon.disabled {
-    opacity: 0.2;
+    .icon-foreground,
+    .icon-background {
+        opacity: 0.2;
+    }
 }
 
-.icon-save .icon-foreground {
-    width: 28px;
+.icon-save {
+    margin-top: 60px;
+
+    .icon-foreground {
+        width: 28px;
+    }
+}
+
+.icon-switch .icon-foreground {
+    width: 45px;
+    margin-top: -6px;
+    margin-left: -4px;
+}
+
+.icon-loadout .icon-foreground {
+    width: 40px;
+    margin-left: 3px;
+    margin-top: -1px;
+}
+
+.icon-players .icon-foreground {
+    width: 36px;
+    margin-top: -2px;
+    margin-left: 1px;
 }

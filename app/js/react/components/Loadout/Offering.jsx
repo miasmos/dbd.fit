@@ -1,6 +1,7 @@
 import React from 'react';
 import { EnumToString } from '../../EnumToString';
 import { OfferingTooltip } from '../Tooltips';
+import { Config } from '../../../services';
 
 export class Offering extends React.Component {
     constructor() {
@@ -15,14 +16,20 @@ export class Offering extends React.Component {
 
         const { offering } = this.props;
 
-        if (offering.empty) {
-            backgroundPath = `images/template_offering_empty.png`;
+        if (!offering || offering.empty) {
+            backgroundPath = `${
+                Config.basePath
+            }images/template_offering_empty.png`;
         } else {
             rarityText = EnumToString.rarity(offering.rarity);
-            backgroundPath = `images/template_offering_${rarityText
+            backgroundPath = `${
+                Config.basePath
+            }images/template_offering_${rarityText
                 .toLowerCase()
                 .replace(/\s/, '')}.png`;
-            iconPath = `images/offerings/${offering.image}.png`;
+            iconPath = `${Config.basePath}images/offerings/${
+                offering.image
+            }.png`;
         }
 
         return (
@@ -45,21 +52,37 @@ export class Offering extends React.Component {
                 <div className="background">
                     <div className="hover">
                         <div className="top-left">
-                            <img src="images/profile-outline-horizontal.png" />
+                            <img
+                                src={`${
+                                    Config.basePath
+                                }images/profile-outline-horizontal.png`}
+                            />
                         </div>
                         <div className="right">
-                            <img src="images/profile-outline-horizontal.png" />
+                            <img
+                                src={`${
+                                    Config.basePath
+                                }images/profile-outline-horizontal.png`}
+                            />
                         </div>
                         <div className="left">
-                            <img src="images/profile-outline-horizontal.png" />
+                            <img
+                                src={`${
+                                    Config.basePath
+                                }images/profile-outline-horizontal.png`}
+                            />
                         </div>
                         <div className="bottom-right">
-                            <img src="images/profile-outline-horizontal.png" />
+                            <img
+                                src={`${
+                                    Config.basePath
+                                }images/profile-outline-horizontal.png`}
+                            />
                         </div>
                     </div>
                     <img
                         className="select"
-                        src="images/offering_selected.png"
+                        src={`${Config.basePath}images/offering_selected.png`}
                     />
                     <img className="rarity" src={backgroundPath} />
                 </div>

@@ -15,5 +15,6 @@ export {
     Rarities,
     ItemTypes,
     ModifierTypes,
-    Languages
+    Languages,
+    TypeNames
 } from './Enum';

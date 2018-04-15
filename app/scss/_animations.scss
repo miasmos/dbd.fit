@@ -14,13 +14,13 @@
 
 .fade-appear,
 .fade-enter {
-  opacity: 0;
+    opacity: 0;
 }
 
 .fade-appear-active,
 .fade-enter-active {
-  transition: opacity 1s;
-  opacity: 1;
+    transition: opacity 1s;
+    opacity: 1;
 }
 
 .fade-enter-active {
@@ -32,10 +32,20 @@
 }
 
 .fade-exit {
-  transition: opacity 1s;
-  opacity: 1;
+    transition: opacity 1s;
+    opacity: 1;
 }
 
 .fade-exit-active {
-  opacity: 0;
+    opacity: 0;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

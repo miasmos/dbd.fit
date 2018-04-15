@@ -4,7 +4,7 @@ import { Config } from '../Config';
 
 class APIClass {
     constructor() {
-        this.url = `${Config.protocol}://${Config.host}:${Config.port}`;
+        this.url = `${Config.protocol}://api.${Config.host}:${Config.port}`;
     }
 
     get(params) {

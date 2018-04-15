@@ -15,6 +15,7 @@ import {
 import { Perk, Addon, Item, Offering } from './';
 import { Sort } from '../../../Sort';
 import { i18n } from '../../../i18n';
+import { Config } from '../../../services';
 
 @observer
 export class Inventory extends React.Component {
@@ -56,7 +57,7 @@ export class Inventory extends React.Component {
                 </h3>
 
                 <img
-                    src="images/arrow-right.png"
+                    src={`${Config.basePath}images/arrow-right.png`}
                     className="arrow arrow-left"
                     onClick={this.previous.bind(this)}
                 />
@@ -64,7 +65,7 @@ export class Inventory extends React.Component {
                     {this.wrap(components)}
                 </div>
                 <img
-                    src="images/arrow-right.png"
+                    src={`${Config.basePath}images/arrow-right.png`}
                     className="arrow arrow-right"
                     onClick={this.next.bind(this)}
                 />
@@ -77,7 +78,9 @@ export class Inventory extends React.Component {
                         </div>
                         <img
                             className="page-indicator-background"
-                            src="images/page-indicator-background.png"
+                            src={`${
+                                Config.basePath
+                            }images/page-indicator-background.png`}
                         />
                     </div>
                 )}

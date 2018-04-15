@@ -1,6 +1,7 @@
 .loadout {
     @include center();
     width: 560px;
+    transition: height 0.3s, opacity 1s;
 
     .loadout-background {
         position: absolute;
@@ -8,6 +9,13 @@
         top: -70px;
         left: -190px;
         width: 810px;
+    }
+
+    .inventory-background {
+        position: absolute;
+        left: -150px;
+        top: 150px;
+        width: 740px;
     }
 
     .container-top,
@@ -348,7 +356,7 @@
             position: absolute;
             transform: rotate(45deg);
             top: 12%;
-            left: 13%;
+            left: 15%;
             width: 70%;
             height: 70%;
 

@@ -1,21 +1,34 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import { toJS } from 'mobx';
 import { withRouter } from 'react-router-dom';
 import { ModifierTypes, Types } from '../../data';
 import { Addon, Item, Offering, Perk, Inventory, Power } from './Loadout';
+import * as Factories from '../../factories';
 import { TitleEditor } from './TitleEditor';
 import { i18n } from '../../i18n';
 import { EnumToString } from '../EnumToString';
 import { Menu } from './Menu/Menu';
+import { API, Config } from '../../services';
+import { LinkDisplay } from './LinkDisplay';
 
 @observer
 class LoadoutSelector extends React.Component {
     componentWillMount() {
-        const { store, history } = this.props;
+        const { store, history, match } = this.props;
 
         if (!store.player) {
-            history.replace('/');
+            if ('hash' in match.params && !!match.params.hash) {
+                API.get({ hash: match.params.hash })
+                    .then(json => {
+                        this.hydrate(json);
+                    })
+                    .catch(error => {
+                        console.error(error);
+                        history.replace('/');
+                    });
+            } else {
+                history.replace('/');
+            }
         }
     }
 
@@ -27,8 +40,15 @@ class LoadoutSelector extends React.Component {
             context,
             target,
             type,
-            power
+            power,
+            player,
+            editing,
+            uri
         } = this.props.store;
+
+        if (!player) {
+            return <div className="loadout loading" />;
+        }
 
         const itemComponent = (() => {
             const selected = context === ModifierTypes.ITEM;
@@ -88,7 +108,12 @@ class LoadoutSelector extends React.Component {
 
         return (
             <div className="loadout">
-                <Menu store={this.props.store} />
+                {editing && (
+                    <Menu
+                        store={this.props.store}
+                        history={this.props.history}
+                    />
+                )}
                 <div className="container-top">
                     <TitleEditor store={this.props.store} />
                     <div className="container-left">
@@ -99,7 +124,10 @@ class LoadoutSelector extends React.Component {
                                     : i18n.text.item}
                             </h4>
                             <div className="item-inner">{itemComponent}</div>
-                            <img className="plus" src="images/plus.png" />
+                            <img
+                                className="plus"
+                                src={`${Config.basePath}images/plus.png`}
+                            />
                         </div>
                         <div className="addon-container container">
                             <h4 className="subtitle">
@@ -124,27 +152,67 @@ class LoadoutSelector extends React.Component {
                         </h4>
                         <div className="perk-inner">{perkComponents}</div>
                     </div>
-                    <img
-                        className="loadout-divider"
-                        src="images/loadout-divider.png"
-                    />
+                    {editing && (
+                        <img
+                            className="loadout-divider"
+                            src={`${Config.basePath}images/loadout-divider.png`}
+                        />
+                    )}
                 </div>
-                <div className="container-bottom">
-                    <div className="inventory-container container">
-                        {inventoryComponent}
+                {editing && (
+                    <div className="container-bottom">
+                        <div className="inventory-container container">
+                            {inventoryComponent}
+                        </div>
                     </div>
-                </div>
+                )}
+                {!editing && uri && <LinkDisplay uri={uri} />}
                 <img
                     className="loadout-background"
-                    src="images/loadout-background.png"
+                    src={`${Config.basePath}images/loadout-background.png`}
                 />
+                {editing && (
+                    <img
+                        className="inventory-background"
+                        src={`${
+                            Config.basePath
+                        }images/loadout-editing-background.png`}
+                    />
+                )}
             </div>
         );
     }
 
     onClick(item, index) {
+        if (!this.props.store.editing) {
+            return;
+        }
+
         this.props.store.setContext(item.modifierType);
         this.props.store.setTarget(index);
+    }
+
+    hydrate({ type, player, power, addons, perks, offering, tiers, name }) {
+        const { store } = this.props;
+
+        store.setType(type);
+        store.setPlayer(player);
+        store.setPower(power);
+        store.setOffering(offering);
+        store.setTitle(name);
+        store.setEditing(false);
+        store.setContext(ModifierTypes.NONE);
+
+        perks.map((value, index) => {
+            const perk = Factories.AllPerkFactory.get(value);
+            perk.setTier(tiers[index]);
+            store.setPerk(index, perk);
+        });
+
+        addons.map((value, index) => {
+            const addon = Factories.AllAddonFactory.get(value);
+            store.setAddon(index, addon);
+        });
     }
 }
 

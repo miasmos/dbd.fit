@@ -54,7 +54,7 @@
 
     &:hover {
         .edit {
-            opacity: 1;
+            // opacity: 1;
         }
     }
 
@@ -66,6 +66,9 @@
         width: 15px;
         cursor: pointer;
         opacity: 0;
+    }
+    .edit {
+        opacity: 1;
     }
     .confirm {
         display: none;

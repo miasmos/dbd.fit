@@ -1,5 +1,5 @@
 {
-    "name": "dbd-nurse-companion",
+    "name": "dbd.gg",
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
@@ -26,6 +26,7 @@
         "file-loader": "^0.9.0",
         "gulp": "^3.9.1",
         "gulp-flatten": "^0.4.0",
+        "gulp-imagemin": "^4.1.0",
         "gulp-rename": "^1.2.2",
         "html-webpack-plugin": "^2.22.0",
         "json-loader": "^0.5.4",
@@ -46,6 +47,7 @@
         "mobx-react": "^5.0.0",
         "promise-polyfill": "^7.1.2",
         "react": "^16.2.0",
+        "react-copy-to-clipboard": "^5.0.1",
         "react-dom": "^16.2.0",
         "react-router-dom": "^4.2.2",
         "react-transition-group": "^2.2.1",

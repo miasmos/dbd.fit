@@ -1,6 +1,7 @@
 import React from 'react';
 import { observer } from 'mobx-react';
 import { i18n } from '../../i18n';
+import { Config } from '../../services';
 
 @observer
 export class TitleEditor extends React.Component {
@@ -42,14 +43,16 @@ export class TitleEditor extends React.Component {
                         onFocus={this.onFocus.bind(this)}
                         onKeyPress={this.onKeyPress.bind(this)}
                     />
-                    <img
-                        className="edit"
-                        src="images/icon-pencil.png"
-                        onClick={this.onEdit.bind(this)}
-                    />
+                    {store.editing && (
+                        <img
+                            className="edit"
+                            src={`${Config.basePath}images/icon-pencil.png`}
+                            onClick={this.onEdit.bind(this)}
+                        />
+                    )}
                     <img
                         className="confirm"
-                        src="images/icon-checkmark.png"
+                        src={`${Config.basePath}images/icon-checkmark.png`}
                         onClick={this.onConfirm.bind(this)}
                     />
                 </div>
@@ -78,6 +81,10 @@ export class TitleEditor extends React.Component {
     }
 
     onEdit() {
+        if (!this.props.store.editing) {
+            return;
+        }
+
         this.shouldFocus = true;
         this.setState({
             editing: true

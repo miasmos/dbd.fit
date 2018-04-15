@@ -148,7 +148,7 @@ export const KillerAddons = {
         rarity: 'VERY_RARE',
         description:
             'Skin pieces of all sorts crudely stitched together making for a very large bag.\nStart with 2 extra Bear Traps.\nAllows the transportation of 2 extra Bear Traps.',
-        image: 'stitchedBag'
+        image: 'stichedBag'
     },
     HONING_STONE: {
         id: 16,
@@ -288,7 +288,7 @@ export const KillerAddons = {
         rarity: 'RARE',
         description:
             'The Khugwemuu symbol, representing the spirit world, is finger-drawn in soot on the body of the Bell.\nGrants stealth when uncloaking while motionless.\nStealth reduces your terror radius to 0m until you move or act again.',
-        image: 'images/whiteTheGhost'
+        image: 'whiteTheGhost'
     },
     SWIFT_HUNT_WHITE: {
         id: 61,
@@ -1693,7 +1693,7 @@ export const KillerAddons = {
         description:
             'A big bowl of steaming Chilli to keep you fresh and strong.\nModerately increases acceleration when using the Chainsaw.',
         flavor: '"I got some good barbecue here!" — Drayton Sawyer',
-        image: ''
+        image: 'chili'
     },
     THE_GREASE: {
         id: 412,
@@ -1703,7 +1703,7 @@ export const KillerAddons = {
         rarity: 'RARE',
         description:
             "A thick yellowish ooze, concocted by the Sawyers. Used for all-purpose lubrication around their house.\nConsiderably decreases the Chainsaw's cooldown.\nSlightly decreases the Chainsaw's charge time.",
-        image: 'chili'
+        image: 'theGrease'
     },
     THE_BEASTS_MARKS: {
         id: 413,
@@ -1904,7 +1904,7 @@ export const KillerAddons = {
         rarity: 'RARE',
         description:
             "A little girl's pale blue dress with white lace which's front is ruined by large cuts.\nModerately decreases Skill Check chances in the Dream World.",
-        image: ''
+        image: 'blueDress'
     },
     PILL_BOTTLE: {
         id: 464,
@@ -1914,7 +1914,7 @@ export const KillerAddons = {
         rarity: 'VERY_RARE',
         description:
             'An empty pill bottle which once contained a medicine called "Zoneral".\nSurvivors do not see glimpses of you during the Dream Transition.',
-        image: 'blueDress'
+        image: 'pillBottle'
     },
     PAINT_THINNER: {
         id: 465,

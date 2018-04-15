@@ -1,4 +1,4 @@
-import { Rarities, Types } from '../data';
+import { Rarities, Types, ModifierTypes } from '../data';
 import { KillerFactory, SurvivorFactory } from '../factories/PlayerFactory';
 import {
     KillerPerkFactory,
@@ -18,6 +18,7 @@ export class Player extends Model {
         this.perks;
         this.power;
         this.type;
+        this.modifierType = ModifierTypes.PLAYER;
     }
 
     initialize() {

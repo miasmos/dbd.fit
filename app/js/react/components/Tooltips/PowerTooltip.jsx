@@ -5,9 +5,6 @@ import { EnumToString } from '../../EnumToString';
 import { i18n } from '../../../i18n';
 
 export const PowerTooltip = ({ power }) => {
-    const powerType = !!power.owner
-        ? power.owner.power.name
-        : EnumToString.powerType(power.type);
     const subtitle = i18n.text.power;
 
     return (

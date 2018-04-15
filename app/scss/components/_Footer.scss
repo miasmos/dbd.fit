@@ -1,0 +1,22 @@
+.footer {
+    height: auto !important;
+    position: fixed;
+    bottom: 19px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+
+    .icon-heart {
+        width: 9px;
+        margin: 0px 1px 0 4px;
+        cursor: default;
+    }
+
+    p {
+        color: #999;
+    }
+
+    a {
+        border-bottom: 1px solid white;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { EnumToString } from '../../EnumToString';
 import { ItemTooltip } from '../Tooltips';
+import { Config } from '../../../services';
 
 export class Item extends React.Component {
     constructor() {
@@ -15,14 +16,18 @@ export class Item extends React.Component {
 
         const { item } = this.props;
 
-        if (item.empty) {
-            backgroundPath = `images/template_addon_empty.png`;
+        if (!item || item.empty) {
+            backgroundPath = `${
+                Config.basePath
+            }images/template_addon_empty.png`;
         } else {
             rarityText = EnumToString.rarity(item.rarity);
-            backgroundPath = `images/template_addon_${rarityText
+            backgroundPath = `${
+                Config.basePath
+            }images/template_addon_${rarityText
                 .toLowerCase()
                 .replace(/\s/, '')}.png`;
-            iconPath = `images/items/${item.image}.png`;
+            iconPath = `${Config.basePath}images/items/${item.image}.png`;
         }
 
         return (
@@ -37,34 +42,46 @@ export class Item extends React.Component {
                     onMouseOver={this.onMouseOver.bind(this)}
                     onMouseOut={this.onMouseOut.bind(this)}
                 />
-                {!item.empty && (
-                    <div className="foreground">
-                        <img src={iconPath} />
-                    </div>
-                )}
+                {!!item &&
+                    !item.empty && (
+                        <div className="foreground">
+                            <img src={iconPath} />
+                        </div>
+                    )}
                 <div className="background">
                     <div className="hover">
                         <img
                             className="top"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="bottom"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="left"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="right"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                     </div>
-                    <img className="select" src="images/addon_selected.png" />
+                    <img
+                        className="select"
+                        src={`${Config.basePath}images/addon_selected.png`}
+                    />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!item.empty && <ItemTooltip item={item} />}
+                {!!item && !item.empty && <ItemTooltip item={item} />}
             </div>
         );
     }

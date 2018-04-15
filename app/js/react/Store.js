@@ -21,7 +21,10 @@ export const Store = observable({
     title: 'Loadout',
     target: 0,
     valid: false,
-    page: 0
+    page: 0,
+    editing: true,
+    uri: undefined,
+    showURIModal: false
 });
 
 Store.setPlayer = player => {
@@ -36,6 +39,10 @@ Store.setPlayer = player => {
 };
 
 Store.setType = type => {
+    if (Store.type === Types.KILLER && type === Types.SURVIVOR) {
+        Store.setPower(Factories.ItemFactory.get());
+    }
+
     Store.type = type;
     Store.log('setType', Store.type);
 };
@@ -139,6 +146,10 @@ Store.setContext = context => {
         case ModifierTypes.PERK:
             Store.context = context;
             break;
+        case ModifierTypes.NONE:
+            Store.context = context;
+            Store.setTarget();
+            break;
         default:
             console.error(
                 `Tried to set an invalid loadout context: ${context}`
@@ -155,31 +166,41 @@ Store.setTarget = target => {
         case ModifierTypes.ADDON:
             if (target < 0 || target > 1) {
                 isValid = false;
-            } else {
-                Store.target = target;
             }
             break;
         case ModifierTypes.PERK:
             if (target < 0 || target > 3) {
                 isValid = false;
-            } else {
-                Store.target = target;
             }
             break;
         case ModifierTypes.ITEM:
         case ModifierTypes.OFFERING:
             if (target !== 0) {
                 isValid = false;
-            } else {
-                Store.target = target;
             }
+            break;
+        case ModifierTypes.NONE:
+            target = undefined;
             break;
     }
 
+    if (!isValid) {
+        return;
+    }
+    Store.target = target;
     Store.log('setTarget', Store.target);
 };
 
+Store.setEditing = editing => {
+    Store.editing = editing;
+    Store.log('setEditing', Store.editing);
+};
+
 Store.hasPerk = perk => {
+    if (perk.empty) {
+        return false;
+    }
+
     return (
         Store.perks.filter((value, index) => {
             return (
@@ -194,6 +215,10 @@ Store.hasPerk = perk => {
 };
 
 Store.hasAddon = addon => {
+    if (addon.empty) {
+        return false;
+    }
+
     return (
         Store.addons.filter(value => {
             return !!value && value.index === addon.index;
@@ -204,6 +229,25 @@ Store.hasAddon = addon => {
 Store.setValidity = validity => {
     Store.valid = validity;
     Store.log('setValidity', Store.valid);
+};
+
+Store.reset = () => {
+    Store.player = undefined;
+    Store.power = new Item();
+    Store.type = undefined;
+    Store.perks = observable([new Perk(), new Perk(), new Perk(), new Perk()]);
+    Store.offering = new Offering();
+    Store.addons = observable([new Addon(), new Addon()]);
+    Store.valid = false;
+    Store.page = 0;
+};
+
+Store.setURI = (uri, showModal = false) => {
+    Store.uri = uri;
+    if (showModal) {
+        Store.showURIModal = true;
+    }
+    Store.log('setURI', uri, showModal);
 };
 
 Store.log = (...params) => {

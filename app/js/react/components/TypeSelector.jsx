@@ -3,6 +3,7 @@ import { Tooltip } from './Tooltips';
 import { Types } from '../../data';
 import { i18n } from '../../i18n';
 import { Link } from 'react-router-dom';
+import { Config } from '../../services';
 
 export class TypeSelector extends React.Component {
     render() {
@@ -13,7 +14,9 @@ export class TypeSelector extends React.Component {
                     onClick={this.setType.bind(this, Types.SURVIVOR)}
                 >
                     <div className="selection tooltip-activator">
-                        <img src="images/help/survivor.png" />
+                        <img
+                            src={`${Config.basePath}images/help/survivor.png`}
+                        />
                         <Tooltip body={i18n.text.playAsSurvivor} />
                     </div>
                 </Link>
@@ -22,7 +25,7 @@ export class TypeSelector extends React.Component {
                     onClick={this.setType.bind(this, Types.KILLER)}
                 >
                     <div className="selection tooltip-activator">
-                        <img src="images/help/killer.png" />
+                        <img src={`${Config.basePath}images/help/killer.png`} />
                         <Tooltip body={i18n.text.playAsKiller} />
                     </div>
                 </Link>

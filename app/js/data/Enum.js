@@ -10,6 +10,11 @@ export const Types = {
     KILLER: 2
 };
 
+export const TypeNames = {
+    1: 'SURVIVOR',
+    2: 'KILLER'
+};
+
 export const Rarities = {
     COMMON: 1,
     UNCOMMON: 2,
@@ -28,11 +33,14 @@ export const ItemTypes = {
 };
 
 export const ModifierTypes = {
+    NONE: -1,
     POWER: 1,
     ITEM: 2,
     ADDON: 3,
     OFFERING: 4,
-    PERK: 5
+    PERK: 5,
+    PLAYER: 6,
+    PLAYER_TYPE: 7
 };
 
 export const Languages = {

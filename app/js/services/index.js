@@ -1,3 +1,5 @@
-export Loader from './Loader'
-export UserAgent from './UserAgent'
-export WindowSize from './WindowSize'
+export { UserAgent } from './UserAgent';
+export { Config } from './Config';
+export { Env } from './Env';
+export { WindowSize } from './WindowSize';
+export { API, Serializer } from './API';

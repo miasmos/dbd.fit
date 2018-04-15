@@ -1,6 +1,7 @@
 import React from 'react';
 import { EnumToString } from '../../EnumToString';
 import { PerkTooltip } from '../Tooltips';
+import { Config } from '../../../services';
 
 export class Perk extends React.Component {
     constructor() {
@@ -18,14 +19,16 @@ export class Perk extends React.Component {
 
         const { perk } = this.props;
 
-        if (perk.empty) {
-            backgroundPath = `images/template_perk_empty.png`;
+        if (!perk || perk.empty) {
+            backgroundPath = `${Config.basePath}images/template_perk_empty.png`;
         } else {
             rarityText = EnumToString.rarity(perk.rarity);
-            backgroundPath = `images/template_perk_${rarityText
+            backgroundPath = `${
+                Config.basePath
+            }images/template_perk_${rarityText
                 .toLowerCase()
                 .replace(/\s/, '')}.png`;
-            iconPath = `images/perks/${perk.image}.png`;
+            iconPath = `${Config.basePath}images/perks/${perk.image}.png`;
             tickCount = perk.tier;
         }
 
@@ -54,50 +57,63 @@ export class Perk extends React.Component {
                         />
                     </div>
                 </div>
-                {!perk.empty && (
-                    <div className={`ticks show${tickCount}`}>
-                        <img
-                            className="tick1 tick"
-                            src="images/Point_Tick.png"
-                        />
-                        <img
-                            className="tick2 tick"
-                            src="images/Point_Tick.png"
-                        />
-                        <img
-                            className="tick3 tick"
-                            src="images/Point_Tick.png"
-                        />
-                    </div>
-                )}
-                {!perk.empty && (
-                    <div className="foreground">
-                        <img src={iconPath} />
-                    </div>
-                )}
+                {!!perk &&
+                    !perk.empty && (
+                        <div className={`ticks show${tickCount}`}>
+                            <img
+                                className="tick1 tick"
+                                src={`${Config.basePath}images/Point_Tick.png`}
+                            />
+                            <img
+                                className="tick2 tick"
+                                src={`${Config.basePath}images/Point_Tick.png`}
+                            />
+                            <img
+                                className="tick3 tick"
+                                src={`${Config.basePath}images/Point_Tick.png`}
+                            />
+                        </div>
+                    )}
+                {!!perk &&
+                    !perk.empty && (
+                        <div className="foreground">
+                            <img src={iconPath} />
+                        </div>
+                    )}
                 <div className="background">
                     <div className="hover">
                         <img
                             className="top"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="bottom"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="left"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                         <img
                             className="right"
-                            src="images/profile-outline-horizontal.png"
+                            src={`${
+                                Config.basePath
+                            }images/profile-outline-horizontal.png`}
                         />
                     </div>
-                    <img className="select" src="images/perk_selected.png" />
+                    <img
+                        className="select"
+                        src={`${Config.basePath}images/perk_selected.png`}
+                    />
                     <img className="rarity" src={backgroundPath} />
                 </div>
-                {!perk.empty && <PerkTooltip perk={perk} />}
+                {!!perk && !perk.empty && <PerkTooltip perk={perk} />}
             </div>
         );
     }
