@@ -1,5 +1,5 @@
 export class Serializer {
-    static build({ addons, offering, perks, power, player, title }) {
+    static build({ addons, offering, perks, power, player, title, recaptcha }) {
         return {
             addons: [addons[0].index, addons[1].index],
             perks: [
@@ -13,7 +13,8 @@ export class Serializer {
             player: player.index,
             name: title,
             type: player.type,
-            offering: offering.index
+            offering: offering.index,
+            recaptcha
         };
     }
 }

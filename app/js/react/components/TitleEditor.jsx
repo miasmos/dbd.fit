@@ -41,6 +41,7 @@ export class TitleEditor extends React.Component {
                         ref="input"
                         onChange={this.onChange.bind(this)}
                         onFocus={this.onFocus.bind(this)}
+                        onBlur={this.onBlur.bind(this)}
                         onKeyPress={this.onKeyPress.bind(this)}
                     />
                     {store.editing && (
@@ -70,6 +71,12 @@ export class TitleEditor extends React.Component {
         const temp = event.target.value;
         event.target.value = '';
         event.target.value = temp;
+    }
+
+    onBlur(event) {
+        this.setState({
+            editing: false
+        });
     }
 
     onChange(event) {

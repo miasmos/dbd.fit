@@ -2,10 +2,12 @@
     background: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 120%;
 
-    > div {
+    > .content {
         width: inherit;
-        height: inherit;
+        height: 90%;
+        position: relative;
+        z-index: 2;
+        top: 5%;
     }
 }

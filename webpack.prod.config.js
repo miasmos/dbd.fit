@@ -5,13 +5,7 @@ var webpack = require('webpack'),
     BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
         .BundleAnalyzerPlugin,
     ExtractTextPlugin = require('extract-text-webpack-plugin'),
-    WebpackStripLoader = require('strip-loader'),
-    HtmlWebpackPlugin = require('html-webpack-plugin'),
-    HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-        template: './app/index.html',
-        filename: 'index.html',
-        inject: 'body'
-    });
+    WebpackStripLoader = require('strip-loader');
 
 module.exports = {
     entry: ['./app/index.jsx'],
@@ -61,7 +55,6 @@ module.exports = {
         ]
     },
     plugins: [
-        HTMLWebpackPluginConfig,
         new webpack.DefinePlugin({
             'process.env': {
                 NODE_ENV: JSON.stringify('production')

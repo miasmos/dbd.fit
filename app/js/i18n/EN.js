@@ -34,5 +34,7 @@ export const EN = {
     flashlight: 'Flashlight',
     empty: 'Empty',
     save: 'Share loadout',
-    yourLoadout: 'Your Loadout'
+    yourLoadout: 'Your Loadout',
+    editLoadout: 'Edit this loadout',
+    newLoadout: 'Create new loadout'
 };

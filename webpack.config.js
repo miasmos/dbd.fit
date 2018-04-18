@@ -4,13 +4,7 @@ var webpack = require('webpack'),
     BundleAnalyzerPlugin = require('webpack-bundle-analyzer')
         .BundleAnalyzerPlugin,
     ExtractTextPlugin = require('extract-text-webpack-plugin'),
-    precss = require('precss'),
-    HtmlWebpackPlugin = require('html-webpack-plugin'),
-    HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-        template: './app/index.html',
-        filename: 'index.html',
-        inject: 'body'
-    });
+    precss = require('precss');
 
 module.exports = {
     entry: ['./app/index.jsx'],
@@ -61,7 +55,6 @@ module.exports = {
         ]
     },
     plugins: [
-        HTMLWebpackPluginConfig,
         new BundleAnalyzerPlugin({
             openAnalyzer: false,
             analyzerMode: 'static'

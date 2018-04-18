@@ -2,8 +2,10 @@
     @include center();
 
     .spinner {
-        animation-name: 'spin';
-        animation-duration: '1s';
+        width: 20px;
+        animation-name: spin;
+        animation-duration: 1s;
         animation-iteration-count: infinite;
+        animation-timing-function: linear;
     }
 }

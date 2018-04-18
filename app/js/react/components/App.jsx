@@ -7,8 +7,10 @@ import PlayerSelector from './PlayerSelector';
 import { Intro } from './Intro';
 import { Footer } from './Footer';
 import LoadoutSelector from './LoadoutSelector';
+import { Recaptcha } from './Recaptcha';
 import { Loading } from './Loading';
 import { observer } from 'mobx-react';
+import { WindowSize } from '../../services/WindowSize';
 
 @observer
 class AppComponent extends React.Component {
@@ -19,7 +21,8 @@ class AppComponent extends React.Component {
 
         return (
             <div className="app">
-                <TransitionGroup>
+                <Recaptcha verify={Store.captchaVerify} store={Store} />
+                <TransitionGroup className="content">
                     <CSSTransition
                         key={key}
                         classNames="fade"

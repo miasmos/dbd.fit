@@ -7,12 +7,19 @@ export const Footer = () => (
     <div className="footer">
         <p>
             made with
-            <img
-                className="icon icon-heart"
-                src={`${Config.basePath}images/icon-heart.png`}
-            />{' '}
-            by{' '}
             <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://twitter.com/PooleStephen"
+            >
+                <img
+                    className="icon icon-heart"
+                    src={`${Config.basePath}images/icon-heart.png`}
+                />
+            </a>
+            by
+            <a
+                className="nnehl"
                 rel="noopener noreferrer"
                 target="_blank"
                 href="https://twitter.com/PooleStephen"

@@ -123,3 +123,11 @@ gulp.task('statusEffects', () => {
         .pipe(imagemin())
         .pipe(gulp.dest(dest + '/status'));
 });
+
+gulp.task('copy-html', () => {
+    gulp.src('app/index.html').pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy', ['copy-html'], () => {
+    gulp.watch('app/index.html', ['copy-html']);
+});

@@ -4,13 +4,15 @@
         "protocol": "http",
         "port": 3000,
         "baseName": "/dbd.gg/dist",
-        "basePath": "./"
+        "basePath": "./",
+        "recaptcha": "6Lcom1MUAAAAAEGLX-Qo6A1cOqMdRX9UvreBJ08O"
     },
     "production": {
         "host": "dbd.gg",
         "protocol": "https",
         "port": 80,
         "baseName": "/",
-        "basePath": "/"
+        "basePath": "/",
+        "recaptcha": "6Leum1MUAAAAAF7N1bnb2nwvUFVv5EaOerVin0vx"
     }
 }

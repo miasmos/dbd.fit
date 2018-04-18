@@ -62,11 +62,11 @@
             }
 
             .bottom {
-                transform: translateX(-50%) scaleX(-$scale) scaleX();
+                transform: translateX(-50%) scaleX(-$scale);
             }
 
             .right {
-                transform: translateY(-50%) scaleY(-1) scaleY($scale);
+                transform: translateY(-50%) scaleY($scale);
             }
         }
 

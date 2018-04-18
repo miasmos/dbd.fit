@@ -4,11 +4,11 @@ import { i18n } from '../../../i18n';
 import { Types } from '../../../data';
 import { Tooltip } from '../Tooltips';
 
-export const SwitchIcon = ({ store, onClick, enabled = true }) => (
+export const SwitchIcon = ({ store, onClick, enabled = true, show = true }) => (
     <div
         className={`icon icon-switch tooltip-activator ${
             enabled ? '' : 'disabled'
-        }`}
+        } ${show ? '' : 'hide-block'}`}
         onClick={onClick}
     >
         <img

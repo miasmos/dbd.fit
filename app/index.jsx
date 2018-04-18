@@ -1,3 +1,4 @@
+import 'es6-shim';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Config, Env } from './js/services';
@@ -11,7 +12,7 @@ require('./index.scss');
 
 if (!Unsupported.unsupported) {
     ReactDOM.render(
-        Env.isDevelopment ? (
+        Env.isDevelopment() ? (
             <HashRouter>
                 <App />
             </HashRouter>

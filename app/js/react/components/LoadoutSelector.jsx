@@ -10,6 +10,7 @@ import { EnumToString } from '../EnumToString';
 import { Menu } from './Menu/Menu';
 import { API, Config } from '../../services';
 import { LinkDisplay } from './LinkDisplay';
+import { Loading } from './Loading';
 
 @observer
 class LoadoutSelector extends React.Component {
@@ -47,7 +48,7 @@ class LoadoutSelector extends React.Component {
         } = this.props.store;
 
         if (!player) {
-            return <div className="loadout loading" />;
+            return <Loading />;
         }
 
         const itemComponent = (() => {
@@ -108,12 +109,7 @@ class LoadoutSelector extends React.Component {
 
         return (
             <div className="loadout">
-                {editing && (
-                    <Menu
-                        store={this.props.store}
-                        history={this.props.history}
-                    />
-                )}
+                <Menu store={this.props.store} history={this.props.history} />
                 <div className="container-top">
                     <TitleEditor store={this.props.store} />
                     <div className="container-left">

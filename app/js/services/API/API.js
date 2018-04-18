@@ -1,10 +1,13 @@
 import Promise from 'promise-polyfill';
 import 'whatwg-fetch';
 import { Config } from '../Config';
+import { Env } from '../Env';
 
 class APIClass {
     constructor() {
-        this.url = `${Config.protocol}://api.${Config.host}:${Config.port}`;
+        this.url = Env.isDevelopment
+            ? `${Config.protocol}://${Config.host}:${Config.port}`
+            : `${Config.protocol}://api.${Config.host}`;
     }
 
     get(params) {

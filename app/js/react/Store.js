@@ -6,6 +6,8 @@ import { Addon } from '../models/Addon';
 import { Player } from '../models/Player';
 import { Power } from '../models/Power';
 import { Item } from '../models/Item';
+import { API, Serializer } from '../services/API';
+import { i18n } from '../i18n';
 import * as Factories from '../factories';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
@@ -18,13 +20,14 @@ export const Store = observable({
     offering: new Offering(),
     addons: observable([new Addon(), new Addon()]),
     context: ModifierTypes.PERK,
-    title: 'Loadout',
+    title: i18n.text.loadout,
     target: 0,
     valid: false,
     page: 0,
     editing: true,
     uri: undefined,
-    showURIModal: false
+    submitted: false,
+    recaptcha: undefined
 });
 
 Store.setPlayer = player => {
@@ -94,9 +97,12 @@ Store.setAddon = (index, addon) => {
     if (typeof addon === 'string' || typeof addon === 'undefined') {
         addon = Factories.AllAddonFactory.get(addon);
     }
-    if (index > 1 || index < 0 || Store.hasAddon(addon)) {
+    if (index > 1 || index < 0) {
         return;
     }
+    if (Store.hasAddon(addon)) {
+    }
+
     Store.addons[index] = addon;
     Store.setValidity(true);
     Store.log('setAddon', index, Store.addons[index]);
@@ -110,6 +116,16 @@ Store.setPage = page => {
 Store.setTitle = title => {
     Store.title = title;
     Store.log('setTitle', title);
+};
+
+Store.setSubmitted = submitted => {
+    Store.submitted = submitted;
+
+    if (Store.submitted) {
+        Store.captchaExecute();
+    }
+
+    Store.log('setSubmitted', Store.submitted);
 };
 
 Store.titleIsValid = (title = Store.title) => {
@@ -231,6 +247,11 @@ Store.setValidity = validity => {
     Store.log('setValidity', Store.valid);
 };
 
+Store.setRecaptcha = recaptcha => {
+    Store.recaptcha = recaptcha;
+    Store.log('setRecaptcha', Store.recaptcha);
+};
+
 Store.reset = () => {
     Store.player = undefined;
     Store.power = new Item();
@@ -240,14 +261,30 @@ Store.reset = () => {
     Store.addons = observable([new Addon(), new Addon()]);
     Store.valid = false;
     Store.page = 0;
+    Store.submitted = false;
+    Store.title = i18n.text.loadout;
+    Store.setContext(ModifierTypes.PERK);
+    Store.setTarget(0);
+    Store.captchaReset();
 };
 
 Store.setURI = (uri, showModal = false) => {
     Store.uri = uri;
-    if (showModal) {
-        Store.showURIModal = true;
-    }
     Store.log('setURI', uri, showModal);
+};
+
+Store.captchaVerify = grecaptcha => {
+    Store.setRecaptcha(grecaptcha);
+
+    API.save(Serializer.build(Store))
+        .then(json => {
+            Store.setEditing(false);
+            // this.props.history.replace(`/${json.uri}`);
+            Store.setURI(json.uri, true);
+        })
+        .catch(error => {
+            console.error(error);
+        });
 };
 
 Store.log = (...params) => {

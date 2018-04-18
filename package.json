@@ -5,10 +5,11 @@
     "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prod": "webpack -p --progress --config ./webpack.prod.config.js",
-        "watch": "webpack -w",
-        "start": "webpack -w",
-        "build": "webpack"
+        "prod":
+            "gulp copy-html && webpack -p --progress --config ./webpack.prod.config.js",
+        "watch": "gulp copy-html && webpack -w",
+        "start": "gulp copy-html && webpack -w",
+        "build": "gulp copy-html && webpack"
     },
     "author": "Stephen Poole",
     "license": "MIT",
@@ -28,7 +29,6 @@
         "gulp-flatten": "^0.4.0",
         "gulp-imagemin": "^4.1.0",
         "gulp-rename": "^1.2.2",
-        "html-webpack-plugin": "^2.22.0",
         "json-loader": "^0.5.4",
         "mobx-logger": "^0.7.0",
         "node-sass": "^3.8.0",
@@ -43,12 +43,14 @@
     },
     "dependencies": {
         "bluebird": "^3.5.1",
+        "es6-shim": "^0.35.3",
         "mobx": "^4.1.1",
         "mobx-react": "^5.0.0",
         "promise-polyfill": "^7.1.2",
         "react": "^16.2.0",
         "react-copy-to-clipboard": "^5.0.1",
         "react-dom": "^16.2.0",
+        "react-recaptcha": "^2.3.7",
         "react-router-dom": "^4.2.2",
         "react-transition-group": "^2.2.1",
         "whatwg-fetch": "^2.0.4"
