@@ -597,6 +597,21 @@ export const KillerPerks = {
             ['40 metres', '60 seconds', '60 seconds'],
             ['32 metres', '60 seconds', '60 seconds']
         ]
+    },
+    IRON_GRASP: {
+        id: 45,
+        index: 'IRON_GRASP',
+        name: 'Iron Grasp',
+        rarity: ['UNCOMMON', 'UNCOMMON', 'RARE'],
+        owner: 'ALL',
+        description:
+            'Your powerful hold on the Survivors causes escapes to be nearly impossible. Effects of survivor struggling are reduced by %s. Time to struggle out of your grasp is increased by %s.',
+        image: 'ironGrasp',
+        tiers: [
+            ['25%', '4%'],
+            ['50%', '8%'],
+            ['75%', '12%']
+        ]
     }
 };
 

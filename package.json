@@ -1,7 +1,7 @@
 {
     "name": "dbd.gg",
     "version": "1.0.0",
-    "description": "",
+    "description": "The unofficial loadout companion for Dead By Daylight. Create your own builds and share them with the world.",
     "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
