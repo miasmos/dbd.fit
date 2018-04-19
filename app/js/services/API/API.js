@@ -5,7 +5,7 @@ import { Env } from '../Env';
 
 class APIClass {
     constructor() {
-        this.url = Env.isDevelopment
+        this.url = Env.isDevelopment()
             ? `${Config.protocol}://${Config.host}:${Config.port}`
             : `${Config.protocol}://api.${Config.host}`;
     }

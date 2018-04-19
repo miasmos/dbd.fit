@@ -1,6 +1,7 @@
 const gulp = require('gulp'),
     flatten = require('gulp-flatten'),
     rename = require('gulp-rename'),
+    replace = require('gulp-replace'),
     imagemin = require('gulp-imagemin'),
     source =
         'C:/Program Files (x86)/Steam/steamapps/common/Dead by Daylight/DeadByDaylight/Content/UI/Icons',
@@ -126,6 +127,10 @@ gulp.task('statusEffects', () => {
 
 gulp.task('copy-html', () => {
     gulp.src('app/index.html').pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy-html-dev', () => {
+    gulp.src('app/index.html').pipe(replace('/index', './index')).pipe(gulp.dest('dist'));
 });
 
 gulp.task('copy', ['copy-html'], () => {
