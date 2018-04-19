@@ -51,7 +51,12 @@ Store.setType = type => {
 };
 
 Store.setPerk = (index, _perk) => {
-    if (index > 3 || index < 0 || Store.hasPerk(_perk)) {
+    if (index > 3 || index < 0) {
+        return;
+    }
+
+    const hasPerk = Store.hasPerk(_perk);
+    if (typeof hasPerk === 'number' && index !== hasPerk) {
         return;
     }
 
@@ -59,7 +64,7 @@ Store.setPerk = (index, _perk) => {
     if (typeof _perk === 'string') {
         perk = Factories.AllPerkFactory.get(_perk);
     } else {
-        perk = Factories.AllPerkFactory.get(_perk.index);
+        perk = Factories.AllPerkFactory.get(_perk.index, true);
         perk.setTier(_perk.tier);
         _perk.setTier(3);
     }
@@ -217,17 +222,14 @@ Store.hasPerk = perk => {
         return false;
     }
 
-    return (
-        Store.perks.filter((value, index) => {
-            return (
-                (!!value &&
-                    (value.index === perk.index && index !== Store.target)) ||
-                (value.tier === perk.tier &&
-                    value.index === perk.index &&
-                    index === Store.target)
-            );
-        }).length > 0
-    );
+    for (let index = 0; index < Store.perks.length; index++) {
+        let value = Store.perks[index];
+
+        if (!!value && value.index === perk.index) {
+            return index;
+        }
+    }
+    return false;
 };
 
 Store.hasAddon = addon => {
